@@ -33,16 +33,23 @@
             this.buttonSpecAny1 = new ComponentFactory.Krypton.Toolkit.ButtonSpecAny();
             this.buttonSpecAny2 = new ComponentFactory.Krypton.Toolkit.ButtonSpecAny();
             this.kryptonContextMenuHeading1 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuHeading();
-            this.kryptonContextMenuItem1 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
-            this.kryptonContextMenuItem2 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
+            this.NewDatabase = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
+            this.OpenDatabase = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
             this.kryptonContextMenuSeparator1 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuSeparator();
+            this.BackupDatabase = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
+            this.CompressDatabase = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
+            this.kryptonContextMenuHeading2 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuHeading();
+            this.ApplicationSettings = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
+            this.UserSettings = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
+            this.kryptonDockableWorkspace1 = new ComponentFactory.Krypton.Docking.KryptonDockableWorkspace();
+            this.kryptonContextMenuItems1 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItems();
+            this.buttonSpecAppMenu1 = new ComponentFactory.Krypton.Ribbon.ButtonSpecAppMenu();
+            this.kryptonContextMenuItems2 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItems();
+            this.kryptonContextMenuItem2 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
             this.kryptonContextMenuItem3 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
             this.kryptonContextMenuItem4 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
-            this.kryptonContextMenuHeading2 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuHeading();
             this.kryptonContextMenuItem5 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
             this.kryptonContextMenuItem6 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
-            this.kryptonRibbonTab1 = new ComponentFactory.Krypton.Ribbon.KryptonRibbonTab();
-            this.kryptonDockableWorkspace1 = new ComponentFactory.Krypton.Docking.KryptonDockableWorkspace();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonRibbon1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonDockableWorkspace1)).BeginInit();
             this.SuspendLayout();
@@ -57,17 +64,17 @@
             this.kryptonRibbon1.Name = "kryptonRibbon1";
             this.kryptonRibbon1.RibbonAppButton.AppButtonMenuItems.AddRange(new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItemBase[] {
             this.kryptonContextMenuHeading1,
-            this.kryptonContextMenuItem1,
-            this.kryptonContextMenuItem2,
+            this.NewDatabase,
+            this.OpenDatabase,
             this.kryptonContextMenuSeparator1,
-            this.kryptonContextMenuItem3,
-            this.kryptonContextMenuItem4,
+            this.BackupDatabase,
+            this.CompressDatabase,
             this.kryptonContextMenuHeading2,
-            this.kryptonContextMenuItem5,
-            this.kryptonContextMenuItem6});
-            this.kryptonRibbon1.RibbonTabs.AddRange(new ComponentFactory.Krypton.Ribbon.KryptonRibbonTab[] {
-            this.kryptonRibbonTab1});
-            this.kryptonRibbon1.SelectedTab = this.kryptonRibbonTab1;
+            this.ApplicationSettings,
+            this.UserSettings});
+            this.kryptonRibbon1.RibbonAppButton.AppButtonSpecs.AddRange(new ComponentFactory.Krypton.Ribbon.ButtonSpecAppMenu[] {
+            this.buttonSpecAppMenu1});
+            this.kryptonRibbon1.SelectedTab = null;
             resources.ApplyResources(this.kryptonRibbon1, "kryptonRibbon1");
             // 
             // buttonSpecAny1
@@ -87,37 +94,39 @@
             resources.ApplyResources(this.kryptonContextMenuHeading1, "kryptonContextMenuHeading1");
             this.kryptonContextMenuHeading1.Image = global::eNumismat2._0.Properties.Resources.database;
             // 
-            // kryptonContextMenuItem1
+            // NewDatabase
             // 
-            this.kryptonContextMenuItem1.Image = global::eNumismat2._0.Properties.Resources.database_add;
-            resources.ApplyResources(this.kryptonContextMenuItem1, "kryptonContextMenuItem1");
+            this.NewDatabase.Image = global::eNumismat2._0.Properties.Resources.database_add;
+            resources.ApplyResources(this.NewDatabase, "NewDatabase");
             // 
-            // kryptonContextMenuItem2
+            // OpenDatabase
             // 
-            this.kryptonContextMenuItem2.Image = global::eNumismat2._0.Properties.Resources.database_connect;
-            resources.ApplyResources(this.kryptonContextMenuItem2, "kryptonContextMenuItem2");
+            this.OpenDatabase.Image = global::eNumismat2._0.Properties.Resources.database_connect;
+            resources.ApplyResources(this.OpenDatabase, "OpenDatabase");
             // 
-            // kryptonContextMenuItem3
+            // BackupDatabase
             // 
-            this.kryptonContextMenuItem3.Image = global::eNumismat2._0.Properties.Resources.database_save;
-            resources.ApplyResources(this.kryptonContextMenuItem3, "kryptonContextMenuItem3");
+            this.BackupDatabase.Image = global::eNumismat2._0.Properties.Resources.database_save;
+            resources.ApplyResources(this.BackupDatabase, "BackupDatabase");
             // 
-            // kryptonContextMenuItem4
+            // CompressDatabase
             // 
-            this.kryptonContextMenuItem4.Image = global::eNumismat2._0.Properties.Resources.compress;
-            resources.ApplyResources(this.kryptonContextMenuItem4, "kryptonContextMenuItem4");
+            this.CompressDatabase.Image = global::eNumismat2._0.Properties.Resources.compress;
+            resources.ApplyResources(this.CompressDatabase, "CompressDatabase");
             // 
             // kryptonContextMenuHeading2
             // 
             resources.ApplyResources(this.kryptonContextMenuHeading2, "kryptonContextMenuHeading2");
             // 
-            // kryptonContextMenuItem5
+            // ApplicationSettings
             // 
-            resources.ApplyResources(this.kryptonContextMenuItem5, "kryptonContextMenuItem5");
+            resources.ApplyResources(this.ApplicationSettings, "ApplicationSettings");
             // 
-            // kryptonContextMenuItem6
+            // UserSettings
             // 
-            resources.ApplyResources(this.kryptonContextMenuItem6, "kryptonContextMenuItem6");
+            this.UserSettings.Items.AddRange(new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItemBase[] {
+            this.kryptonContextMenuItems1});
+            resources.ApplyResources(this.UserSettings, "UserSettings");
             // 
             // kryptonDockableWorkspace1
             // 
@@ -133,6 +142,40 @@
             this.kryptonDockableWorkspace1.Root.WorkspaceControl = this.kryptonDockableWorkspace1;
             this.kryptonDockableWorkspace1.ShowMaximizeButton = false;
             this.kryptonDockableWorkspace1.TabStop = true;
+            // 
+            // kryptonContextMenuItems1
+            // 
+            this.kryptonContextMenuItems1.Items.AddRange(new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItemBase[] {
+            this.kryptonContextMenuItem2,
+            this.kryptonContextMenuItem3,
+            this.kryptonContextMenuItem4,
+            this.kryptonContextMenuItem5,
+            this.kryptonContextMenuItem6});
+            // 
+            // buttonSpecAppMenu1
+            // 
+            resources.ApplyResources(this.buttonSpecAppMenu1, "buttonSpecAppMenu1");
+            this.buttonSpecAppMenu1.UniqueName = "7831FBE4D3744A35F2A7DA3803D75167";
+            // 
+            // kryptonContextMenuItem2
+            // 
+            resources.ApplyResources(this.kryptonContextMenuItem2, "kryptonContextMenuItem2");
+            // 
+            // kryptonContextMenuItem3
+            // 
+            resources.ApplyResources(this.kryptonContextMenuItem3, "kryptonContextMenuItem3");
+            // 
+            // kryptonContextMenuItem4
+            // 
+            resources.ApplyResources(this.kryptonContextMenuItem4, "kryptonContextMenuItem4");
+            // 
+            // kryptonContextMenuItem5
+            // 
+            resources.ApplyResources(this.kryptonContextMenuItem5, "kryptonContextMenuItem5");
+            // 
+            // kryptonContextMenuItem6
+            // 
+            resources.ApplyResources(this.kryptonContextMenuItem6, "kryptonContextMenuItem6");
             // 
             // Form1
             // 
@@ -152,19 +195,26 @@
         #endregion
 
         private ComponentFactory.Krypton.Ribbon.KryptonRibbon kryptonRibbon1;
-        private ComponentFactory.Krypton.Ribbon.KryptonRibbonTab kryptonRibbonTab1;
         private ComponentFactory.Krypton.Toolkit.ButtonSpecAny buttonSpecAny1;
         private ComponentFactory.Krypton.Toolkit.ButtonSpecAny buttonSpecAny2;
         private ComponentFactory.Krypton.Toolkit.KryptonContextMenuHeading kryptonContextMenuHeading1;
-        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem kryptonContextMenuItem1;
-        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem kryptonContextMenuItem2;
+        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem NewDatabase;
+        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem OpenDatabase;
         private ComponentFactory.Krypton.Toolkit.KryptonContextMenuSeparator kryptonContextMenuSeparator1;
+        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem BackupDatabase;
+        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem CompressDatabase;
+        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuHeading kryptonContextMenuHeading2;
+        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem ApplicationSettings;
+        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem UserSettings;
+        private ComponentFactory.Krypton.Docking.KryptonDockableWorkspace kryptonDockableWorkspace1;
+        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItems kryptonContextMenuItems1;
+        private ComponentFactory.Krypton.Ribbon.ButtonSpecAppMenu buttonSpecAppMenu1;
+        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem kryptonContextMenuItem2;
         private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem kryptonContextMenuItem3;
         private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem kryptonContextMenuItem4;
-        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuHeading kryptonContextMenuHeading2;
         private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem kryptonContextMenuItem5;
         private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem kryptonContextMenuItem6;
-        private ComponentFactory.Krypton.Docking.KryptonDockableWorkspace kryptonDockableWorkspace1;
+        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItems kryptonContextMenuItems2;
     }
 }
 

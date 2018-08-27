@@ -129,16 +129,16 @@
   <data name="kryptonContextMenuHeading1.Text" xml:space="preserve">
     <value>Database</value>
   </data>
-  <data name="kryptonContextMenuItem1.Text" xml:space="preserve">
+  <data name="NewDatabase.Text" xml:space="preserve">
     <value>New Database</value>
   </data>
-  <data name="kryptonContextMenuItem2.Text" xml:space="preserve">
+  <data name="OpenDatabase.Text" xml:space="preserve">
     <value>Open Database</value>
   </data>
-  <data name="kryptonContextMenuItem3.Text" xml:space="preserve">
+  <data name="BackupDatabase.Text" xml:space="preserve">
     <value>Backup Database</value>
   </data>
-  <data name="kryptonContextMenuItem4.Text" xml:space="preserve">
+  <data name="CompressDatabase.Text" xml:space="preserve">
     <value>Compress Database</value>
   </data>
   <data name="kryptonContextMenuHeading2.ExtraText" xml:space="preserve">
@@ -147,15 +147,33 @@
   <data name="kryptonContextMenuHeading2.Text" xml:space="preserve">
     <value>Settings</value>
   </data>
-  <data name="kryptonContextMenuItem5.Text" xml:space="preserve">
+  <data name="ApplicationSettings.Text" xml:space="preserve">
     <value>App Settings</value>
   </data>
+  <data name="kryptonContextMenuItem2.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="kryptonContextMenuItem3.Text" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="kryptonContextMenuItem4.Text" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="kryptonContextMenuItem5.Text" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
   <data name="kryptonContextMenuItem6.Text" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="UserSettings.Text" xml:space="preserve">
     <value>User Settings</value>
+  </data>
+  <data name="buttonSpecAppMenu1.Text" xml:space="preserve">
+    <value>TEST</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="kryptonRibbon1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>735, 115</value>
+    <value>735, 142</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="kryptonRibbon1.TabIndex" type="System.Int32, mscorlib">
@@ -178,10 +196,10 @@
     <value>Fill</value>
   </data>
   <data name="kryptonDockableWorkspace1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 115</value>
+    <value>0, 142</value>
   </data>
   <data name="kryptonDockableWorkspace1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>735, 448</value>
+    <value>735, 421</value>
   </data>
   <data name="kryptonDockableWorkspace1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -228,16 +246,16 @@
   <data name="&gt;&gt;kryptonContextMenuHeading1.Type" xml:space="preserve">
     <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuHeading, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
   </data>
-  <data name="&gt;&gt;kryptonContextMenuItem1.Name" xml:space="preserve">
-    <value>kryptonContextMenuItem1</value>
+  <data name="&gt;&gt;NewDatabase.Name" xml:space="preserve">
+    <value>NewDatabase</value>
   </data>
-  <data name="&gt;&gt;kryptonContextMenuItem1.Type" xml:space="preserve">
+  <data name="&gt;&gt;NewDatabase.Type" xml:space="preserve">
     <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
   </data>
-  <data name="&gt;&gt;kryptonContextMenuItem2.Name" xml:space="preserve">
-    <value>kryptonContextMenuItem2</value>
+  <data name="&gt;&gt;OpenDatabase.Name" xml:space="preserve">
+    <value>OpenDatabase</value>
   </data>
-  <data name="&gt;&gt;kryptonContextMenuItem2.Type" xml:space="preserve">
+  <data name="&gt;&gt;OpenDatabase.Type" xml:space="preserve">
     <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
   </data>
   <data name="&gt;&gt;kryptonContextMenuSeparator1.Name" xml:space="preserve">
@@ -245,6 +263,60 @@
   </data>
   <data name="&gt;&gt;kryptonContextMenuSeparator1.Type" xml:space="preserve">
     <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuSeparator, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;BackupDatabase.Name" xml:space="preserve">
+    <value>BackupDatabase</value>
+  </data>
+  <data name="&gt;&gt;BackupDatabase.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;CompressDatabase.Name" xml:space="preserve">
+    <value>CompressDatabase</value>
+  </data>
+  <data name="&gt;&gt;CompressDatabase.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonContextMenuHeading2.Name" xml:space="preserve">
+    <value>kryptonContextMenuHeading2</value>
+  </data>
+  <data name="&gt;&gt;kryptonContextMenuHeading2.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuHeading, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;ApplicationSettings.Name" xml:space="preserve">
+    <value>ApplicationSettings</value>
+  </data>
+  <data name="&gt;&gt;ApplicationSettings.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;UserSettings.Name" xml:space="preserve">
+    <value>UserSettings</value>
+  </data>
+  <data name="&gt;&gt;UserSettings.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonContextMenuItems1.Name" xml:space="preserve">
+    <value>kryptonContextMenuItems1</value>
+  </data>
+  <data name="&gt;&gt;kryptonContextMenuItems1.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItems, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;buttonSpecAppMenu1.Name" xml:space="preserve">
+    <value>buttonSpecAppMenu1</value>
+  </data>
+  <data name="&gt;&gt;buttonSpecAppMenu1.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Ribbon.ButtonSpecAppMenu, ComponentFactory.Krypton.Ribbon, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonContextMenuItems2.Name" xml:space="preserve">
+    <value>kryptonContextMenuItems2</value>
+  </data>
+  <data name="&gt;&gt;kryptonContextMenuItems2.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItems, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonContextMenuItem2.Name" xml:space="preserve">
+    <value>kryptonContextMenuItem2</value>
+  </data>
+  <data name="&gt;&gt;kryptonContextMenuItem2.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
   </data>
   <data name="&gt;&gt;kryptonContextMenuItem3.Name" xml:space="preserve">
     <value>kryptonContextMenuItem3</value>
@@ -258,12 +330,6 @@
   <data name="&gt;&gt;kryptonContextMenuItem4.Type" xml:space="preserve">
     <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
   </data>
-  <data name="&gt;&gt;kryptonContextMenuHeading2.Name" xml:space="preserve">
-    <value>kryptonContextMenuHeading2</value>
-  </data>
-  <data name="&gt;&gt;kryptonContextMenuHeading2.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuHeading, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
   <data name="&gt;&gt;kryptonContextMenuItem5.Name" xml:space="preserve">
     <value>kryptonContextMenuItem5</value>
   </data>
@@ -275,12 +341,6 @@
   </data>
   <data name="&gt;&gt;kryptonContextMenuItem6.Type" xml:space="preserve">
     <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="&gt;&gt;kryptonRibbonTab1.Name" xml:space="preserve">
-    <value>kryptonRibbonTab1</value>
-  </data>
-  <data name="&gt;&gt;kryptonRibbonTab1.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Ribbon.KryptonRibbonTab, ComponentFactory.Krypton.Ribbon, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>

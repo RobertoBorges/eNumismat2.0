@@ -61,7 +61,5 @@ namespace eNumismat2._0
             }
             return IsOpen;
         }
-
-
     }
 }
