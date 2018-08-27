@@ -23,13 +23,31 @@ namespace eNumismat2._0
 
         }
 
+        private void buttonSpecAny1_Click(object sender, EventArgs e)
+        {
+            if (OpenForm("Form3") == false)
+            {
+                Form3 ExchangeMon = new Form3();
+                ExchangeMon.Show();
+            }
+        }
+
         private void buttonSpecAny2_Click(object sender, EventArgs e)
+        {
+            if (OpenForm("Form2") == false)
+            {
+                Form2 AddrBook = new Form2();
+                AddrBook.Show();
+            }
+        }
+
+        private bool OpenForm(string FrmName)
         {
             bool IsOpen = false;
 
             foreach (Form fx in Application.OpenForms)
             {
-                if (fx.Name == "Form2")
+                if (fx.Name == FrmName)
                 {
                     IsOpen = true;
 
@@ -39,15 +57,11 @@ namespace eNumismat2._0
                     }
 
                     fx.BringToFront();
-                    break;
                 }
             }
-
-            if (IsOpen == false)
-            {
-                Form2 AddrBook = new Form2();
-                AddrBook.Show();
-            }
+            return IsOpen;
         }
+
+
     }
 }

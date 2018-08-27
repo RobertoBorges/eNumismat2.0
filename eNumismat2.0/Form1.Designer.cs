@@ -67,7 +67,6 @@
             this.kryptonContextMenuItem6});
             this.kryptonRibbon1.RibbonTabs.AddRange(new ComponentFactory.Krypton.Ribbon.KryptonRibbonTab[] {
             this.kryptonRibbonTab1});
-            this.kryptonRibbon1.SelectedContext = null;
             this.kryptonRibbon1.SelectedTab = this.kryptonRibbonTab1;
             resources.ApplyResources(this.kryptonRibbon1, "kryptonRibbon1");
             // 
@@ -75,6 +74,7 @@
             // 
             resources.ApplyResources(this.buttonSpecAny1, "buttonSpecAny1");
             this.buttonSpecAny1.UniqueName = "059A08130A414D0BAEAF79F2BE00BF44";
+            this.buttonSpecAny1.Click += new System.EventHandler(this.buttonSpecAny1_Click);
             // 
             // buttonSpecAny2
             // 
