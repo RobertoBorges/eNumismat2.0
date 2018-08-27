@@ -25,8 +25,29 @@ namespace eNumismat2._0
 
         private void buttonSpecAny2_Click(object sender, EventArgs e)
         {
-            Form2 adrBook = new Form2();
-            adrBook.Show();
+            bool IsOpen = false;
+
+            foreach (Form fx in Application.OpenForms)
+            {
+                if (fx.Name == "Form2")
+                {
+                    IsOpen = true;
+
+                    if (fx.WindowState == FormWindowState.Minimized)
+                    {
+                        fx.WindowState = FormWindowState.Normal;
+                    }
+
+                    fx.BringToFront();
+                    break;
+                }
+            }
+
+            if (IsOpen == false)
+            {
+                Form2 AddrBook = new Form2();
+                AddrBook.Show();
+            }
         }
     }
 }
