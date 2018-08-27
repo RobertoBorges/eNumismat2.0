@@ -30,17 +30,35 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.kryptonRibbon1 = new ComponentFactory.Krypton.Ribbon.KryptonRibbon();
+            this.kryptonRibbonTab1 = new ComponentFactory.Krypton.Ribbon.KryptonRibbonTab();
+            this.buttonSpecAny1 = new ComponentFactory.Krypton.Toolkit.ButtonSpecAny();
+            this.buttonSpecAny2 = new ComponentFactory.Krypton.Toolkit.ButtonSpecAny();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonRibbon1)).BeginInit();
             this.SuspendLayout();
             // 
             // kryptonRibbon1
             // 
             this.kryptonRibbon1.AllowFormIntegrate = false;
+            this.kryptonRibbon1.ButtonSpecs.AddRange(new ComponentFactory.Krypton.Toolkit.ButtonSpecAny[] {
+            this.buttonSpecAny1,
+            this.buttonSpecAny2});
             this.kryptonRibbon1.InDesignHelperMode = true;
             this.kryptonRibbon1.Name = "kryptonRibbon1";
+            this.kryptonRibbon1.RibbonTabs.AddRange(new ComponentFactory.Krypton.Ribbon.KryptonRibbonTab[] {
+            this.kryptonRibbonTab1});
             this.kryptonRibbon1.SelectedContext = null;
-            this.kryptonRibbon1.SelectedTab = null;
+            this.kryptonRibbon1.SelectedTab = this.kryptonRibbonTab1;
             resources.ApplyResources(this.kryptonRibbon1, "kryptonRibbon1");
+            // 
+            // buttonSpecAny1
+            // 
+            resources.ApplyResources(this.buttonSpecAny1, "buttonSpecAny1");
+            this.buttonSpecAny1.UniqueName = "059A08130A414D0BAEAF79F2BE00BF44";
+            // 
+            // buttonSpecAny2
+            // 
+            resources.ApplyResources(this.buttonSpecAny2, "buttonSpecAny2");
+            this.buttonSpecAny2.UniqueName = "BD2B8B8E96BF4CFECE9A93EE1900D43C";
             // 
             // Form1
             // 
@@ -58,6 +76,9 @@
         #endregion
 
         private ComponentFactory.Krypton.Ribbon.KryptonRibbon kryptonRibbon1;
+        private ComponentFactory.Krypton.Ribbon.KryptonRibbonTab kryptonRibbonTab1;
+        private ComponentFactory.Krypton.Toolkit.ButtonSpecAny buttonSpecAny1;
+        private ComponentFactory.Krypton.Toolkit.ButtonSpecAny buttonSpecAny2;
     }
 }
 
