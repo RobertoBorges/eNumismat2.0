@@ -321,36 +321,6 @@
   <data name="$this.Text" xml:space="preserve">
     <value>eNumismat</value>
   </data>
-  <data name="&gt;&gt;ribbonTabItem1.Name" xml:space="preserve">
-    <value>ribbonTabItem1</value>
-  </data>
-  <data name="&gt;&gt;ribbonTabItem1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.RibbonTabItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;OpenExchangeMonitorFrm.Name" xml:space="preserve">
-    <value>OpenExchangeMonitorFrm</value>
-  </data>
-  <data name="&gt;&gt;OpenExchangeMonitorFrm.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;OpenAddrBookFrm.Name" xml:space="preserve">
-    <value>OpenAddrBookFrm</value>
-  </data>
-  <data name="&gt;&gt;OpenAddrBookFrm.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;qatCustomizeItem1.Name" xml:space="preserve">
-    <value>qatCustomizeItem1</value>
-  </data>
-  <data name="&gt;&gt;qatCustomizeItem1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.QatCustomizeItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;styleManager1.Name" xml:space="preserve">
-    <value>styleManager1</value>
-  </data>
-  <data name="&gt;&gt;styleManager1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.StyleManager, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
   <data name="&gt;&gt;applicationButton1.Name" xml:space="preserve">
     <value>applicationButton1</value>
   </data>
@@ -447,6 +417,24 @@
   <data name="&gt;&gt;buttonItem5.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
+  <data name="&gt;&gt;ribbonTabItem1.Name" xml:space="preserve">
+    <value>ribbonTabItem1</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabItem1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonTabItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;OpenExchangeMonitorFrm.Name" xml:space="preserve">
+    <value>OpenExchangeMonitorFrm</value>
+  </data>
+  <data name="&gt;&gt;OpenExchangeMonitorFrm.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;OpenAddrBookFrm.Name" xml:space="preserve">
+    <value>OpenAddrBookFrm</value>
+  </data>
+  <data name="&gt;&gt;OpenAddrBookFrm.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
   <data name="&gt;&gt;btnHelp.Name" xml:space="preserve">
     <value>btnHelp</value>
   </data>
@@ -464,6 +452,18 @@
   </data>
   <data name="&gt;&gt;btnHelp2.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;qatCustomizeItem1.Name" xml:space="preserve">
+    <value>qatCustomizeItem1</value>
+  </data>
+  <data name="&gt;&gt;qatCustomizeItem1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.QatCustomizeItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;styleManager1.Name" xml:space="preserve">
+    <value>styleManager1</value>
+  </data>
+  <data name="&gt;&gt;styleManager1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.StyleManager, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>_eNumismatMain</value>

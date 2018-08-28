@@ -13,7 +13,7 @@ using DevComponents.DotNetBar;
 
 namespace eNumismat2._0
 {
-    public partial class _eNumismatMain : DevComponents.DotNetBar.RibbonForm
+    public partial class _eNumismatMain : RibbonForm
     {
         string UICulture = null;
 
@@ -130,8 +130,8 @@ namespace eNumismat2._0
         {
             if (OpenForm("_AboutBox") == false)
             {
-                _AboutBox AboutBox = new _AboutBox();
-                AboutBox.Show();
+                //_AboutBox AboutBox = new _AboutBox();
+                //AboutBox.Show();
             }
         }
         //=====================================================================================================================================================================
