@@ -33,6 +33,7 @@
             this.kryptonRibbon1 = new ComponentFactory.Krypton.Ribbon.KryptonRibbon();
             this.buttonSpecAny1 = new ComponentFactory.Krypton.Toolkit.ButtonSpecAny();
             this.buttonSpecAny2 = new ComponentFactory.Krypton.Toolkit.ButtonSpecAny();
+            this.buttonSpecAny3 = new ComponentFactory.Krypton.Toolkit.ButtonSpecAny();
             this.kryptonContextMenuHeading1 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuHeading();
             this.NewDatabase = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
             this.OpenDatabase = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
@@ -42,17 +43,16 @@
             this.kryptonContextMenuHeading2 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuHeading();
             this.ApplicationSettings = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
             this.UserSettings = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
-            this.kryptonDockableWorkspace1 = new ComponentFactory.Krypton.Docking.KryptonDockableWorkspace();
             this.kryptonContextMenuItems1 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItems();
-            this.buttonSpecAppMenu1 = new ComponentFactory.Krypton.Ribbon.ButtonSpecAppMenu();
-            this.kryptonContextMenuItems2 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItems();
             this.kryptonContextMenuItem2 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
             this.kryptonContextMenuItem3 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
             this.kryptonContextMenuItem4 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
             this.kryptonContextMenuItem5 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
             this.kryptonContextMenuItem6 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
+            this.buttonSpecAppMenu1 = new ComponentFactory.Krypton.Ribbon.ButtonSpecAppMenu();
+            this.kryptonDockableWorkspace1 = new ComponentFactory.Krypton.Docking.KryptonDockableWorkspace();
+            this.kryptonContextMenuItems2 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItems();
             this.kryptonManager1 = new ComponentFactory.Krypton.Toolkit.KryptonManager(this.components);
-            this.buttonSpecAny3 = new ComponentFactory.Krypton.Toolkit.ButtonSpecAny();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonRibbon1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonDockableWorkspace1)).BeginInit();
             this.SuspendLayout();
@@ -78,6 +78,7 @@
             this.UserSettings});
             this.kryptonRibbon1.RibbonAppButton.AppButtonSpecs.AddRange(new ComponentFactory.Krypton.Ribbon.ButtonSpecAppMenu[] {
             this.buttonSpecAppMenu1});
+            this.kryptonRibbon1.SelectedContext = null;
             this.kryptonRibbon1.SelectedTab = null;
             resources.ApplyResources(this.kryptonRibbon1, "kryptonRibbon1");
             // 
@@ -92,6 +93,12 @@
             resources.ApplyResources(this.buttonSpecAny2, "buttonSpecAny2");
             this.buttonSpecAny2.UniqueName = "BD2B8B8E96BF4CFECE9A93EE1900D43C";
             this.buttonSpecAny2.Click += new System.EventHandler(this.buttonSpecAny2_Click);
+            // 
+            // buttonSpecAny3
+            // 
+            resources.ApplyResources(this.buttonSpecAny3, "buttonSpecAny3");
+            this.buttonSpecAny3.UniqueName = "03A428021B5049385B901975512D717F";
+            this.buttonSpecAny3.Click += new System.EventHandler(this.buttonSpecAny3_Click);
             // 
             // kryptonContextMenuHeading1
             // 
@@ -132,6 +139,45 @@
             this.kryptonContextMenuItems1});
             resources.ApplyResources(this.UserSettings, "UserSettings");
             // 
+            // kryptonContextMenuItems1
+            // 
+            this.kryptonContextMenuItems1.Items.AddRange(new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItemBase[] {
+            this.kryptonContextMenuItem2,
+            this.kryptonContextMenuItem3,
+            this.kryptonContextMenuItem4,
+            this.kryptonContextMenuItem5,
+            this.kryptonContextMenuItem6});
+            // 
+            // kryptonContextMenuItem2
+            // 
+            this.kryptonContextMenuItem2.Image = global::eNumismat2._0.Properties.Resources.GB_United_Kingdom_Flag_icon;
+            resources.ApplyResources(this.kryptonContextMenuItem2, "kryptonContextMenuItem2");
+            // 
+            // kryptonContextMenuItem3
+            // 
+            this.kryptonContextMenuItem3.Image = global::eNumismat2._0.Properties.Resources.DE_Germany_Flag_icon;
+            resources.ApplyResources(this.kryptonContextMenuItem3, "kryptonContextMenuItem3");
+            // 
+            // kryptonContextMenuItem4
+            // 
+            this.kryptonContextMenuItem4.Image = global::eNumismat2._0.Properties.Resources.FR_France_Flag_icon;
+            resources.ApplyResources(this.kryptonContextMenuItem4, "kryptonContextMenuItem4");
+            // 
+            // kryptonContextMenuItem5
+            // 
+            this.kryptonContextMenuItem5.Image = global::eNumismat2._0.Properties.Resources.ES_Spain_Flag_icon;
+            resources.ApplyResources(this.kryptonContextMenuItem5, "kryptonContextMenuItem5");
+            // 
+            // kryptonContextMenuItem6
+            // 
+            this.kryptonContextMenuItem6.Image = global::eNumismat2._0.Properties.Resources.RU_Russia_Flag_icon;
+            resources.ApplyResources(this.kryptonContextMenuItem6, "kryptonContextMenuItem6");
+            // 
+            // buttonSpecAppMenu1
+            // 
+            resources.ApplyResources(this.buttonSpecAppMenu1, "buttonSpecAppMenu1");
+            this.buttonSpecAppMenu1.UniqueName = "7831FBE4D3744A35F2A7DA3803D75167";
+            // 
             // kryptonDockableWorkspace1
             // 
             this.kryptonDockableWorkspace1.AutoHiddenHost = false;
@@ -147,49 +193,9 @@
             this.kryptonDockableWorkspace1.ShowMaximizeButton = false;
             this.kryptonDockableWorkspace1.TabStop = true;
             // 
-            // kryptonContextMenuItems1
-            // 
-            this.kryptonContextMenuItems1.Items.AddRange(new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItemBase[] {
-            this.kryptonContextMenuItem2,
-            this.kryptonContextMenuItem3,
-            this.kryptonContextMenuItem4,
-            this.kryptonContextMenuItem5,
-            this.kryptonContextMenuItem6});
-            // 
-            // buttonSpecAppMenu1
-            // 
-            resources.ApplyResources(this.buttonSpecAppMenu1, "buttonSpecAppMenu1");
-            this.buttonSpecAppMenu1.UniqueName = "7831FBE4D3744A35F2A7DA3803D75167";
-            // 
-            // kryptonContextMenuItem2
-            // 
-            resources.ApplyResources(this.kryptonContextMenuItem2, "kryptonContextMenuItem2");
-            // 
-            // kryptonContextMenuItem3
-            // 
-            resources.ApplyResources(this.kryptonContextMenuItem3, "kryptonContextMenuItem3");
-            // 
-            // kryptonContextMenuItem4
-            // 
-            resources.ApplyResources(this.kryptonContextMenuItem4, "kryptonContextMenuItem4");
-            // 
-            // kryptonContextMenuItem5
-            // 
-            resources.ApplyResources(this.kryptonContextMenuItem5, "kryptonContextMenuItem5");
-            // 
-            // kryptonContextMenuItem6
-            // 
-            resources.ApplyResources(this.kryptonContextMenuItem6, "kryptonContextMenuItem6");
-            // 
             // kryptonManager1
             // 
             this.kryptonManager1.GlobalPaletteMode = ComponentFactory.Krypton.Toolkit.PaletteModeManager.Office2010Silver;
-            // 
-            // buttonSpecAny3
-            // 
-            resources.ApplyResources(this.buttonSpecAny3, "buttonSpecAny3");
-            this.buttonSpecAny3.UniqueName = "03A428021B5049385B901975512D717F";
-            this.buttonSpecAny3.Click += new System.EventHandler(this.buttonSpecAny3_Click);
             // 
             // Form1
             // 
