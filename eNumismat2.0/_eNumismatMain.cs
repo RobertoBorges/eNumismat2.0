@@ -21,12 +21,14 @@ namespace eNumismat2._0
         public _eNumismatMain()
         {
             InitializeComponent();
+            UICulture = Properties.Settings.Default.UICulture;
         }
 
         //=====================================================================================================================================================================
         private void Form1_Load(object sender, EventArgs e)
         {
             DisplayLanguage();
+            
         }
 
         //=====================================================================================================================================================================
@@ -42,18 +44,18 @@ namespace eNumismat2._0
             if (method == "set" && culture != null)
             {
                 Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(culture);
+                Properties.Settings.Default.UICulture = CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
+                Properties.Settings.Default.Save();
+
+                MessageBox.Show(Properties.Settings.Default.UICulture);
+
                 Controls.Clear();
                 InitializeComponent();
-
-                // Write UICulture to XMLConf
-                //Globals.UICulture = culture;
-                //CfgHandler.UpdateXmlConf("UICulture", culture);
             }
 
             // Set Application Language
-            if (/*Globals.*/UICulture != null)
+            if (Properties.Settings.Default.UICulture != null)
             {
-                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(/*Globals.*/UICulture);
                 this.Controls.Clear();
                 this.InitializeComponent();
             }
@@ -98,7 +100,6 @@ namespace eNumismat2._0
                 LangRU.Checked = false;
                 //toolStripStatusLabel2.Image = null;
             }
-            //toolStripStatusLabel2.Text = CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
         }
 
         // Open "child" Forms
