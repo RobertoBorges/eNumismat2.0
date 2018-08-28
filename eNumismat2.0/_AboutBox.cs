@@ -10,9 +10,9 @@ using ComponentFactory.Krypton.Toolkit;
 
 namespace eNumismat2._0
 {
-    partial class AboutBox1 : KryptonForm
+    partial class _AboutBox : KryptonForm
     {
-        public AboutBox1()
+        public _AboutBox()
         {
             InitializeComponent();
             this.Text = String.Format("Info über {0}", AssemblyTitle);

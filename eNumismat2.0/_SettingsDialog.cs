@@ -7,20 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ComponentFactory.Krypton.Toolkit;
 
 namespace eNumismat2._0
 {
-    public partial class Form2 : KryptonForm
+    public partial class _SettingsDialog : Form
     {
-        public Form2()
+        public _SettingsDialog()
         {
             InitializeComponent();
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

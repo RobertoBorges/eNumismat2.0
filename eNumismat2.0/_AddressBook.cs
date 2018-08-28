@@ -9,17 +9,16 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ComponentFactory.Krypton.Toolkit;
 
-
 namespace eNumismat2._0
 {
-    public partial class Form3 : KryptonForm
+    public partial class _AddressBook : KryptonForm
     {
-        public Form3()
+        public _AddressBook()
         {
             InitializeComponent();
         }
 
-        private void Form3_Load(object sender, EventArgs e)
+        private void Form2_Load(object sender, EventArgs e)
         {
 
         }

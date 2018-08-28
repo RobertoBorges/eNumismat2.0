@@ -1,6 +1,6 @@
 ﻿namespace eNumismat2._0
 {
-    partial class Form2
+    partial class _SettingsDialog
     {
         /// <summary>
         /// Required designer variable.
@@ -28,19 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            this.kryptonDockingManager1 = new ComponentFactory.Krypton.Docking.KryptonDockingManager();
             this.SuspendLayout();
             // 
-            // Form2
+            // Form4
             // 
-            resources.ApplyResources(this, "$this");
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Name = "Form2";
-            this.Load += new System.EventHandler(this.Form2_Load);
+            this.ClientSize = new System.Drawing.Size(783, 575);
+            this.Name = "Form4";
+            this.Text = "Settings";
             this.ResumeLayout(false);
 
         }
 
         #endregion
+        private ComponentFactory.Krypton.Docking.KryptonDockingManager kryptonDockingManager1;
     }
 }

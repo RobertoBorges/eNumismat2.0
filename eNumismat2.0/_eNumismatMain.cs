@@ -11,9 +11,9 @@ using ComponentFactory.Krypton.Toolkit;
 
 namespace eNumismat2._0
 {
-    public partial class Form1 : KryptonForm
+    public partial class _eNumismatMain : KryptonForm
     {
-        public Form1()
+        public _eNumismatMain()
         {
             InitializeComponent();
         }
@@ -31,7 +31,7 @@ namespace eNumismat2._0
         {
             if (OpenForm("Form3") == false)
             {
-                Form3 ExchangeMon = new Form3();
+                _ExchangeMonitor ExchangeMon = new _ExchangeMonitor();
                 ExchangeMon.Show();
             }
         }
@@ -41,7 +41,7 @@ namespace eNumismat2._0
         {
             if (OpenForm("Form2") == false)
             {
-                Form2 AddrBook = new Form2();
+                _AddressBook AddrBook = new _AddressBook();
                 AddrBook.Show();
             }
         }
@@ -51,7 +51,7 @@ namespace eNumismat2._0
         {
             if (OpenForm("Form4") == false)
             {
-                Form4 Settings = new Form4();
+                _SettingsDialog Settings = new _SettingsDialog();
                 Settings.Show();
             }
         }
@@ -60,7 +60,7 @@ namespace eNumismat2._0
         {
             if (OpenForm("AboutBox1") == false)
             {
-                AboutBox1 About = new AboutBox1();
+                _AboutBox About = new _AboutBox();
                 About.Show();
             }
         }
