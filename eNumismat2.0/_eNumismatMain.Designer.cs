@@ -71,6 +71,9 @@
             this.OpenAddrBookFrm = new DevComponents.DotNetBar.ButtonItem();
             this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
+            this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem7 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem8 = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonControl1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -173,6 +176,7 @@
             this.ribbonControl1.KeyTipsFont = new System.Drawing.Font("Tahoma", 7F);
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.QuickToolbarItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem1,
             this.qatCustomizeItem1});
             this.ribbonControl1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.ribbonControl1.SystemText.MaximizeRibbonText = resources.GetString("ribbonControl1.SystemText.MaximizeRibbonText");
@@ -365,6 +369,26 @@
             this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2010Blue;
             this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.White, System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(87)))), ((int)(((byte)(154))))));
             // 
+            // buttonItem1
+            // 
+            this.buttonItem1.Image = global::eNumismat2._0.Properties.Resources.help;
+            this.buttonItem1.Name = "buttonItem1";
+            this.buttonItem1.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem7,
+            this.buttonItem8});
+            // 
+            // buttonItem7
+            // 
+            this.buttonItem7.Image = global::eNumismat2._0.Properties.Resources.information;
+            this.buttonItem7.Name = "buttonItem7";
+            resources.ApplyResources(this.buttonItem7, "buttonItem7");
+            // 
+            // buttonItem8
+            // 
+            this.buttonItem8.Image = global::eNumismat2._0.Properties.Resources.help;
+            this.buttonItem8.Name = "buttonItem8";
+            resources.ApplyResources(this.buttonItem8, "buttonItem8");
+            // 
             // _eNumismatMain
             // 
             resources.ApplyResources(this, "$this");
@@ -420,6 +444,9 @@
         private DevComponents.DotNetBar.ButtonItem LangRU;
         private DevComponents.DotNetBar.ButtonItem buttonItem11;
         private DevComponents.DotNetBar.ButtonItem buttonItem12;
+        private DevComponents.DotNetBar.ButtonItem buttonItem1;
+        private DevComponents.DotNetBar.ButtonItem buttonItem7;
+        private DevComponents.DotNetBar.ButtonItem buttonItem8;
     }
 }
 

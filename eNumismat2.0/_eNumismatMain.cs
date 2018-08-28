@@ -17,11 +17,13 @@ namespace eNumismat2._0
     {
         string UICulture = null;
 
+        //=====================================================================================================================================================================
         public _eNumismatMain()
         {
             InitializeComponent();
         }
 
+        //=====================================================================================================================================================================
         private void Form1_Load(object sender, EventArgs e)
         {
             DisplayLanguage();
@@ -99,9 +101,10 @@ namespace eNumismat2._0
             //toolStripStatusLabel2.Text = CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
         }
 
-            // Open "child" Forms
-            // Exchange Monitor
-            private void OpenExchangeMonitorFrm_Click(object sender, EventArgs e)
+        // Open "child" Forms
+        //=====================================================================================================================================================================
+        // Exchange Monitor
+        private void OpenExchangeMonitorFrm_Click(object sender, EventArgs e)
         {
             if (OpenForm("_ExchangeMonitor") == false)
             {
@@ -109,7 +112,9 @@ namespace eNumismat2._0
                 ExchangeMon.Show();
             }
         }
-            // Addressbook
+
+        //=====================================================================================================================================================================
+        // Addressbook
         private void OpenAddrBookFrm_Click(object sender, EventArgs e)
         {
             if (OpenForm("_AddressBook") == false)
@@ -119,6 +124,7 @@ namespace eNumismat2._0
             }
         }
 
+        //=====================================================================================================================================================================
         // Check, if form is already open
         private bool OpenForm(string FrmName)
         {
@@ -146,37 +152,44 @@ namespace eNumismat2._0
             return IsOpen;
         }
 
+        //=====================================================================================================================================================================
         private void buttonItem5_Click(object sender, EventArgs e)
         {
             // implement DB Backup if enabled in settings
             Close();
         }
 
+        //=====================================================================================================================================================================
         private void LangEN_Click(object sender, EventArgs e)
         {
             DisplayLanguage("set", "en-EN");
         }
 
+        //=====================================================================================================================================================================
         private void LangDE_Click(object sender, EventArgs e)
         {
             DisplayLanguage("set", "de-DE");
         }
 
+        //=====================================================================================================================================================================
         private void LangFR_Click(object sender, EventArgs e)
         {
             DisplayLanguage("set", "fr-FR");
         }
 
+        //=====================================================================================================================================================================
         private void LangES_Click(object sender, EventArgs e)
         {
             DisplayLanguage("set", "es-ES");
         }
 
+        //=====================================================================================================================================================================
         private void LangPT_Click(object sender, EventArgs e)
         {
             DisplayLanguage("set", "pt-PT");
         }
 
+        //=====================================================================================================================================================================
         private void LangRU_Click(object sender, EventArgs e)
         {
             DisplayLanguage("set", "ru-RU");
