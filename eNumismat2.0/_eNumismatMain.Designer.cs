@@ -71,9 +71,9 @@
             this.OpenAddrBookFrm = new DevComponents.DotNetBar.ButtonItem();
             this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
-            this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem7 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem8 = new DevComponents.DotNetBar.ButtonItem();
+            this.btnHelp = new DevComponents.DotNetBar.ButtonItem();
+            this.btnAbout = new DevComponents.DotNetBar.ButtonItem();
+            this.btnHelp2 = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonControl1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -176,7 +176,7 @@
             this.ribbonControl1.KeyTipsFont = new System.Drawing.Font("Tahoma", 7F);
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.QuickToolbarItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.buttonItem1,
+            this.btnHelp,
             this.qatCustomizeItem1});
             this.ribbonControl1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.ribbonControl1.SystemText.MaximizeRibbonText = resources.GetString("ribbonControl1.SystemText.MaximizeRibbonText");
@@ -369,25 +369,26 @@
             this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2010Blue;
             this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.White, System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(87)))), ((int)(((byte)(154))))));
             // 
-            // buttonItem1
+            // btnHelp
             // 
-            this.buttonItem1.Image = global::eNumismat2._0.Properties.Resources.help;
-            this.buttonItem1.Name = "buttonItem1";
-            this.buttonItem1.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.buttonItem7,
-            this.buttonItem8});
+            this.btnHelp.Image = global::eNumismat2._0.Properties.Resources.help;
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnAbout,
+            this.btnHelp2});
             // 
-            // buttonItem7
+            // btnAbout
             // 
-            this.buttonItem7.Image = global::eNumismat2._0.Properties.Resources.information;
-            this.buttonItem7.Name = "buttonItem7";
-            resources.ApplyResources(this.buttonItem7, "buttonItem7");
+            this.btnAbout.Image = global::eNumismat2._0.Properties.Resources.information;
+            this.btnAbout.Name = "btnAbout";
+            resources.ApplyResources(this.btnAbout, "btnAbout");
+            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
-            // buttonItem8
+            // btnHelp2
             // 
-            this.buttonItem8.Image = global::eNumismat2._0.Properties.Resources.help;
-            this.buttonItem8.Name = "buttonItem8";
-            resources.ApplyResources(this.buttonItem8, "buttonItem8");
+            this.btnHelp2.Image = global::eNumismat2._0.Properties.Resources.help;
+            this.btnHelp2.Name = "btnHelp2";
+            resources.ApplyResources(this.btnHelp2, "btnHelp2");
             // 
             // _eNumismatMain
             // 
@@ -444,9 +445,9 @@
         private DevComponents.DotNetBar.ButtonItem LangRU;
         private DevComponents.DotNetBar.ButtonItem buttonItem11;
         private DevComponents.DotNetBar.ButtonItem buttonItem12;
-        private DevComponents.DotNetBar.ButtonItem buttonItem1;
-        private DevComponents.DotNetBar.ButtonItem buttonItem7;
-        private DevComponents.DotNetBar.ButtonItem buttonItem8;
+        private DevComponents.DotNetBar.ButtonItem btnHelp;
+        private DevComponents.DotNetBar.ButtonItem btnAbout;
+        private DevComponents.DotNetBar.ButtonItem btnHelp2;
     }
 }
 

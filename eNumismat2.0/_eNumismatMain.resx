@@ -243,10 +243,10 @@
   <data name="ribbonControl1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 3</value>
   </data>
-  <data name="buttonItem7.Text" xml:space="preserve">
+  <data name="btnAbout.Text" xml:space="preserve">
     <value>About eNumista</value>
   </data>
-  <data name="buttonItem8.Text" xml:space="preserve">
+  <data name="btnHelp2.Text" xml:space="preserve">
     <value>Help</value>
   </data>
   <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
@@ -609,22 +609,22 @@
   <data name="&gt;&gt;styleManager1.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.StyleManager, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;buttonItem1.Name" xml:space="preserve">
-    <value>buttonItem1</value>
+  <data name="&gt;&gt;btnHelp.Name" xml:space="preserve">
+    <value>btnHelp</value>
   </data>
-  <data name="&gt;&gt;buttonItem1.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnHelp.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;buttonItem7.Name" xml:space="preserve">
-    <value>buttonItem7</value>
+  <data name="&gt;&gt;btnAbout.Name" xml:space="preserve">
+    <value>btnAbout</value>
   </data>
-  <data name="&gt;&gt;buttonItem7.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnAbout.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;buttonItem8.Name" xml:space="preserve">
-    <value>buttonItem8</value>
+  <data name="&gt;&gt;btnHelp2.Name" xml:space="preserve">
+    <value>btnHelp2</value>
   </data>
-  <data name="&gt;&gt;buttonItem8.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnHelp2.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

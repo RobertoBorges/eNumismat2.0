@@ -125,6 +125,16 @@ namespace eNumismat2._0
         }
 
         //=====================================================================================================================================================================
+        // About Form
+        private void btnAbout_Click(object sender, EventArgs e)
+        {
+            if (OpenForm("_AboutBox") == false)
+            {
+                _AboutBox AboutBox = new _AboutBox();
+                AboutBox.Show();
+            }
+        }
+        //=====================================================================================================================================================================
         // Check, if form is already open
         private bool OpenForm(string FrmName)
         {
@@ -194,5 +204,7 @@ namespace eNumismat2._0
         {
             DisplayLanguage("set", "ru-RU");
         }
+
+        
     }
 }
