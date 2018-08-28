@@ -90,6 +90,9 @@
     <EmbeddedResource Include="_AddressBook.resx">
       <DependentUpon>_AddressBook.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="_eNumismatMain.de.resx">
+      <DependentUpon>_eNumismatMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="_eNumismatMain.resx">
       <DependentUpon>_eNumismatMain.cs</DependentUpon>
     </EmbeddedResource>

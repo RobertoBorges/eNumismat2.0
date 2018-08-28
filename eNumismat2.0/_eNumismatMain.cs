@@ -21,6 +21,8 @@ namespace eNumismat2._0
         public _eNumismatMain()
         {
             InitializeComponent();
+
+            // read saved UI Culture from SETTINGS file.
             UICulture = Properties.Settings.Default.UICulture;
         }
 
@@ -28,7 +30,6 @@ namespace eNumismat2._0
         private void Form1_Load(object sender, EventArgs e)
         {
             DisplayLanguage();
-            
         }
 
         //=====================================================================================================================================================================
