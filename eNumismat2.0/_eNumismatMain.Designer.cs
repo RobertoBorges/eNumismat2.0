@@ -54,23 +54,23 @@
             this.buttonItem2 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem3 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem4 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem5 = new DevComponents.DotNetBar.ButtonItem();
-            this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
-            this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
-            this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.buttonItem6 = new DevComponents.DotNetBar.ButtonItem();
-            this.OpenExchangeMonitorFrm = new DevComponents.DotNetBar.ButtonItem();
-            this.OpenAddrBookFrm = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem9 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem10 = new DevComponents.DotNetBar.ButtonItem();
+            this.LangEN = new DevComponents.DotNetBar.ButtonItem();
+            this.LangDE = new DevComponents.DotNetBar.ButtonItem();
+            this.LangFR = new DevComponents.DotNetBar.ButtonItem();
+            this.LangES = new DevComponents.DotNetBar.ButtonItem();
+            this.LangPT = new DevComponents.DotNetBar.ButtonItem();
+            this.LangRU = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem11 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem12 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem13 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem14 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem15 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem16 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem17 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem18 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem5 = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
+            this.OpenExchangeMonitorFrm = new DevComponents.DotNetBar.ButtonItem();
+            this.OpenAddrBookFrm = new DevComponents.DotNetBar.ButtonItem();
+            this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
+            this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.ribbonControl1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -249,46 +249,11 @@
             this.buttonItem4.Name = "buttonItem4";
             resources.ApplyResources(this.buttonItem4, "buttonItem4");
             // 
-            // buttonItem5
-            // 
-            this.buttonItem5.BeginGroup = true;
-            this.buttonItem5.Name = "buttonItem5";
-            resources.ApplyResources(this.buttonItem5, "buttonItem5");
-            this.buttonItem5.Click += new System.EventHandler(this.buttonItem5_Click);
-            // 
-            // ribbonTabItem1
-            // 
-            this.ribbonTabItem1.Name = "ribbonTabItem1";
-            this.ribbonTabItem1.Panel = this.ribbonPanel1;
-            resources.ApplyResources(this.ribbonTabItem1, "ribbonTabItem1");
-            // 
-            // qatCustomizeItem1
-            // 
-            this.qatCustomizeItem1.Name = "qatCustomizeItem1";
-            // 
-            // styleManager1
-            // 
-            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2010Blue;
-            this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.White, System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(87)))), ((int)(((byte)(154))))));
-            // 
             // buttonItem6
             // 
             this.buttonItem6.Image = global::eNumismat2._0.Properties.Resources.compress;
             this.buttonItem6.Name = "buttonItem6";
             resources.ApplyResources(this.buttonItem6, "buttonItem6");
-            // 
-            // OpenExchangeMonitorFrm
-            // 
-            this.OpenExchangeMonitorFrm.ItemAlignment = DevComponents.DotNetBar.eItemAlignment.Far;
-            this.OpenExchangeMonitorFrm.Name = "OpenExchangeMonitorFrm";
-            resources.ApplyResources(this.OpenExchangeMonitorFrm, "OpenExchangeMonitorFrm");
-            this.OpenExchangeMonitorFrm.Click += new System.EventHandler(this.OpenExchangeMonitorFrm_Click);
-            // 
-            // OpenAddrBookFrm
-            // 
-            this.OpenAddrBookFrm.Name = "OpenAddrBookFrm";
-            resources.ApplyResources(this.OpenAddrBookFrm, "OpenAddrBookFrm");
-            this.OpenAddrBookFrm.Click += new System.EventHandler(this.OpenAddrBookFrm_Click);
             // 
             // buttonItem9
             // 
@@ -304,13 +269,55 @@
             // 
             this.buttonItem10.Name = "buttonItem10";
             this.buttonItem10.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.buttonItem13,
-            this.buttonItem14,
-            this.buttonItem15,
-            this.buttonItem16,
-            this.buttonItem17,
-            this.buttonItem18});
+            this.LangEN,
+            this.LangDE,
+            this.LangFR,
+            this.LangES,
+            this.LangPT,
+            this.LangRU});
             resources.ApplyResources(this.buttonItem10, "buttonItem10");
+            // 
+            // LangEN
+            // 
+            this.LangEN.Image = global::eNumismat2._0.Properties.Resources.GB_United_Kingdom_Flag_icon;
+            this.LangEN.Name = "LangEN";
+            resources.ApplyResources(this.LangEN, "LangEN");
+            this.LangEN.Click += new System.EventHandler(this.LangEN_Click);
+            // 
+            // LangDE
+            // 
+            this.LangDE.Image = global::eNumismat2._0.Properties.Resources.DE_Germany_Flag_icon;
+            this.LangDE.Name = "LangDE";
+            resources.ApplyResources(this.LangDE, "LangDE");
+            this.LangDE.Click += new System.EventHandler(this.LangDE_Click);
+            // 
+            // LangFR
+            // 
+            this.LangFR.Image = global::eNumismat2._0.Properties.Resources.FR_France_Flag_icon;
+            this.LangFR.Name = "LangFR";
+            resources.ApplyResources(this.LangFR, "LangFR");
+            this.LangFR.Click += new System.EventHandler(this.LangFR_Click);
+            // 
+            // LangES
+            // 
+            this.LangES.Image = global::eNumismat2._0.Properties.Resources.ES_Spain_Flag_icon;
+            this.LangES.Name = "LangES";
+            resources.ApplyResources(this.LangES, "LangES");
+            this.LangES.Click += new System.EventHandler(this.LangES_Click);
+            // 
+            // LangPT
+            // 
+            this.LangPT.Image = global::eNumismat2._0.Properties.Resources.PT_Portugal_Flag_icon;
+            this.LangPT.Name = "LangPT";
+            resources.ApplyResources(this.LangPT, "LangPT");
+            this.LangPT.Click += new System.EventHandler(this.LangPT_Click);
+            // 
+            // LangRU
+            // 
+            this.LangRU.Image = global::eNumismat2._0.Properties.Resources.RU_Russia_Flag_icon;
+            this.LangRU.Name = "LangRU";
+            resources.ApplyResources(this.LangRU, "LangRU");
+            this.LangRU.Click += new System.EventHandler(this.LangRU_Click);
             // 
             // buttonItem11
             // 
@@ -322,41 +329,41 @@
             this.buttonItem12.Name = "buttonItem12";
             resources.ApplyResources(this.buttonItem12, "buttonItem12");
             // 
-            // buttonItem13
+            // buttonItem5
             // 
-            this.buttonItem13.Image = global::eNumismat2._0.Properties.Resources.GB_United_Kingdom_Flag_icon;
-            this.buttonItem13.Name = "buttonItem13";
-            resources.ApplyResources(this.buttonItem13, "buttonItem13");
+            this.buttonItem5.BeginGroup = true;
+            this.buttonItem5.Name = "buttonItem5";
+            resources.ApplyResources(this.buttonItem5, "buttonItem5");
+            this.buttonItem5.Click += new System.EventHandler(this.buttonItem5_Click);
             // 
-            // buttonItem14
+            // ribbonTabItem1
             // 
-            this.buttonItem14.Image = global::eNumismat2._0.Properties.Resources.DE_Germany_Flag_icon;
-            this.buttonItem14.Name = "buttonItem14";
-            resources.ApplyResources(this.buttonItem14, "buttonItem14");
+            this.ribbonTabItem1.Checked = true;
+            this.ribbonTabItem1.Name = "ribbonTabItem1";
+            this.ribbonTabItem1.Panel = this.ribbonPanel1;
+            resources.ApplyResources(this.ribbonTabItem1, "ribbonTabItem1");
             // 
-            // buttonItem15
+            // OpenExchangeMonitorFrm
             // 
-            this.buttonItem15.Image = global::eNumismat2._0.Properties.Resources.FR_France_Flag_icon;
-            this.buttonItem15.Name = "buttonItem15";
-            resources.ApplyResources(this.buttonItem15, "buttonItem15");
+            this.OpenExchangeMonitorFrm.ItemAlignment = DevComponents.DotNetBar.eItemAlignment.Far;
+            this.OpenExchangeMonitorFrm.Name = "OpenExchangeMonitorFrm";
+            resources.ApplyResources(this.OpenExchangeMonitorFrm, "OpenExchangeMonitorFrm");
+            this.OpenExchangeMonitorFrm.Click += new System.EventHandler(this.OpenExchangeMonitorFrm_Click);
             // 
-            // buttonItem16
+            // OpenAddrBookFrm
             // 
-            this.buttonItem16.Image = global::eNumismat2._0.Properties.Resources.ES_Spain_Flag_icon;
-            this.buttonItem16.Name = "buttonItem16";
-            resources.ApplyResources(this.buttonItem16, "buttonItem16");
+            this.OpenAddrBookFrm.Name = "OpenAddrBookFrm";
+            resources.ApplyResources(this.OpenAddrBookFrm, "OpenAddrBookFrm");
+            this.OpenAddrBookFrm.Click += new System.EventHandler(this.OpenAddrBookFrm_Click);
             // 
-            // buttonItem17
+            // qatCustomizeItem1
             // 
-            this.buttonItem17.Image = global::eNumismat2._0.Properties.Resources.PT_Portugal_Flag_icon;
-            this.buttonItem17.Name = "buttonItem17";
-            resources.ApplyResources(this.buttonItem17, "buttonItem17");
+            this.qatCustomizeItem1.Name = "qatCustomizeItem1";
             // 
-            // buttonItem18
+            // styleManager1
             // 
-            this.buttonItem18.Image = global::eNumismat2._0.Properties.Resources.RU_Russia_Flag_icon;
-            this.buttonItem18.Name = "buttonItem18";
-            resources.ApplyResources(this.buttonItem18, "buttonItem18");
+            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2010Blue;
+            this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.White, System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(87)))), ((int)(((byte)(154))))));
             // 
             // _eNumismatMain
             // 
@@ -405,12 +412,12 @@
         private DevComponents.DotNetBar.ButtonItem OpenAddrBookFrm;
         private DevComponents.DotNetBar.ButtonItem buttonItem9;
         private DevComponents.DotNetBar.ButtonItem buttonItem10;
-        private DevComponents.DotNetBar.ButtonItem buttonItem13;
-        private DevComponents.DotNetBar.ButtonItem buttonItem14;
-        private DevComponents.DotNetBar.ButtonItem buttonItem15;
-        private DevComponents.DotNetBar.ButtonItem buttonItem16;
-        private DevComponents.DotNetBar.ButtonItem buttonItem17;
-        private DevComponents.DotNetBar.ButtonItem buttonItem18;
+        private DevComponents.DotNetBar.ButtonItem LangEN;
+        private DevComponents.DotNetBar.ButtonItem LangDE;
+        private DevComponents.DotNetBar.ButtonItem LangFR;
+        private DevComponents.DotNetBar.ButtonItem LangES;
+        private DevComponents.DotNetBar.ButtonItem LangPT;
+        private DevComponents.DotNetBar.ButtonItem LangRU;
         private DevComponents.DotNetBar.ButtonItem buttonItem11;
         private DevComponents.DotNetBar.ButtonItem buttonItem12;
     }
