@@ -96,46 +96,28 @@
     <Compile Include="Classes\ConfigReadWrite.cs" />
     <Compile Include="Classes\DataImportExport.cs" />
     <Compile Include="Classes\LogWrite.cs" />
-    <Compile Include="_eNumismatMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="_eNumismatMain.Designer.cs">
-      <DependentUpon>_eNumismatMain.cs</DependentUpon>
-    </Compile>
     <Compile Include="_AddressBook.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="_AddressBook.Designer.cs">
       <DependentUpon>_AddressBook.cs</DependentUpon>
     </Compile>
-    <Compile Include="_ExchangeMonitor.cs">
+    <Compile Include="_eNumismatMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="_ExchangeMonitor.Designer.cs">
-      <DependentUpon>_ExchangeMonitor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="_SettingsDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="_SettingsDialog.Designer.cs">
-      <DependentUpon>_SettingsDialog.cs</DependentUpon>
+    <Compile Include="_eNumismatMain.Designer.cs">
+      <DependentUpon>_eNumismatMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="_AboutBox.resx">
       <DependentUpon>_AboutBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="_eNumismatMain.resx">
-      <DependentUpon>_eNumismatMain.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="_AddressBook.resx">
       <DependentUpon>_AddressBook.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="_ExchangeMonitor.resx">
-      <DependentUpon>_ExchangeMonitor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="_SettingsDialog.resx">
-      <DependentUpon>_SettingsDialog.cs</DependentUpon>
+    <EmbeddedResource Include="_eNumismatMain.resx">
+      <DependentUpon>_eNumismatMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
