@@ -117,227 +117,38 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;LangPT.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;ribbonControl1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;buttonItem12.Name" xml:space="preserve">
-    <value>buttonItem12</value>
-  </data>
-  <data name="&gt;&gt;buttonItem10.Name" xml:space="preserve">
-    <value>buttonItem10</value>
-  </data>
-  <data name="&gt;&gt;ribbonPanel1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.RibbonPanel, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;LangEN.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;btnAbout.Name" xml:space="preserve">
-    <value>btnAbout</value>
-  </data>
-  <data name="LangRU.Text" xml:space="preserve">
-    <value>Russian</value>
-  </data>
-  <data name="&gt;&gt;OpenAddrBookFrm.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="OpenAddrBookFrm.Text" xml:space="preserve">
-    <value>Address Book</value>
-  </data>
-  <data name="&gt;&gt;buttonItem9.Name" xml:space="preserve">
-    <value>buttonItem9</value>
-  </data>
-  <data name="LangFR.Text" xml:space="preserve">
-    <value>French</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>_eNumismatMain</value>
-  </data>
-  <data name="&gt;&gt;OpenExchangeMonitorFrm.Name" xml:space="preserve">
-    <value>OpenExchangeMonitorFrm</value>
-  </data>
-  <data name="&gt;&gt;LangEN.Name" xml:space="preserve">
-    <value>LangEN</value>
-  </data>
-  <data name="&gt;&gt;OpenAddrBookFrm.Name" xml:space="preserve">
-    <value>OpenAddrBookFrm</value>
-  </data>
-  <data name="&gt;&gt;buttonItem11.Name" xml:space="preserve">
-    <value>buttonItem11</value>
-  </data>
-  <data name="&gt;&gt;styleManager1.Name" xml:space="preserve">
-    <value>styleManager1</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogCategoriesLabel" xml:space="preserve">
-    <value>&amp;Choose commands from:</value>
-  </data>
-  <data name="btnAbout.Text" xml:space="preserve">
-    <value>About eNumista</value>
-  </data>
-  <data name="LangEN.Text" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="&gt;&gt;OpenExchangeMonitorFrm.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogCaption" xml:space="preserve">
-    <value>Customize Quick Access Toolbar</value>
-  </data>
-  <data name="&gt;&gt;buttonItem2.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;styleManager1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.StyleManager, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ribbonPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="ribbonPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 54</value>
   </data>
-  <data name="ribbonControl1.SystemText.QatAddItemText" xml:space="preserve">
-    <value>&amp;Add to Quick Access Toolbar</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ribbonControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="buttonItem2.Text" xml:space="preserve">
-    <value>New Database</value>
-  </data>
-  <data name="LangDE.Text" xml:space="preserve">
-    <value>German</value>
-  </data>
-  <data name="&gt;&gt;ribbonControl1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;LangFR.Name" xml:space="preserve">
-    <value>LangFR</value>
-  </data>
-  <data name="&gt;&gt;LangFR.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;applicationButton1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ApplicationButton, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;ribbonPanel1.Name" xml:space="preserve">
-    <value>ribbonPanel1</value>
-  </data>
-  <data name="&gt;&gt;btnAbout.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;buttonItem3.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;buttonItem5.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1035, 154</value>
-  </data>
-  <data name="&gt;&gt;LangDE.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;LangRU.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="buttonItem10.Text" xml:space="preserve">
-    <value>Language Settings</value>
-  </data>
-  <data name="buttonItem11.Text" xml:space="preserve">
-    <value>User Settings</value>
-  </data>
-  <data name="ribbonControl1.SystemText.MaximizeRibbonText" xml:space="preserve">
-    <value>&amp;Maximize the Ribbon</value>
-  </data>
-  <data name="buttonItem4.Text" xml:space="preserve">
-    <value>Backup Database</value>
-  </data>
-  <data name="buttonItem5.Text" xml:space="preserve">
-    <value>Close</value>
-  </data>
-  <data name="&gt;&gt;LangPT.Name" xml:space="preserve">
-    <value>LangPT</value>
-  </data>
-  <data name="&gt;&gt;ribbonPanel1.Parent" xml:space="preserve">
-    <value>ribbonControl1</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogCancelButton" xml:space="preserve">
-    <value>Cancel</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatCustomizeText" xml:space="preserve">
-    <value>&amp;Customize Quick Access Toolbar...</value>
-  </data>
-  <data name="LangPT.Text" xml:space="preserve">
-    <value>Portuguese</value>
-  </data>
-  <data name="&gt;&gt;buttonItem2.Name" xml:space="preserve">
-    <value>buttonItem2</value>
+  <data name="ribbonPanel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 2</value>
   </data>
   <data name="ribbonPanel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1035, 100</value>
   </data>
-  <data name="&gt;&gt;qatCustomizeItem1.Name" xml:space="preserve">
-    <value>qatCustomizeItem1</value>
-  </data>
-  <data name="&gt;&gt;buttonItem6.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ribbonPanel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 2</value>
-  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="ribbonPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;buttonItem4.Name" xml:space="preserve">
-    <value>buttonItem4</value>
+  <data name="&gt;&gt;ribbonPanel1.Name" xml:space="preserve">
+    <value>ribbonPanel1</value>
   </data>
-  <data name="&gt;&gt;ribbonControl1.Name" xml:space="preserve">
+  <data name="&gt;&gt;ribbonPanel1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonPanel, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel1.Parent" xml:space="preserve">
     <value>ribbonControl1</value>
   </data>
-  <data name="ribbonControl1.SystemText.QatRemoveItemText" xml:space="preserve">
-    <value>&amp;Remove from Quick Access Toolbar</value>
+  <data name="&gt;&gt;ribbonPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="ribbonControl1.SystemText.QatCustomizeMenuLabel" xml:space="preserve">
-    <value>&lt;b&gt;Customize Quick Access Toolbar&lt;/b&gt;</value>
-  </data>
-  <data name="&gt;&gt;buttonItem10.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;LangES.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;btnHelp.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;LangES.Name" xml:space="preserve">
-    <value>LangES</value>
-  </data>
-  <data name="applicationButton1.Text" xml:space="preserve">
-    <value>&amp;File</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogOkButton" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogPlacementCheckbox" xml:space="preserve">
-    <value>&amp;Place Quick Access Toolbar below the Ribbon</value>
-  </data>
-  <data name="ribbonControl1.SystemText.MinimizeRibbonText" xml:space="preserve">
-    <value>Mi&amp;nimize the Ribbon</value>
-  </data>
-  <data name="&gt;&gt;buttonItem3.Name" xml:space="preserve">
-    <value>buttonItem3</value>
-  </data>
-  <data name="&gt;&gt;LangDE.Name" xml:space="preserve">
-    <value>LangDE</value>
-  </data>
-  <data name="ribbonPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;buttonItem9.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  <data name="ribbonControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="applicationButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -363,115 +174,301 @@
         rkJggg==
 </value>
   </data>
-  <data name="&gt;&gt;ribbonTabItem1.Name" xml:space="preserve">
-    <value>ribbonTabItem1</value>
+  <data name="buttonItem2.Text" xml:space="preserve">
+    <value>New Database</value>
   </data>
-  <data name="ribbonTabItem1.Text" xml:space="preserve">
-    <value>ribbonTabItem1</value>
+  <data name="buttonItem3.Text" xml:space="preserve">
+    <value>Open Database</value>
   </data>
-  <data name="&gt;&gt;buttonItem5.Name" xml:space="preserve">
-    <value>buttonItem5</value>
-  </data>
-  <data name="btnHelp2.Text" xml:space="preserve">
-    <value>Help</value>
-  </data>
-  <data name="ribbonControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;ribbonTabItem1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.RibbonTabItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>eNumismat</value>
-  </data>
-  <data name="ribbonControl1.Text" xml:space="preserve">
-    <value>ribbonControl1</value>
-  </data>
-  <data name="buttonItem9.Text" xml:space="preserve">
-    <value>Settings</value>
+  <data name="buttonItem4.Text" xml:space="preserve">
+    <value>Backup Database</value>
   </data>
   <data name="buttonItem6.Text" xml:space="preserve">
     <value>Compress Database</value>
   </data>
+  <data name="LangEN.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="LangDE.Text" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="LangFR.Text" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="LangES.Text" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="LangPT.Text" xml:space="preserve">
+    <value>Portuguese</value>
+  </data>
+  <data name="LangRU.Text" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="buttonItem10.Text" xml:space="preserve">
+    <value>Language Settings</value>
+  </data>
+  <data name="buttonItem11.Text" xml:space="preserve">
+    <value>User Settings</value>
+  </data>
   <data name="buttonItem12.Text" xml:space="preserve">
     <value>Application Settings</value>
+  </data>
+  <data name="buttonItem9.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="buttonItem5.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="applicationButton1.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="ribbonTabItem1.Text" xml:space="preserve">
+    <value>ribbonTabItem1</value>
+  </data>
+  <data name="OpenExchangeMonitorFrm.Text" xml:space="preserve">
+    <value>Exchange Monitor</value>
+  </data>
+  <data name="OpenAddrBookFrm.Text" xml:space="preserve">
+    <value>Address Book</value>
+  </data>
+  <data name="ribbonControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 1</value>
+  </data>
+  <data name="btnAbout.Text" xml:space="preserve">
+    <value>About eNumista</value>
+  </data>
+  <data name="btnHelp2.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1035, 154</value>
+  </data>
+  <data name="ribbonControl1.SystemText.MaximizeRibbonText" xml:space="preserve">
+    <value>&amp;Maximize the Ribbon</value>
+  </data>
+  <data name="ribbonControl1.SystemText.MinimizeRibbonText" xml:space="preserve">
+    <value>Mi&amp;nimize the Ribbon</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatAddItemText" xml:space="preserve">
+    <value>&amp;Add to Quick Access Toolbar</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatCustomizeMenuLabel" xml:space="preserve">
+    <value>&lt;b&gt;Customize Quick Access Toolbar&lt;/b&gt;</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatCustomizeText" xml:space="preserve">
+    <value>&amp;Customize Quick Access Toolbar...</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogAddButton" xml:space="preserve">
+    <value>&amp;Add &gt;&gt;</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogCancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogCaption" xml:space="preserve">
+    <value>Customize Quick Access Toolbar</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogCategoriesLabel" xml:space="preserve">
+    <value>&amp;Choose commands from:</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogOkButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogPlacementCheckbox" xml:space="preserve">
+    <value>&amp;Place Quick Access Toolbar below the Ribbon</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogRemoveButton" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatPlaceAboveRibbonText" xml:space="preserve">
+    <value>&amp;Place Quick Access Toolbar above the Ribbon</value>
   </data>
   <data name="ribbonControl1.SystemText.QatPlaceBelowRibbonText" xml:space="preserve">
     <value>&amp;Place Quick Access Toolbar below the Ribbon</value>
   </data>
-  <data name="&gt;&gt;buttonItem11.Type" xml:space="preserve">
+  <data name="ribbonControl1.SystemText.QatRemoveItemText" xml:space="preserve">
+    <value>&amp;Remove from Quick Access Toolbar</value>
+  </data>
+  <data name="ribbonControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ribbonControl1.Text" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Name" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonControl, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="styleManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>166, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1045, 712</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>eNumismat</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabItem1.Name" xml:space="preserve">
+    <value>ribbonTabItem1</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabItem1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonTabItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;OpenAddrBookFrm.Name" xml:space="preserve">
+    <value>OpenAddrBookFrm</value>
+  </data>
+  <data name="&gt;&gt;OpenAddrBookFrm.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;btnHelp2.Type" xml:space="preserve">
+  <data name="&gt;&gt;qatCustomizeItem1.Name" xml:space="preserve">
+    <value>qatCustomizeItem1</value>
+  </data>
+  <data name="&gt;&gt;qatCustomizeItem1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.QatCustomizeItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;styleManager1.Name" xml:space="preserve">
+    <value>styleManager1</value>
+  </data>
+  <data name="&gt;&gt;styleManager1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.StyleManager, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;applicationButton1.Name" xml:space="preserve">
+    <value>applicationButton1</value>
+  </data>
+  <data name="&gt;&gt;applicationButton1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ApplicationButton, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;OpenExchangeMonitorFrm.Name" xml:space="preserve">
+    <value>OpenExchangeMonitorFrm</value>
+  </data>
+  <data name="&gt;&gt;OpenExchangeMonitorFrm.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;buttonItem2.Name" xml:space="preserve">
+    <value>buttonItem2</value>
+  </data>
+  <data name="&gt;&gt;buttonItem2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;buttonItem3.Name" xml:space="preserve">
+    <value>buttonItem3</value>
+  </data>
+  <data name="&gt;&gt;buttonItem3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;buttonItem4.Name" xml:space="preserve">
+    <value>buttonItem4</value>
+  </data>
+  <data name="&gt;&gt;buttonItem4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;buttonItem6.Name" xml:space="preserve">
+    <value>buttonItem6</value>
+  </data>
+  <data name="&gt;&gt;buttonItem6.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;buttonItem9.Name" xml:space="preserve">
+    <value>buttonItem9</value>
+  </data>
+  <data name="&gt;&gt;buttonItem9.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;buttonItem10.Name" xml:space="preserve">
+    <value>buttonItem10</value>
+  </data>
+  <data name="&gt;&gt;buttonItem10.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;LangEN.Name" xml:space="preserve">
+    <value>LangEN</value>
+  </data>
+  <data name="&gt;&gt;LangEN.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;LangDE.Name" xml:space="preserve">
+    <value>LangDE</value>
+  </data>
+  <data name="&gt;&gt;LangDE.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;LangFR.Name" xml:space="preserve">
+    <value>LangFR</value>
+  </data>
+  <data name="&gt;&gt;LangFR.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;LangES.Name" xml:space="preserve">
+    <value>LangES</value>
+  </data>
+  <data name="&gt;&gt;LangES.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;LangPT.Name" xml:space="preserve">
+    <value>LangPT</value>
+  </data>
+  <data name="&gt;&gt;LangPT.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
   <data name="&gt;&gt;LangRU.Name" xml:space="preserve">
     <value>LangRU</value>
   </data>
-  <data name="ribbonControl1.SystemText.QatPlaceAboveRibbonText" xml:space="preserve">
-    <value>&amp;Place Quick Access Toolbar above the Ribbon</value>
+  <data name="&gt;&gt;LangRU.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;ribbonPanel1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;buttonItem11.Name" xml:space="preserve">
+    <value>buttonItem11</value>
   </data>
-  <data name="&gt;&gt;ribbonControl1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.RibbonControl, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  <data name="&gt;&gt;buttonItem11.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="LangES.Text" xml:space="preserve">
-    <value>Spanish</value>
-  </data>
-  <data name="&gt;&gt;buttonItem6.Name" xml:space="preserve">
-    <value>buttonItem6</value>
-  </data>
-  <data name="ribbonControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 1</value>
-  </data>
-  <data name="OpenExchangeMonitorFrm.Text" xml:space="preserve">
-    <value>Exchange Monitor</value>
-  </data>
-  <data name="&gt;&gt;qatCustomizeItem1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.QatCustomizeItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogRemoveButton" xml:space="preserve">
-    <value>&amp;Remove</value>
-  </data>
-  <data name="&gt;&gt;btnHelp2.Name" xml:space="preserve">
-    <value>btnHelp2</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1045, 712</value>
-  </data>
-  <data name="ribbonPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 54</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.RibbonForm, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  <data name="&gt;&gt;buttonItem12.Name" xml:space="preserve">
+    <value>buttonItem12</value>
   </data>
   <data name="&gt;&gt;buttonItem12.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;buttonItem4.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  <data name="&gt;&gt;buttonItem5.Name" xml:space="preserve">
+    <value>buttonItem5</value>
   </data>
-  <data name="ribbonControl1.SystemText.QatDialogAddButton" xml:space="preserve">
-    <value>&amp;Add &gt;&gt;</value>
+  <data name="&gt;&gt;buttonItem5.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
   <data name="&gt;&gt;btnHelp.Name" xml:space="preserve">
     <value>btnHelp</value>
   </data>
-  <data name="&gt;&gt;applicationButton1.Name" xml:space="preserve">
-    <value>applicationButton1</value>
+  <data name="&gt;&gt;btnHelp.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="buttonItem3.Text" xml:space="preserve">
-    <value>Open Database</value>
+  <data name="&gt;&gt;btnAbout.Name" xml:space="preserve">
+    <value>btnAbout</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="styleManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>166, 17</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>de</value>
-  </metadata>
+  <data name="&gt;&gt;btnAbout.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btnHelp2.Name" xml:space="preserve">
+    <value>btnHelp2</value>
+  </data>
+  <data name="&gt;&gt;btnHelp2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>_eNumismatMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonForm, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
 </root>

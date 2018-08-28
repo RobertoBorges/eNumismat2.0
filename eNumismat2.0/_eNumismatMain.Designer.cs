@@ -33,11 +33,11 @@
             this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
             this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
             this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
-            this.OpenExchangeMonitorFrm = new DevComponents.DotNetBar.ButtonItem();
             this.OpenAddrBookFrm = new DevComponents.DotNetBar.ButtonItem();
             this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.applicationButton1 = new DevComponents.DotNetBar.ApplicationButton();
+            this.OpenExchangeMonitorFrm = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem2 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem3 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem4 = new DevComponents.DotNetBar.ButtonItem();
@@ -61,7 +61,6 @@
             // 
             // ribbonControl1
             // 
-            resources.ApplyResources(this.ribbonControl1, "ribbonControl1");
             this.ribbonControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             // 
             // 
@@ -69,6 +68,7 @@
             this.ribbonControl1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.ribbonControl1.CaptionVisible = true;
             this.ribbonControl1.Controls.Add(this.ribbonPanel1);
+            resources.ApplyResources(this.ribbonControl1, "ribbonControl1");
             this.ribbonControl1.ForeColor = System.Drawing.Color.Black;
             this.ribbonControl1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.applicationButton1,
@@ -100,8 +100,8 @@
             // 
             // ribbonPanel1
             // 
-            resources.ApplyResources(this.ribbonPanel1, "ribbonPanel1");
             this.ribbonPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            resources.ApplyResources(this.ribbonPanel1, "ribbonPanel1");
             this.ribbonPanel1.Name = "ribbonPanel1";
             // 
             // 
@@ -118,27 +118,21 @@
             // 
             // ribbonTabItem1
             // 
-            resources.ApplyResources(this.ribbonTabItem1, "ribbonTabItem1");
             this.ribbonTabItem1.Checked = true;
             this.ribbonTabItem1.Name = "ribbonTabItem1";
             this.ribbonTabItem1.Panel = this.ribbonPanel1;
-            // 
-            // OpenExchangeMonitorFrm
-            // 
-            resources.ApplyResources(this.OpenExchangeMonitorFrm, "OpenExchangeMonitorFrm");
-            this.OpenExchangeMonitorFrm.ItemAlignment = DevComponents.DotNetBar.eItemAlignment.Far;
-            this.OpenExchangeMonitorFrm.Name = "OpenExchangeMonitorFrm";
-            this.OpenExchangeMonitorFrm.Click += new System.EventHandler(this.OpenExchangeMonitorFrm_Click);
+            resources.ApplyResources(this.ribbonTabItem1, "ribbonTabItem1");
             // 
             // OpenAddrBookFrm
             // 
-            resources.ApplyResources(this.OpenAddrBookFrm, "OpenAddrBookFrm");
+            this.OpenAddrBookFrm.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.OpenAddrBookFrm.Image = global::eNumismat2._0.Properties.Resources.book_addresses;
             this.OpenAddrBookFrm.Name = "OpenAddrBookFrm";
+            resources.ApplyResources(this.OpenAddrBookFrm, "OpenAddrBookFrm");
             this.OpenAddrBookFrm.Click += new System.EventHandler(this.OpenAddrBookFrm_Click);
             // 
             // qatCustomizeItem1
             // 
-            resources.ApplyResources(this.qatCustomizeItem1, "qatCustomizeItem1");
             this.qatCustomizeItem1.Name = "qatCustomizeItem1";
             // 
             // styleManager1
@@ -148,7 +142,6 @@
             // 
             // applicationButton1
             // 
-            resources.ApplyResources(this.applicationButton1, "applicationButton1");
             this.applicationButton1.AutoExpandOnClick = true;
             this.applicationButton1.CanCustomize = false;
             this.applicationButton1.HotTrackingStyle = DevComponents.DotNetBar.eHotTrackingStyle.Image;
@@ -165,45 +158,58 @@
             this.buttonItem6,
             this.buttonItem9,
             this.buttonItem5});
+            resources.ApplyResources(this.applicationButton1, "applicationButton1");
+            // 
+            // OpenExchangeMonitorFrm
+            // 
+            this.OpenExchangeMonitorFrm.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.OpenExchangeMonitorFrm.CanCustomize = false;
+            this.OpenExchangeMonitorFrm.GlobalItem = false;
+            this.OpenExchangeMonitorFrm.Image = global::eNumismat2._0.Properties.Resources.page_refresh;
+            this.OpenExchangeMonitorFrm.ItemAlignment = DevComponents.DotNetBar.eItemAlignment.Far;
+            this.OpenExchangeMonitorFrm.Name = "OpenExchangeMonitorFrm";
+            this.OpenExchangeMonitorFrm.ShowSubItems = false;
+            resources.ApplyResources(this.OpenExchangeMonitorFrm, "OpenExchangeMonitorFrm");
+            this.OpenExchangeMonitorFrm.Click += new System.EventHandler(this.OpenExchangeMonitorFrm_Click);
             // 
             // buttonItem2
             // 
-            resources.ApplyResources(this.buttonItem2, "buttonItem2");
             this.buttonItem2.Image = global::eNumismat2._0.Properties.Resources.database_add;
             this.buttonItem2.Name = "buttonItem2";
+            resources.ApplyResources(this.buttonItem2, "buttonItem2");
             // 
             // buttonItem3
             // 
-            resources.ApplyResources(this.buttonItem3, "buttonItem3");
             this.buttonItem3.Image = global::eNumismat2._0.Properties.Resources.database_connect;
             this.buttonItem3.Name = "buttonItem3";
+            resources.ApplyResources(this.buttonItem3, "buttonItem3");
             // 
             // buttonItem4
             // 
-            resources.ApplyResources(this.buttonItem4, "buttonItem4");
             this.buttonItem4.BeginGroup = true;
             this.buttonItem4.Image = global::eNumismat2._0.Properties.Resources.database_save;
             this.buttonItem4.Name = "buttonItem4";
+            resources.ApplyResources(this.buttonItem4, "buttonItem4");
             // 
             // buttonItem6
             // 
-            resources.ApplyResources(this.buttonItem6, "buttonItem6");
             this.buttonItem6.Image = global::eNumismat2._0.Properties.Resources.compress;
             this.buttonItem6.Name = "buttonItem6";
+            resources.ApplyResources(this.buttonItem6, "buttonItem6");
             // 
             // buttonItem9
             // 
-            resources.ApplyResources(this.buttonItem9, "buttonItem9");
             this.buttonItem9.BeginGroup = true;
+            this.buttonItem9.Image = global::eNumismat2._0.Properties.Resources.wrench;
             this.buttonItem9.Name = "buttonItem9";
             this.buttonItem9.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.buttonItem10,
             this.buttonItem11,
             this.buttonItem12});
+            resources.ApplyResources(this.buttonItem9, "buttonItem9");
             // 
             // buttonItem10
             // 
-            resources.ApplyResources(this.buttonItem10, "buttonItem10");
             this.buttonItem10.Name = "buttonItem10";
             this.buttonItem10.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.LangEN,
@@ -212,69 +218,70 @@
             this.LangES,
             this.LangPT,
             this.LangRU});
+            resources.ApplyResources(this.buttonItem10, "buttonItem10");
             // 
             // LangEN
             // 
-            resources.ApplyResources(this.LangEN, "LangEN");
             this.LangEN.Image = global::eNumismat2._0.Properties.Resources.GB_United_Kingdom_Flag_icon;
             this.LangEN.Name = "LangEN";
+            resources.ApplyResources(this.LangEN, "LangEN");
             this.LangEN.Click += new System.EventHandler(this.LangEN_Click);
             // 
             // LangDE
             // 
-            resources.ApplyResources(this.LangDE, "LangDE");
             this.LangDE.Image = global::eNumismat2._0.Properties.Resources.DE_Germany_Flag_icon;
             this.LangDE.Name = "LangDE";
+            resources.ApplyResources(this.LangDE, "LangDE");
             this.LangDE.Click += new System.EventHandler(this.LangDE_Click);
             // 
             // LangFR
             // 
-            resources.ApplyResources(this.LangFR, "LangFR");
             this.LangFR.Image = global::eNumismat2._0.Properties.Resources.FR_France_Flag_icon;
             this.LangFR.Name = "LangFR";
+            resources.ApplyResources(this.LangFR, "LangFR");
             this.LangFR.Click += new System.EventHandler(this.LangFR_Click);
             // 
             // LangES
             // 
-            resources.ApplyResources(this.LangES, "LangES");
             this.LangES.Image = global::eNumismat2._0.Properties.Resources.ES_Spain_Flag_icon;
             this.LangES.Name = "LangES";
+            resources.ApplyResources(this.LangES, "LangES");
             this.LangES.Click += new System.EventHandler(this.LangES_Click);
             // 
             // LangPT
             // 
-            resources.ApplyResources(this.LangPT, "LangPT");
             this.LangPT.Image = global::eNumismat2._0.Properties.Resources.PT_Portugal_Flag_icon;
             this.LangPT.Name = "LangPT";
+            resources.ApplyResources(this.LangPT, "LangPT");
             this.LangPT.Click += new System.EventHandler(this.LangPT_Click);
             // 
             // LangRU
             // 
-            resources.ApplyResources(this.LangRU, "LangRU");
             this.LangRU.Image = global::eNumismat2._0.Properties.Resources.RU_Russia_Flag_icon;
             this.LangRU.Name = "LangRU";
+            resources.ApplyResources(this.LangRU, "LangRU");
             this.LangRU.Click += new System.EventHandler(this.LangRU_Click);
             // 
             // buttonItem11
             // 
-            resources.ApplyResources(this.buttonItem11, "buttonItem11");
             this.buttonItem11.Name = "buttonItem11";
+            resources.ApplyResources(this.buttonItem11, "buttonItem11");
             // 
             // buttonItem12
             // 
-            resources.ApplyResources(this.buttonItem12, "buttonItem12");
             this.buttonItem12.Name = "buttonItem12";
+            resources.ApplyResources(this.buttonItem12, "buttonItem12");
             // 
             // buttonItem5
             // 
-            resources.ApplyResources(this.buttonItem5, "buttonItem5");
             this.buttonItem5.BeginGroup = true;
+            this.buttonItem5.Image = global::eNumismat2._0.Properties.Resources.door_in;
             this.buttonItem5.Name = "buttonItem5";
+            resources.ApplyResources(this.buttonItem5, "buttonItem5");
             this.buttonItem5.Click += new System.EventHandler(this.buttonItem5_Click);
             // 
             // btnHelp
             // 
-            resources.ApplyResources(this.btnHelp, "btnHelp");
             this.btnHelp.Image = global::eNumismat2._0.Properties.Resources.help;
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
@@ -283,16 +290,16 @@
             // 
             // btnAbout
             // 
-            resources.ApplyResources(this.btnAbout, "btnAbout");
             this.btnAbout.Image = global::eNumismat2._0.Properties.Resources.information;
             this.btnAbout.Name = "btnAbout";
+            resources.ApplyResources(this.btnAbout, "btnAbout");
             this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
             // btnHelp2
             // 
-            resources.ApplyResources(this.btnHelp2, "btnHelp2");
             this.btnHelp2.Image = global::eNumismat2._0.Properties.Resources.help;
             this.btnHelp2.Name = "btnHelp2";
+            resources.ApplyResources(this.btnHelp2, "btnHelp2");
             // 
             // _eNumismatMain
             // 
