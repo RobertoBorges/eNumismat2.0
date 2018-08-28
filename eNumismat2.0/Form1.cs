@@ -41,6 +41,15 @@ namespace eNumismat2._0
             }
         }
 
+        private void buttonSpecAny3_Click(object sender, EventArgs e)
+        {
+            if (OpenForm("Form4") == false)
+            {
+                Form4 Settings = new Form4();
+                Settings.Show();
+            }
+        }
+
         private bool OpenForm(string FrmName)
         {
             bool IsOpen = false;
