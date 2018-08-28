@@ -25,13 +25,43 @@ namespace eNumismat2._0.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
-        public bool MdiContainer {
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool RunDbBackupOnAppClose {
             get {
-                return ((bool)(this["MdiContainer"]));
+                return ((bool)(this["RunDbBackupOnAppClose"]));
             }
             set {
-                this["MdiContainer"] = value;
+                this["RunDbBackupOnAppClose"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool CompressDbFileBeforeBackup {
+            get {
+                return ((bool)(this["CompressDbFileBeforeBackup"]));
+            }
+            set {
+                this["CompressDbFileBeforeBackup"] = value;
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0, 0")]
+        public global::System.Drawing.Size MainFormWidth {
+            get {
+                return ((global::System.Drawing.Size)(this["MainFormWidth"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0, 0")]
+        public global::System.Drawing.Size AddressBookFormWidth {
+            get {
+                return ((global::System.Drawing.Size)(this["AddressBookFormWidth"]));
             }
         }
     }
