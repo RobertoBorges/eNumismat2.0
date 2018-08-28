@@ -23,6 +23,10 @@ namespace eNumismat2._0
 
         }
 
+
+        // Open "child" Forms
+        
+            // Exchange Monitor
         private void buttonSpecAny1_Click(object sender, EventArgs e)
         {
             if (OpenForm("Form3") == false)
@@ -32,6 +36,7 @@ namespace eNumismat2._0
             }
         }
 
+            // Addressbook
         private void buttonSpecAny2_Click(object sender, EventArgs e)
         {
             if (OpenForm("Form2") == false)
@@ -40,7 +45,8 @@ namespace eNumismat2._0
                 AddrBook.Show();
             }
         }
-
+            
+            // Settings Dialog (needs to be replaced)
         private void buttonSpecAny3_Click(object sender, EventArgs e)
         {
             if (OpenForm("Form4") == false)
@@ -50,6 +56,7 @@ namespace eNumismat2._0
             }
         }
 
+        // Check, if form is already open
         private bool OpenForm(string FrmName)
         {
             bool IsOpen = false;
@@ -60,12 +67,17 @@ namespace eNumismat2._0
                 {
                     IsOpen = true;
 
+                    // Check, if Form is Minimized
                     if (fx.WindowState == FormWindowState.Minimized)
                     {
+                        // Yes, then resize
                         fx.WindowState = FormWindowState.Normal;
                     }
 
+                    // and bring to Front
                     fx.BringToFront();
+
+                    return IsOpen;
                 }
             }
             return IsOpen;
