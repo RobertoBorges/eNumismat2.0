@@ -34,6 +34,7 @@
             this.buttonSpecAny1 = new ComponentFactory.Krypton.Toolkit.ButtonSpecAny();
             this.buttonSpecAny2 = new ComponentFactory.Krypton.Toolkit.ButtonSpecAny();
             this.buttonSpecAny3 = new ComponentFactory.Krypton.Toolkit.ButtonSpecAny();
+            this.buttonSpecAny4 = new ComponentFactory.Krypton.Toolkit.ButtonSpecAny();
             this.kryptonContextMenuHeading1 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuHeading();
             this.NewDatabase = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
             this.OpenDatabase = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
@@ -63,7 +64,8 @@
             this.kryptonRibbon1.ButtonSpecs.AddRange(new ComponentFactory.Krypton.Toolkit.ButtonSpecAny[] {
             this.buttonSpecAny1,
             this.buttonSpecAny2,
-            this.buttonSpecAny3});
+            this.buttonSpecAny3,
+            this.buttonSpecAny4});
             this.kryptonRibbon1.InDesignHelperMode = true;
             this.kryptonRibbon1.Name = "kryptonRibbon1";
             this.kryptonRibbon1.RibbonAppButton.AppButtonMenuItems.AddRange(new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItemBase[] {
@@ -99,6 +101,12 @@
             resources.ApplyResources(this.buttonSpecAny3, "buttonSpecAny3");
             this.buttonSpecAny3.UniqueName = "03A428021B5049385B901975512D717F";
             this.buttonSpecAny3.Click += new System.EventHandler(this.buttonSpecAny3_Click);
+            // 
+            // buttonSpecAny4
+            // 
+            resources.ApplyResources(this.buttonSpecAny4, "buttonSpecAny4");
+            this.buttonSpecAny4.UniqueName = "64DABC372EFB4DAF598BFB34D9DFA38A";
+            this.buttonSpecAny4.Click += new System.EventHandler(this.buttonSpecAny4_Click);
             // 
             // kryptonContextMenuHeading1
             // 
@@ -237,6 +245,7 @@
         private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItems kryptonContextMenuItems2;
         private ComponentFactory.Krypton.Toolkit.KryptonManager kryptonManager1;
         private ComponentFactory.Krypton.Toolkit.ButtonSpecAny buttonSpecAny3;
+        private ComponentFactory.Krypton.Toolkit.ButtonSpecAny buttonSpecAny4;
     }
 }
 

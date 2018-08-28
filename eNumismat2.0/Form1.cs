@@ -56,6 +56,15 @@ namespace eNumismat2._0
             }
         }
 
+        private void buttonSpecAny4_Click(object sender, EventArgs e)
+        {
+            if (OpenForm("AboutBox1") == false)
+            {
+                AboutBox1 About = new AboutBox1();
+                About.Show();
+            }
+        }
+
         // Check, if form is already open
         private bool OpenForm(string FrmName)
         {
@@ -82,5 +91,7 @@ namespace eNumismat2._0
             }
             return IsOpen;
         }
+
+        
     }
 }
