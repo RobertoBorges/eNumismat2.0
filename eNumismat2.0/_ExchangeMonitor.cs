@@ -8,11 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ComponentFactory.Krypton.Toolkit;
+using DevComponents.DotNetBar;
 
 
 namespace eNumismat2._0
 {
-    public partial class _ExchangeMonitor : KryptonForm
+    public partial class _ExchangeMonitor : RibbonForm
     {
         public _ExchangeMonitor()
         {

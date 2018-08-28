@@ -8,10 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ComponentFactory.Krypton.Toolkit;
+using DevComponents.DotNetBar;
 
 namespace eNumismat2._0
 {
-    public partial class _eNumismatMain : KryptonForm
+    public partial class _eNumismatMain : RibbonForm
     {
         public _eNumismatMain()
         {
@@ -23,45 +24,23 @@ namespace eNumismat2._0
 
         }
 
-
         // Open "child" Forms
-        
             // Exchange Monitor
-        private void buttonSpecAny1_Click(object sender, EventArgs e)
+        private void OpenExchangeMonitorFrm_Click(object sender, EventArgs e)
         {
-            if (OpenForm("Form3") == false)
+            if (OpenForm("_ExchangeMonitor") == false)
             {
                 _ExchangeMonitor ExchangeMon = new _ExchangeMonitor();
                 ExchangeMon.Show();
             }
         }
-
             // Addressbook
-        private void buttonSpecAny2_Click(object sender, EventArgs e)
+        private void OpenAddrBookFrm_Click(object sender, EventArgs e)
         {
-            if (OpenForm("Form2") == false)
+            if (OpenForm("_AddressBook") == false)
             {
                 _AddressBook AddrBook = new _AddressBook();
                 AddrBook.Show();
-            }
-        }
-            
-            // Settings Dialog (needs to be replaced)
-        private void buttonSpecAny3_Click(object sender, EventArgs e)
-        {
-            if (OpenForm("Form4") == false)
-            {
-                _SettingsDialog Settings = new _SettingsDialog();
-                Settings.Show();
-            }
-        }
-
-        private void buttonSpecAny4_Click(object sender, EventArgs e)
-        {
-            if (OpenForm("AboutBox1") == false)
-            {
-                _AboutBox About = new _AboutBox();
-                About.Show();
             }
         }
 
@@ -92,6 +71,10 @@ namespace eNumismat2._0
             return IsOpen;
         }
 
-        
+        private void buttonItem5_Click(object sender, EventArgs e)
+        {
+            // implement DB Backup if enabled in settings
+            Close();
+        }
     }
 }

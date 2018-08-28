@@ -10,7 +10,7 @@ using ComponentFactory.Krypton.Toolkit;
 
 namespace eNumismat2._0
 {
-    partial class _AboutBox : KryptonForm
+    partial class _AboutBox : Form
     {
         public _AboutBox()
         {

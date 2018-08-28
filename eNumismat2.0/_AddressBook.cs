@@ -8,10 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ComponentFactory.Krypton.Toolkit;
+using DevComponents.DotNetBar;
 
 namespace eNumismat2._0
 {
-    public partial class _AddressBook : KryptonForm
+    public partial class _AddressBook : RibbonForm
     {
         public _AddressBook()
         {
