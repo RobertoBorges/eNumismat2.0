@@ -57,6 +57,7 @@ namespace eNumismat2._0
             // Set Application Language
             if (Properties.Settings.Default.UICulture != null)
             {
+                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(Properties.Settings.Default.UICulture);
                 this.Controls.Clear();
                 this.InitializeComponent();
             }
