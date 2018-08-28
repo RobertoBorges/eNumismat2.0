@@ -13,7 +13,7 @@ using DevComponents.DotNetBar;
 
 namespace eNumismat2._0
 {
-    public partial class _eNumismatMain : RibbonForm
+    public partial class _eNumismatMain : DevComponents.DotNetBar.RibbonForm
     {
         string UICulture = null;
 
@@ -205,6 +205,9 @@ namespace eNumismat2._0
             DisplayLanguage("set", "ru-RU");
         }
 
-        
+        private void ribbonControl1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

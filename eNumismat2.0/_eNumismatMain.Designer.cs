@@ -30,26 +30,13 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_eNumismatMain));
-            this.kryptonContextMenuHeading1 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuHeading();
-            this.NewDatabase = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
-            this.OpenDatabase = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
-            this.kryptonContextMenuSeparator1 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuSeparator();
-            this.BackupDatabase = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
-            this.CompressDatabase = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
-            this.kryptonContextMenuHeading2 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuHeading();
-            this.ApplicationSettings = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
-            this.UserSettings = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
-            this.kryptonContextMenuItems1 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItems();
-            this.kryptonContextMenuItem2 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
-            this.kryptonContextMenuItem3 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
-            this.kryptonContextMenuItem4 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
-            this.kryptonContextMenuItem5 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
-            this.kryptonContextMenuItem6 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem();
-            this.buttonSpecAppMenu1 = new ComponentFactory.Krypton.Ribbon.ButtonSpecAppMenu();
-            this.kryptonContextMenuItems2 = new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItems();
-            this.kryptonManager1 = new ComponentFactory.Krypton.Toolkit.KryptonManager(this.components);
             this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
             this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
+            this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
+            this.OpenExchangeMonitorFrm = new DevComponents.DotNetBar.ButtonItem();
+            this.OpenAddrBookFrm = new DevComponents.DotNetBar.ButtonItem();
+            this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
+            this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.applicationButton1 = new DevComponents.DotNetBar.ApplicationButton();
             this.buttonItem2 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem3 = new DevComponents.DotNetBar.ButtonItem();
@@ -66,98 +53,11 @@
             this.buttonItem11 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem12 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem5 = new DevComponents.DotNetBar.ButtonItem();
-            this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
-            this.OpenExchangeMonitorFrm = new DevComponents.DotNetBar.ButtonItem();
-            this.OpenAddrBookFrm = new DevComponents.DotNetBar.ButtonItem();
-            this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
-            this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.btnHelp = new DevComponents.DotNetBar.ButtonItem();
             this.btnAbout = new DevComponents.DotNetBar.ButtonItem();
             this.btnHelp2 = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonControl1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // kryptonContextMenuHeading1
-            // 
-            resources.ApplyResources(this.kryptonContextMenuHeading1, "kryptonContextMenuHeading1");
-            this.kryptonContextMenuHeading1.Image = global::eNumismat2._0.Properties.Resources.database;
-            // 
-            // NewDatabase
-            // 
-            this.NewDatabase.Image = global::eNumismat2._0.Properties.Resources.database_add;
-            resources.ApplyResources(this.NewDatabase, "NewDatabase");
-            // 
-            // OpenDatabase
-            // 
-            this.OpenDatabase.Image = global::eNumismat2._0.Properties.Resources.database_connect;
-            resources.ApplyResources(this.OpenDatabase, "OpenDatabase");
-            // 
-            // BackupDatabase
-            // 
-            this.BackupDatabase.Image = global::eNumismat2._0.Properties.Resources.database_save;
-            resources.ApplyResources(this.BackupDatabase, "BackupDatabase");
-            // 
-            // CompressDatabase
-            // 
-            this.CompressDatabase.Image = global::eNumismat2._0.Properties.Resources.compress;
-            resources.ApplyResources(this.CompressDatabase, "CompressDatabase");
-            // 
-            // kryptonContextMenuHeading2
-            // 
-            resources.ApplyResources(this.kryptonContextMenuHeading2, "kryptonContextMenuHeading2");
-            // 
-            // ApplicationSettings
-            // 
-            resources.ApplyResources(this.ApplicationSettings, "ApplicationSettings");
-            // 
-            // UserSettings
-            // 
-            this.UserSettings.Items.AddRange(new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItemBase[] {
-            this.kryptonContextMenuItems1});
-            resources.ApplyResources(this.UserSettings, "UserSettings");
-            // 
-            // kryptonContextMenuItems1
-            // 
-            this.kryptonContextMenuItems1.Items.AddRange(new ComponentFactory.Krypton.Toolkit.KryptonContextMenuItemBase[] {
-            this.kryptonContextMenuItem2,
-            this.kryptonContextMenuItem3,
-            this.kryptonContextMenuItem4,
-            this.kryptonContextMenuItem5,
-            this.kryptonContextMenuItem6});
-            // 
-            // kryptonContextMenuItem2
-            // 
-            this.kryptonContextMenuItem2.Image = global::eNumismat2._0.Properties.Resources.GB_United_Kingdom_Flag_icon;
-            resources.ApplyResources(this.kryptonContextMenuItem2, "kryptonContextMenuItem2");
-            // 
-            // kryptonContextMenuItem3
-            // 
-            this.kryptonContextMenuItem3.Image = global::eNumismat2._0.Properties.Resources.DE_Germany_Flag_icon;
-            resources.ApplyResources(this.kryptonContextMenuItem3, "kryptonContextMenuItem3");
-            // 
-            // kryptonContextMenuItem4
-            // 
-            this.kryptonContextMenuItem4.Image = global::eNumismat2._0.Properties.Resources.FR_France_Flag_icon;
-            resources.ApplyResources(this.kryptonContextMenuItem4, "kryptonContextMenuItem4");
-            // 
-            // kryptonContextMenuItem5
-            // 
-            this.kryptonContextMenuItem5.Image = global::eNumismat2._0.Properties.Resources.ES_Spain_Flag_icon;
-            resources.ApplyResources(this.kryptonContextMenuItem5, "kryptonContextMenuItem5");
-            // 
-            // kryptonContextMenuItem6
-            // 
-            this.kryptonContextMenuItem6.Image = global::eNumismat2._0.Properties.Resources.RU_Russia_Flag_icon;
-            resources.ApplyResources(this.kryptonContextMenuItem6, "kryptonContextMenuItem6");
-            // 
-            // buttonSpecAppMenu1
-            // 
-            resources.ApplyResources(this.buttonSpecAppMenu1, "buttonSpecAppMenu1");
-            this.buttonSpecAppMenu1.UniqueName = "7831FBE4D3744A35F2A7DA3803D75167";
-            // 
-            // kryptonManager1
-            // 
-            this.kryptonManager1.GlobalPaletteMode = ComponentFactory.Krypton.Toolkit.PaletteModeManager.Office2010Silver;
             // 
             // ribbonControl1
             // 
@@ -195,6 +95,7 @@
             this.ribbonControl1.SystemText.QatPlaceBelowRibbonText = resources.GetString("ribbonControl1.SystemText.QatPlaceBelowRibbonText");
             this.ribbonControl1.SystemText.QatRemoveItemText = resources.GetString("ribbonControl1.SystemText.QatRemoveItemText");
             this.ribbonControl1.TabGroupHeight = 14;
+            this.ribbonControl1.Click += new System.EventHandler(this.ribbonControl1_Click);
             // 
             // ribbonPanel1
             // 
@@ -214,6 +115,35 @@
             // 
             this.ribbonPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
+            // ribbonTabItem1
+            // 
+            this.ribbonTabItem1.Checked = true;
+            this.ribbonTabItem1.Name = "ribbonTabItem1";
+            this.ribbonTabItem1.Panel = this.ribbonPanel1;
+            resources.ApplyResources(this.ribbonTabItem1, "ribbonTabItem1");
+            // 
+            // OpenExchangeMonitorFrm
+            // 
+            this.OpenExchangeMonitorFrm.ItemAlignment = DevComponents.DotNetBar.eItemAlignment.Far;
+            this.OpenExchangeMonitorFrm.Name = "OpenExchangeMonitorFrm";
+            resources.ApplyResources(this.OpenExchangeMonitorFrm, "OpenExchangeMonitorFrm");
+            this.OpenExchangeMonitorFrm.Click += new System.EventHandler(this.OpenExchangeMonitorFrm_Click);
+            // 
+            // OpenAddrBookFrm
+            // 
+            this.OpenAddrBookFrm.Name = "OpenAddrBookFrm";
+            resources.ApplyResources(this.OpenAddrBookFrm, "OpenAddrBookFrm");
+            this.OpenAddrBookFrm.Click += new System.EventHandler(this.OpenAddrBookFrm_Click);
+            // 
+            // qatCustomizeItem1
+            // 
+            this.qatCustomizeItem1.Name = "qatCustomizeItem1";
+            // 
+            // styleManager1
+            // 
+            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2016;
+            this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255))))), System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(115)))), ((int)(((byte)(199))))));
+            // 
             // applicationButton1
             // 
             this.applicationButton1.AutoExpandOnClick = true;
@@ -222,7 +152,7 @@
             this.applicationButton1.Image = ((System.Drawing.Image)(resources.GetObject("applicationButton1.Image")));
             this.applicationButton1.ImageFixedSize = new System.Drawing.Size(16, 16);
             this.applicationButton1.ImagePaddingHorizontal = 0;
-            this.applicationButton1.ImagePaddingVertical = 0;
+            this.applicationButton1.ImagePaddingVertical = 1;
             this.applicationButton1.Name = "applicationButton1";
             this.applicationButton1.ShowSubItems = false;
             this.applicationButton1.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
@@ -340,35 +270,6 @@
             resources.ApplyResources(this.buttonItem5, "buttonItem5");
             this.buttonItem5.Click += new System.EventHandler(this.buttonItem5_Click);
             // 
-            // ribbonTabItem1
-            // 
-            this.ribbonTabItem1.Checked = true;
-            this.ribbonTabItem1.Name = "ribbonTabItem1";
-            this.ribbonTabItem1.Panel = this.ribbonPanel1;
-            resources.ApplyResources(this.ribbonTabItem1, "ribbonTabItem1");
-            // 
-            // OpenExchangeMonitorFrm
-            // 
-            this.OpenExchangeMonitorFrm.ItemAlignment = DevComponents.DotNetBar.eItemAlignment.Far;
-            this.OpenExchangeMonitorFrm.Name = "OpenExchangeMonitorFrm";
-            resources.ApplyResources(this.OpenExchangeMonitorFrm, "OpenExchangeMonitorFrm");
-            this.OpenExchangeMonitorFrm.Click += new System.EventHandler(this.OpenExchangeMonitorFrm_Click);
-            // 
-            // OpenAddrBookFrm
-            // 
-            this.OpenAddrBookFrm.Name = "OpenAddrBookFrm";
-            resources.ApplyResources(this.OpenAddrBookFrm, "OpenAddrBookFrm");
-            this.OpenAddrBookFrm.Click += new System.EventHandler(this.OpenAddrBookFrm_Click);
-            // 
-            // qatCustomizeItem1
-            // 
-            this.qatCustomizeItem1.Name = "qatCustomizeItem1";
-            // 
-            // styleManager1
-            // 
-            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2010Blue;
-            this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.White, System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(87)))), ((int)(((byte)(154))))));
-            // 
             // btnHelp
             // 
             this.btnHelp.Image = global::eNumismat2._0.Properties.Resources.help;
@@ -404,24 +305,6 @@
         }
 
         #endregion
-        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuHeading kryptonContextMenuHeading1;
-        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem NewDatabase;
-        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem OpenDatabase;
-        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuSeparator kryptonContextMenuSeparator1;
-        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem BackupDatabase;
-        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem CompressDatabase;
-        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuHeading kryptonContextMenuHeading2;
-        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem ApplicationSettings;
-        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem UserSettings;
-        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItems kryptonContextMenuItems1;
-        private ComponentFactory.Krypton.Ribbon.ButtonSpecAppMenu buttonSpecAppMenu1;
-        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem kryptonContextMenuItem2;
-        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem kryptonContextMenuItem3;
-        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem kryptonContextMenuItem4;
-        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem kryptonContextMenuItem5;
-        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem kryptonContextMenuItem6;
-        private ComponentFactory.Krypton.Toolkit.KryptonContextMenuItems kryptonContextMenuItems2;
-        private ComponentFactory.Krypton.Toolkit.KryptonManager kryptonManager1;
         private DevComponents.DotNetBar.RibbonControl ribbonControl1;
         private DevComponents.DotNetBar.RibbonPanel ribbonPanel1;
         private DevComponents.DotNetBar.ApplicationButton applicationButton1;

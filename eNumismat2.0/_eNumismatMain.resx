@@ -117,67 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="kryptonContextMenuHeading1.ExtraText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="kryptonContextMenuHeading1.Text" xml:space="preserve">
-    <value>Database</value>
-  </data>
-  <data name="NewDatabase.Text" xml:space="preserve">
-    <value>New Database</value>
-  </data>
-  <data name="OpenDatabase.Text" xml:space="preserve">
-    <value>Open Database</value>
-  </data>
-  <data name="BackupDatabase.Text" xml:space="preserve">
-    <value>Backup Database</value>
-  </data>
-  <data name="CompressDatabase.Text" xml:space="preserve">
-    <value>Compress Database</value>
-  </data>
-  <data name="kryptonContextMenuHeading2.ExtraText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="kryptonContextMenuHeading2.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="ApplicationSettings.Text" xml:space="preserve">
-    <value>App Settings</value>
-  </data>
-  <data name="UserSettings.Text" xml:space="preserve">
-    <value>User Settings</value>
-  </data>
-  <data name="kryptonContextMenuItem2.Text" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="kryptonContextMenuItem3.Text" xml:space="preserve">
-    <value>German</value>
-  </data>
-  <data name="kryptonContextMenuItem4.Text" xml:space="preserve">
-    <value>French</value>
-  </data>
-  <data name="kryptonContextMenuItem5.Text" xml:space="preserve">
-    <value>Spanish</value>
-  </data>
-  <data name="kryptonContextMenuItem6.Text" xml:space="preserve">
-    <value>Russian</value>
-  </data>
-  <data name="buttonSpecAppMenu1.Text" xml:space="preserve">
-    <value>TEST</value>
-  </data>
-  <metadata name="kryptonManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="ribbonPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="ribbonPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 53</value>
+    <value>0, 56</value>
   </data>
   <data name="ribbonPanel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 3</value>
+    <value>3, 0, 3, 2</value>
   </data>
   <data name="ribbonPanel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1035, 98</value>
@@ -225,6 +174,51 @@
         rkJggg==
 </value>
   </data>
+  <data name="buttonItem2.Text" xml:space="preserve">
+    <value>New Database</value>
+  </data>
+  <data name="buttonItem3.Text" xml:space="preserve">
+    <value>Open Database</value>
+  </data>
+  <data name="buttonItem4.Text" xml:space="preserve">
+    <value>Backup Database</value>
+  </data>
+  <data name="buttonItem6.Text" xml:space="preserve">
+    <value>Compress Database</value>
+  </data>
+  <data name="LangEN.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="LangDE.Text" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="LangFR.Text" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="LangES.Text" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="LangPT.Text" xml:space="preserve">
+    <value>Portuguese</value>
+  </data>
+  <data name="LangRU.Text" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="buttonItem10.Text" xml:space="preserve">
+    <value>Language Settings</value>
+  </data>
+  <data name="buttonItem11.Text" xml:space="preserve">
+    <value>User Settings</value>
+  </data>
+  <data name="buttonItem12.Text" xml:space="preserve">
+    <value>Application Settings</value>
+  </data>
+  <data name="buttonItem9.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="buttonItem5.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
   <data name="applicationButton1.Text" xml:space="preserve">
     <value>&amp;File</value>
   </data>
@@ -239,9 +233,6 @@
   </data>
   <data name="ribbonControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 1</value>
-  </data>
-  <data name="ribbonControl1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 3</value>
   </data>
   <data name="btnAbout.Text" xml:space="preserve">
     <value>About eNumista</value>
@@ -315,51 +306,6 @@
   <data name="&gt;&gt;ribbonControl1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="buttonItem2.Text" xml:space="preserve">
-    <value>New Database</value>
-  </data>
-  <data name="buttonItem3.Text" xml:space="preserve">
-    <value>Open Database</value>
-  </data>
-  <data name="buttonItem4.Text" xml:space="preserve">
-    <value>Backup Database</value>
-  </data>
-  <data name="buttonItem6.Text" xml:space="preserve">
-    <value>Compress Database</value>
-  </data>
-  <data name="buttonItem9.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="buttonItem10.Text" xml:space="preserve">
-    <value>Language Settings</value>
-  </data>
-  <data name="LangEN.Text" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="LangDE.Text" xml:space="preserve">
-    <value>German</value>
-  </data>
-  <data name="LangFR.Text" xml:space="preserve">
-    <value>French</value>
-  </data>
-  <data name="LangES.Text" xml:space="preserve">
-    <value>Spanish</value>
-  </data>
-  <data name="LangPT.Text" xml:space="preserve">
-    <value>Portuguese</value>
-  </data>
-  <data name="LangRU.Text" xml:space="preserve">
-    <value>Russian</value>
-  </data>
-  <data name="buttonItem11.Text" xml:space="preserve">
-    <value>User Settings</value>
-  </data>
-  <data name="buttonItem12.Text" xml:space="preserve">
-    <value>Application Settings</value>
-  </data>
-  <data name="buttonItem5.Text" xml:space="preserve">
-    <value>Close</value>
-  </data>
   <metadata name="styleManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>166, 17</value>
   </metadata>
@@ -375,113 +321,35 @@
   <data name="$this.Text" xml:space="preserve">
     <value>eNumismat</value>
   </data>
-  <data name="&gt;&gt;kryptonContextMenuHeading1.Name" xml:space="preserve">
-    <value>kryptonContextMenuHeading1</value>
+  <data name="&gt;&gt;ribbonTabItem1.Name" xml:space="preserve">
+    <value>ribbonTabItem1</value>
   </data>
-  <data name="&gt;&gt;kryptonContextMenuHeading1.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuHeading, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  <data name="&gt;&gt;ribbonTabItem1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonTabItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;NewDatabase.Name" xml:space="preserve">
-    <value>NewDatabase</value>
+  <data name="&gt;&gt;OpenExchangeMonitorFrm.Name" xml:space="preserve">
+    <value>OpenExchangeMonitorFrm</value>
   </data>
-  <data name="&gt;&gt;NewDatabase.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  <data name="&gt;&gt;OpenExchangeMonitorFrm.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;OpenDatabase.Name" xml:space="preserve">
-    <value>OpenDatabase</value>
+  <data name="&gt;&gt;OpenAddrBookFrm.Name" xml:space="preserve">
+    <value>OpenAddrBookFrm</value>
   </data>
-  <data name="&gt;&gt;OpenDatabase.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  <data name="&gt;&gt;OpenAddrBookFrm.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;kryptonContextMenuSeparator1.Name" xml:space="preserve">
-    <value>kryptonContextMenuSeparator1</value>
+  <data name="&gt;&gt;qatCustomizeItem1.Name" xml:space="preserve">
+    <value>qatCustomizeItem1</value>
   </data>
-  <data name="&gt;&gt;kryptonContextMenuSeparator1.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuSeparator, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  <data name="&gt;&gt;qatCustomizeItem1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.QatCustomizeItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;BackupDatabase.Name" xml:space="preserve">
-    <value>BackupDatabase</value>
+  <data name="&gt;&gt;styleManager1.Name" xml:space="preserve">
+    <value>styleManager1</value>
   </data>
-  <data name="&gt;&gt;BackupDatabase.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="&gt;&gt;CompressDatabase.Name" xml:space="preserve">
-    <value>CompressDatabase</value>
-  </data>
-  <data name="&gt;&gt;CompressDatabase.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="&gt;&gt;kryptonContextMenuHeading2.Name" xml:space="preserve">
-    <value>kryptonContextMenuHeading2</value>
-  </data>
-  <data name="&gt;&gt;kryptonContextMenuHeading2.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuHeading, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="&gt;&gt;ApplicationSettings.Name" xml:space="preserve">
-    <value>ApplicationSettings</value>
-  </data>
-  <data name="&gt;&gt;ApplicationSettings.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="&gt;&gt;UserSettings.Name" xml:space="preserve">
-    <value>UserSettings</value>
-  </data>
-  <data name="&gt;&gt;UserSettings.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="&gt;&gt;kryptonContextMenuItems1.Name" xml:space="preserve">
-    <value>kryptonContextMenuItems1</value>
-  </data>
-  <data name="&gt;&gt;kryptonContextMenuItems1.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItems, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="&gt;&gt;kryptonContextMenuItem2.Name" xml:space="preserve">
-    <value>kryptonContextMenuItem2</value>
-  </data>
-  <data name="&gt;&gt;kryptonContextMenuItem2.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="&gt;&gt;kryptonContextMenuItem3.Name" xml:space="preserve">
-    <value>kryptonContextMenuItem3</value>
-  </data>
-  <data name="&gt;&gt;kryptonContextMenuItem3.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="&gt;&gt;kryptonContextMenuItem4.Name" xml:space="preserve">
-    <value>kryptonContextMenuItem4</value>
-  </data>
-  <data name="&gt;&gt;kryptonContextMenuItem4.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="&gt;&gt;kryptonContextMenuItem5.Name" xml:space="preserve">
-    <value>kryptonContextMenuItem5</value>
-  </data>
-  <data name="&gt;&gt;kryptonContextMenuItem5.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="&gt;&gt;kryptonContextMenuItem6.Name" xml:space="preserve">
-    <value>kryptonContextMenuItem6</value>
-  </data>
-  <data name="&gt;&gt;kryptonContextMenuItem6.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItem, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="&gt;&gt;buttonSpecAppMenu1.Name" xml:space="preserve">
-    <value>buttonSpecAppMenu1</value>
-  </data>
-  <data name="&gt;&gt;buttonSpecAppMenu1.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Ribbon.ButtonSpecAppMenu, ComponentFactory.Krypton.Ribbon, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="&gt;&gt;kryptonContextMenuItems2.Name" xml:space="preserve">
-    <value>kryptonContextMenuItems2</value>
-  </data>
-  <data name="&gt;&gt;kryptonContextMenuItems2.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Toolkit.KryptonContextMenuItems, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
-  </data>
-  <data name="&gt;&gt;kryptonManager1.Name" xml:space="preserve">
-    <value>kryptonManager1</value>
-  </data>
-  <data name="&gt;&gt;kryptonManager1.Type" xml:space="preserve">
-    <value>ComponentFactory.Krypton.Toolkit.KryptonManager, ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  <data name="&gt;&gt;styleManager1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.StyleManager, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
   <data name="&gt;&gt;applicationButton1.Name" xml:space="preserve">
     <value>applicationButton1</value>
@@ -578,36 +446,6 @@
   </data>
   <data name="&gt;&gt;buttonItem5.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;ribbonTabItem1.Name" xml:space="preserve">
-    <value>ribbonTabItem1</value>
-  </data>
-  <data name="&gt;&gt;ribbonTabItem1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.RibbonTabItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;OpenExchangeMonitorFrm.Name" xml:space="preserve">
-    <value>OpenExchangeMonitorFrm</value>
-  </data>
-  <data name="&gt;&gt;OpenExchangeMonitorFrm.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;OpenAddrBookFrm.Name" xml:space="preserve">
-    <value>OpenAddrBookFrm</value>
-  </data>
-  <data name="&gt;&gt;OpenAddrBookFrm.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;qatCustomizeItem1.Name" xml:space="preserve">
-    <value>qatCustomizeItem1</value>
-  </data>
-  <data name="&gt;&gt;qatCustomizeItem1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.QatCustomizeItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;styleManager1.Name" xml:space="preserve">
-    <value>styleManager1</value>
-  </data>
-  <data name="&gt;&gt;styleManager1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.StyleManager, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
   <data name="&gt;&gt;btnHelp.Name" xml:space="preserve">
     <value>btnHelp</value>
