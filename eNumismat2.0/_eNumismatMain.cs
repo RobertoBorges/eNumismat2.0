@@ -30,6 +30,13 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void DisplayLanguage(string method = null, string culture = null)
         {
+            LangEN.Checked = false;
+            LangDE.Checked = false;
+            LangFR.Checked = false;
+            LangES.Checked = false;
+            LangPT.Checked = false;
+            LangRU.Checked = false;
+
             if (method == "set" && culture != null)
             {
                 Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(culture);
@@ -52,60 +59,30 @@ namespace eNumismat2._0
             if (CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "en")
             {
                 LangEN.Checked = true;
-                LangDE.Checked = false;
-                LangFR.Checked = false;
-                LangES.Checked = false;
-                LangPT.Checked = false;
-                LangRU.Checked = false;
                 //toolStripStatusLabel2.Image = Properties.Resources.US_United_States_Flag_icon;
             }
             else if (CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "de")
             {
-                LangEN.Checked = false;
                 LangDE.Checked = true;
-                LangFR.Checked = false;
-                LangES.Checked = false;
-                LangPT.Checked = false;
-                LangRU.Checked = false;
                 //toolStripStatusLabel2.Image = Properties.Resources.DE_Germany_Flag_icon;
             }
             else if (CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "fr")
             {
-                LangEN.Checked = false;
-                LangDE.Checked = false;
                 LangFR.Checked = true;
-                LangES.Checked = false;
-                LangPT.Checked = false;
-                LangRU.Checked = false;
                 //toolStripStatusLabel2.Image = Properties.Resources.FR_France_Flag_icon;
             }
             else if (CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "es")
             {
-                LangEN.Checked = false;
-                LangDE.Checked = false;
-                LangFR.Checked = false;
                 LangES.Checked = true;
-                LangPT.Checked = false;
-                LangRU.Checked = false;
                 //toolStripStatusLabel2.Image = Properties.Resources.ES_Spain_Flag_icon;
             }
             else if (CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "pt")
             {
-                LangEN.Checked = false;
-                LangDE.Checked = false;
-                LangFR.Checked = false;
-                LangES.Checked = false;
                 LangPT.Checked = true;
-                LangRU.Checked = false;
                 //toolStripStatusLabel2.Image = Properties.Resources.ES_Spain_Flag_icon;
             }
             else if (CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "ru")
             {
-                LangEN.Checked = false;
-                LangDE.Checked = false;
-                LangFR.Checked = false;
-                LangES.Checked = false;
-                LangPT.Checked = false;
                 LangRU.Checked = true;
                 //toolStripStatusLabel2.Image = Properties.Resources.ES_Spain_Flag_icon;
             }
