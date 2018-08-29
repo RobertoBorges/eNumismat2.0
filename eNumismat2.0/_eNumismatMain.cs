@@ -50,43 +50,92 @@ namespace eNumismat2._0
                     Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(Properties.Settings.Default.UICulture);
                 }
             }
-                
+
             Controls.Clear();
             InitializeComponent();
 
             if (CultureInfo.CurrentUICulture.Name == "en-GB")
             {
                 LangEN_GB.Checked = true;
+                LangEN_US.Checked = false;
+                LangDE.Checked = false;
+                LangFR.Checked = false;
+                LangES.Checked = false;
+                LangPT.Checked = false;
+                LangRU.Checked = false;
+
                 toolStripStatusLabel1.Image = Properties.Resources.GB_United_Kingdom_Flag_icon;
             }
             else if (CultureInfo.CurrentUICulture.Name == "en-US")
             {
+                LangEN_GB.Checked = false;
                 LangEN_US.Checked = true;
+                LangDE.Checked = false;
+                LangFR.Checked = false;
+                LangES.Checked = false;
+                LangPT.Checked = false;
+                LangRU.Checked = false;
+
                 toolStripStatusLabel1.Image = Properties.Resources.US_United_States_Flag_icon;
             }
             else if (CultureInfo.CurrentUICulture.Name == "de-DE")
             {
+                LangEN_GB.Checked = false;
+                LangEN_US.Checked = false;
                 LangDE.Checked = true;
+                LangFR.Checked = false;
+                LangES.Checked = false;
+                LangPT.Checked = false;
+                LangRU.Checked = false;
+
                 toolStripStatusLabel1.Image = Properties.Resources.DE_Germany_Flag_icon;
             }
             else if (CultureInfo.CurrentUICulture.Name == "fr-FR")
             {
+                LangEN_GB.Checked = false;
+                LangEN_US.Checked = false;
+                LangDE.Checked = false;
                 LangFR.Checked = true;
+                LangES.Checked = false;
+                LangPT.Checked = false;
+                LangRU.Checked = false;
+
                 toolStripStatusLabel1.Image = Properties.Resources.FR_France_Flag_icon;
             }
             else if (CultureInfo.CurrentUICulture.Name == "es-ES")
             {
+                LangEN_GB.Checked = false;
+                LangEN_US.Checked = false;
+                LangDE.Checked = false;
+                LangFR.Checked = false;
                 LangES.Checked = true;
+                LangPT.Checked = false;
+                LangRU.Checked = false;
+
                 toolStripStatusLabel1.Image = Properties.Resources.ES_Spain_Flag_icon;
             }
             else if (CultureInfo.CurrentUICulture.Name == "pt-PT")
             {
+                LangEN_GB.Checked = false;
+                LangEN_US.Checked = false;
+                LangDE.Checked = false;
+                LangFR.Checked = false;
+                LangES.Checked = false;
                 LangPT.Checked = true;
+                LangRU.Checked = false;
+
                 toolStripStatusLabel1.Image = Properties.Resources.PT_Portugal_Flag_icon;
             }
             else if (CultureInfo.CurrentUICulture.Name == "ru-RU")
             {
+                LangEN_GB.Checked = false;
+                LangEN_US.Checked = false;
+                LangDE.Checked = false;
+                LangFR.Checked = false;
+                LangES.Checked = false;
+                LangPT.Checked = false;
                 LangRU.Checked = true;
+
                 toolStripStatusLabel1.Image = Properties.Resources.RU_Russia_Flag_icon;
             }
             else
