@@ -13,17 +13,16 @@ using DevComponents.DotNetBar;
 
 namespace eNumismat2._0
 {
-    public partial class _eNumismatMain : RibbonForm
+    public partial class _eNumismatMain : Form
     {
-        string UICulture = null;
+        // read saved UI Culture from SETTINGS file.
+        //UICulture = 
+        string UICulture = Properties.Settings.Default.UICulture;
 
         //=====================================================================================================================================================================
         public _eNumismatMain()
         {
             InitializeComponent();
-
-            // read saved UI Culture from SETTINGS file.
-            UICulture = Properties.Settings.Default.UICulture;
         }
 
         //=====================================================================================================================================================================
@@ -35,62 +34,53 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void DisplayLanguage(string method = null, string culture = null)
         {
-            LangEN.Checked = false;
-            LangDE.Checked = false;
-            LangFR.Checked = false;
-            LangES.Checked = false;
-            LangPT.Checked = false;
-            LangRU.Checked = false;
-
             if (method == "set" && culture != null)
             {
                 Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(culture);
                 Properties.Settings.Default.UICulture = CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
                 Properties.Settings.Default.Save();
-
-                MessageBox.Show(Properties.Settings.Default.UICulture);
-
-                Controls.Clear();
-                InitializeComponent();
             }
-
-            // Set Application Language
-            if (Properties.Settings.Default.UICulture != null)
+            else
             {
-                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(Properties.Settings.Default.UICulture);
-                this.Controls.Clear();
-                this.InitializeComponent();
+                // Set Application Language
+                if (Properties.Settings.Default.UICulture != null)
+                {
+                    Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(Properties.Settings.Default.UICulture);
+                }
             }
+            Controls.Clear();
+            InitializeComponent();
+
 
             if (CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "en")
             {
                 LangEN.Checked = true;
-                //toolStripStatusLabel2.Image = Properties.Resources.US_United_States_Flag_icon;
+                toolStripStatusLabel1.Image = Properties.Resources.GB_United_Kingdom_Flag_icon;
             }
             else if (CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "de")
             {
                 LangDE.Checked = true;
-                //toolStripStatusLabel2.Image = Properties.Resources.DE_Germany_Flag_icon;
+                toolStripStatusLabel1.Image = Properties.Resources.DE_Germany_Flag_icon;
             }
             else if (CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "fr")
             {
                 LangFR.Checked = true;
-                //toolStripStatusLabel2.Image = Properties.Resources.FR_France_Flag_icon;
+                toolStripStatusLabel1.Image = Properties.Resources.FR_France_Flag_icon;
             }
             else if (CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "es")
             {
                 LangES.Checked = true;
-                //toolStripStatusLabel2.Image = Properties.Resources.ES_Spain_Flag_icon;
+                toolStripStatusLabel1.Image = Properties.Resources.ES_Spain_Flag_icon;
             }
             else if (CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "pt")
             {
                 LangPT.Checked = true;
-                //toolStripStatusLabel2.Image = Properties.Resources.ES_Spain_Flag_icon;
+                toolStripStatusLabel1.Image = Properties.Resources.PT_Portugal_Flag_icon;
             }
             else if (CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "ru")
             {
                 LangRU.Checked = true;
-                //toolStripStatusLabel2.Image = Properties.Resources.ES_Spain_Flag_icon;
+                toolStripStatusLabel1.Image = Properties.Resources.RU_Russia_Flag_icon;
             }
             else
             {
@@ -100,8 +90,11 @@ namespace eNumismat2._0
                 LangES.Checked = false;
                 LangPT.Checked = false;
                 LangRU.Checked = false;
-                //toolStripStatusLabel2.Image = null;
+
+                toolStripStatusLabel1.Image = null;
             }
+
+            toolStripStatusLabel1.Text = CultureInfo.CurrentUICulture.DisplayName;
         }
 
         // Open "child" Forms
@@ -175,7 +168,7 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void LangEN_Click(object sender, EventArgs e)
         {
-            DisplayLanguage("set", "en-EN");
+            DisplayLanguage("set", "en-GB");
         }
 
         //=====================================================================================================================================================================

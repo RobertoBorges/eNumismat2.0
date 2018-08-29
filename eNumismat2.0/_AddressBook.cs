@@ -9,11 +9,16 @@ using DevComponents.DotNetBar;
 
 namespace eNumismat2._0
 {
-    public partial class _AddressBook : DevComponents.DotNetBar.RibbonForm
+    public partial class _AddressBook : Form
     {
         public _AddressBook()
         {
             InitializeComponent();
+        }
+
+        private void ribbonControl1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

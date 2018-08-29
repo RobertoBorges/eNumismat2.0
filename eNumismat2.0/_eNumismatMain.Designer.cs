@@ -32,12 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_eNumismatMain));
             this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
             this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
-            this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
-            this.OpenAddrBookFrm = new DevComponents.DotNetBar.ButtonItem();
-            this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
-            this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.applicationButton1 = new DevComponents.DotNetBar.ApplicationButton();
-            this.OpenExchangeMonitorFrm = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem2 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem3 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem4 = new DevComponents.DotNetBar.ButtonItem();
@@ -53,10 +48,18 @@
             this.buttonItem11 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem12 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem5 = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
+            this.OpenExchangeMonitorFrm = new DevComponents.DotNetBar.ButtonItem();
+            this.OpenAddrBookFrm = new DevComponents.DotNetBar.ButtonItem();
             this.btnHelp = new DevComponents.DotNetBar.ButtonItem();
             this.btnAbout = new DevComponents.DotNetBar.ButtonItem();
             this.btnHelp2 = new DevComponents.DotNetBar.ButtonItem();
+            this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
+            this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.ribbonControl1.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // ribbonControl1
@@ -116,30 +119,6 @@
             // 
             this.ribbonPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
-            // ribbonTabItem1
-            // 
-            this.ribbonTabItem1.Checked = true;
-            this.ribbonTabItem1.Name = "ribbonTabItem1";
-            this.ribbonTabItem1.Panel = this.ribbonPanel1;
-            resources.ApplyResources(this.ribbonTabItem1, "ribbonTabItem1");
-            // 
-            // OpenAddrBookFrm
-            // 
-            this.OpenAddrBookFrm.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.OpenAddrBookFrm.Image = global::eNumismat2._0.Properties.Resources.book_addresses;
-            this.OpenAddrBookFrm.Name = "OpenAddrBookFrm";
-            resources.ApplyResources(this.OpenAddrBookFrm, "OpenAddrBookFrm");
-            this.OpenAddrBookFrm.Click += new System.EventHandler(this.OpenAddrBookFrm_Click);
-            // 
-            // qatCustomizeItem1
-            // 
-            this.qatCustomizeItem1.Name = "qatCustomizeItem1";
-            // 
-            // styleManager1
-            // 
-            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Light;
-            this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254))))), System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(143))))));
-            // 
             // applicationButton1
             // 
             this.applicationButton1.AutoExpandOnClick = true;
@@ -159,18 +138,6 @@
             this.buttonItem9,
             this.buttonItem5});
             resources.ApplyResources(this.applicationButton1, "applicationButton1");
-            // 
-            // OpenExchangeMonitorFrm
-            // 
-            this.OpenExchangeMonitorFrm.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.OpenExchangeMonitorFrm.CanCustomize = false;
-            this.OpenExchangeMonitorFrm.GlobalItem = false;
-            this.OpenExchangeMonitorFrm.Image = global::eNumismat2._0.Properties.Resources.page_refresh;
-            this.OpenExchangeMonitorFrm.ItemAlignment = DevComponents.DotNetBar.eItemAlignment.Far;
-            this.OpenExchangeMonitorFrm.Name = "OpenExchangeMonitorFrm";
-            this.OpenExchangeMonitorFrm.ShowSubItems = false;
-            resources.ApplyResources(this.OpenExchangeMonitorFrm, "OpenExchangeMonitorFrm");
-            this.OpenExchangeMonitorFrm.Click += new System.EventHandler(this.OpenExchangeMonitorFrm_Click);
             // 
             // buttonItem2
             // 
@@ -280,6 +247,33 @@
             resources.ApplyResources(this.buttonItem5, "buttonItem5");
             this.buttonItem5.Click += new System.EventHandler(this.buttonItem5_Click);
             // 
+            // ribbonTabItem1
+            // 
+            this.ribbonTabItem1.Checked = true;
+            this.ribbonTabItem1.Name = "ribbonTabItem1";
+            this.ribbonTabItem1.Panel = this.ribbonPanel1;
+            resources.ApplyResources(this.ribbonTabItem1, "ribbonTabItem1");
+            // 
+            // OpenExchangeMonitorFrm
+            // 
+            this.OpenExchangeMonitorFrm.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.OpenExchangeMonitorFrm.CanCustomize = false;
+            this.OpenExchangeMonitorFrm.GlobalItem = false;
+            this.OpenExchangeMonitorFrm.Image = global::eNumismat2._0.Properties.Resources.page_refresh;
+            this.OpenExchangeMonitorFrm.ItemAlignment = DevComponents.DotNetBar.eItemAlignment.Far;
+            this.OpenExchangeMonitorFrm.Name = "OpenExchangeMonitorFrm";
+            this.OpenExchangeMonitorFrm.ShowSubItems = false;
+            resources.ApplyResources(this.OpenExchangeMonitorFrm, "OpenExchangeMonitorFrm");
+            this.OpenExchangeMonitorFrm.Click += new System.EventHandler(this.OpenExchangeMonitorFrm_Click);
+            // 
+            // OpenAddrBookFrm
+            // 
+            this.OpenAddrBookFrm.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.OpenAddrBookFrm.Image = global::eNumismat2._0.Properties.Resources.book_addresses;
+            this.OpenAddrBookFrm.Name = "OpenAddrBookFrm";
+            resources.ApplyResources(this.OpenAddrBookFrm, "OpenAddrBookFrm");
+            this.OpenAddrBookFrm.Click += new System.EventHandler(this.OpenAddrBookFrm_Click);
+            // 
             // btnHelp
             // 
             this.btnHelp.Image = global::eNumismat2._0.Properties.Resources.help;
@@ -301,16 +295,42 @@
             this.btnHelp2.Name = "btnHelp2";
             resources.ApplyResources(this.btnHelp2, "btnHelp2");
             // 
+            // qatCustomizeItem1
+            // 
+            this.qatCustomizeItem1.Name = "qatCustomizeItem1";
+            // 
+            // styleManager1
+            // 
+            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Light;
+            this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254))))), System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(143))))));
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.BackColor = System.Drawing.Color.Transparent;
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1});
+            resources.ApplyResources(this.statusStrip1, "statusStrip1");
+            this.statusStrip1.Name = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
+            // 
             // _eNumismatMain
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.ribbonControl1);
             this.Name = "_eNumismatMain";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ribbonControl1.ResumeLayout(false);
             this.ribbonControl1.PerformLayout();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -341,6 +361,8 @@
         private DevComponents.DotNetBar.ButtonItem btnHelp;
         private DevComponents.DotNetBar.ButtonItem btnAbout;
         private DevComponents.DotNetBar.ButtonItem btnHelp2;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
     }
 }
 
