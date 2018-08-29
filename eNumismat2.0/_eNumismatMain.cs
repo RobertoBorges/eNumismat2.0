@@ -13,10 +13,8 @@ using DevComponents.DotNetBar;
 
 namespace eNumismat2._0
 {
-    public partial class _eNumismatMain : Form
+    public partial class _eNumismatMain : RibbonForm
     {
-        // read saved UI Culture from SETTINGS file.
-        //UICulture = 
         string UICulture = Properties.Settings.Default.UICulture;
 
         //=====================================================================================================================================================================
@@ -103,7 +101,7 @@ namespace eNumismat2._0
 
                 toolStripStatusLabel1.Image = null;
             }
-            toolStripStatusLabel1.Text = CultureInfo.CurrentUICulture.DisplayName; //TwoLetterISOLanguageName;
+            toolStripStatusLabel1.Text = CultureInfo.CurrentUICulture.DisplayName;
         }
 
         // Open "child" Forms
@@ -131,7 +129,7 @@ namespace eNumismat2._0
 
         //=====================================================================================================================================================================
         // About Form
-        private void btnAbout_Click(object sender, EventArgs e)
+        private void BtnAbout_Click(object sender, EventArgs e)
         {
             if (OpenForm("_AboutBox") == false)
             {
@@ -165,13 +163,6 @@ namespace eNumismat2._0
                 }
             }
             return IsOpen;
-        }
-
-        //=====================================================================================================================================================================
-        private void buttonItem5_Click(object sender, EventArgs e)
-        {
-            // implement DB Backup if enabled in settings
-            Close();
         }
 
         //=====================================================================================================================================================================
@@ -214,6 +205,13 @@ namespace eNumismat2._0
         private void LangRU_Click(object sender, EventArgs e)
         {
             DisplayLanguage("set", "ru-RU");
+        }
+
+        //=====================================================================================================================================================================
+        private void buttonItem5_Click(object sender, EventArgs e)
+        {
+            // implement DB Backup if enabled in settings
+            Close();
         }
     }
 }

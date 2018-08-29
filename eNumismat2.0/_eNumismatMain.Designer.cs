@@ -40,6 +40,7 @@
             this.buttonItem9 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem10 = new DevComponents.DotNetBar.ButtonItem();
             this.LangEN_GB = new DevComponents.DotNetBar.ButtonItem();
+            this.LangEN_US = new DevComponents.DotNetBar.ButtonItem();
             this.LangDE = new DevComponents.DotNetBar.ButtonItem();
             this.LangFR = new DevComponents.DotNetBar.ButtonItem();
             this.LangES = new DevComponents.DotNetBar.ButtonItem();
@@ -58,7 +59,6 @@
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.LangEN_US = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonControl1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -80,6 +80,7 @@
             this.OpenExchangeMonitorFrm,
             this.OpenAddrBookFrm});
             this.ribbonControl1.KeyTipsFont = new System.Drawing.Font("Tahoma", 7F);
+            this.ribbonControl1.MdiSystemItemVisible = false;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.QuickToolbarItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.btnHelp,
@@ -101,6 +102,7 @@
             this.ribbonControl1.SystemText.QatPlaceBelowRibbonText = resources.GetString("ribbonControl1.SystemText.QatPlaceBelowRibbonText");
             this.ribbonControl1.SystemText.QatRemoveItemText = resources.GetString("ribbonControl1.SystemText.QatRemoveItemText");
             this.ribbonControl1.TabGroupHeight = 14;
+            this.ribbonControl1.TabGroupsVisible = true;
             // 
             // ribbonPanel1
             // 
@@ -196,6 +198,13 @@
             resources.ApplyResources(this.LangEN_GB, "LangEN_GB");
             this.LangEN_GB.Click += new System.EventHandler(this.LangEN_GB_Click);
             // 
+            // LangEN_US
+            // 
+            this.LangEN_US.Image = global::eNumismat2._0.Properties.Resources.US_United_States_Flag_icon;
+            this.LangEN_US.Name = "LangEN_US";
+            resources.ApplyResources(this.LangEN_US, "LangEN_US");
+            this.LangEN_US.Click += new System.EventHandler(this.LangEN_US_Click);
+            // 
             // LangDE
             // 
             this.LangDE.Image = global::eNumismat2._0.Properties.Resources.DE_Germany_Flag_icon;
@@ -289,7 +298,7 @@
             this.btnAbout.Image = global::eNumismat2._0.Properties.Resources.information;
             this.btnAbout.Name = "btnAbout";
             resources.ApplyResources(this.btnAbout, "btnAbout");
-            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
+            this.btnAbout.Click += new System.EventHandler(this.BtnAbout_Click);
             // 
             // btnHelp2
             // 
@@ -319,17 +328,10 @@
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
             // 
-            // LangEN_US
-            // 
-            this.LangEN_US.Image = global::eNumismat2._0.Properties.Resources.US_United_States_Flag_icon;
-            this.LangEN_US.Name = "LangEN_US";
-            resources.ApplyResources(this.LangEN_US, "LangEN_US");
-            this.LangEN_US.Click += new System.EventHandler(this.LangEN_US_Click);
-            // 
             // _eNumismatMain
             // 
             resources.ApplyResources(this, "$this");
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.ribbonControl1);
             this.Name = "_eNumismatMain";
