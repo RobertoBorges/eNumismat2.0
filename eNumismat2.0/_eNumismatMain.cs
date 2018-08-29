@@ -22,7 +22,7 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         public _eNumismatMain()
         {
-            InitializeComponent();
+            InitializeComponent();           
         }
 
         //=====================================================================================================================================================================
@@ -37,54 +37,64 @@ namespace eNumismat2._0
             if (method == "set" && culture != null)
             {
                 Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(culture);
-                Properties.Settings.Default.UICulture = CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
+                Properties.Settings.Default.UICulture = CultureInfo.CurrentUICulture.Name;
                 Properties.Settings.Default.Save();
             }
             else
             {
-                // Set Application Language
-                if (Properties.Settings.Default.UICulture != null)
+                if (Properties.Settings.Default.UICulture == null)
+                {
+                    Properties.Settings.Default.UICulture = CultureInfo.CurrentUICulture.Name;
+                    Properties.Settings.Default.Save();
+                }
+                else
                 {
                     Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(Properties.Settings.Default.UICulture);
                 }
             }
+                
             Controls.Clear();
             InitializeComponent();
 
-
-            if (CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "en")
+            if (CultureInfo.CurrentUICulture.Name == "en-GB")
             {
-                LangEN.Checked = true;
+                LangEN_GB.Checked = true;
                 toolStripStatusLabel1.Image = Properties.Resources.GB_United_Kingdom_Flag_icon;
             }
-            else if (CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "de")
+            else if (CultureInfo.CurrentUICulture.Name == "en-US")
+            {
+                LangEN_US.Checked = true;
+                toolStripStatusLabel1.Image = Properties.Resources.US_United_States_Flag_icon;
+            }
+            else if (CultureInfo.CurrentUICulture.Name == "de-DE")
             {
                 LangDE.Checked = true;
                 toolStripStatusLabel1.Image = Properties.Resources.DE_Germany_Flag_icon;
             }
-            else if (CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "fr")
+            else if (CultureInfo.CurrentUICulture.Name == "fr-FR")
             {
                 LangFR.Checked = true;
                 toolStripStatusLabel1.Image = Properties.Resources.FR_France_Flag_icon;
             }
-            else if (CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "es")
+            else if (CultureInfo.CurrentUICulture.Name == "es-ES")
             {
                 LangES.Checked = true;
                 toolStripStatusLabel1.Image = Properties.Resources.ES_Spain_Flag_icon;
             }
-            else if (CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "pt")
+            else if (CultureInfo.CurrentUICulture.Name == "pt-PT")
             {
                 LangPT.Checked = true;
                 toolStripStatusLabel1.Image = Properties.Resources.PT_Portugal_Flag_icon;
             }
-            else if (CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "ru")
+            else if (CultureInfo.CurrentUICulture.Name == "ru-RU")
             {
                 LangRU.Checked = true;
                 toolStripStatusLabel1.Image = Properties.Resources.RU_Russia_Flag_icon;
             }
             else
             {
-                LangEN.Checked = false;
+                LangEN_GB.Checked = false;
+                LangEN_US.Checked = false;
                 LangDE.Checked = false;
                 LangFR.Checked = false;
                 LangES.Checked = false;
@@ -93,8 +103,7 @@ namespace eNumismat2._0
 
                 toolStripStatusLabel1.Image = null;
             }
-
-            toolStripStatusLabel1.Text = CultureInfo.CurrentUICulture.DisplayName;
+            toolStripStatusLabel1.Text = CultureInfo.CurrentUICulture.DisplayName; //TwoLetterISOLanguageName;
         }
 
         // Open "child" Forms
@@ -166,9 +175,15 @@ namespace eNumismat2._0
         }
 
         //=====================================================================================================================================================================
-        private void LangEN_Click(object sender, EventArgs e)
+        private void LangEN_GB_Click(object sender, EventArgs e)
         {
             DisplayLanguage("set", "en-GB");
+        }
+
+        //=====================================================================================================================================================================
+        private void LangEN_US_Click(object sender, EventArgs e)
+        {
+            DisplayLanguage("set", "en-US");
         }
 
         //=====================================================================================================================================================================

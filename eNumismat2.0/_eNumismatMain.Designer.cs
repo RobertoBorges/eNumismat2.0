@@ -39,7 +39,7 @@
             this.buttonItem6 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem9 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem10 = new DevComponents.DotNetBar.ButtonItem();
-            this.LangEN = new DevComponents.DotNetBar.ButtonItem();
+            this.LangEN_GB = new DevComponents.DotNetBar.ButtonItem();
             this.LangDE = new DevComponents.DotNetBar.ButtonItem();
             this.LangFR = new DevComponents.DotNetBar.ButtonItem();
             this.LangES = new DevComponents.DotNetBar.ButtonItem();
@@ -58,6 +58,7 @@
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.LangEN_US = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonControl1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -179,7 +180,8 @@
             // 
             this.buttonItem10.Name = "buttonItem10";
             this.buttonItem10.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.LangEN,
+            this.LangEN_GB,
+            this.LangEN_US,
             this.LangDE,
             this.LangFR,
             this.LangES,
@@ -187,12 +189,12 @@
             this.LangRU});
             resources.ApplyResources(this.buttonItem10, "buttonItem10");
             // 
-            // LangEN
+            // LangEN_GB
             // 
-            this.LangEN.Image = global::eNumismat2._0.Properties.Resources.GB_United_Kingdom_Flag_icon;
-            this.LangEN.Name = "LangEN";
-            resources.ApplyResources(this.LangEN, "LangEN");
-            this.LangEN.Click += new System.EventHandler(this.LangEN_Click);
+            this.LangEN_GB.Image = global::eNumismat2._0.Properties.Resources.GB_United_Kingdom_Flag_icon;
+            this.LangEN_GB.Name = "LangEN_GB";
+            resources.ApplyResources(this.LangEN_GB, "LangEN_GB");
+            this.LangEN_GB.Click += new System.EventHandler(this.LangEN_GB_Click);
             // 
             // LangDE
             // 
@@ -317,6 +319,13 @@
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
             // 
+            // LangEN_US
+            // 
+            this.LangEN_US.Image = global::eNumismat2._0.Properties.Resources.US_United_States_Flag_icon;
+            this.LangEN_US.Name = "LangEN_US";
+            resources.ApplyResources(this.LangEN_US, "LangEN_US");
+            this.LangEN_US.Click += new System.EventHandler(this.LangEN_US_Click);
+            // 
             // _eNumismatMain
             // 
             resources.ApplyResources(this, "$this");
@@ -350,7 +359,7 @@
         private DevComponents.DotNetBar.ButtonItem OpenAddrBookFrm;
         private DevComponents.DotNetBar.ButtonItem buttonItem9;
         private DevComponents.DotNetBar.ButtonItem buttonItem10;
-        private DevComponents.DotNetBar.ButtonItem LangEN;
+        private DevComponents.DotNetBar.ButtonItem LangEN_GB;
         private DevComponents.DotNetBar.ButtonItem LangDE;
         private DevComponents.DotNetBar.ButtonItem LangFR;
         private DevComponents.DotNetBar.ButtonItem LangES;
@@ -363,6 +372,7 @@
         private DevComponents.DotNetBar.ButtonItem btnHelp2;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private DevComponents.DotNetBar.ButtonItem LangEN_US;
     }
 }
 

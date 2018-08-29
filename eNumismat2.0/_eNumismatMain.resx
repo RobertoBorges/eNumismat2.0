@@ -129,7 +129,7 @@
     <value>3, 0, 3, 2</value>
   </data>
   <data name="ribbonPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1035, 100</value>
+    <value>1045, 100</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="ribbonPanel1.TabIndex" type="System.Int32, mscorlib">
@@ -186,8 +186,11 @@
   <data name="buttonItem6.Text" xml:space="preserve">
     <value>Compress Database</value>
   </data>
-  <data name="LangEN.Text" xml:space="preserve">
-    <value>English</value>
+  <data name="LangEN_GB.Text" xml:space="preserve">
+    <value>English (GB)</value>
+  </data>
+  <data name="LangEN_US.Text" xml:space="preserve">
+    <value>English (US)</value>
   </data>
   <data name="LangDE.Text" xml:space="preserve">
     <value>German</value>
@@ -232,7 +235,7 @@
     <value>Address Book</value>
   </data>
   <data name="ribbonControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 1</value>
+    <value>0, 0</value>
   </data>
   <data name="btnAbout.Text" xml:space="preserve">
     <value>About eNumista</value>
@@ -241,7 +244,7 @@
     <value>Help</value>
   </data>
   <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1035, 154</value>
+    <value>1045, 154</value>
   </data>
   <data name="ribbonControl1.SystemText.MaximizeRibbonText" xml:space="preserve">
     <value>&amp;Maximize the Ribbon</value>
@@ -319,10 +322,10 @@
     <value>toolStripStatusLabel1</value>
   </data>
   <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 688</value>
+    <value>0, 690</value>
   </data>
   <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1035, 22</value>
+    <value>1045, 22</value>
   </data>
   <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -396,10 +399,10 @@
   <data name="&gt;&gt;buttonItem10.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;LangEN.Name" xml:space="preserve">
-    <value>LangEN</value>
+  <data name="&gt;&gt;LangEN_GB.Name" xml:space="preserve">
+    <value>LangEN_GB</value>
   </data>
-  <data name="&gt;&gt;LangEN.Type" xml:space="preserve">
+  <data name="&gt;&gt;LangEN_GB.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
   <data name="&gt;&gt;LangDE.Name" xml:space="preserve">
@@ -504,10 +507,16 @@
   <data name="&gt;&gt;toolStripStatusLabel1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;LangEN_US.Name" xml:space="preserve">
+    <value>LangEN_US</value>
+  </data>
+  <data name="&gt;&gt;LangEN_US.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>_eNumismatMain</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.RibbonForm, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
