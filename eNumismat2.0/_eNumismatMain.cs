@@ -9,50 +9,72 @@ using System.Globalization;
 using System.Threading;
 using System.Windows.Forms;
 using DevComponents.DotNetBar;
-
+using Infralution.Localization;
 
 namespace eNumismat2._0
 {
     public partial class _eNumismatMain : RibbonForm
     {
-        string UICulture = Properties.Settings.Default.UICulture;
+        //string UICulture = Properties.Settings.Default.UICulture;
+        CultureInfo CurrentUICulture;
 
         //=====================================================================================================================================================================
         public _eNumismatMain()
         {
-            InitializeComponent();           
+            InitializeComponent();
+
+            MessageBox.Show(Properties.Settings.Default.UICulture);
+
+            if (Properties.Settings.Default.UICulture == null)
+            {
+                CurrentUICulture = CultureInfo.CurrentUICulture;
+            }
+            //Properties.Settings.Default.UICulture = null;
+            //Properties.Settings.Default.Save();
         }
 
         //=====================================================================================================================================================================
         private void Form1_Load(object sender, EventArgs e)
         {
             DisplayLanguage();
+            //MessageBox.Show(UICulture);
+            //MessageBox.Show(CultureInfo.CurrentUICulture.Name);
         }
 
         //=====================================================================================================================================================================
-        private void DisplayLanguage(string method = null, string culture = null)
+        private void DisplayLanguage()
         {
-            if (method == "set" && culture != null)
-            {
-                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(culture);
-                Properties.Settings.Default.UICulture = CultureInfo.CurrentUICulture.Name;
-                Properties.Settings.Default.Save();
-            }
-            else
-            {
-                if (Properties.Settings.Default.UICulture == null)
-                {
-                    Properties.Settings.Default.UICulture = CultureInfo.CurrentUICulture.Name;
-                    Properties.Settings.Default.Save();
-                }
-                else
-                {
-                    Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(Properties.Settings.Default.UICulture);
-                }
-            }
+            CurrentUICulture = CultureManager.ApplicationUICulture;
 
-            Controls.Clear();
-            InitializeComponent();
+            
+
+            MessageBox.Show(Properties.Settings.Default.UICulture);
+
+            toolStripStatusLabel1.Text = CultureInfo.CurrentUICulture.DisplayName;
+            //if (method == "set" && culture != null)
+            //{
+            //Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(culture);
+            //    Properties.Settings.Default.UICulture = CultureInfo.CurrentUICulture.Name;
+            //    Properties.Settings.Default.Save();
+            //}
+            //else
+            //{
+            //if (Properties.Settings.Default.UICulture == null)
+            //{
+            //    Properties.Settings.Default.UICulture = CultureInfo.CurrentUICulture.Name;
+            //    Properties.Settings.Default.Save();
+            //}
+            //else
+            //{
+            //    Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(Properties.Settings.Default.UICulture);
+            //}
+            //}
+
+            //Controls.Clear();
+            //InitializeComponent();
+            //this.Refresh();
+            //this.Invalidate();
+            //this.Update();
 
             if (CultureInfo.CurrentUICulture.Name == "en-GB")
             {
@@ -150,7 +172,9 @@ namespace eNumismat2._0
 
                 toolStripStatusLabel1.Image = null;
             }
-            toolStripStatusLabel1.Text = CultureInfo.CurrentUICulture.DisplayName;
+
+            Properties.Settings.Default.UICulture = CurrentUICulture.ToString();
+            Properties.Settings.Default.Save();
         }
 
         // Open "child" Forms
@@ -217,43 +241,55 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void LangEN_GB_Click(object sender, EventArgs e)
         {
-            DisplayLanguage("set", "en-GB");
+            CultureManager.ApplicationUICulture = new CultureInfo("en-GB");
+            //DisplayLanguage("set", "en-GB");
         }
 
         //=====================================================================================================================================================================
         private void LangEN_US_Click(object sender, EventArgs e)
         {
-            DisplayLanguage("set", "en-US");
+            CultureManager.ApplicationUICulture = new CultureInfo("en-US");
+           //DisplayLanguage("set", "en-US");
         }
 
         //=====================================================================================================================================================================
         private void LangDE_Click(object sender, EventArgs e)
         {
-            DisplayLanguage("set", "de-DE");
+            CultureManager.ApplicationUICulture = new CultureInfo("de-DE");
+            //DisplayLanguage("set", "de-DE");
         }
 
         //=====================================================================================================================================================================
         private void LangFR_Click(object sender, EventArgs e)
         {
-            DisplayLanguage("set", "fr-FR");
+            CultureManager.ApplicationUICulture = new CultureInfo("fr-FR");
+            //DisplayLanguage("set", "fr-FR");
         }
 
         //=====================================================================================================================================================================
         private void LangES_Click(object sender, EventArgs e)
         {
-            DisplayLanguage("set", "es-ES");
+            CultureManager.ApplicationUICulture = new CultureInfo("es-ES");
+            //DisplayLanguage("set", "es-ES");
         }
 
         //=====================================================================================================================================================================
         private void LangPT_Click(object sender, EventArgs e)
         {
-            DisplayLanguage("set", "pt-PT");
+            CultureManager.ApplicationUICulture = new CultureInfo("pt-PT");
+            //DisplayLanguage("set", "pt-PT");
         }
 
         //=====================================================================================================================================================================
         private void LangRU_Click(object sender, EventArgs e)
         {
-            DisplayLanguage("set", "ru-RU");
+            CultureManager.ApplicationUICulture = new CultureInfo("ru-RU");
+            //DisplayLanguage("set", "ru-RU");
+        }
+
+        private void cultureManager_UICultureChanged(CultureInfo newCulture)
+        {
+            DisplayLanguage();
         }
 
         //=====================================================================================================================================================================

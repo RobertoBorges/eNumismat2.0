@@ -59,6 +59,8 @@
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.labelX1 = new DevComponents.DotNetBar.LabelX();
+            this.culture = new Infralution.Localization.CultureManager(this.components);
             this.ribbonControl1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -328,10 +330,25 @@
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
             // 
+            // labelX1
+            // 
+            // 
+            // 
+            // 
+            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            resources.ApplyResources(this.labelX1, "labelX1");
+            this.labelX1.Name = "labelX1";
+            // 
+            // culture
+            // 
+            this.culture.ManagedControl = this;
+            this.culture.UICultureChanged += new Infralution.Localization.CultureManager.CultureChangedHandler(this.cultureManager_UICultureChanged);
+            // 
             // _eNumismatMain
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.Controls.Add(this.labelX1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.ribbonControl1);
             this.Name = "_eNumismatMain";
@@ -375,6 +392,8 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private DevComponents.DotNetBar.ButtonItem LangEN_US;
+        private DevComponents.DotNetBar.LabelX labelX1;
+        private Infralution.Localization.CultureManager culture;
     }
 }
 
