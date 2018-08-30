@@ -171,6 +171,16 @@ namespace eNumismat2._0
         }
 
         //=====================================================================================================================================================================
+        private void btn_SettingsDialog_Click(object sender, EventArgs e)
+        {
+            if (OpenForm("_SettingsDialog") == false)
+            {
+                _SettingsDialog Settings = new _SettingsDialog();
+                Settings.ShowDialog();
+            }
+        }
+
+        //=====================================================================================================================================================================
         // About Form
         private void BtnAbout_Click(object sender, EventArgs e)
         {
