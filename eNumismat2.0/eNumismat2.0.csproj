@@ -82,6 +82,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>GlobalStrings.resx</DependentUpon>
     </Compile>
+    <Compile Include="_AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_AboutBox.Designer.cs">
+      <DependentUpon>_AboutBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="_AddressBook.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +111,9 @@
     <EmbeddedResource Include="GlobalStrings.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>GlobalStrings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_AboutBox.resx">
+      <DependentUpon>_AboutBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_AddressBook.resx">
       <DependentUpon>_AddressBook.cs</DependentUpon>
@@ -263,17 +272,19 @@
     <None Include="Resources\vcard_edit.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\CountryFlags\de.png" />
+    <Content Include="Resources\CountryFlags\es.png" />
+    <Content Include="Resources\CountryFlags\fr.png" />
+    <Content Include="Resources\CountryFlags\gb.png" />
+    <Content Include="Resources\CountryFlags\pt.png" />
+    <Content Include="Resources\CountryFlags\ru.png" />
+    <Content Include="Resources\CountryFlags\us.png" />
     <None Include="Resources\page_refresh.png" />
     <None Include="Resources\wrench.png" />
     <None Include="Resources\bullet_wrench.png" />
     <None Include="Resources\book_addresses.png" />
-    <Content Include="Resources\CountryFlags\DE-Germany-Flag-icon.png" />
-    <Content Include="Resources\CountryFlags\ES-Spain-Flag-icon.png" />
-    <Content Include="Resources\CountryFlags\FR-France-Flag-icon.png" />
-    <Content Include="Resources\CountryFlags\GB-United-Kingdom-Flag-icon.png" />
-    <Content Include="Resources\CountryFlags\PT-Portugal-Flag-icon.png" />
-    <Content Include="Resources\CountryFlags\RU-Russia-Flag-icon.png" />
-    <Content Include="Resources\CountryFlags\US-United-States-Flag-icon.png" />
+    <None Include="Resources\action_delete.png" />
+    <None Include="Resources\action_check.png" />
     <Content Include="Resources\Database Scripts\Create.sql" />
     <Content Include="Resources\Database Scripts\Insert.sql" />
     <None Include="Resources\door_in.png" />

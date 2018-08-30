@@ -32,6 +32,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_eNumismatMain));
             this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
             this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
+            this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
+            this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
+            this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.labelX1 = new DevComponents.DotNetBar.LabelX();
+            this.culture = new Infralution.Localization.CultureManager(this.components);
+            this.TrayIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.applicationButton1 = new DevComponents.DotNetBar.ApplicationButton();
             this.btn_NewDB = new DevComponents.DotNetBar.ButtonItem();
             this.btn_OpenDB = new DevComponents.DotNetBar.ButtonItem();
@@ -48,19 +56,11 @@
             this.LangRU = new DevComponents.DotNetBar.ButtonItem();
             this.btn_SettingsDialog = new DevComponents.DotNetBar.ButtonItem();
             this.btn_Close = new DevComponents.DotNetBar.ButtonItem();
-            this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
             this.OpenExchangeMonitorFrm = new DevComponents.DotNetBar.ButtonItem();
             this.OpenAddrBookFrm = new DevComponents.DotNetBar.ButtonItem();
             this.btnHelp = new DevComponents.DotNetBar.ButtonItem();
             this.btnAbout = new DevComponents.DotNetBar.ButtonItem();
             this.btnHelp2 = new DevComponents.DotNetBar.ButtonItem();
-            this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
-            this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.labelX1 = new DevComponents.DotNetBar.LabelX();
-            this.culture = new Infralution.Localization.CultureManager(this.components);
-            this.TrayIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.ribbonControl1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -123,6 +123,54 @@
             // 
             // 
             this.ribbonPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // ribbonTabItem1
+            // 
+            this.ribbonTabItem1.Checked = true;
+            this.ribbonTabItem1.Name = "ribbonTabItem1";
+            this.ribbonTabItem1.Panel = this.ribbonPanel1;
+            resources.ApplyResources(this.ribbonTabItem1, "ribbonTabItem1");
+            // 
+            // qatCustomizeItem1
+            // 
+            this.qatCustomizeItem1.Name = "qatCustomizeItem1";
+            // 
+            // styleManager1
+            // 
+            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Light;
+            this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254))))), System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(143))))));
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.BackColor = System.Drawing.Color.Transparent;
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1});
+            resources.ApplyResources(this.statusStrip1, "statusStrip1");
+            this.statusStrip1.Name = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
+            // 
+            // labelX1
+            // 
+            // 
+            // 
+            // 
+            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            resources.ApplyResources(this.labelX1, "labelX1");
+            this.labelX1.Name = "labelX1";
+            // 
+            // culture
+            // 
+            this.culture.ManagedControl = this;
+            this.culture.UICultureChanged += new Infralution.Localization.CultureManager.CultureChangedHandler(this.CultureManager_UICultureChanged);
+            // 
+            // TrayIcon
+            // 
+            resources.ApplyResources(this.TrayIcon, "TrayIcon");
+            this.TrayIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.TryIcon_MouseDoubleClick);
             // 
             // applicationButton1
             // 
@@ -198,49 +246,49 @@
             // 
             // LangEN_GB
             // 
-            this.LangEN_GB.Image = global::eNumismat2._0.Properties.Resources.GB_United_Kingdom_Flag_icon;
+            this.LangEN_GB.Image = global::eNumismat2._0.Properties.Resources.gb;
             this.LangEN_GB.Name = "LangEN_GB";
             resources.ApplyResources(this.LangEN_GB, "LangEN_GB");
             this.LangEN_GB.Click += new System.EventHandler(this.LangEN_GB_Click);
             // 
             // LangEN_US
             // 
-            this.LangEN_US.Image = global::eNumismat2._0.Properties.Resources.US_United_States_Flag_icon;
+            this.LangEN_US.Image = global::eNumismat2._0.Properties.Resources.us;
             this.LangEN_US.Name = "LangEN_US";
             resources.ApplyResources(this.LangEN_US, "LangEN_US");
             this.LangEN_US.Click += new System.EventHandler(this.LangEN_US_Click);
             // 
             // LangDE
             // 
-            this.LangDE.Image = global::eNumismat2._0.Properties.Resources.DE_Germany_Flag_icon;
+            this.LangDE.Image = global::eNumismat2._0.Properties.Resources.de;
             this.LangDE.Name = "LangDE";
             resources.ApplyResources(this.LangDE, "LangDE");
             this.LangDE.Click += new System.EventHandler(this.LangDE_Click);
             // 
             // LangFR
             // 
-            this.LangFR.Image = global::eNumismat2._0.Properties.Resources.FR_France_Flag_icon;
+            this.LangFR.Image = global::eNumismat2._0.Properties.Resources.fr;
             this.LangFR.Name = "LangFR";
             resources.ApplyResources(this.LangFR, "LangFR");
             this.LangFR.Click += new System.EventHandler(this.LangFR_Click);
             // 
             // LangES
             // 
-            this.LangES.Image = global::eNumismat2._0.Properties.Resources.ES_Spain_Flag_icon;
+            this.LangES.Image = global::eNumismat2._0.Properties.Resources.es;
             this.LangES.Name = "LangES";
             resources.ApplyResources(this.LangES, "LangES");
             this.LangES.Click += new System.EventHandler(this.LangES_Click);
             // 
             // LangPT
             // 
-            this.LangPT.Image = global::eNumismat2._0.Properties.Resources.PT_Portugal_Flag_icon;
+            this.LangPT.Image = global::eNumismat2._0.Properties.Resources.pt;
             this.LangPT.Name = "LangPT";
             resources.ApplyResources(this.LangPT, "LangPT");
             this.LangPT.Click += new System.EventHandler(this.LangPT_Click);
             // 
             // LangRU
             // 
-            this.LangRU.Image = global::eNumismat2._0.Properties.Resources.RU_Russia_Flag_icon;
+            this.LangRU.Image = global::eNumismat2._0.Properties.Resources.ru;
             this.LangRU.Name = "LangRU";
             resources.ApplyResources(this.LangRU, "LangRU");
             this.LangRU.Click += new System.EventHandler(this.LangRU_Click);
@@ -258,13 +306,6 @@
             this.btn_Close.Name = "btn_Close";
             resources.ApplyResources(this.btn_Close, "btn_Close");
             this.btn_Close.Click += new System.EventHandler(this.BtnClose_Click);
-            // 
-            // ribbonTabItem1
-            // 
-            this.ribbonTabItem1.Checked = true;
-            this.ribbonTabItem1.Name = "ribbonTabItem1";
-            this.ribbonTabItem1.Panel = this.ribbonPanel1;
-            resources.ApplyResources(this.ribbonTabItem1, "ribbonTabItem1");
             // 
             // OpenExchangeMonitorFrm
             // 
@@ -306,47 +347,6 @@
             this.btnHelp2.Image = global::eNumismat2._0.Properties.Resources.help;
             this.btnHelp2.Name = "btnHelp2";
             resources.ApplyResources(this.btnHelp2, "btnHelp2");
-            // 
-            // qatCustomizeItem1
-            // 
-            this.qatCustomizeItem1.Name = "qatCustomizeItem1";
-            // 
-            // styleManager1
-            // 
-            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Light;
-            this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254))))), System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(143))))));
-            // 
-            // statusStrip1
-            // 
-            this.statusStrip1.BackColor = System.Drawing.Color.Transparent;
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1});
-            resources.ApplyResources(this.statusStrip1, "statusStrip1");
-            this.statusStrip1.Name = "statusStrip1";
-            // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
-            // 
-            // labelX1
-            // 
-            // 
-            // 
-            // 
-            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            resources.ApplyResources(this.labelX1, "labelX1");
-            this.labelX1.Name = "labelX1";
-            // 
-            // culture
-            // 
-            this.culture.ManagedControl = this;
-            this.culture.UICultureChanged += new Infralution.Localization.CultureManager.CultureChangedHandler(this.CultureManager_UICultureChanged);
-            // 
-            // TrayIcon
-            // 
-            resources.ApplyResources(this.TrayIcon, "TrayIcon");
-            this.TrayIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.TryIcon_MouseDoubleClick);
             // 
             // _eNumismatMain
             // 

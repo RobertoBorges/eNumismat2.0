@@ -63,6 +63,26 @@ namespace eNumismat2._0.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap action_check {
+            get {
+                object obj = ResourceManager.GetObject("action_check", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap action_delete {
+            get {
+                object obj = ResourceManager.GetObject("action_delete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap book_addresses {
             get {
                 object obj = ResourceManager.GetObject("book_addresses", resourceCulture);
@@ -143,9 +163,9 @@ namespace eNumismat2._0.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DE_Germany_Flag_icon {
+        internal static System.Drawing.Bitmap de {
             get {
-                object obj = ResourceManager.GetObject("DE_Germany_Flag_icon", resourceCulture);
+                object obj = ResourceManager.GetObject("de", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +233,9 @@ namespace eNumismat2._0.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ES_Spain_Flag_icon {
+        internal static System.Drawing.Bitmap es {
             get {
-                object obj = ResourceManager.GetObject("ES_Spain_Flag_icon", resourceCulture);
+                object obj = ResourceManager.GetObject("es", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +253,9 @@ namespace eNumismat2._0.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap FR_France_Flag_icon {
+        internal static System.Drawing.Bitmap fr {
             get {
-                object obj = ResourceManager.GetObject("FR_France_Flag_icon", resourceCulture);
+                object obj = ResourceManager.GetObject("fr", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +263,9 @@ namespace eNumismat2._0.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GB_United_Kingdom_Flag_icon {
+        internal static System.Drawing.Bitmap gb {
             get {
-                object obj = ResourceManager.GetObject("GB_United_Kingdom_Flag_icon", resourceCulture);
+                object obj = ResourceManager.GetObject("gb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -373,9 +393,9 @@ namespace eNumismat2._0.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap PT_Portugal_Flag_icon {
+        internal static System.Drawing.Bitmap pt {
             get {
-                object obj = ResourceManager.GetObject("PT_Portugal_Flag_icon", resourceCulture);
+                object obj = ResourceManager.GetObject("pt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -383,9 +403,9 @@ namespace eNumismat2._0.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap RU_Russia_Flag_icon {
+        internal static System.Drawing.Bitmap ru {
             get {
-                object obj = ResourceManager.GetObject("RU_Russia_Flag_icon", resourceCulture);
+                object obj = ResourceManager.GetObject("ru", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -463,9 +483,9 @@ namespace eNumismat2._0.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap US_United_States_Flag_icon {
+        internal static System.Drawing.Bitmap us {
             get {
-                object obj = ResourceManager.GetObject("US_United_States_Flag_icon", resourceCulture);
+                object obj = ResourceManager.GetObject("us", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

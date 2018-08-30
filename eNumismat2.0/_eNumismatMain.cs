@@ -67,7 +67,7 @@ namespace eNumismat2._0
                 LangPT.Checked = false;
                 LangRU.Checked = false;
 
-                toolStripStatusLabel1.Image = Properties.Resources.US_United_States_Flag_icon;
+                toolStripStatusLabel1.Image = Properties.Resources.us;
             }
             else if (DisplayCulture.Name == "en-GB")
             {
@@ -79,7 +79,7 @@ namespace eNumismat2._0
                 LangPT.Checked = false;
                 LangRU.Checked = false;
 
-                toolStripStatusLabel1.Image = Properties.Resources.GB_United_Kingdom_Flag_icon;
+                toolStripStatusLabel1.Image = Properties.Resources.gb;
             }
             else if (DisplayCulture.Name == "de-DE")
             {
@@ -91,7 +91,7 @@ namespace eNumismat2._0
                 LangPT.Checked = false;
                 LangRU.Checked = false;
 
-                toolStripStatusLabel1.Image = Properties.Resources.DE_Germany_Flag_icon;
+                toolStripStatusLabel1.Image = Properties.Resources.de;
             }
             else if (DisplayCulture.Name == "fr-FR")
             {
@@ -103,7 +103,7 @@ namespace eNumismat2._0
                 LangPT.Checked = false;
                 LangRU.Checked = false;
 
-                toolStripStatusLabel1.Image = Properties.Resources.FR_France_Flag_icon;
+                toolStripStatusLabel1.Image = Properties.Resources.fr;
             }
             else if (DisplayCulture.Name == "es-ES")
             {
@@ -115,7 +115,7 @@ namespace eNumismat2._0
                 LangPT.Checked = false;
                 LangRU.Checked = false;
 
-                toolStripStatusLabel1.Image = Properties.Resources.ES_Spain_Flag_icon;
+                toolStripStatusLabel1.Image = Properties.Resources.es;
             }
             else if (DisplayCulture.Name == "pt-PT")
             {
@@ -127,7 +127,7 @@ namespace eNumismat2._0
                 LangPT.Checked = true;
                 LangRU.Checked = false;
 
-                toolStripStatusLabel1.Image = Properties.Resources.PT_Portugal_Flag_icon;
+                toolStripStatusLabel1.Image = Properties.Resources.pt;
             }
             else if (DisplayCulture.Name == "ru-RU")
             {
@@ -139,12 +139,14 @@ namespace eNumismat2._0
                 LangPT.Checked = false;
                 LangRU.Checked = true;
 
-                toolStripStatusLabel1.Image = Properties.Resources.RU_Russia_Flag_icon;
+                toolStripStatusLabel1.Image = Properties.Resources.ru;
             }
             else
             {
                 toolStripStatusLabel1.Image = null;
             }
+
+            toolStripStatusLabel1.Text = CultureManager.ApplicationUICulture.Name;
         }
 
         // Open "child" Forms
