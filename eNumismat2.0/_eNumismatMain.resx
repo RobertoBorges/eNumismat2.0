@@ -174,54 +174,6 @@
         rkJggg==
 </value>
   </data>
-  <data name="buttonItem2.Text" xml:space="preserve">
-    <value>New Database</value>
-  </data>
-  <data name="buttonItem3.Text" xml:space="preserve">
-    <value>Open Database</value>
-  </data>
-  <data name="buttonItem4.Text" xml:space="preserve">
-    <value>Backup Database</value>
-  </data>
-  <data name="buttonItem6.Text" xml:space="preserve">
-    <value>Compress Database</value>
-  </data>
-  <data name="LangEN_GB.Text" xml:space="preserve">
-    <value>English (GB)</value>
-  </data>
-  <data name="LangEN_US.Text" xml:space="preserve">
-    <value>English (US)</value>
-  </data>
-  <data name="LangDE.Text" xml:space="preserve">
-    <value>German</value>
-  </data>
-  <data name="LangFR.Text" xml:space="preserve">
-    <value>French</value>
-  </data>
-  <data name="LangES.Text" xml:space="preserve">
-    <value>Spanish</value>
-  </data>
-  <data name="LangPT.Text" xml:space="preserve">
-    <value>Portuguese</value>
-  </data>
-  <data name="LangRU.Text" xml:space="preserve">
-    <value>Russian</value>
-  </data>
-  <data name="buttonItem10.Text" xml:space="preserve">
-    <value>Language Settings</value>
-  </data>
-  <data name="buttonItem11.Text" xml:space="preserve">
-    <value>User Settings</value>
-  </data>
-  <data name="buttonItem12.Text" xml:space="preserve">
-    <value>Application Settings</value>
-  </data>
-  <data name="buttonItem9.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="buttonItem5.Text" xml:space="preserve">
-    <value>Close</value>
-  </data>
   <data name="applicationButton1.Text" xml:space="preserve">
     <value>&amp;File</value>
   </data>
@@ -236,12 +188,6 @@
   </data>
   <data name="ribbonControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 1</value>
-  </data>
-  <data name="btnAbout.Text" xml:space="preserve">
-    <value>About eNumista</value>
-  </data>
-  <data name="btnHelp2.Text" xml:space="preserve">
-    <value>Help</value>
   </data>
   <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1035, 171</value>
@@ -312,12 +258,6 @@
   <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>298, 17</value>
   </metadata>
-  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 17</value>
-  </data>
-  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
-    <value>toolStripStatusLabel1</value>
-  </data>
   <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 688</value>
   </data>
@@ -341,6 +281,12 @@
   </data>
   <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 17</value>
+  </data>
+  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
+    <value>toolStripStatusLabel1</value>
   </data>
   <data name="labelX1.Location" type="System.Drawing.Point, System.Drawing">
     <value>485, 297</value>
@@ -378,8 +324,47 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1045, 712</value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>eNumismat</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabItem1.Name" xml:space="preserve">
+    <value>ribbonTabItem1</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabItem1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonTabItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;qatCustomizeItem1.Name" xml:space="preserve">
+    <value>qatCustomizeItem1</value>
+  </data>
+  <data name="&gt;&gt;qatCustomizeItem1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.QatCustomizeItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;styleManager1.Name" xml:space="preserve">
+    <value>styleManager1</value>
+  </data>
+  <data name="&gt;&gt;styleManager1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.StyleManager, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Name" xml:space="preserve">
+    <value>toolStripStatusLabel1</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;culture.Name" xml:space="preserve">
+    <value>culture</value>
+  </data>
+  <data name="&gt;&gt;culture.Type" xml:space="preserve">
+    <value>Infralution.Localization.CultureManager, Infralution.Localization, Version=1.2.2.0, Culture=neutral, PublicKeyToken=af4bb5454ff71782</value>
+  </data>
+  <data name="&gt;&gt;TrayIcon.Name" xml:space="preserve">
+    <value>TrayIcon</value>
+  </data>
+  <data name="&gt;&gt;TrayIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;applicationButton1.Name" xml:space="preserve">
     <value>applicationButton1</value>
@@ -387,28 +372,28 @@
   <data name="&gt;&gt;applicationButton1.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ApplicationButton, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;buttonItem2.Name" xml:space="preserve">
-    <value>buttonItem2</value>
+  <data name="&gt;&gt;btn_NewDB.Name" xml:space="preserve">
+    <value>btn_NewDB</value>
   </data>
-  <data name="&gt;&gt;buttonItem2.Type" xml:space="preserve">
+  <data name="&gt;&gt;btn_NewDB.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;buttonItem3.Name" xml:space="preserve">
-    <value>buttonItem3</value>
+  <data name="&gt;&gt;btn_OpenDB.Name" xml:space="preserve">
+    <value>btn_OpenDB</value>
   </data>
-  <data name="&gt;&gt;buttonItem3.Type" xml:space="preserve">
+  <data name="&gt;&gt;btn_OpenDB.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;buttonItem4.Name" xml:space="preserve">
-    <value>buttonItem4</value>
+  <data name="&gt;&gt;btn_BackupDB.Name" xml:space="preserve">
+    <value>btn_BackupDB</value>
   </data>
-  <data name="&gt;&gt;buttonItem4.Type" xml:space="preserve">
+  <data name="&gt;&gt;btn_BackupDB.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;buttonItem6.Name" xml:space="preserve">
-    <value>buttonItem6</value>
+  <data name="&gt;&gt;btn_CompressDB.Name" xml:space="preserve">
+    <value>btn_CompressDB</value>
   </data>
-  <data name="&gt;&gt;buttonItem6.Type" xml:space="preserve">
+  <data name="&gt;&gt;btn_CompressDB.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
   <data name="&gt;&gt;buttonItem9.Name" xml:space="preserve">
@@ -477,17 +462,11 @@
   <data name="&gt;&gt;buttonItem12.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;buttonItem5.Name" xml:space="preserve">
-    <value>buttonItem5</value>
+  <data name="&gt;&gt;btn_Close.Name" xml:space="preserve">
+    <value>btn_Close</value>
   </data>
-  <data name="&gt;&gt;buttonItem5.Type" xml:space="preserve">
+  <data name="&gt;&gt;btn_Close.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;ribbonTabItem1.Name" xml:space="preserve">
-    <value>ribbonTabItem1</value>
-  </data>
-  <data name="&gt;&gt;ribbonTabItem1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.RibbonTabItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
   <data name="&gt;&gt;OpenExchangeMonitorFrm.Name" xml:space="preserve">
     <value>OpenExchangeMonitorFrm</value>
@@ -519,46 +498,16 @@
   <data name="&gt;&gt;btnHelp2.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;qatCustomizeItem1.Name" xml:space="preserve">
-    <value>qatCustomizeItem1</value>
-  </data>
-  <data name="&gt;&gt;qatCustomizeItem1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.QatCustomizeItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;styleManager1.Name" xml:space="preserve">
-    <value>styleManager1</value>
-  </data>
-  <data name="&gt;&gt;styleManager1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.StyleManager, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;toolStripStatusLabel1.Name" xml:space="preserve">
-    <value>toolStripStatusLabel1</value>
-  </data>
-  <data name="&gt;&gt;toolStripStatusLabel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;culture.Name" xml:space="preserve">
-    <value>culture</value>
-  </data>
-  <data name="&gt;&gt;culture.Type" xml:space="preserve">
-    <value>Infralution.Localization.CultureManager, Infralution.Localization, Version=1.2.2.0, Culture=neutral, PublicKeyToken=af4bb5454ff71782</value>
-  </data>
-  <data name="&gt;&gt;notifyIcon1.Name" xml:space="preserve">
-    <value>notifyIcon1</value>
-  </data>
-  <data name="&gt;&gt;notifyIcon1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>_eNumismatMain</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.RibbonForm, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="TrayIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>503, 17</value>
   </metadata>
-  <data name="notifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="TrayIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAIAGBgAAAEACADIBgAAJgAAABgYAAABACAAiAkAAO4GAAAoAAAAGAAAADAAAAABAAgAAAAAAKAC
         AAAAAAAAAAAAAAABAAAAAAAA////AAAAAAC+/v8Axv//AMj//wDK//8Ay///AMz//wDN//8Azv//AFj5
@@ -633,10 +582,61 @@
         PwD+Qj8A/ue/AP/n/wA=
 </value>
   </data>
-  <data name="notifyIcon1.Text" xml:space="preserve">
-    <value>TrayIcon</value>
-  </data>
-  <data name="notifyIcon1.Visible" type="System.Boolean, mscorlib">
+  <data name="TrayIcon.Visible" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="btn_NewDB.Text" xml:space="preserve">
+    <value>New Database</value>
+  </data>
+  <data name="btn_OpenDB.Text" xml:space="preserve">
+    <value>Open Database</value>
+  </data>
+  <data name="btn_BackupDB.Text" xml:space="preserve">
+    <value>Backup Database</value>
+  </data>
+  <data name="btn_CompressDB.Text" xml:space="preserve">
+    <value>Compress Database</value>
+  </data>
+  <data name="buttonItem9.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="buttonItem10.Text" xml:space="preserve">
+    <value>Language Settings</value>
+  </data>
+  <data name="LangEN_GB.Text" xml:space="preserve">
+    <value>English (GB)</value>
+  </data>
+  <data name="LangEN_US.Text" xml:space="preserve">
+    <value>English (US)</value>
+  </data>
+  <data name="LangDE.Text" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="LangFR.Text" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="LangES.Text" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="LangPT.Text" xml:space="preserve">
+    <value>Portuguese</value>
+  </data>
+  <data name="LangRU.Text" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="buttonItem11.Text" xml:space="preserve">
+    <value>User Settings</value>
+  </data>
+  <data name="buttonItem12.Text" xml:space="preserve">
+    <value>Application Settings</value>
+  </data>
+  <data name="btn_Close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnAbout.Text" xml:space="preserve">
+    <value>About eNumista</value>
+  </data>
+  <data name="btnHelp2.Text" xml:space="preserve">
+    <value>Help</value>
   </data>
 </root>

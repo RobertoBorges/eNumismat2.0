@@ -32,11 +32,19 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_eNumismatMain));
             this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
             this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
+            this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
+            this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
+            this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.labelX1 = new DevComponents.DotNetBar.LabelX();
+            this.culture = new Infralution.Localization.CultureManager(this.components);
+            this.TrayIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.applicationButton1 = new DevComponents.DotNetBar.ApplicationButton();
-            this.buttonItem2 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem3 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem4 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem6 = new DevComponents.DotNetBar.ButtonItem();
+            this.btn_NewDB = new DevComponents.DotNetBar.ButtonItem();
+            this.btn_OpenDB = new DevComponents.DotNetBar.ButtonItem();
+            this.btn_BackupDB = new DevComponents.DotNetBar.ButtonItem();
+            this.btn_CompressDB = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem9 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem10 = new DevComponents.DotNetBar.ButtonItem();
             this.LangEN_GB = new DevComponents.DotNetBar.ButtonItem();
@@ -48,20 +56,12 @@
             this.LangRU = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem11 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem12 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem5 = new DevComponents.DotNetBar.ButtonItem();
-            this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
+            this.btn_Close = new DevComponents.DotNetBar.ButtonItem();
             this.OpenExchangeMonitorFrm = new DevComponents.DotNetBar.ButtonItem();
             this.OpenAddrBookFrm = new DevComponents.DotNetBar.ButtonItem();
             this.btnHelp = new DevComponents.DotNetBar.ButtonItem();
             this.btnAbout = new DevComponents.DotNetBar.ButtonItem();
             this.btnHelp2 = new DevComponents.DotNetBar.ButtonItem();
-            this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
-            this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.labelX1 = new DevComponents.DotNetBar.LabelX();
-            this.culture = new Infralution.Localization.CultureManager(this.components);
-            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.ribbonControl1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -125,6 +125,54 @@
             // 
             this.ribbonPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
+            // ribbonTabItem1
+            // 
+            this.ribbonTabItem1.Checked = true;
+            this.ribbonTabItem1.Name = "ribbonTabItem1";
+            this.ribbonTabItem1.Panel = this.ribbonPanel1;
+            resources.ApplyResources(this.ribbonTabItem1, "ribbonTabItem1");
+            // 
+            // qatCustomizeItem1
+            // 
+            this.qatCustomizeItem1.Name = "qatCustomizeItem1";
+            // 
+            // styleManager1
+            // 
+            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Light;
+            this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254))))), System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(143))))));
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.BackColor = System.Drawing.Color.Transparent;
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1});
+            resources.ApplyResources(this.statusStrip1, "statusStrip1");
+            this.statusStrip1.Name = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
+            // 
+            // labelX1
+            // 
+            // 
+            // 
+            // 
+            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            resources.ApplyResources(this.labelX1, "labelX1");
+            this.labelX1.Name = "labelX1";
+            // 
+            // culture
+            // 
+            this.culture.ManagedControl = this;
+            this.culture.UICultureChanged += new Infralution.Localization.CultureManager.CultureChangedHandler(this.cultureManager_UICultureChanged);
+            // 
+            // TrayIcon
+            // 
+            resources.ApplyResources(this.TrayIcon, "TrayIcon");
+            this.TrayIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.TryIcon_MouseDoubleClick);
+            // 
             // applicationButton1
             // 
             this.applicationButton1.AutoExpandOnClick = true;
@@ -137,38 +185,42 @@
             this.applicationButton1.Name = "applicationButton1";
             this.applicationButton1.ShowSubItems = false;
             this.applicationButton1.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.buttonItem2,
-            this.buttonItem3,
-            this.buttonItem4,
-            this.buttonItem6,
+            this.btn_NewDB,
+            this.btn_OpenDB,
+            this.btn_BackupDB,
+            this.btn_CompressDB,
             this.buttonItem9,
-            this.buttonItem5});
+            this.btn_Close});
             resources.ApplyResources(this.applicationButton1, "applicationButton1");
             // 
-            // buttonItem2
+            // btn_NewDB
             // 
-            this.buttonItem2.Image = global::eNumismat2._0.Properties.Resources.database_add;
-            this.buttonItem2.Name = "buttonItem2";
-            resources.ApplyResources(this.buttonItem2, "buttonItem2");
+            this.btn_NewDB.Image = global::eNumismat2._0.Properties.Resources.database_add;
+            this.btn_NewDB.Name = "btn_NewDB";
+            resources.ApplyResources(this.btn_NewDB, "btn_NewDB");
+            this.btn_NewDB.Click += new System.EventHandler(this.btn_NewDB_Click);
             // 
-            // buttonItem3
+            // btn_OpenDB
             // 
-            this.buttonItem3.Image = global::eNumismat2._0.Properties.Resources.database_connect;
-            this.buttonItem3.Name = "buttonItem3";
-            resources.ApplyResources(this.buttonItem3, "buttonItem3");
+            this.btn_OpenDB.Image = global::eNumismat2._0.Properties.Resources.database_connect;
+            this.btn_OpenDB.Name = "btn_OpenDB";
+            resources.ApplyResources(this.btn_OpenDB, "btn_OpenDB");
+            this.btn_OpenDB.Click += new System.EventHandler(this.btn_OpenDB_Click);
             // 
-            // buttonItem4
+            // btn_BackupDB
             // 
-            this.buttonItem4.BeginGroup = true;
-            this.buttonItem4.Image = global::eNumismat2._0.Properties.Resources.database_save;
-            this.buttonItem4.Name = "buttonItem4";
-            resources.ApplyResources(this.buttonItem4, "buttonItem4");
+            this.btn_BackupDB.BeginGroup = true;
+            this.btn_BackupDB.Image = global::eNumismat2._0.Properties.Resources.database_save;
+            this.btn_BackupDB.Name = "btn_BackupDB";
+            resources.ApplyResources(this.btn_BackupDB, "btn_BackupDB");
+            this.btn_BackupDB.Click += new System.EventHandler(this.btn_BackupDB_Click);
             // 
-            // buttonItem6
+            // btn_CompressDB
             // 
-            this.buttonItem6.Image = global::eNumismat2._0.Properties.Resources.compress;
-            this.buttonItem6.Name = "buttonItem6";
-            resources.ApplyResources(this.buttonItem6, "buttonItem6");
+            this.btn_CompressDB.Image = global::eNumismat2._0.Properties.Resources.compress;
+            this.btn_CompressDB.Name = "btn_CompressDB";
+            resources.ApplyResources(this.btn_CompressDB, "btn_CompressDB");
+            this.btn_CompressDB.Click += new System.EventHandler(this.btn_CompressDB_Click);
             // 
             // buttonItem9
             // 
@@ -253,20 +305,13 @@
             this.buttonItem12.Name = "buttonItem12";
             resources.ApplyResources(this.buttonItem12, "buttonItem12");
             // 
-            // buttonItem5
+            // btn_Close
             // 
-            this.buttonItem5.BeginGroup = true;
-            this.buttonItem5.Image = global::eNumismat2._0.Properties.Resources.door_in;
-            this.buttonItem5.Name = "buttonItem5";
-            resources.ApplyResources(this.buttonItem5, "buttonItem5");
-            this.buttonItem5.Click += new System.EventHandler(this.buttonItem5_Click);
-            // 
-            // ribbonTabItem1
-            // 
-            this.ribbonTabItem1.Checked = true;
-            this.ribbonTabItem1.Name = "ribbonTabItem1";
-            this.ribbonTabItem1.Panel = this.ribbonPanel1;
-            resources.ApplyResources(this.ribbonTabItem1, "ribbonTabItem1");
+            this.btn_Close.BeginGroup = true;
+            this.btn_Close.Image = global::eNumismat2._0.Properties.Resources.door_in;
+            this.btn_Close.Name = "btn_Close";
+            resources.ApplyResources(this.btn_Close, "btn_Close");
+            this.btn_Close.Click += new System.EventHandler(this.BtnClose_Click);
             // 
             // OpenExchangeMonitorFrm
             // 
@@ -309,47 +354,6 @@
             this.btnHelp2.Name = "btnHelp2";
             resources.ApplyResources(this.btnHelp2, "btnHelp2");
             // 
-            // qatCustomizeItem1
-            // 
-            this.qatCustomizeItem1.Name = "qatCustomizeItem1";
-            // 
-            // styleManager1
-            // 
-            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Light;
-            this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254))))), System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(143))))));
-            // 
-            // statusStrip1
-            // 
-            this.statusStrip1.BackColor = System.Drawing.Color.Transparent;
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1});
-            resources.ApplyResources(this.statusStrip1, "statusStrip1");
-            this.statusStrip1.Name = "statusStrip1";
-            // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
-            // 
-            // labelX1
-            // 
-            // 
-            // 
-            // 
-            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            resources.ApplyResources(this.labelX1, "labelX1");
-            this.labelX1.Name = "labelX1";
-            // 
-            // culture
-            // 
-            this.culture.ManagedControl = this;
-            this.culture.UICultureChanged += new Infralution.Localization.CultureManager.CultureChangedHandler(this.cultureManager_UICultureChanged);
-            // 
-            // notifyIcon1
-            // 
-            resources.ApplyResources(this.notifyIcon1, "notifyIcon1");
-            this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.TryIcon_MouseDoubleClick);
-            // 
             // _eNumismatMain
             // 
             resources.ApplyResources(this, "$this");
@@ -358,6 +362,7 @@
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.ribbonControl1);
             this.Name = "_eNumismatMain";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this._eNumismatMain_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.SizeChanged += new System.EventHandler(this._eNumismatMain_SizeChanged);
             this.ribbonControl1.ResumeLayout(false);
@@ -376,11 +381,11 @@
         private DevComponents.DotNetBar.RibbonTabItem ribbonTabItem1;
         private DevComponents.DotNetBar.QatCustomizeItem qatCustomizeItem1;
         private DevComponents.DotNetBar.StyleManager styleManager1;
-        private DevComponents.DotNetBar.ButtonItem buttonItem2;
-        private DevComponents.DotNetBar.ButtonItem buttonItem3;
-        private DevComponents.DotNetBar.ButtonItem buttonItem4;
-        private DevComponents.DotNetBar.ButtonItem buttonItem5;
-        private DevComponents.DotNetBar.ButtonItem buttonItem6;
+        private DevComponents.DotNetBar.ButtonItem btn_NewDB;
+        private DevComponents.DotNetBar.ButtonItem btn_OpenDB;
+        private DevComponents.DotNetBar.ButtonItem btn_BackupDB;
+        private DevComponents.DotNetBar.ButtonItem btn_Close;
+        private DevComponents.DotNetBar.ButtonItem btn_CompressDB;
         private DevComponents.DotNetBar.ButtonItem OpenExchangeMonitorFrm;
         private DevComponents.DotNetBar.ButtonItem OpenAddrBookFrm;
         private DevComponents.DotNetBar.ButtonItem buttonItem9;
@@ -401,7 +406,7 @@
         private DevComponents.DotNetBar.ButtonItem LangEN_US;
         private DevComponents.DotNetBar.LabelX labelX1;
         private Infralution.Localization.CultureManager culture;
-        private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private System.Windows.Forms.NotifyIcon TrayIcon;
     }
 }
 

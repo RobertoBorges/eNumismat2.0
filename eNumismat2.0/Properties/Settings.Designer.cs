@@ -154,5 +154,65 @@ namespace eNumismat2._0.Properties {
                 this["MinimizeToTray"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool BackupDBOnAppClose {
+            get {
+                return ((bool)(this["BackupDBOnAppClose"]));
+            }
+            set {
+                this["BackupDBOnAppClose"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool CompressDBBeforeBackup {
+            get {
+                return ((bool)(this["CompressDBBeforeBackup"]));
+            }
+            set {
+                this["CompressDBBeforeBackup"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string DBBackupPath {
+            get {
+                return ((string)(this["DBBackupPath"]));
+            }
+            set {
+                this["DBBackupPath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string DBFile {
+            get {
+                return ((string)(this["DBFile"]));
+            }
+            set {
+                this["DBFile"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string DBFilePath {
+            get {
+                return ((string)(this["DBFilePath"]));
+            }
+            set {
+                this["DBFilePath"] = value;
+            }
+        }
     }
 }

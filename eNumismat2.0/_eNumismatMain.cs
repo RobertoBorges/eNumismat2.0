@@ -15,6 +15,8 @@ namespace eNumismat2._0
 {
     public partial class _eNumismatMain : RibbonForm
     {
+        Classes.DataBaseWork DBWorker = new Classes.DataBaseWork();
+
         //=====================================================================================================================================================================
         public _eNumismatMain()
         {
@@ -210,49 +212,42 @@ namespace eNumismat2._0
         private void LangEN_GB_Click(object sender, EventArgs e)
         {
             CultureManager.ApplicationUICulture = new CultureInfo("en-GB");
-            //DisplayLanguage("set", "en-GB");
         }
 
         //=====================================================================================================================================================================
         private void LangEN_US_Click(object sender, EventArgs e)
         {
             CultureManager.ApplicationUICulture = new CultureInfo("en-US");
-           //DisplayLanguage("set", "en-US");
         }
 
         //=====================================================================================================================================================================
         private void LangDE_Click(object sender, EventArgs e)
         {
             CultureManager.ApplicationUICulture = new CultureInfo("de-DE");
-            //DisplayLanguage("set", "de-DE");
         }
 
         //=====================================================================================================================================================================
         private void LangFR_Click(object sender, EventArgs e)
         {
             CultureManager.ApplicationUICulture = new CultureInfo("fr-FR");
-            //DisplayLanguage("set", "fr-FR");
         }
 
         //=====================================================================================================================================================================
         private void LangES_Click(object sender, EventArgs e)
         {
             CultureManager.ApplicationUICulture = new CultureInfo("es-ES");
-            //DisplayLanguage("set", "es-ES");
         }
 
         //=====================================================================================================================================================================
         private void LangPT_Click(object sender, EventArgs e)
         {
             CultureManager.ApplicationUICulture = new CultureInfo("pt-PT");
-            //DisplayLanguage("set", "pt-PT");
         }
 
         //=====================================================================================================================================================================
         private void LangRU_Click(object sender, EventArgs e)
         {
             CultureManager.ApplicationUICulture = new CultureInfo("ru-RU");
-            //DisplayLanguage("set", "ru-RU");
         }
 
         //=====================================================================================================================================================================
@@ -261,13 +256,11 @@ namespace eNumismat2._0
             Properties.Settings.Default.UICulture = newCulture.Name;
             Properties.Settings.Default.Save();
             DisplayLanguage("SetUiCulture");
-
         }
 
         //=====================================================================================================================================================================
-        private void buttonItem5_Click(object sender, EventArgs e)
+        private void BtnClose_Click(object sender, EventArgs e)
         {
-            // implement DB Backup if enabled in settings
             Close();
         }
 
@@ -282,7 +275,6 @@ namespace eNumismat2._0
                     WindowState = FormWindowState.Minimized;
                 }
             }
-
             SaveWindowSizeSettings();
         }
 
@@ -317,6 +309,63 @@ namespace eNumismat2._0
             Properties.Settings.Default.MainWindowState = WindowState;
 
             Properties.Settings.Default.Save();
+        }
+
+        //=====================================================================================================================================================================
+        private void btn_NewDB_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        //=====================================================================================================================================================================
+        private void btn_OpenDB_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        //=====================================================================================================================================================================
+        private void btn_CompressDB_Click(object sender, EventArgs e)
+        {
+            RunDBCompression();
+        }
+
+        //=====================================================================================================================================================================
+        private void btn_BackupDB_Click(object sender, EventArgs e)
+        {
+            RunDBBackup();
+        }
+
+        //=====================================================================================================================================================================
+        private void _eNumismatMain_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (Properties.Settings.Default.BackupDBOnAppClose == true)
+            {
+                RunDBBackup();
+            }
+        }
+
+        //=====================================================================================================================================================================
+        private void RunDBCompression()
+        {
+            if (DBWorker.CompactDatabase())
+            {
+                TrayIcon.BalloonTipTitle = GlobalStrings._dbCompress_BalloonTitle;
+                TrayIcon.BalloonTipText = GlobalStrings._dbCompress_BallonText;
+
+                TrayIcon.ShowBalloonTip(2000);
+            }
+        }
+
+        //=====================================================================================================================================================================
+        private void RunDBBackup()
+        {
+            if (DBWorker.ExcecuteBackup())
+            {
+                TrayIcon.BalloonTipTitle = GlobalStrings._dbBackup_BalloonTitle;
+                TrayIcon.BalloonTipText = GlobalStrings._dbBackup_BallonText;
+
+                TrayIcon.ShowBalloonTip(2000);
+            }
         }
     }
 }
