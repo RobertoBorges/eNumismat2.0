@@ -2,19 +2,16 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="eNumismat2._0.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="RunDbBackupOnAppClose" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">False</Value>
-    </Setting>
-    <Setting Name="CompressDbFileBeforeBackup" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">False</Value>
-    </Setting>
-    <Setting Name="MainFormWidth" Type="System.Drawing.Size" Scope="Application">
-      <Value Profile="(Default)">0, 0</Value>
-    </Setting>
-    <Setting Name="AddressBookFormWidth" Type="System.Drawing.Size" Scope="Application">
-      <Value Profile="(Default)">0, 0</Value>
-    </Setting>
     <Setting Name="UICulture" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MainWindowState" Type="System.Windows.Forms.FormWindowState" Scope="User">
+      <Value Profile="(Default)">Maximized</Value>
+    </Setting>
+    <Setting Name="MainWindowWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MainWindowHight" Type="System.Int32" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
   </Settings>

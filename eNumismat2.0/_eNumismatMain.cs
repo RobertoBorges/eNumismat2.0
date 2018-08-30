@@ -15,13 +15,23 @@ namespace eNumismat2._0
 {
     public partial class _eNumismatMain : RibbonForm
     {
-        //string UICulture = Properties.Settings.Default.UICulture;
-        CultureInfo CurrentUICulture;
-
         //=====================================================================================================================================================================
         public _eNumismatMain()
         {
             InitializeComponent();
+
+            if (Properties.Settings.Default.MainWindowState == FormWindowState.Maximized)
+            {
+                WindowState = FormWindowState.Maximized;
+            }
+            else if(Properties.Settings.Default.MainWindowState == FormWindowState.Normal)
+            {
+                Size = new Size(Properties.Settings.Default.MainWindowWidth, Properties.Settings.Default.MainWindowHight);
+            }
+            else if (Properties.Settings.Default.MainWindowState == FormWindowState.Minimized)
+            {
+                WindowState = FormWindowState.Maximized;
+            }
         }
 
         //=====================================================================================================================================================================
@@ -260,6 +270,15 @@ namespace eNumismat2._0
         {
             // implement DB Backup if enabled in settings
             Close();
+        }
+
+        private void _eNumismatMain_SizeChanged(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.MainWindowHight = Size.Height;
+            Properties.Settings.Default.MainWindowWidth = Size.Width;
+            Properties.Settings.Default.MainWindowState = WindowState;
+
+            Properties.Settings.Default.Save();
         }
     }
 }
