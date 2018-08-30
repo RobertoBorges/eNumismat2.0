@@ -336,6 +336,7 @@
             this.MinimizeBox = false;
             this.Name = "_SettingsDialog";
             this.Text = "_SettingsDialog";
+            this.Load += new System.EventHandler(this._SettingsDialog_Load);
             this.panelEx1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tabControl1)).EndInit();
             this.tabControl1.ResumeLayout(false);

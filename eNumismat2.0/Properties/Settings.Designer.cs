@@ -226,5 +226,18 @@ namespace eNumismat2._0.Properties {
                 this["AddressBook_UseValidation"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<ArrayOfString xmlns:xsi=\"http://www.w3." +
+            "org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" />")]
+        public global::System.Collections.Specialized.StringCollection DBBackupPathCollection {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["DBBackupPathCollection"]));
+            }
+            set {
+                this["DBBackupPathCollection"] = value;
+            }
+        }
     }
 }
