@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="_dbBackup_BallonText" xml:space="preserve">
-    <value />
+    <value>The Backup was successful</value>
   </data>
   <data name="_dbBackup_BalloonTitle" xml:space="preserve">
-    <value />
+    <value>Database Backup</value>
   </data>
   <data name="_dbCompress_BallonText" xml:space="preserve">
-    <value />
+    <value>Compression of the Database was successful</value>
   </data>
   <data name="_dbCompress_BalloonTitle" xml:space="preserve">
-    <value />
+    <value>Database Compression</value>
   </data>
 </root>

@@ -30,5 +30,16 @@ namespace eNumismat2._0
 
             Hide();
         }
+
+        private void btn_SelectDbBackupPath_Click(object sender, EventArgs e)
+        {
+            FolderBrowserDialog BackupFolder = new FolderBrowserDialog();
+
+            if (BackupFolder.ShowDialog() == DialogResult.OK)
+            {
+                cb_DbBackupPath.Items.Add(BackupFolder.SelectedPath);
+                cb_DbBackupPath.SelectedItem = BackupFolder.SelectedPath;
+            }
+        }
     }
 }

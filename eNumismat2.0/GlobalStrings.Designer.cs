@@ -61,7 +61,7 @@ namespace eNumismat2._0 {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to The Backup was successful.
         /// </summary>
         internal static string _dbBackup_BallonText {
             get {
@@ -70,7 +70,7 @@ namespace eNumismat2._0 {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Database Backup.
         /// </summary>
         internal static string _dbBackup_BalloonTitle {
             get {
@@ -79,7 +79,7 @@ namespace eNumismat2._0 {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Compression of the Database was successful.
         /// </summary>
         internal static string _dbCompress_BallonText {
             get {
@@ -88,7 +88,7 @@ namespace eNumismat2._0 {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Database Compression.
         /// </summary>
         internal static string _dbCompress_BalloonTitle {
             get {
