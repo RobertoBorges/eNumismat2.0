@@ -43,10 +43,13 @@
             this.labelX2 = new DevComponents.DotNetBar.LabelX();
             this.btn_DbBackupOnAppClose = new DevComponents.DotNetBar.Controls.SwitchButton();
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
+            this.btn_UseValidation = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.labelX3 = new DevComponents.DotNetBar.LabelX();
             this.panelEx1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabControlPanel1.SuspendLayout();
+            this.tabControlPanel2.SuspendLayout();
             this.panelEx2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,9 +77,9 @@
             this.tabControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
             this.tabControl1.CanReorderTabs = true;
             this.tabControl1.CloseButtonOnTabsAlwaysDisplayed = false;
+            this.tabControl1.Controls.Add(this.tabControlPanel2);
             this.tabControl1.Controls.Add(this.tabControlPanel1);
             this.tabControl1.Controls.Add(this.tabControlPanel3);
-            this.tabControl1.Controls.Add(this.tabControlPanel2);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.ForeColor = System.Drawing.Color.Black;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
@@ -145,6 +148,8 @@
             // 
             // tabControlPanel2
             // 
+            this.tabControlPanel2.Controls.Add(this.labelX3);
+            this.tabControlPanel2.Controls.Add(this.btn_UseValidation);
             this.tabControlPanel2.DisabledBackColor = System.Drawing.Color.Empty;
             this.tabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControlPanel2.Location = new System.Drawing.Point(0, 27);
@@ -250,6 +255,31 @@
             this.labelX1.TabIndex = 10;
             this.labelX1.Text = "Run Backup on Application Close";
             // 
+            // btn_UseValidation
+            // 
+            // 
+            // 
+            // 
+            this.btn_UseValidation.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.btn_UseValidation.Location = new System.Drawing.Point(9, 11);
+            this.btn_UseValidation.Name = "btn_UseValidation";
+            this.btn_UseValidation.Size = new System.Drawing.Size(66, 22);
+            this.btn_UseValidation.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btn_UseValidation.TabIndex = 0;
+            // 
+            // labelX3
+            // 
+            this.labelX3.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX3.Location = new System.Drawing.Point(81, 10);
+            this.labelX3.Name = "labelX3";
+            this.labelX3.Size = new System.Drawing.Size(149, 23);
+            this.labelX3.TabIndex = 1;
+            this.labelX3.Text = "Use Validation for Contacts";
+            // 
             // _SettingsDialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -266,6 +296,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.tabControl1)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.tabControlPanel1.ResumeLayout(false);
+            this.tabControlPanel2.ResumeLayout(false);
             this.panelEx2.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -287,5 +318,7 @@
         private DevComponents.DotNetBar.LabelX labelX2;
         private DevComponents.DotNetBar.Controls.SwitchButton btn_DbBackupOnAppClose;
         private DevComponents.DotNetBar.LabelX labelX1;
+        private DevComponents.DotNetBar.LabelX labelX3;
+        private DevComponents.DotNetBar.Controls.SwitchButton btn_UseValidation;
     }
 }

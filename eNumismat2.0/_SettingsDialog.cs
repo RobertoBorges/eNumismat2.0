@@ -17,12 +17,14 @@ namespace eNumismat2._0
             InitializeComponent();
             btn_DbBackupOnAppClose.Value = Properties.Settings.Default.BackupDBOnAppClose;
             btn_DbCompressBeforeBackup.Value = Properties.Settings.Default.CompressDBBeforeBackup;
+            btn_UseValidation.Value = Properties.Settings.Default.AddressBook_UseValidation;
         }
 
         private void btn_Save_Click(object sender, EventArgs e)
         {
             Properties.Settings.Default.BackupDBOnAppClose = btn_DbBackupOnAppClose.Value;
             Properties.Settings.Default.CompressDBBeforeBackup = btn_DbCompressBeforeBackup.Value;
+            Properties.Settings.Default.AddressBook_UseValidation = btn_UseValidation.Value;
 
             Properties.Settings.Default.Save();
         }

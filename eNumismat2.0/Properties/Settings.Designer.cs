@@ -214,5 +214,17 @@ namespace eNumismat2._0.Properties {
                 this["DBFilePath"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool AddressBook_UseValidation {
+            get {
+                return ((bool)(this["AddressBook_UseValidation"]));
+            }
+            set {
+                this["AddressBook_UseValidation"] = value;
+            }
+        }
     }
 }
