@@ -27,6 +27,8 @@ namespace eNumismat2._0
             Properties.Settings.Default.AddressBook_UseValidation = btn_UseValidation.Value;
 
             Properties.Settings.Default.Save();
+
+            Hide();
         }
     }
 }
