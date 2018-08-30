@@ -129,6 +129,10 @@ namespace eNumismat2._0
 
                 toolStripStatusLabel1.Image = Properties.Resources.RU_Russia_Flag_icon;
             }
+            else
+            {
+                toolStripStatusLabel1.Image = null;
+            }
 
 
         }
