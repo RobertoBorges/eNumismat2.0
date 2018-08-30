@@ -46,7 +46,7 @@
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Infralution.Localization">
-      <HintPath>..\..\..\..\Downloads\New folder\bin\Debug\Infralution.Localization.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\Neuer Ordner\bin\Infralution.Localization.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll</HintPath>

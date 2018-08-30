@@ -22,76 +22,28 @@ namespace eNumismat2._0
         public _eNumismatMain()
         {
             InitializeComponent();
-
-            MessageBox.Show(Properties.Settings.Default.UICulture);
-
-            if (Properties.Settings.Default.UICulture == null)
-            {
-                CurrentUICulture = CultureInfo.CurrentUICulture;
-            }
-            //Properties.Settings.Default.UICulture = null;
-            //Properties.Settings.Default.Save();
         }
 
         //=====================================================================================================================================================================
         private void Form1_Load(object sender, EventArgs e)
         {
             DisplayLanguage();
-            //MessageBox.Show(UICulture);
-            //MessageBox.Show(CultureInfo.CurrentUICulture.Name);
         }
 
         //=====================================================================================================================================================================
-        private void DisplayLanguage()
+        private void DisplayLanguage(string type = null)
         {
-            CurrentUICulture = CultureManager.ApplicationUICulture;
+            CultureInfo DisplayCulture = CultureManager.ApplicationUICulture;
 
-            
+            CurrentUICulture = DisplayCulture;
 
-            MessageBox.Show(Properties.Settings.Default.UICulture);
+            Properties.Settings.Default.UICulture = DisplayCulture.Name;
+            Properties.Settings.Default.Save();
 
-            toolStripStatusLabel1.Text = CultureInfo.CurrentUICulture.DisplayName;
-            //if (method == "set" && culture != null)
-            //{
-            //Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(culture);
-            //    Properties.Settings.Default.UICulture = CultureInfo.CurrentUICulture.Name;
-            //    Properties.Settings.Default.Save();
-            //}
-            //else
-            //{
-            //if (Properties.Settings.Default.UICulture == null)
-            //{
-            //    Properties.Settings.Default.UICulture = CultureInfo.CurrentUICulture.Name;
-            //    Properties.Settings.Default.Save();
-            //}
-            //else
-            //{
-            //    Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(Properties.Settings.Default.UICulture);
-            //}
-            //}
-
-            //Controls.Clear();
-            //InitializeComponent();
-            //this.Refresh();
-            //this.Invalidate();
-            //this.Update();
-
-            if (CultureInfo.CurrentUICulture.Name == "en-GB")
+            if (DisplayCulture.Name == "en-US")
             {
-                LangEN_GB.Checked = true;
-                LangEN_US.Checked = false;
-                LangDE.Checked = false;
-                LangFR.Checked = false;
-                LangES.Checked = false;
-                LangPT.Checked = false;
-                LangRU.Checked = false;
-
-                toolStripStatusLabel1.Image = Properties.Resources.GB_United_Kingdom_Flag_icon;
-            }
-            else if (CultureInfo.CurrentUICulture.Name == "en-US")
-            {
-                LangEN_GB.Checked = false;
                 LangEN_US.Checked = true;
+                LangEN_GB.Checked = false;
                 LangDE.Checked = false;
                 LangFR.Checked = false;
                 LangES.Checked = false;
@@ -100,10 +52,22 @@ namespace eNumismat2._0
 
                 toolStripStatusLabel1.Image = Properties.Resources.US_United_States_Flag_icon;
             }
-            else if (CultureInfo.CurrentUICulture.Name == "de-DE")
+            else if (DisplayCulture.Name == "en-GB")
             {
-                LangEN_GB.Checked = false;
                 LangEN_US.Checked = false;
+                LangEN_GB.Checked = true;
+                LangDE.Checked = false;
+                LangFR.Checked = false;
+                LangES.Checked = false;
+                LangPT.Checked = false;
+                LangRU.Checked = false;
+
+                toolStripStatusLabel1.Image = Properties.Resources.GB_United_Kingdom_Flag_icon;
+            }
+            else if (DisplayCulture.Name == "de-DE")
+            {
+                LangEN_US.Checked = false;
+                LangEN_GB.Checked = false;
                 LangDE.Checked = true;
                 LangFR.Checked = false;
                 LangES.Checked = false;
@@ -112,10 +76,10 @@ namespace eNumismat2._0
 
                 toolStripStatusLabel1.Image = Properties.Resources.DE_Germany_Flag_icon;
             }
-            else if (CultureInfo.CurrentUICulture.Name == "fr-FR")
+            else if (DisplayCulture.Name == "fr-FR")
             {
-                LangEN_GB.Checked = false;
                 LangEN_US.Checked = false;
+                LangEN_GB.Checked = false;
                 LangDE.Checked = false;
                 LangFR.Checked = true;
                 LangES.Checked = false;
@@ -124,10 +88,10 @@ namespace eNumismat2._0
 
                 toolStripStatusLabel1.Image = Properties.Resources.FR_France_Flag_icon;
             }
-            else if (CultureInfo.CurrentUICulture.Name == "es-ES")
+            else if (DisplayCulture.Name == "es-ES")
             {
-                LangEN_GB.Checked = false;
                 LangEN_US.Checked = false;
+                LangEN_GB.Checked = false;
                 LangDE.Checked = false;
                 LangFR.Checked = false;
                 LangES.Checked = true;
@@ -136,10 +100,10 @@ namespace eNumismat2._0
 
                 toolStripStatusLabel1.Image = Properties.Resources.ES_Spain_Flag_icon;
             }
-            else if (CultureInfo.CurrentUICulture.Name == "pt-PT")
+            else if (DisplayCulture.Name == "pt-PT")
             {
-                LangEN_GB.Checked = false;
                 LangEN_US.Checked = false;
+                LangEN_GB.Checked = false;
                 LangDE.Checked = false;
                 LangFR.Checked = false;
                 LangES.Checked = false;
@@ -148,10 +112,10 @@ namespace eNumismat2._0
 
                 toolStripStatusLabel1.Image = Properties.Resources.PT_Portugal_Flag_icon;
             }
-            else if (CultureInfo.CurrentUICulture.Name == "ru-RU")
+            else if (DisplayCulture.Name == "ru-RU")
             {
-                LangEN_GB.Checked = false;
                 LangEN_US.Checked = false;
+                LangEN_GB.Checked = false;
                 LangDE.Checked = false;
                 LangFR.Checked = false;
                 LangES.Checked = false;
@@ -160,21 +124,8 @@ namespace eNumismat2._0
 
                 toolStripStatusLabel1.Image = Properties.Resources.RU_Russia_Flag_icon;
             }
-            else
-            {
-                LangEN_GB.Checked = false;
-                LangEN_US.Checked = false;
-                LangDE.Checked = false;
-                LangFR.Checked = false;
-                LangES.Checked = false;
-                LangPT.Checked = false;
-                LangRU.Checked = false;
 
-                toolStripStatusLabel1.Image = null;
-            }
 
-            Properties.Settings.Default.UICulture = CurrentUICulture.ToString();
-            Properties.Settings.Default.Save();
         }
 
         // Open "child" Forms
@@ -289,7 +240,7 @@ namespace eNumismat2._0
 
         private void cultureManager_UICultureChanged(CultureInfo newCulture)
         {
-            DisplayLanguage();
+            DisplayLanguage("SetUiCulture");
         }
 
         //=====================================================================================================================================================================
