@@ -49,6 +49,7 @@ namespace eNumismat2._0.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
         public int MainWindowWidth {
             get {
                 return ((int)(this["MainWindowWidth"]));
@@ -60,12 +61,97 @@ namespace eNumismat2._0.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        public int MainWindowHight {
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int MainWindowHeight {
             get {
-                return ((int)(this["MainWindowHight"]));
+                return ((int)(this["MainWindowHeight"]));
             }
             set {
-                this["MainWindowHight"] = value;
+                this["MainWindowHeight"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Normal")]
+        public global::System.Windows.Forms.FormWindowState AddressBookWindowState {
+            get {
+                return ((global::System.Windows.Forms.FormWindowState)(this["AddressBookWindowState"]));
+            }
+            set {
+                this["AddressBookWindowState"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int AddressBookWindowWidth {
+            get {
+                return ((int)(this["AddressBookWindowWidth"]));
+            }
+            set {
+                this["AddressBookWindowWidth"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int AddressBookWindowHight {
+            get {
+                return ((int)(this["AddressBookWindowHight"]));
+            }
+            set {
+                this["AddressBookWindowHight"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Normal")]
+        public global::System.Windows.Forms.FormWindowState ExchangeMonitorWindowState {
+            get {
+                return ((global::System.Windows.Forms.FormWindowState)(this["ExchangeMonitorWindowState"]));
+            }
+            set {
+                this["ExchangeMonitorWindowState"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int ExchangeMonitorWindowWidth {
+            get {
+                return ((int)(this["ExchangeMonitorWindowWidth"]));
+            }
+            set {
+                this["ExchangeMonitorWindowWidth"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int ExchangeMonitorWindowHight {
+            get {
+                return ((int)(this["ExchangeMonitorWindowHight"]));
+            }
+            set {
+                this["ExchangeMonitorWindowHight"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool MinimizeToTray {
+            get {
+                return ((bool)(this["MinimizeToTray"]));
+            }
+            set {
+                this["MinimizeToTray"] = value;
             }
         }
     }

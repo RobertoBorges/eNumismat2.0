@@ -61,6 +61,7 @@
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.culture = new Infralution.Localization.CultureManager(this.components);
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.ribbonControl1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -344,6 +345,11 @@
             this.culture.ManagedControl = this;
             this.culture.UICultureChanged += new Infralution.Localization.CultureManager.CultureChangedHandler(this.cultureManager_UICultureChanged);
             // 
+            // notifyIcon1
+            // 
+            resources.ApplyResources(this.notifyIcon1, "notifyIcon1");
+            this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.TryIcon_MouseDoubleClick);
+            // 
             // _eNumismatMain
             // 
             resources.ApplyResources(this, "$this");
@@ -395,6 +401,7 @@
         private DevComponents.DotNetBar.ButtonItem LangEN_US;
         private DevComponents.DotNetBar.LabelX labelX1;
         private Infralution.Localization.CultureManager culture;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
     }
 }
 

@@ -26,7 +26,7 @@ namespace eNumismat2._0
             }
             else if(Properties.Settings.Default.MainWindowState == FormWindowState.Normal)
             {
-                Size = new Size(Properties.Settings.Default.MainWindowWidth, Properties.Settings.Default.MainWindowHight);
+                Size = new Size(Properties.Settings.Default.MainWindowWidth, Properties.Settings.Default.MainWindowHeight);
             }
             else if (Properties.Settings.Default.MainWindowState == FormWindowState.Minimized)
             {
@@ -143,8 +143,6 @@ namespace eNumismat2._0
             {
                 toolStripStatusLabel1.Image = null;
             }
-
-
         }
 
         // Open "child" Forms
@@ -257,6 +255,7 @@ namespace eNumismat2._0
             //DisplayLanguage("set", "ru-RU");
         }
 
+        //=====================================================================================================================================================================
         private void cultureManager_UICultureChanged(CultureInfo newCulture)
         {
             Properties.Settings.Default.UICulture = newCulture.Name;
@@ -272,9 +271,48 @@ namespace eNumismat2._0
             Close();
         }
 
+        //=====================================================================================================================================================================
         private void _eNumismatMain_SizeChanged(object sender, EventArgs e)
         {
-            Properties.Settings.Default.MainWindowHight = Size.Height;
+            if (Properties.Settings.Default.MinimizeToTray == true)
+            {
+                if (WindowState == FormWindowState.Minimized)
+                {
+                    Hide();
+                    WindowState = FormWindowState.Minimized;
+                }
+            }
+
+            SaveWindowSizeSettings();
+        }
+
+        //=====================================================================================================================================================================
+        private void TryIcon_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            DoubleClickAction();
+        }
+
+        //=====================================================================================================================================================================
+        private void DoubleClickAction()
+        {
+            if (WindowState == FormWindowState.Minimized)
+            {
+                Show();
+                WindowState = FormWindowState.Normal;
+            }
+            else if (WindowState == FormWindowState.Normal)
+            {
+                Hide();
+                WindowState = FormWindowState.Minimized;
+            }
+
+            SaveWindowSizeSettings();
+        }
+
+        //=====================================================================================================================================================================
+        private void SaveWindowSizeSettings()
+        {
+            Properties.Settings.Default.MainWindowHeight = Size.Height;
             Properties.Settings.Default.MainWindowWidth = Size.Width;
             Properties.Settings.Default.MainWindowState = WindowState;
 
@@ -282,3 +320,8 @@ namespace eNumismat2._0
         }
     }
 }
+
+
+
+
+
