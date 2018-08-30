@@ -33,12 +33,17 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void DisplayLanguage(string type = null)
         {
-            CultureInfo DisplayCulture = CultureManager.ApplicationUICulture;
+            CultureInfo DisplayCulture;
 
-            CurrentUICulture = DisplayCulture;
-
-            Properties.Settings.Default.UICulture = DisplayCulture.Name;
-            Properties.Settings.Default.Save();
+            if (string.IsNullOrEmpty(Properties.Settings.Default.UICulture))
+            {
+                DisplayCulture = CultureInfo.CurrentUICulture;
+            }
+            else
+            {
+                CultureManager.ApplicationUICulture = new CultureInfo(Properties.Settings.Default.UICulture);
+                DisplayCulture = CultureManager.ApplicationUICulture;
+            }
 
             if (DisplayCulture.Name == "en-US")
             {
@@ -240,7 +245,10 @@ namespace eNumismat2._0
 
         private void cultureManager_UICultureChanged(CultureInfo newCulture)
         {
+            Properties.Settings.Default.UICulture = newCulture.Name;
+            Properties.Settings.Default.Save();
             DisplayLanguage("SetUiCulture");
+
         }
 
         //=====================================================================================================================================================================
