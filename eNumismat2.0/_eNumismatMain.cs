@@ -171,7 +171,7 @@ namespace eNumismat2._0
         }
 
         //=====================================================================================================================================================================
-        private void btn_SettingsDialog_Click(object sender, EventArgs e)
+        private void Btn_SettingsDialog_Click(object sender, EventArgs e)
         {
             if (OpenForm("_SettingsDialog") == false)
             {
@@ -261,7 +261,7 @@ namespace eNumismat2._0
         }
 
         //=====================================================================================================================================================================
-        private void cultureManager_UICultureChanged(CultureInfo newCulture)
+        private void CultureManager_UICultureChanged(CultureInfo newCulture)
         {
             Properties.Settings.Default.UICulture = newCulture.Name;
             Properties.Settings.Default.Save();
@@ -322,25 +322,25 @@ namespace eNumismat2._0
         }
 
         //=====================================================================================================================================================================
-        private void btn_NewDB_Click(object sender, EventArgs e)
+        private void Btn_NewDB_Click(object sender, EventArgs e)
         {
 
         }
 
         //=====================================================================================================================================================================
-        private void btn_OpenDB_Click(object sender, EventArgs e)
+        private void Btn_OpenDB_Click(object sender, EventArgs e)
         {
 
         }
 
         //=====================================================================================================================================================================
-        private void btn_CompressDB_Click(object sender, EventArgs e)
+        private void Btn_CompressDB_Click(object sender, EventArgs e)
         {
             RunDBCompression();
         }
 
         //=====================================================================================================================================================================
-        private void btn_BackupDB_Click(object sender, EventArgs e)
+        private void Btn_BackupDB_Click(object sender, EventArgs e)
         {
             RunDBBackup();
         }

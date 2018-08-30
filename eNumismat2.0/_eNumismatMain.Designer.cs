@@ -149,14 +149,14 @@
             this.btn_NewDB.Image = global::eNumismat2._0.Properties.Resources.database_add;
             this.btn_NewDB.Name = "btn_NewDB";
             resources.ApplyResources(this.btn_NewDB, "btn_NewDB");
-            this.btn_NewDB.Click += new System.EventHandler(this.btn_NewDB_Click);
+            this.btn_NewDB.Click += new System.EventHandler(this.Btn_NewDB_Click);
             // 
             // btn_OpenDB
             // 
             this.btn_OpenDB.Image = global::eNumismat2._0.Properties.Resources.database_connect;
             this.btn_OpenDB.Name = "btn_OpenDB";
             resources.ApplyResources(this.btn_OpenDB, "btn_OpenDB");
-            this.btn_OpenDB.Click += new System.EventHandler(this.btn_OpenDB_Click);
+            this.btn_OpenDB.Click += new System.EventHandler(this.Btn_OpenDB_Click);
             // 
             // btn_BackupDB
             // 
@@ -164,14 +164,14 @@
             this.btn_BackupDB.Image = global::eNumismat2._0.Properties.Resources.database_save;
             this.btn_BackupDB.Name = "btn_BackupDB";
             resources.ApplyResources(this.btn_BackupDB, "btn_BackupDB");
-            this.btn_BackupDB.Click += new System.EventHandler(this.btn_BackupDB_Click);
+            this.btn_BackupDB.Click += new System.EventHandler(this.Btn_BackupDB_Click);
             // 
             // btn_CompressDB
             // 
             this.btn_CompressDB.Image = global::eNumismat2._0.Properties.Resources.compress;
             this.btn_CompressDB.Name = "btn_CompressDB";
             resources.ApplyResources(this.btn_CompressDB, "btn_CompressDB");
-            this.btn_CompressDB.Click += new System.EventHandler(this.btn_CompressDB_Click);
+            this.btn_CompressDB.Click += new System.EventHandler(this.Btn_CompressDB_Click);
             // 
             // buttonItem9
             // 
@@ -249,7 +249,7 @@
             // 
             this.btn_SettingsDialog.Name = "btn_SettingsDialog";
             resources.ApplyResources(this.btn_SettingsDialog, "btn_SettingsDialog");
-            this.btn_SettingsDialog.Click += new System.EventHandler(this.btn_SettingsDialog_Click);
+            this.btn_SettingsDialog.Click += new System.EventHandler(this.Btn_SettingsDialog_Click);
             // 
             // btn_Close
             // 
@@ -341,7 +341,7 @@
             // culture
             // 
             this.culture.ManagedControl = this;
-            this.culture.UICultureChanged += new Infralution.Localization.CultureManager.CultureChangedHandler(this.cultureManager_UICultureChanged);
+            this.culture.UICultureChanged += new Infralution.Localization.CultureManager.CultureChangedHandler(this.CultureManager_UICultureChanged);
             // 
             // TrayIcon
             // 

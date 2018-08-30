@@ -199,7 +199,7 @@
             this.btn_Save.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btn_Save.TabIndex = 0;
             this.btn_Save.Text = "Save";
-            this.btn_Save.Click += new System.EventHandler(this.btn_Save_Click);
+            this.btn_Save.Click += new System.EventHandler(this.Btn_Save_Click);
             // 
             // btn_DbCompressBeforeBackup
             // 

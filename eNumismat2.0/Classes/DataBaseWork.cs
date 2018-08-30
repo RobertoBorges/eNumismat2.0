@@ -10,8 +10,9 @@ namespace eNumismat2._0.Classes
 {
     class DataBaseWork
     {
-        string BackupPath = Properties.Settings.Default.DBBackupPath;
-        string DataBaseFile = Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile);
+        private readonly string BackupPath = Properties.Settings.Default.DBBackupPath;
+        private readonly string DataBaseFile = Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile);
+
         //=====================================================================================================================================================================
         private bool CheckBackupDir()
         {
