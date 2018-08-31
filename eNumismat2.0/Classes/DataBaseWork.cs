@@ -15,6 +15,39 @@ namespace eNumismat2._0.Classes
         private readonly string DataBaseFile = Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile);
 
         //=====================================================================================================================================================================
+        public bool CreateNewDataBase()
+        {
+            using (SQLiteConnection SQLiteConn = new SQLiteConnection("Datasource=" + DataBaseFile))
+            {
+                try
+                {
+                    SQLiteConn.Open();
+
+                    string SQL = Properties.Resources.Create.ToString();
+
+                    using (SQLiteCommand SQLcmd = new SQLiteCommand(SQL, SQLiteConn))
+                    {
+                        try
+                        {
+                            SQLcmd.ExecuteNonQuery();
+                            return true;
+                        }
+                        catch (Exception ex)
+                        {
+                            return false;
+                            throw ex;
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    return false;
+                    throw ex;
+                }
+            }
+        }
+
+        //=====================================================================================================================================================================
         private bool CheckBackupDir()
         {
             if (Directory.Exists(BackupPath))
@@ -40,39 +73,35 @@ namespace eNumismat2._0.Classes
         {
             if (CheckBackupDir())
             {
-                if (!string.IsNullOrEmpty(Properties.Settings.Default.DBFile))
+                string SourceFile = DataBaseFile;
+                string DestFile = Path.Combine(BackupPath, DateTime.Now.ToString("yyyy_MM_dd-HHmmss") + ".encBack");
+
+                using (var source = new SQLiteConnection("Data Source=" + SourceFile))
                 {
-                    string SourceFile = DataBaseFile;
-                    string DestFile = Path.Combine(BackupPath, DateTime.Now.ToString("yyyy_MM_dd-HHmmss") + ".encBack");
-
-                    using (var source = new SQLiteConnection("Data Source=" + SourceFile))
+                    using (var destination = new SQLiteConnection("Data Source=" + DestFile))
                     {
-                        using (var destination = new SQLiteConnection("Data Source=" + DestFile))
+                        try
                         {
-                            try
+                            source.Open();
+
+                            if (Properties.Settings.Default.CompressDBBeforeBackup == true)
                             {
-                                source.Open();
-
-                                if (Properties.Settings.Default.CompressDBBeforeBackup == true)
-                                {
-                                    CompactDatabase(source);
-                                }
-
-                                destination.Open();
-
-                                source.BackupDatabase(destination, "main", "main", -1, null, 0);
-
-                                return true;
+                                CompactDatabase(source);
                             }
-                            catch (Exception ex)
-                            {
-                                //MessageBox.Show(ex.Message);
-                                return false;
-                            }
+
+                            destination.Open();
+
+                            source.BackupDatabase(destination, "main", "main", -1, null, 0);
+
+                            return true;
+                        }
+                        catch (Exception ex)
+                        {
+                            //MessageBox.Show(ex.Message);
+                            return false;
                         }
                     }
                 }
-                return false;
             }
             return false;
         }

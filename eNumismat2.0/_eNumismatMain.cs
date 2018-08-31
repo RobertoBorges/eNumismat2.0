@@ -42,7 +42,7 @@ namespace eNumismat2._0
         private void Form1_Load(object sender, EventArgs e)
         {
             DisplayLanguage();
-            CheckIfDbFileExists();
+            //CheckIfDbFileExists();
         }
 
         //=====================================================================================================================================================================
@@ -156,6 +156,11 @@ namespace eNumismat2._0
         private bool CheckIfDbFileExists()
         {
             // Check if DB File exists
+            if(!File.Exists(Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile)))
+            {
+                MessageBox.Show("File does not exist: " + Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile));
+                return false;
+            }
             return true;
         }
 
@@ -336,7 +341,7 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void Btn_NewDB_Click(object sender, EventArgs e)
         {
-            // Create New DB File
+            CreateNewDbFile();
         }
 
         //=====================================================================================================================================================================
@@ -345,6 +350,39 @@ namespace eNumismat2._0
             if(CheckIfDbFileExists())
             {
                 // OpenDBFile;
+            }
+        }
+
+        //=====================================================================================================================================================================
+        private void CreateNewDbFile()
+        {
+            SaveFileDialog SaveFile = new SaveFileDialog()
+            {
+                DefaultExt = "*.enc",
+                AddExtension = true,
+                InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments),
+                Filter = "eNumismat Collection (*.enc) | *.enc"
+            };
+
+            if (SaveFile.ShowDialog() == DialogResult.OK)
+            {
+                Properties.Settings.Default.DBFile = Path.GetFileName(SaveFile.FileName);
+                Properties.Settings.Default.DBFilePath = Path.GetDirectoryName(SaveFile.FileName);
+
+                Properties.Settings.Default.Save();
+
+                MessageBox.Show(Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile));
+
+                try
+                {
+                    DBWorker.CreateNewDataBase();
+
+                    CheckIfDbFileExists();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
             }
         }
 
