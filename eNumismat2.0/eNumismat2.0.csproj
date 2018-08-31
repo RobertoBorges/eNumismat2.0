@@ -71,6 +71,9 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="vCardLib">
+      <HintPath>..\..\vCardLib\vCardLib\bin\Debug\netstandard2.0\vCardLib.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\ConfigReadWrite.cs" />

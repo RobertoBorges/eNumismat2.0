@@ -355,7 +355,7 @@
             this.btn_SelectDbBackupPath.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btn_SelectDbBackupPath.TabIndex = 15;
             this.btn_SelectDbBackupPath.Text = "Select";
-            this.btn_SelectDbBackupPath.Click += new System.EventHandler(this.btn_SelectDbBackupPath_Click);
+            this.btn_SelectDbBackupPath.Click += new System.EventHandler(this.Btn_SelectDbBackupPath_Click);
             // 
             // labelX4
             // 

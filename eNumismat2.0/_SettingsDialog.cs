@@ -47,7 +47,7 @@ namespace eNumismat2._0
         }
 
         //=====================================================================================================================================================================
-        private void btn_SelectDbBackupPath_Click(object sender, EventArgs e)
+        private void Btn_SelectDbBackupPath_Click(object sender, EventArgs e)
         {
             FolderBrowserDialog BackupFolder = new FolderBrowserDialog();
 

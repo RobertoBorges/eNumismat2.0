@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using DevComponents.DotNetBar;
+using vCardLib.Deserializers;
 
 namespace eNumismat2._0
 {
@@ -14,6 +15,11 @@ namespace eNumismat2._0
         public _AddressBook()
         {
             InitializeComponent();
+        }
+
+        private void _AddressBook_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
