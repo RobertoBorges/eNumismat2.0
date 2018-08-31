@@ -36,9 +36,9 @@ namespace eNumismat2._0
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
-            this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
             this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
             this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
+            this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
             this.applicationButton1 = new DevComponents.DotNetBar.ApplicationButton();
             this.itemContainer1 = new DevComponents.DotNetBar.ItemContainer();
             this.itemContainer2 = new DevComponents.DotNetBar.ItemContainer();
@@ -63,20 +63,20 @@ namespace eNumismat2._0
             this.qatCustomizeItem2 = new DevComponents.DotNetBar.QatCustomizeItem();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.dotNetBarManager1 = new DevComponents.DotNetBar.DotNetBarManager(this.components);
-            this.dockSite1 = new DevComponents.DotNetBar.DockSite();
-            this.dockSite2 = new DevComponents.DotNetBar.DockSite();
-            this.dockSite3 = new DevComponents.DotNetBar.DockSite();
             this.dockSite4 = new DevComponents.DotNetBar.DockSite();
+            this.dockSite1 = new DevComponents.DotNetBar.DockSite();
+            this.bar1 = new DevComponents.DotNetBar.Bar();
+            this.panelDockContainer1 = new DevComponents.DotNetBar.PanelDockContainer();
+            this.dockContainerItem3 = new DevComponents.DotNetBar.DockContainerItem();
+            this.dockSite2 = new DevComponents.DotNetBar.DockSite();
+            this.dockSite8 = new DevComponents.DotNetBar.DockSite();
             this.dockSite5 = new DevComponents.DotNetBar.DockSite();
             this.dockSite6 = new DevComponents.DotNetBar.DockSite();
             this.dockSite7 = new DevComponents.DotNetBar.DockSite();
-            this.dockSite8 = new DevComponents.DotNetBar.DockSite();
+            this.dockSite3 = new DevComponents.DotNetBar.DockSite();
             this.dockContainerItem1 = new DevComponents.DotNetBar.DockContainerItem();
             this.panelDockContainer2 = new DevComponents.DotNetBar.PanelDockContainer();
             this.dockContainerItem2 = new DevComponents.DotNetBar.DockContainerItem();
-            this.bar1 = new DevComponents.DotNetBar.Bar();
-            this.dockContainerItem3 = new DevComponents.DotNetBar.DockContainerItem();
-            this.panelDockContainer1 = new DevComponents.DotNetBar.PanelDockContainer();
             this.statusStrip1.SuspendLayout();
             this.ribbonControl1.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
@@ -159,29 +159,6 @@ namespace eNumismat2._0
             this.ribbonControl1.TabIndex = 2;
             this.ribbonControl1.Text = "ribbonControl1";
             // 
-            // ribbonPanel2
-            // 
-            this.ribbonPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel2.Location = new System.Drawing.Point(0, 54);
-            this.ribbonPanel2.Name = "ribbonPanel2";
-            this.ribbonPanel2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 2);
-            this.ribbonPanel2.Size = new System.Drawing.Size(1141, 100);
-            // 
-            // 
-            // 
-            this.ribbonPanel2.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel2.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonPanel2.TabIndex = 2;
-            this.ribbonPanel2.Visible = false;
-            // 
             // ribbonPanel1
             // 
             this.ribbonPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -233,6 +210,29 @@ namespace eNumismat2._0
             // 
             // 
             this.ribbonBar1.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // ribbonPanel2
+            // 
+            this.ribbonPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ribbonPanel2.Location = new System.Drawing.Point(0, 54);
+            this.ribbonPanel2.Name = "ribbonPanel2";
+            this.ribbonPanel2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 2);
+            this.ribbonPanel2.Size = new System.Drawing.Size(1141, 100);
+            // 
+            // 
+            // 
+            this.ribbonPanel2.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel2.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonPanel2.TabIndex = 2;
+            this.ribbonPanel2.Visible = false;
             // 
             // applicationButton1
             // 
@@ -512,6 +512,17 @@ namespace eNumismat2._0
             this.dotNetBarManager1.ToolbarTopDockSite = this.dockSite7;
             this.dotNetBarManager1.TopDockSite = this.dockSite3;
             // 
+            // dockSite4
+            // 
+            this.dockSite4.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
+            this.dockSite4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dockSite4.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
+            this.dockSite4.Location = new System.Drawing.Point(5, 843);
+            this.dockSite4.Name = "dockSite4";
+            this.dockSite4.Size = new System.Drawing.Size(1141, 0);
+            this.dockSite4.TabIndex = 18;
+            this.dockSite4.TabStop = false;
+            // 
             // dockSite1
             // 
             this.dockSite1.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
@@ -525,6 +536,50 @@ namespace eNumismat2._0
             this.dockSite1.TabIndex = 15;
             this.dockSite1.TabStop = false;
             // 
+            // bar1
+            // 
+            this.bar1.AccessibleDescription = "DotNetBar Bar (bar1)";
+            this.bar1.AccessibleName = "DotNetBar Bar";
+            this.bar1.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
+            this.bar1.AutoSyncBarCaption = true;
+            this.bar1.CloseSingleTab = true;
+            this.bar1.Controls.Add(this.panelDockContainer1);
+            this.bar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bar1.GrabHandleStyle = DevComponents.DotNetBar.eGrabHandleStyle.Caption;
+            this.bar1.IsMaximized = false;
+            this.bar1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.dockContainerItem3});
+            this.bar1.LayoutType = DevComponents.DotNetBar.eLayoutType.DockContainer;
+            this.bar1.Location = new System.Drawing.Point(0, 0);
+            this.bar1.Name = "bar1";
+            this.bar1.Size = new System.Drawing.Size(353, 666);
+            this.bar1.Stretch = true;
+            this.bar1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.bar1.TabIndex = 0;
+            this.bar1.TabStop = false;
+            this.bar1.Text = "Contact List";
+            this.bar1.ThemeAware = true;
+            // 
+            // panelDockContainer1
+            // 
+            this.panelDockContainer1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.panelDockContainer1.DisabledBackColor = System.Drawing.Color.Empty;
+            this.panelDockContainer1.Location = new System.Drawing.Point(3, 23);
+            this.panelDockContainer1.Name = "panelDockContainer1";
+            this.panelDockContainer1.Size = new System.Drawing.Size(347, 640);
+            this.panelDockContainer1.Style.Alignment = System.Drawing.StringAlignment.Center;
+            this.panelDockContainer1.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.panelDockContainer1.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText;
+            this.panelDockContainer1.Style.GradientAngle = 90;
+            this.panelDockContainer1.TabIndex = 0;
+            // 
+            // dockContainerItem3
+            // 
+            this.dockContainerItem3.Control = this.panelDockContainer1;
+            this.dockContainerItem3.Name = "dockContainerItem3";
+            this.dockContainerItem3.Text = "dockContainerItem3";
+            this.dockContainerItem3.ThemeAware = true;
+            // 
             // dockSite2
             // 
             this.dockSite2.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
@@ -536,27 +591,15 @@ namespace eNumismat2._0
             this.dockSite2.TabIndex = 16;
             this.dockSite2.TabStop = false;
             // 
-            // dockSite3
+            // dockSite8
             // 
-            this.dockSite3.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            this.dockSite3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dockSite3.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
-            this.dockSite3.Location = new System.Drawing.Point(5, 1);
-            this.dockSite3.Name = "dockSite3";
-            this.dockSite3.Size = new System.Drawing.Size(1141, 0);
-            this.dockSite3.TabIndex = 17;
-            this.dockSite3.TabStop = false;
-            // 
-            // dockSite4
-            // 
-            this.dockSite4.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            this.dockSite4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dockSite4.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
-            this.dockSite4.Location = new System.Drawing.Point(5, 843);
-            this.dockSite4.Name = "dockSite4";
-            this.dockSite4.Size = new System.Drawing.Size(1141, 0);
-            this.dockSite4.TabIndex = 18;
-            this.dockSite4.TabStop = false;
+            this.dockSite8.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
+            this.dockSite8.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dockSite8.Location = new System.Drawing.Point(5, 843);
+            this.dockSite8.Name = "dockSite8";
+            this.dockSite8.Size = new System.Drawing.Size(1141, 0);
+            this.dockSite8.TabIndex = 22;
+            this.dockSite8.TabStop = false;
             // 
             // dockSite5
             // 
@@ -588,15 +631,16 @@ namespace eNumismat2._0
             this.dockSite7.TabIndex = 21;
             this.dockSite7.TabStop = false;
             // 
-            // dockSite8
+            // dockSite3
             // 
-            this.dockSite8.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            this.dockSite8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dockSite8.Location = new System.Drawing.Point(5, 843);
-            this.dockSite8.Name = "dockSite8";
-            this.dockSite8.Size = new System.Drawing.Size(1141, 0);
-            this.dockSite8.TabIndex = 22;
-            this.dockSite8.TabStop = false;
+            this.dockSite3.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
+            this.dockSite3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dockSite3.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
+            this.dockSite3.Location = new System.Drawing.Point(5, 1);
+            this.dockSite3.Name = "dockSite3";
+            this.dockSite3.Size = new System.Drawing.Size(1141, 0);
+            this.dockSite3.TabIndex = 17;
+            this.dockSite3.TabStop = false;
             // 
             // dockContainerItem1
             // 
@@ -621,50 +665,6 @@ namespace eNumismat2._0
             this.dockContainerItem2.Control = this.panelDockContainer2;
             this.dockContainerItem2.Name = "dockContainerItem2";
             this.dockContainerItem2.Text = "dockContainerItem2";
-            // 
-            // bar1
-            // 
-            this.bar1.AccessibleDescription = "DotNetBar Bar (bar1)";
-            this.bar1.AccessibleName = "DotNetBar Bar";
-            this.bar1.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
-            this.bar1.AutoSyncBarCaption = true;
-            this.bar1.CloseSingleTab = true;
-            this.bar1.Controls.Add(this.panelDockContainer1);
-            this.bar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bar1.GrabHandleStyle = DevComponents.DotNetBar.eGrabHandleStyle.Caption;
-            this.bar1.IsMaximized = false;
-            this.bar1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.dockContainerItem3});
-            this.bar1.LayoutType = DevComponents.DotNetBar.eLayoutType.DockContainer;
-            this.bar1.Location = new System.Drawing.Point(0, 0);
-            this.bar1.Name = "bar1";
-            this.bar1.Size = new System.Drawing.Size(353, 666);
-            this.bar1.Stretch = true;
-            this.bar1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.bar1.TabIndex = 0;
-            this.bar1.TabStop = false;
-            this.bar1.Text = "Contacts List";
-            this.bar1.ThemeAware = true;
-            // 
-            // dockContainerItem3
-            // 
-            this.dockContainerItem3.Control = this.panelDockContainer1;
-            this.dockContainerItem3.Name = "dockContainerItem3";
-            this.dockContainerItem3.Text = "dockContainerItem3";
-            this.dockContainerItem3.ThemeAware = true;
-            // 
-            // panelDockContainer1
-            // 
-            this.panelDockContainer1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.panelDockContainer1.DisabledBackColor = System.Drawing.Color.Empty;
-            this.panelDockContainer1.Location = new System.Drawing.Point(3, 23);
-            this.panelDockContainer1.Name = "panelDockContainer1";
-            this.panelDockContainer1.Size = new System.Drawing.Size(347, 640);
-            this.panelDockContainer1.Style.Alignment = System.Drawing.StringAlignment.Center;
-            this.panelDockContainer1.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.panelDockContainer1.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText;
-            this.panelDockContainer1.Style.GradientAngle = 90;
-            this.panelDockContainer1.TabIndex = 0;
             // 
             // _AddressBook
             // 
