@@ -30,7 +30,7 @@ namespace eNumismat2._0
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_AddressBook));
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("Test");
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("Test");
             this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
             this.ribbonTabItem2 = new DevComponents.DotNetBar.RibbonTabItem();
             this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
@@ -579,12 +579,14 @@ namespace eNumismat2._0
             this.panelDockContainer1.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText;
             this.panelDockContainer1.Style.GradientAngle = 90;
             this.panelDockContainer1.TabIndex = 0;
+            this.panelDockContainer1.ThemeAware = true;
             // 
             // dockContainerItem3
             // 
             this.dockContainerItem3.Control = this.panelDockContainer1;
             this.dockContainerItem3.Name = "dockContainerItem3";
             this.dockContainerItem3.Text = "Contacts";
+            this.dockContainerItem3.ThemeAware = true;
             // 
             // dockSite2
             // 
@@ -651,6 +653,7 @@ namespace eNumismat2._0
             // dockContainerItem1
             // 
             this.dockContainerItem1.Name = "dockContainerItem1";
+            this.dockContainerItem1.ThemeAware = true;
             // 
             // panelDockContainer2
             // 
@@ -660,10 +663,12 @@ namespace eNumismat2._0
             this.panelDockContainer2.Size = new System.Drawing.Size(200, 100);
             this.panelDockContainer2.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
             this.panelDockContainer2.TabIndex = 0;
+            this.panelDockContainer2.ThemeAware = true;
             // 
             // dockContainerItem2
             // 
             this.dockContainerItem2.Name = "dockContainerItem2";
+            this.dockContainerItem2.ThemeAware = true;
             // 
             // listViewEx1
             // 
@@ -681,9 +686,9 @@ namespace eNumismat2._0
             this.listViewEx1.ForeColor = System.Drawing.Color.Black;
             this.listViewEx1.FullRowSelect = true;
             this.listViewEx1.HideSelection = false;
-            listViewItem1.StateImageIndex = 0;
+            listViewItem2.StateImageIndex = 0;
             this.listViewEx1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1});
+            listViewItem2});
             this.listViewEx1.Location = new System.Drawing.Point(0, 0);
             this.listViewEx1.Name = "listViewEx1";
             this.listViewEx1.Size = new System.Drawing.Size(303, 640);
