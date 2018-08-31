@@ -272,6 +272,8 @@
     <None Include="Resources\vcard_edit.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\action_remove.png" />
+    <None Include="Resources\action_add.png" />
     <Content Include="Resources\CountryFlags\de.png" />
     <Content Include="Resources\CountryFlags\es.png" />
     <Content Include="Resources\CountryFlags\fr.png" />

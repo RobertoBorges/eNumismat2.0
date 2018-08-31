@@ -63,6 +63,16 @@ namespace eNumismat2._0.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap action_add {
+            get {
+                object obj = ResourceManager.GetObject("action_add", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap action_check {
             get {
                 object obj = ResourceManager.GetObject("action_check", resourceCulture);
@@ -76,6 +86,16 @@ namespace eNumismat2._0.Properties {
         internal static System.Drawing.Bitmap action_delete {
             get {
                 object obj = ResourceManager.GetObject("action_delete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap action_remove {
+            get {
+                object obj = ResourceManager.GetObject("action_remove", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
