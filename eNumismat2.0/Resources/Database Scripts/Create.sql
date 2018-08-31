@@ -1,5 +1,5 @@
 ﻿-- Table CONTACTS
-CREATE TABLE [contacts](
+CREATE TABLE IF NOT EXISTS [contacts](
   [id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, 
   [name] TEXT(99) NOT NULL, 
   [gender] TEXT(15));
@@ -13,14 +13,23 @@ CREATE TABLE IF NOT EXISTS [gender](
 CREATE TABLE IF NOT EXISTS [labels](
   [id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, 
   [labelname] TEXT(99) NOT NULL, 
-  [labeltype] INTEGER NOT NULL, 
-  [contact_id] INTEGER NOT NULL, 
   [labelcolor] TEXT(15));
 
--- Table LABEL TYPES
-CREATE TABLE IF NOT EXISTS [labeltypes](
-  [id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, 
-  [type] TEXT(99) NOT NULL);
+-- Table LABELCOLLECTION FOR CONTACTS
+CREATE TABLE IF NOT EXISTS [labelstocontact](
+  [label_id] INTEGER NOT NULL,
+  [contacts_id] INTEGER NOT NULL,
+  PRIMARY KEY (label_id, contacts_id));
+
+-- Table TAGS
+CREATE TABLE IF NOT EXISTS [tags](
+  [tag] TEXT(30) PRIMARY KEY UNIQUE NOT NULL);
+
+-- Table TAGCOLLECTION FOR CONTACTS
+CREATE TABLE IF NOT EXISTS [tagstocontact](
+  [tag] TEXT(30) NOT NULL,
+  [contacts_id] INTEGER NOT NULL,
+  PRIMARY KEY (tag, contacts_id));
 
 -- Table POSTAL CODES
 CREATE TABLE IF NOT EXISTS "postalcode"([postalcode] TEXT(10) PRIMARY KEY NOT NULL UNIQUE);
@@ -45,4 +54,4 @@ CREATE TABLE IF NOT EXISTS [country](
   [es] TEXT(50), 
   [fr] TEXT(50),
   [ro] TEXT(50),
-  [ar] TEXT(50);
+  [ar] TEXT(50));
