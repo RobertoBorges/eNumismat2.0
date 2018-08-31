@@ -356,11 +356,24 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void CreateNewDbFile()
         {
+            string InitialDir = null;
+
+            if (string.IsNullOrEmpty(Properties.Settings.Default.DBFilePath))
+            {
+                InitialDir = Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments);
+            }
+            else
+            {
+                InitialDir = Properties.Settings.Default.DBFilePath;
+            }
+
             SaveFileDialog SaveFile = new SaveFileDialog()
             {
                 DefaultExt = "*.enc",
                 AddExtension = true,
-                InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments),
+
+                InitialDirectory = InitialDir,
+                    
                 Filter = "eNumismat Collection (*.enc) | *.enc"
             };
 
