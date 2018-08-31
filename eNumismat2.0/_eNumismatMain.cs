@@ -347,10 +347,7 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void Btn_OpenDB_Click(object sender, EventArgs e)
         {
-            if(CheckIfDbFileExists())
-            {
-                // OpenDBFile;
-            }
+            
         }
 
         //=====================================================================================================================================================================
@@ -371,9 +368,7 @@ namespace eNumismat2._0
             {
                 DefaultExt = "*.enc",
                 AddExtension = true,
-
                 InitialDirectory = InitialDir,
-                    
                 Filter = "eNumismat Collection (*.enc) | *.enc"
             };
 
