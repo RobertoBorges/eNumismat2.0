@@ -10,9 +10,11 @@ using System.Threading;
 using System.Windows.Forms;
 using DevComponents.DotNetBar;
 using Infralution.Localization;
+using System.IO;
 
 namespace eNumismat2._0
 {
+    //=====================================================================================================================================================================
     public partial class _eNumismatMain : RibbonForm
     {
         Classes.DataBaseWork DBWorker = new Classes.DataBaseWork();
@@ -40,6 +42,7 @@ namespace eNumismat2._0
         private void Form1_Load(object sender, EventArgs e)
         {
             DisplayLanguage();
+            CheckIfDbFileExists();
         }
 
         //=====================================================================================================================================================================
@@ -147,6 +150,13 @@ namespace eNumismat2._0
             }
 
             toolStripStatusLabel1.Text = CultureManager.ApplicationUICulture.Name;
+        }
+
+        //=====================================================================================================================================================================
+        private bool CheckIfDbFileExists()
+        {
+            // Check if DB File exists
+            return true;
         }
 
         // Open "child" Forms
@@ -326,13 +336,16 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void Btn_NewDB_Click(object sender, EventArgs e)
         {
-
+            // Create New DB File
         }
 
         //=====================================================================================================================================================================
         private void Btn_OpenDB_Click(object sender, EventArgs e)
         {
-
+            if(CheckIfDbFileExists())
+            {
+                // OpenDBFile;
+            }
         }
 
         //=====================================================================================================================================================================

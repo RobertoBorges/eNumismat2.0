@@ -8,6 +8,7 @@ using System.Data.SQLite;
 
 namespace eNumismat2._0.Classes
 {
+    //=====================================================================================================================================================================
     class DataBaseWork
     {
         private readonly string BackupPath = Properties.Settings.Default.DBBackupPath;

@@ -11,6 +11,7 @@ using System.Collections.Specialized;
 
 namespace eNumismat2._0
 {
+    //=====================================================================================================================================================================
     public partial class _SettingsDialog : Form
     {
         StringCollection DbBackupPathCollection;
