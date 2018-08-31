@@ -17,7 +17,7 @@ namespace eNumismat2._0
     //=====================================================================================================================================================================
     public partial class _eNumismatMain : RibbonForm
     {
-        Classes.DataBaseWork DBWorker = new Classes.DataBaseWork();
+        Classes.DataBaseWork DBWorker;
 
         //=====================================================================================================================================================================
         public _eNumismatMain()
@@ -375,6 +375,7 @@ namespace eNumismat2._0
 
                 try
                 {
+                    DBWorker = new Classes.DataBaseWork();
                     DBWorker.CreateNewDataBase();
 
                     CheckIfDbFileExists();
