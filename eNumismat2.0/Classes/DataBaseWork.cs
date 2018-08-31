@@ -98,5 +98,41 @@ namespace eNumismat2._0.Classes
                 }
             }
         }
+
+        //=====================================================================================================================================================================
+        public int ContactCounter()
+        {
+            int _rowCounter = 0;
+
+            using (SQLiteConnection SQLiteConn = new SQLiteConnection("Datasource=" + DataBaseFile))
+            {
+                try
+                {
+                    SQLiteConn.Open();
+
+                    string SQL = "SELECT COUNT (*) FROM `contacts`";
+
+                    using (SQLiteCommand SQLcmd = new SQLiteCommand(SQL, SQLiteConn))
+                    {
+                        try
+                        {
+                            _rowCounter = Convert.ToInt32(SQLcmd.ExecuteScalar());
+
+                            return _rowCounter;
+                        }
+                        catch (Exception ex)
+                        {
+                            throw ex;
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+            }
+        }
+
+        //=====================================================================================================================================================================
     }
 }
