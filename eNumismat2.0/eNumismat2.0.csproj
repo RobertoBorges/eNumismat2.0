@@ -72,7 +72,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="vCardLib">
-      <HintPath>..\..\vCardLib\vCardLib\bin\Debug\netstandard2.0\vCardLib.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\vCardLib-master\vCardLib\bin\Debug\netstandard2.0\vCardLib.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
