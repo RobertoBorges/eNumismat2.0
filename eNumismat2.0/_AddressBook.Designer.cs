@@ -30,7 +30,7 @@ namespace eNumismat2._0
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_AddressBook));
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("Test");
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("Test");
             this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
             this.ribbonTabItem2 = new DevComponents.DotNetBar.RibbonTabItem();
             this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
@@ -118,9 +118,9 @@ namespace eNumismat2._0
             this.statusStrip1.BackColor = System.Drawing.Color.Transparent;
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(5, 637);
+            this.statusStrip1.Location = new System.Drawing.Point(5, 676);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1174, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(1190, 22);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -145,7 +145,7 @@ namespace eNumismat2._0
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.QuickToolbarItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.qatCustomizeItem2});
-            this.ribbonControl1.Size = new System.Drawing.Size(1174, 154);
+            this.ribbonControl1.Size = new System.Drawing.Size(1190, 154);
             this.ribbonControl1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.ribbonControl1.SystemText.MaximizeRibbonText = "&Maximize the Ribbon";
             this.ribbonControl1.SystemText.MinimizeRibbonText = "Mi&nimize the Ribbon";
@@ -174,7 +174,7 @@ namespace eNumismat2._0
             this.ribbonPanel1.Location = new System.Drawing.Point(0, 54);
             this.ribbonPanel1.Name = "ribbonPanel1";
             this.ribbonPanel1.Padding = new System.Windows.Forms.Padding(3, 0, 3, 2);
-            this.ribbonPanel1.Size = new System.Drawing.Size(1174, 100);
+            this.ribbonPanel1.Size = new System.Drawing.Size(1190, 100);
             // 
             // 
             // 
@@ -524,9 +524,9 @@ namespace eNumismat2._0
             this.dockSite4.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
             this.dockSite4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dockSite4.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
-            this.dockSite4.Location = new System.Drawing.Point(5, 659);
+            this.dockSite4.Location = new System.Drawing.Point(5, 698);
             this.dockSite4.Name = "dockSite4";
-            this.dockSite4.Size = new System.Drawing.Size(1174, 0);
+            this.dockSite4.Size = new System.Drawing.Size(1190, 0);
             this.dockSite4.TabIndex = 18;
             this.dockSite4.TabStop = false;
             // 
@@ -536,10 +536,10 @@ namespace eNumismat2._0
             this.dockSite1.Controls.Add(this.bar1);
             this.dockSite1.Dock = System.Windows.Forms.DockStyle.Left;
             this.dockSite1.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer(new DevComponents.DotNetBar.DocumentBaseContainer[] {
-            ((DevComponents.DotNetBar.DocumentBaseContainer)(new DevComponents.DotNetBar.DocumentBarContainer(this.bar1, 309, 482)))}, DevComponents.DotNetBar.eOrientation.Horizontal);
+            ((DevComponents.DotNetBar.DocumentBaseContainer)(new DevComponents.DotNetBar.DocumentBarContainer(this.bar1, 309, 521)))}, DevComponents.DotNetBar.eOrientation.Horizontal);
             this.dockSite1.Location = new System.Drawing.Point(5, 155);
             this.dockSite1.Name = "dockSite1";
-            this.dockSite1.Size = new System.Drawing.Size(312, 482);
+            this.dockSite1.Size = new System.Drawing.Size(312, 521);
             this.dockSite1.TabIndex = 15;
             this.dockSite1.TabStop = false;
             // 
@@ -562,7 +562,7 @@ namespace eNumismat2._0
             this.bar1.LayoutType = DevComponents.DotNetBar.eLayoutType.DockContainer;
             this.bar1.Location = new System.Drawing.Point(0, 0);
             this.bar1.Name = "bar1";
-            this.bar1.Size = new System.Drawing.Size(309, 482);
+            this.bar1.Size = new System.Drawing.Size(309, 521);
             this.bar1.Stretch = true;
             this.bar1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.bar1.TabIndex = 0;
@@ -577,7 +577,7 @@ namespace eNumismat2._0
             this.panelDockContainer1.DisabledBackColor = System.Drawing.Color.Empty;
             this.panelDockContainer1.Location = new System.Drawing.Point(3, 23);
             this.panelDockContainer1.Name = "panelDockContainer1";
-            this.panelDockContainer1.Size = new System.Drawing.Size(303, 456);
+            this.panelDockContainer1.Size = new System.Drawing.Size(303, 495);
             this.panelDockContainer1.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.panelDockContainer1.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
             this.panelDockContainer1.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText;
@@ -601,12 +601,12 @@ namespace eNumismat2._0
             this.listViewEx1.ForeColor = System.Drawing.Color.Black;
             this.listViewEx1.FullRowSelect = true;
             this.listViewEx1.HideSelection = false;
-            listViewItem2.StateImageIndex = 0;
+            listViewItem1.StateImageIndex = 0;
             this.listViewEx1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem2});
+            listViewItem1});
             this.listViewEx1.Location = new System.Drawing.Point(0, 0);
             this.listViewEx1.Name = "listViewEx1";
-            this.listViewEx1.Size = new System.Drawing.Size(303, 456);
+            this.listViewEx1.Size = new System.Drawing.Size(303, 495);
             this.listViewEx1.TabIndex = 0;
             this.listViewEx1.UseCompatibleStateImageBehavior = false;
             this.listViewEx1.View = System.Windows.Forms.View.Details;
@@ -628,9 +628,9 @@ namespace eNumismat2._0
             this.dockSite2.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
             this.dockSite2.Dock = System.Windows.Forms.DockStyle.Right;
             this.dockSite2.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
-            this.dockSite2.Location = new System.Drawing.Point(1179, 155);
+            this.dockSite2.Location = new System.Drawing.Point(1195, 155);
             this.dockSite2.Name = "dockSite2";
-            this.dockSite2.Size = new System.Drawing.Size(0, 482);
+            this.dockSite2.Size = new System.Drawing.Size(0, 521);
             this.dockSite2.TabIndex = 16;
             this.dockSite2.TabStop = false;
             // 
@@ -638,9 +638,9 @@ namespace eNumismat2._0
             // 
             this.dockSite8.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
             this.dockSite8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dockSite8.Location = new System.Drawing.Point(5, 659);
+            this.dockSite8.Location = new System.Drawing.Point(5, 698);
             this.dockSite8.Name = "dockSite8";
-            this.dockSite8.Size = new System.Drawing.Size(1174, 0);
+            this.dockSite8.Size = new System.Drawing.Size(1190, 0);
             this.dockSite8.TabIndex = 22;
             this.dockSite8.TabStop = false;
             // 
@@ -650,7 +650,7 @@ namespace eNumismat2._0
             this.dockSite5.Dock = System.Windows.Forms.DockStyle.Left;
             this.dockSite5.Location = new System.Drawing.Point(5, 1);
             this.dockSite5.Name = "dockSite5";
-            this.dockSite5.Size = new System.Drawing.Size(0, 658);
+            this.dockSite5.Size = new System.Drawing.Size(0, 697);
             this.dockSite5.TabIndex = 19;
             this.dockSite5.TabStop = false;
             // 
@@ -658,9 +658,9 @@ namespace eNumismat2._0
             // 
             this.dockSite6.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
             this.dockSite6.Dock = System.Windows.Forms.DockStyle.Right;
-            this.dockSite6.Location = new System.Drawing.Point(1179, 1);
+            this.dockSite6.Location = new System.Drawing.Point(1195, 1);
             this.dockSite6.Name = "dockSite6";
-            this.dockSite6.Size = new System.Drawing.Size(0, 658);
+            this.dockSite6.Size = new System.Drawing.Size(0, 697);
             this.dockSite6.TabIndex = 20;
             this.dockSite6.TabStop = false;
             // 
@@ -670,7 +670,7 @@ namespace eNumismat2._0
             this.dockSite7.Dock = System.Windows.Forms.DockStyle.Top;
             this.dockSite7.Location = new System.Drawing.Point(5, 1);
             this.dockSite7.Name = "dockSite7";
-            this.dockSite7.Size = new System.Drawing.Size(1174, 0);
+            this.dockSite7.Size = new System.Drawing.Size(1190, 0);
             this.dockSite7.TabIndex = 21;
             this.dockSite7.TabStop = false;
             // 
@@ -681,7 +681,7 @@ namespace eNumismat2._0
             this.dockSite3.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
             this.dockSite3.Location = new System.Drawing.Point(5, 1);
             this.dockSite3.Name = "dockSite3";
-            this.dockSite3.Size = new System.Drawing.Size(1174, 0);
+            this.dockSite3.Size = new System.Drawing.Size(1190, 0);
             this.dockSite3.TabIndex = 17;
             this.dockSite3.TabStop = false;
             // 
@@ -714,7 +714,7 @@ namespace eNumismat2._0
             this.panelEx1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelEx1.Location = new System.Drawing.Point(317, 155);
             this.panelEx1.Name = "panelEx1";
-            this.panelEx1.Size = new System.Drawing.Size(862, 482);
+            this.panelEx1.Size = new System.Drawing.Size(878, 521);
             this.panelEx1.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.panelEx1.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
             this.panelEx1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
@@ -743,7 +743,7 @@ namespace eNumismat2._0
             // 
             // _AddressBook
             // 
-            this.ClientSize = new System.Drawing.Size(1184, 661);
+            this.ClientSize = new System.Drawing.Size(1200, 700);
             this.Controls.Add(this.panelEx1);
             this.Controls.Add(this.dockSite2);
             this.Controls.Add(this.dockSite1);
