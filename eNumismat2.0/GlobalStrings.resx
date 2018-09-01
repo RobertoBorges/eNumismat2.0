@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="_dbBackupNullReferenceExceptionText" xml:space="preserve">
+    <value>We could not run a Backup, since there is no Database file selected.</value>
+  </data>
+  <data name="_dbBackupNullReferenceExceptionTitle" xml:space="preserve">
+    <value>Error</value>
+  </data>
   <data name="_dbBackup_BallonText" xml:space="preserve">
     <value>The Backup was successful</value>
   </data>

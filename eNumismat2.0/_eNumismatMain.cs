@@ -419,24 +419,46 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void RunDBCompression()
         {
-            if (DBWorker.CompactDatabase())
+            try
             {
-                TrayIcon.BalloonTipTitle = GlobalStrings._dbCompress_BalloonTitle;
-                TrayIcon.BalloonTipText = GlobalStrings._dbCompress_BallonText;
+                if (DBWorker.CompactDatabase())
+                {
+                    TrayIcon.BalloonTipTitle = GlobalStrings._dbCompress_BalloonTitle;
+                    TrayIcon.BalloonTipText = GlobalStrings._dbCompress_BallonText;
 
-                TrayIcon.ShowBalloonTip(2000);
+                    TrayIcon.ShowBalloonTip(2000);
+                }
+            }
+            catch (NullReferenceException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
 
         //=====================================================================================================================================================================
         private void RunDBBackup()
         {
-            if (DBWorker.ExcecuteBackup())
+            try
             {
-                TrayIcon.BalloonTipTitle = GlobalStrings._dbBackup_BalloonTitle;
-                TrayIcon.BalloonTipText = GlobalStrings._dbBackup_BallonText;
+                if (DBWorker.ExcecuteBackup())
+                {
+                    TrayIcon.BalloonTipTitle = GlobalStrings._dbBackup_BalloonTitle;
+                    TrayIcon.BalloonTipText = GlobalStrings._dbBackup_BallonText;
 
-                TrayIcon.ShowBalloonTip(2000);
+                    TrayIcon.ShowBalloonTip(2000);
+                }
+            }
+            catch (NullReferenceException ex)
+            {
+                MessageBox.Show(GlobalStrings._dbBackupNullReferenceExceptionText, GlobalStrings._dbBackupNullReferenceExceptionTitle);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
     }

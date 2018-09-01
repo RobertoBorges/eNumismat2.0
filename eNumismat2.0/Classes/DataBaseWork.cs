@@ -97,8 +97,8 @@ namespace eNumismat2._0.Classes
                         }
                         catch (Exception ex)
                         {
-                            //MessageBox.Show(ex.Message);
                             return false;
+                            throw ex;
                         }
                     }
                 }
@@ -125,6 +125,7 @@ namespace eNumismat2._0.Classes
                 catch (Exception ex)
                 {
                     return false;
+                    throw ex;
                 }
             }
         }
