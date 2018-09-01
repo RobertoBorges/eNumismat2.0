@@ -30,7 +30,7 @@ namespace eNumismat2._0
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_AddressBook));
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("Test");
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("Test");
             this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
             this.ribbonTabItem2 = new DevComponents.DotNetBar.RibbonTabItem();
             this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
@@ -108,6 +108,15 @@ namespace eNumismat2._0
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.highlighter1 = new DevComponents.DotNetBar.Validator.Highlighter();
             this.requiredFieldValidator1 = new DevComponents.DotNetBar.Validator.RequiredFieldValidator("Your error message here.");
+            this.labelX9 = new DevComponents.DotNetBar.LabelX();
+            this.labelX10 = new DevComponents.DotNetBar.LabelX();
+            this.labelX11 = new DevComponents.DotNetBar.LabelX();
+            this.labelX12 = new DevComponents.DotNetBar.LabelX();
+            this.labelX13 = new DevComponents.DotNetBar.LabelX();
+            this.textBoxX8 = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.labelX14 = new DevComponents.DotNetBar.LabelX();
+            this.btn_Cancel = new DevComponents.DotNetBar.ButtonX();
+            this.btn_Save = new DevComponents.DotNetBar.ButtonX();
             this.statusStrip1.SuspendLayout();
             this.ribbonControl1.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
@@ -149,7 +158,7 @@ namespace eNumismat2._0
             this.toolStripStatusLabel1});
             this.statusStrip1.Location = new System.Drawing.Point(5, 676);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1190, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(1068, 22);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -174,7 +183,7 @@ namespace eNumismat2._0
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.QuickToolbarItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.qatCustomizeItem2});
-            this.ribbonControl1.Size = new System.Drawing.Size(1190, 154);
+            this.ribbonControl1.Size = new System.Drawing.Size(1068, 154);
             this.ribbonControl1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.ribbonControl1.SystemText.MaximizeRibbonText = "&Maximize the Ribbon";
             this.ribbonControl1.SystemText.MinimizeRibbonText = "Mi&nimize the Ribbon";
@@ -203,7 +212,7 @@ namespace eNumismat2._0
             this.ribbonPanel1.Location = new System.Drawing.Point(0, 54);
             this.ribbonPanel1.Name = "ribbonPanel1";
             this.ribbonPanel1.Padding = new System.Windows.Forms.Padding(3, 0, 3, 2);
-            this.ribbonPanel1.Size = new System.Drawing.Size(1190, 100);
+            this.ribbonPanel1.Size = new System.Drawing.Size(1068, 100);
             // 
             // 
             // 
@@ -555,7 +564,7 @@ namespace eNumismat2._0
             this.dockSite4.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
             this.dockSite4.Location = new System.Drawing.Point(5, 698);
             this.dockSite4.Name = "dockSite4";
-            this.dockSite4.Size = new System.Drawing.Size(1190, 0);
+            this.dockSite4.Size = new System.Drawing.Size(1068, 0);
             this.dockSite4.TabIndex = 18;
             this.dockSite4.TabStop = false;
             // 
@@ -630,9 +639,9 @@ namespace eNumismat2._0
             this.listViewEx1.ForeColor = System.Drawing.Color.Black;
             this.listViewEx1.FullRowSelect = true;
             this.listViewEx1.HideSelection = false;
-            listViewItem1.StateImageIndex = 0;
+            listViewItem2.StateImageIndex = 0;
             this.listViewEx1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1});
+            listViewItem2});
             this.listViewEx1.Location = new System.Drawing.Point(0, 0);
             this.listViewEx1.Name = "listViewEx1";
             this.listViewEx1.Size = new System.Drawing.Size(303, 495);
@@ -657,7 +666,7 @@ namespace eNumismat2._0
             this.dockSite2.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
             this.dockSite2.Dock = System.Windows.Forms.DockStyle.Right;
             this.dockSite2.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
-            this.dockSite2.Location = new System.Drawing.Point(1195, 155);
+            this.dockSite2.Location = new System.Drawing.Point(1073, 155);
             this.dockSite2.Name = "dockSite2";
             this.dockSite2.Size = new System.Drawing.Size(0, 521);
             this.dockSite2.TabIndex = 16;
@@ -669,7 +678,7 @@ namespace eNumismat2._0
             this.dockSite8.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dockSite8.Location = new System.Drawing.Point(5, 698);
             this.dockSite8.Name = "dockSite8";
-            this.dockSite8.Size = new System.Drawing.Size(1190, 0);
+            this.dockSite8.Size = new System.Drawing.Size(1068, 0);
             this.dockSite8.TabIndex = 22;
             this.dockSite8.TabStop = false;
             // 
@@ -687,7 +696,7 @@ namespace eNumismat2._0
             // 
             this.dockSite6.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
             this.dockSite6.Dock = System.Windows.Forms.DockStyle.Right;
-            this.dockSite6.Location = new System.Drawing.Point(1195, 1);
+            this.dockSite6.Location = new System.Drawing.Point(1073, 1);
             this.dockSite6.Name = "dockSite6";
             this.dockSite6.Size = new System.Drawing.Size(0, 697);
             this.dockSite6.TabIndex = 20;
@@ -699,7 +708,7 @@ namespace eNumismat2._0
             this.dockSite7.Dock = System.Windows.Forms.DockStyle.Top;
             this.dockSite7.Location = new System.Drawing.Point(5, 1);
             this.dockSite7.Name = "dockSite7";
-            this.dockSite7.Size = new System.Drawing.Size(1190, 0);
+            this.dockSite7.Size = new System.Drawing.Size(1068, 0);
             this.dockSite7.TabIndex = 21;
             this.dockSite7.TabStop = false;
             // 
@@ -710,7 +719,7 @@ namespace eNumismat2._0
             this.dockSite3.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
             this.dockSite3.Location = new System.Drawing.Point(5, 1);
             this.dockSite3.Name = "dockSite3";
-            this.dockSite3.Size = new System.Drawing.Size(1190, 0);
+            this.dockSite3.Size = new System.Drawing.Size(1068, 0);
             this.dockSite3.TabIndex = 17;
             this.dockSite3.TabStop = false;
             // 
@@ -743,7 +752,7 @@ namespace eNumismat2._0
             this.panelEx1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelEx1.Location = new System.Drawing.Point(317, 155);
             this.panelEx1.Name = "panelEx1";
-            this.panelEx1.Size = new System.Drawing.Size(878, 521);
+            this.panelEx1.Size = new System.Drawing.Size(756, 521);
             this.panelEx1.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.panelEx1.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
             this.panelEx1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
@@ -757,6 +766,15 @@ namespace eNumismat2._0
             // 
             this.panelEx2.CanvasColor = System.Drawing.SystemColors.Control;
             this.panelEx2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.panelEx2.Controls.Add(this.btn_Cancel);
+            this.panelEx2.Controls.Add(this.btn_Save);
+            this.panelEx2.Controls.Add(this.labelX14);
+            this.panelEx2.Controls.Add(this.textBoxX8);
+            this.panelEx2.Controls.Add(this.labelX13);
+            this.panelEx2.Controls.Add(this.labelX12);
+            this.panelEx2.Controls.Add(this.labelX11);
+            this.panelEx2.Controls.Add(this.labelX10);
+            this.panelEx2.Controls.Add(this.labelX9);
             this.panelEx2.Controls.Add(this.labelX8);
             this.panelEx2.Controls.Add(this.labelX7);
             this.panelEx2.Controls.Add(this.labelX6);
@@ -780,9 +798,10 @@ namespace eNumismat2._0
             this.panelEx2.Controls.Add(this.labelX1);
             this.panelEx2.Controls.Add(this.textBoxX1);
             this.panelEx2.DisabledBackColor = System.Drawing.Color.Empty;
-            this.panelEx2.Location = new System.Drawing.Point(3, 0);
+            this.panelEx2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelEx2.Location = new System.Drawing.Point(0, 0);
             this.panelEx2.Name = "panelEx2";
-            this.panelEx2.Size = new System.Drawing.Size(878, 521);
+            this.panelEx2.Size = new System.Drawing.Size(756, 521);
             this.panelEx2.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.panelEx2.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
             this.panelEx2.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
@@ -814,7 +833,7 @@ namespace eNumismat2._0
             // 
             // 
             this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX1.Location = new System.Drawing.Point(43, 23);
+            this.labelX1.Location = new System.Drawing.Point(43, 20);
             this.labelX1.Name = "labelX1";
             this.labelX1.Size = new System.Drawing.Size(75, 23);
             this.labelX1.TabIndex = 1;
@@ -1002,7 +1021,7 @@ namespace eNumismat2._0
             this.textBoxX5.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.textBoxX5.DisabledBackColor = System.Drawing.Color.White;
             this.textBoxX5.ForeColor = System.Drawing.Color.Black;
-            this.textBoxX5.Location = new System.Drawing.Point(513, 26);
+            this.textBoxX5.Location = new System.Drawing.Point(471, 23);
             this.textBoxX5.Name = "textBoxX5";
             this.textBoxX5.PreventEnterBeep = true;
             this.textBoxX5.Size = new System.Drawing.Size(227, 20);
@@ -1018,7 +1037,7 @@ namespace eNumismat2._0
             this.textBoxX6.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.textBoxX6.DisabledBackColor = System.Drawing.Color.White;
             this.textBoxX6.ForeColor = System.Drawing.Color.Black;
-            this.textBoxX6.Location = new System.Drawing.Point(513, 52);
+            this.textBoxX6.Location = new System.Drawing.Point(471, 49);
             this.textBoxX6.Name = "textBoxX6";
             this.textBoxX6.PreventEnterBeep = true;
             this.textBoxX6.Size = new System.Drawing.Size(227, 20);
@@ -1034,7 +1053,7 @@ namespace eNumismat2._0
             this.textBoxX7.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.textBoxX7.DisabledBackColor = System.Drawing.Color.White;
             this.textBoxX7.ForeColor = System.Drawing.Color.Black;
-            this.textBoxX7.Location = new System.Drawing.Point(513, 78);
+            this.textBoxX7.Location = new System.Drawing.Point(471, 75);
             this.textBoxX7.Name = "textBoxX7";
             this.textBoxX7.PreventEnterBeep = true;
             this.textBoxX7.Size = new System.Drawing.Size(227, 20);
@@ -1048,11 +1067,11 @@ namespace eNumismat2._0
             // 
             this.tokenEditor1.BackgroundStyle.Class = "DateTimeInputBackground";
             this.tokenEditor1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.tokenEditor1.Location = new System.Drawing.Point(513, 120);
+            this.tokenEditor1.Location = new System.Drawing.Point(124, 313);
             this.tokenEditor1.Name = "tokenEditor1";
             this.tokenEditor1.Separators.Add(";");
             this.tokenEditor1.Separators.Add(",");
-            this.tokenEditor1.Size = new System.Drawing.Size(227, 53);
+            this.tokenEditor1.Size = new System.Drawing.Size(227, 66);
             this.tokenEditor1.TabIndex = 15;
             // 
             // listBoxAdv1
@@ -1066,7 +1085,7 @@ namespace eNumismat2._0
             this.listBoxAdv1.CheckStateMember = null;
             this.listBoxAdv1.ContainerControlProcessDialogKey = true;
             this.listBoxAdv1.DragDropSupport = true;
-            this.listBoxAdv1.Location = new System.Drawing.Point(513, 179);
+            this.listBoxAdv1.Location = new System.Drawing.Point(471, 313);
             this.listBoxAdv1.Name = "listBoxAdv1";
             this.listBoxAdv1.Size = new System.Drawing.Size(227, 66);
             this.listBoxAdv1.TabIndex = 16;
@@ -1117,7 +1136,7 @@ namespace eNumismat2._0
             // 
             // 
             this.labelX7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX7.Location = new System.Drawing.Point(43, 199);
+            this.labelX7.Location = new System.Drawing.Point(43, 196);
             this.labelX7.Name = "labelX7";
             this.labelX7.Size = new System.Drawing.Size(75, 23);
             this.labelX7.TabIndex = 20;
@@ -1159,9 +1178,131 @@ namespace eNumismat2._0
             this.requiredFieldValidator1.ErrorMessage = "Your error message here.";
             this.requiredFieldValidator1.HighlightColor = DevComponents.DotNetBar.Validator.eHighlightColor.Red;
             // 
+            // labelX9
+            // 
+            // 
+            // 
+            // 
+            this.labelX9.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX9.Location = new System.Drawing.Point(390, 20);
+            this.labelX9.Name = "labelX9";
+            this.labelX9.Size = new System.Drawing.Size(75, 23);
+            this.labelX9.TabIndex = 22;
+            this.labelX9.Text = "Phone:";
+            this.labelX9.TextAlignment = System.Drawing.StringAlignment.Far;
+            // 
+            // labelX10
+            // 
+            // 
+            // 
+            // 
+            this.labelX10.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX10.Location = new System.Drawing.Point(390, 46);
+            this.labelX10.Name = "labelX10";
+            this.labelX10.Size = new System.Drawing.Size(75, 23);
+            this.labelX10.TabIndex = 23;
+            this.labelX10.Text = "Mobile Phone:";
+            this.labelX10.TextAlignment = System.Drawing.StringAlignment.Far;
+            // 
+            // labelX11
+            // 
+            // 
+            // 
+            // 
+            this.labelX11.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX11.Location = new System.Drawing.Point(390, 72);
+            this.labelX11.Name = "labelX11";
+            this.labelX11.Size = new System.Drawing.Size(75, 23);
+            this.labelX11.TabIndex = 24;
+            this.labelX11.Text = "E Mail:";
+            this.labelX11.TextAlignment = System.Drawing.StringAlignment.Far;
+            // 
+            // labelX12
+            // 
+            // 
+            // 
+            // 
+            this.labelX12.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX12.Location = new System.Drawing.Point(43, 310);
+            this.labelX12.Name = "labelX12";
+            this.labelX12.Size = new System.Drawing.Size(75, 23);
+            this.labelX12.TabIndex = 25;
+            this.labelX12.Text = "Tags:";
+            this.labelX12.TextAlignment = System.Drawing.StringAlignment.Far;
+            // 
+            // labelX13
+            // 
+            // 
+            // 
+            // 
+            this.labelX13.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX13.Location = new System.Drawing.Point(390, 313);
+            this.labelX13.Name = "labelX13";
+            this.labelX13.Size = new System.Drawing.Size(75, 23);
+            this.labelX13.TabIndex = 26;
+            this.labelX13.Text = "Label:";
+            this.labelX13.TextAlignment = System.Drawing.StringAlignment.Far;
+            // 
+            // textBoxX8
+            // 
+            this.textBoxX8.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.textBoxX8.Border.Class = "TextBoxBorder";
+            this.textBoxX8.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.textBoxX8.DisabledBackColor = System.Drawing.Color.White;
+            this.textBoxX8.ForeColor = System.Drawing.Color.Black;
+            this.textBoxX8.Location = new System.Drawing.Point(471, 118);
+            this.textBoxX8.Multiline = true;
+            this.textBoxX8.Name = "textBoxX8";
+            this.textBoxX8.PreventEnterBeep = true;
+            this.textBoxX8.Size = new System.Drawing.Size(227, 127);
+            this.textBoxX8.TabIndex = 27;
+            // 
+            // labelX14
+            // 
+            // 
+            // 
+            // 
+            this.labelX14.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX14.Location = new System.Drawing.Point(390, 118);
+            this.labelX14.Name = "labelX14";
+            this.labelX14.Size = new System.Drawing.Size(75, 23);
+            this.labelX14.TabIndex = 28;
+            this.labelX14.Text = "Notes:";
+            this.labelX14.TextAlignment = System.Drawing.StringAlignment.Far;
+            // 
+            // btn_Cancel
+            // 
+            this.btn_Cancel.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btn_Cancel.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btn_Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btn_Cancel.Image = global::eNumismat2._0.Properties.Resources.action_delete;
+            this.btn_Cancel.Location = new System.Drawing.Point(520, 483);
+            this.btn_Cancel.Name = "btn_Cancel";
+            this.btn_Cancel.Size = new System.Drawing.Size(86, 35);
+            this.btn_Cancel.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btn_Cancel.TabIndex = 30;
+            this.btn_Cancel.Text = "Cancel";
+            this.btn_Cancel.ThemeAware = true;
+            // 
+            // btn_Save
+            // 
+            this.btn_Save.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btn_Save.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btn_Save.Image = global::eNumismat2._0.Properties.Resources.action_check;
+            this.btn_Save.Location = new System.Drawing.Point(612, 483);
+            this.btn_Save.Name = "btn_Save";
+            this.btn_Save.Size = new System.Drawing.Size(86, 35);
+            this.btn_Save.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btn_Save.TabIndex = 29;
+            this.btn_Save.Text = "Save";
+            this.btn_Save.ThemeAware = true;
+            // 
             // _AddressBook
             // 
-            this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.ClientSize = new System.Drawing.Size(1078, 700);
             this.Controls.Add(this.panelEx1);
             this.Controls.Add(this.dockSite2);
             this.Controls.Add(this.dockSite1);
@@ -1272,5 +1413,14 @@ namespace eNumismat2._0
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private DevComponents.DotNetBar.Validator.Highlighter highlighter1;
         private DevComponents.DotNetBar.Validator.RequiredFieldValidator requiredFieldValidator1;
+        private DevComponents.DotNetBar.LabelX labelX14;
+        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX8;
+        private DevComponents.DotNetBar.LabelX labelX13;
+        private DevComponents.DotNetBar.LabelX labelX12;
+        private DevComponents.DotNetBar.LabelX labelX11;
+        private DevComponents.DotNetBar.LabelX labelX10;
+        private DevComponents.DotNetBar.LabelX labelX9;
+        private DevComponents.DotNetBar.ButtonX btn_Cancel;
+        private DevComponents.DotNetBar.ButtonX btn_Save;
     }
 }

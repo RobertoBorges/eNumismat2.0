@@ -18,7 +18,7 @@
       <Value Profile="(Default)">Normal</Value>
     </Setting>
     <Setting Name="AddressBookWindowWidth" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">1200</Value>
+      <Value Profile="(Default)">1078</Value>
     </Setting>
     <Setting Name="AddressBookWindowHight" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">700</Value>

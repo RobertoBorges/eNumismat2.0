@@ -85,7 +85,7 @@ namespace eNumismat2._0.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1200")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1078")]
         public int AddressBookWindowWidth {
             get {
                 return ((int)(this["AddressBookWindowWidth"]));
