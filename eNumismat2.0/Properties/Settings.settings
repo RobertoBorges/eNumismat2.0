@@ -18,10 +18,10 @@
       <Value Profile="(Default)">Normal</Value>
     </Setting>
     <Setting Name="AddressBookWindowWidth" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">0</Value>
+      <Value Profile="(Default)">1200</Value>
     </Setting>
     <Setting Name="AddressBookWindowHight" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">0</Value>
+      <Value Profile="(Default)">700</Value>
     </Setting>
     <Setting Name="ExchangeMonitorWindowState" Type="System.Windows.Forms.FormWindowState" Scope="User">
       <Value Profile="(Default)">Normal</Value>

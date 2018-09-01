@@ -158,7 +158,7 @@ namespace eNumismat2._0
             // Check if DB File exists
             if(!File.Exists(Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile)))
             {
-                MessageBox.Show("File does not exist: " + Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile));
+                //MessageBox.Show("File does not exist: " + Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile));
                 return false;
             }
             return true;
@@ -379,7 +379,7 @@ namespace eNumismat2._0
 
                 Properties.Settings.Default.Save();
 
-                MessageBox.Show(Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile));
+               // MessageBox.Show(Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile));
 
                 try
                 {
