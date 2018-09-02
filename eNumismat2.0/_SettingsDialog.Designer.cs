@@ -32,14 +32,14 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panelEx1 = new DevComponents.DotNetBar.PanelEx();
             this.tabControl1 = new DevComponents.DotNetBar.TabControl();
-            this.tabControlPanel5 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabItem5 = new DevComponents.DotNetBar.TabItem(this.components);
-            this.tabControlPanel3 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabItem3 = new DevComponents.DotNetBar.TabItem(this.components);
             this.tabControlPanel4 = new DevComponents.DotNetBar.TabControlPanel();
             this.labelX5 = new DevComponents.DotNetBar.LabelX();
             this.btn_MinimizeToTray = new DevComponents.DotNetBar.Controls.SwitchButton();
             this.tabItem4 = new DevComponents.DotNetBar.TabItem(this.components);
+            this.tabControlPanel5 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabItem5 = new DevComponents.DotNetBar.TabItem(this.components);
+            this.tabControlPanel3 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabItem3 = new DevComponents.DotNetBar.TabItem(this.components);
             this.tabControlPanel1 = new DevComponents.DotNetBar.TabControlPanel();
             this.btn_SelectDbBackupPath = new DevComponents.DotNetBar.ButtonX();
             this.labelX4 = new DevComponents.DotNetBar.LabelX();
@@ -53,11 +53,9 @@
             this.labelX8 = new DevComponents.DotNetBar.LabelX();
             this.buttonX3 = new DevComponents.DotNetBar.ButtonX();
             this.buttonX4 = new DevComponents.DotNetBar.ButtonX();
-            this.listBoxAdv2 = new DevComponents.DotNetBar.ListBoxAdv();
             this.labelX7 = new DevComponents.DotNetBar.LabelX();
             this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
             this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
-            this.listBoxAdv1 = new DevComponents.DotNetBar.ListBoxAdv();
             this.labelX6 = new DevComponents.DotNetBar.LabelX();
             this.switchButton1 = new DevComponents.DotNetBar.Controls.SwitchButton();
             this.labelX3 = new DevComponents.DotNetBar.LabelX();
@@ -95,6 +93,8 @@
             this.buttonItem13 = new DevComponents.DotNetBar.ButtonItem();
             this.colorPickerDropDown1 = new DevComponents.DotNetBar.ColorPickerDropDown();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
+            this.listBoxAdv1 = new DevComponents.DotNetBar.ListBoxAdv();
+            this.listBoxAdv2 = new DevComponents.DotNetBar.ListBoxAdv();
             this.flowLayoutPanel1.SuspendLayout();
             this.panelEx1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl1)).BeginInit();
@@ -139,11 +139,11 @@
             this.tabControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
             this.tabControl1.CanReorderTabs = true;
             this.tabControl1.CloseButtonOnTabsAlwaysDisplayed = false;
+            this.tabControl1.Controls.Add(this.tabControlPanel2);
             this.tabControl1.Controls.Add(this.tabControlPanel4);
             this.tabControl1.Controls.Add(this.tabControlPanel5);
             this.tabControl1.Controls.Add(this.tabControlPanel3);
             this.tabControl1.Controls.Add(this.tabControlPanel1);
-            this.tabControl1.Controls.Add(this.tabControlPanel2);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.ForeColor = System.Drawing.Color.Black;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
@@ -161,52 +161,6 @@
             this.tabControl1.Tabs.Add(this.tabItem5);
             this.tabControl1.Text = "tabControl1";
             this.tabControl1.ThemeAware = true;
-            // 
-            // tabControlPanel5
-            // 
-            this.tabControlPanel5.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel5.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel5.Name = "tabControlPanel5";
-            this.tabControlPanel5.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel5.Size = new System.Drawing.Size(556, 456);
-            this.tabControlPanel5.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
-            this.tabControlPanel5.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel5.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
-            this.tabControlPanel5.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel5.Style.GradientAngle = 90;
-            this.tabControlPanel5.TabIndex = 26;
-            this.tabControlPanel5.TabItem = this.tabItem5;
-            // 
-            // tabItem5
-            // 
-            this.tabItem5.AttachedControl = this.tabControlPanel5;
-            this.tabItem5.Name = "tabItem5";
-            this.tabItem5.Text = "Collection Management";
-            // 
-            // tabControlPanel3
-            // 
-            this.tabControlPanel3.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel3.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel3.Name = "tabControlPanel3";
-            this.tabControlPanel3.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel3.Size = new System.Drawing.Size(556, 456);
-            this.tabControlPanel3.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
-            this.tabControlPanel3.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel3.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
-            this.tabControlPanel3.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel3.Style.GradientAngle = 90;
-            this.tabControlPanel3.TabIndex = 9;
-            this.tabControlPanel3.TabItem = this.tabItem3;
-            // 
-            // tabItem3
-            // 
-            this.tabItem3.AttachedControl = this.tabControlPanel3;
-            this.tabItem3.Name = "tabItem3";
-            this.tabItem3.Text = "Exchange Monitor";
             // 
             // tabControlPanel4
             // 
@@ -259,6 +213,52 @@
             this.tabItem4.AttachedControl = this.tabControlPanel4;
             this.tabItem4.Name = "tabItem4";
             this.tabItem4.Text = "General Settings";
+            // 
+            // tabControlPanel5
+            // 
+            this.tabControlPanel5.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel5.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel5.Name = "tabControlPanel5";
+            this.tabControlPanel5.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel5.Size = new System.Drawing.Size(556, 456);
+            this.tabControlPanel5.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.tabControlPanel5.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel5.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.tabControlPanel5.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel5.Style.GradientAngle = 90;
+            this.tabControlPanel5.TabIndex = 26;
+            this.tabControlPanel5.TabItem = this.tabItem5;
+            // 
+            // tabItem5
+            // 
+            this.tabItem5.AttachedControl = this.tabControlPanel5;
+            this.tabItem5.Name = "tabItem5";
+            this.tabItem5.Text = "Collection Management";
+            // 
+            // tabControlPanel3
+            // 
+            this.tabControlPanel3.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel3.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel3.Name = "tabControlPanel3";
+            this.tabControlPanel3.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel3.Size = new System.Drawing.Size(556, 456);
+            this.tabControlPanel3.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.tabControlPanel3.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel3.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.tabControlPanel3.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel3.Style.GradientAngle = 90;
+            this.tabControlPanel3.TabIndex = 9;
+            this.tabControlPanel3.TabItem = this.tabItem3;
+            // 
+            // tabItem3
+            // 
+            this.tabItem3.AttachedControl = this.tabControlPanel3;
+            this.tabItem3.Name = "tabItem3";
+            this.tabItem3.Text = "Exchange Monitor";
             // 
             // tabControlPanel1
             // 
@@ -384,14 +384,14 @@
             // 
             // tabControlPanel2
             // 
+            this.tabControlPanel2.Controls.Add(this.listBoxAdv2);
+            this.tabControlPanel2.Controls.Add(this.listBoxAdv1);
             this.tabControlPanel2.Controls.Add(this.labelX8);
             this.tabControlPanel2.Controls.Add(this.buttonX3);
             this.tabControlPanel2.Controls.Add(this.buttonX4);
-            this.tabControlPanel2.Controls.Add(this.listBoxAdv2);
             this.tabControlPanel2.Controls.Add(this.labelX7);
             this.tabControlPanel2.Controls.Add(this.buttonX2);
             this.tabControlPanel2.Controls.Add(this.buttonX1);
-            this.tabControlPanel2.Controls.Add(this.listBoxAdv1);
             this.tabControlPanel2.Controls.Add(this.labelX6);
             this.tabControlPanel2.Controls.Add(this.switchButton1);
             this.tabControlPanel2.Controls.Add(this.labelX3);
@@ -446,23 +446,6 @@
             this.buttonX4.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.buttonX4.TabIndex = 10;
             // 
-            // listBoxAdv2
-            // 
-            this.listBoxAdv2.AutoScroll = true;
-            // 
-            // 
-            // 
-            this.listBoxAdv2.BackgroundStyle.Class = "ListBoxAdv";
-            this.listBoxAdv2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.listBoxAdv2.CheckStateMember = null;
-            this.listBoxAdv2.ContainerControlProcessDialogKey = true;
-            this.listBoxAdv2.DragDropSupport = true;
-            this.listBoxAdv2.Location = new System.Drawing.Point(12, 228);
-            this.listBoxAdv2.Name = "listBoxAdv2";
-            this.listBoxAdv2.Size = new System.Drawing.Size(200, 106);
-            this.listBoxAdv2.TabIndex = 9;
-            this.listBoxAdv2.Text = "listBoxAdv2";
-            // 
             // labelX7
             // 
             this.labelX7.BackColor = System.Drawing.Color.Transparent;
@@ -497,22 +480,6 @@
             this.buttonX1.Size = new System.Drawing.Size(30, 30);
             this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.buttonX1.TabIndex = 6;
-            // 
-            // listBoxAdv1
-            // 
-            this.listBoxAdv1.AutoScroll = true;
-            // 
-            // 
-            // 
-            this.listBoxAdv1.BackgroundStyle.Class = "ListBoxAdv";
-            this.listBoxAdv1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.listBoxAdv1.ContainerControlProcessDialogKey = true;
-            this.listBoxAdv1.DragDropSupport = true;
-            this.listBoxAdv1.Location = new System.Drawing.Point(9, 80);
-            this.listBoxAdv1.Name = "listBoxAdv1";
-            this.listBoxAdv1.Size = new System.Drawing.Size(200, 106);
-            this.listBoxAdv1.TabIndex = 5;
-            this.listBoxAdv1.Text = "listBoxAdv1";
             // 
             // labelX6
             // 
@@ -734,6 +701,41 @@
             this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Light;
             this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254))))), System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(143))))));
             // 
+            // listBoxAdv1
+            // 
+            this.listBoxAdv1.AutoScroll = true;
+            // 
+            // 
+            // 
+            this.listBoxAdv1.BackgroundStyle.Class = "ListBoxAdv";
+            this.listBoxAdv1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.listBoxAdv1.CheckStateMember = null;
+            this.listBoxAdv1.ContainerControlProcessDialogKey = true;
+            this.listBoxAdv1.DragDropSupport = true;
+            this.listBoxAdv1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
+            this.listBoxAdv1.Location = new System.Drawing.Point(12, 91);
+            this.listBoxAdv1.Name = "listBoxAdv1";
+            this.listBoxAdv1.Size = new System.Drawing.Size(197, 95);
+            this.listBoxAdv1.TabIndex = 13;
+            this.listBoxAdv1.Text = "listBoxAdv1";
+            // 
+            // listBoxAdv2
+            // 
+            this.listBoxAdv2.AutoScroll = true;
+            // 
+            // 
+            // 
+            this.listBoxAdv2.BackgroundStyle.Class = "ListBoxAdv";
+            this.listBoxAdv2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.listBoxAdv2.ContainerControlProcessDialogKey = true;
+            this.listBoxAdv2.DragDropSupport = true;
+            this.listBoxAdv2.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
+            this.listBoxAdv2.Location = new System.Drawing.Point(12, 239);
+            this.listBoxAdv2.Name = "listBoxAdv2";
+            this.listBoxAdv2.Size = new System.Drawing.Size(197, 95);
+            this.listBoxAdv2.TabIndex = 14;
+            this.listBoxAdv2.Text = "listBoxAdv2";
+            // 
             // _SettingsDialog
             // 
             this.AcceptButton = this.btn_Save;
@@ -822,11 +824,11 @@
         private DevComponents.DotNetBar.LabelX labelX8;
         private DevComponents.DotNetBar.ButtonX buttonX3;
         private DevComponents.DotNetBar.ButtonX buttonX4;
-        private DevComponents.DotNetBar.ListBoxAdv listBoxAdv2;
         private DevComponents.DotNetBar.LabelX labelX7;
         private DevComponents.DotNetBar.ButtonX buttonX2;
         private DevComponents.DotNetBar.ButtonX buttonX1;
-        private DevComponents.DotNetBar.ListBoxAdv listBoxAdv1;
         private DevComponents.DotNetBar.StyleManager styleManager1;
+        private DevComponents.DotNetBar.ListBoxAdv listBoxAdv2;
+        private DevComponents.DotNetBar.ListBoxAdv listBoxAdv1;
     }
 }
