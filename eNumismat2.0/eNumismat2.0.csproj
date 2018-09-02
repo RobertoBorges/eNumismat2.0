@@ -35,6 +35,12 @@
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup Label="MultilingualAppToolkit">
+    <MultilingualAppToolkitVersion>4.0</MultilingualAppToolkitVersion>
+    <MultilingualFallbackLanguage>en</MultilingualFallbackLanguage>
+    <TranslationReport Condition="'$(Configuration)' == 'Release'">true</TranslationReport>
+    <SuppressPseudoWarning Condition="'$(Configuration)' == 'Debug'">true</SuppressPseudoWarning>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevComponents.DotNetBar.Layout, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
     <Reference Include="DevComponents.DotNetBar.Schedule, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
@@ -111,17 +117,61 @@
     <Compile Include="_SettingsDialog.Designer.cs">
       <DependentUpon>_SettingsDialog.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="GlobalStrings.de.resx" />
+    <EmbeddedResource Include="GlobalStrings.es.resx" />
+    <EmbeddedResource Include="GlobalStrings.fr.resx" />
+    <EmbeddedResource Include="GlobalStrings.pt.resx" />
     <EmbeddedResource Include="GlobalStrings.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>GlobalStrings.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="GlobalStrings.ru.resx" />
+    <EmbeddedResource Include="_AboutBox.de.resx">
+      <DependentUpon>_AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_AboutBox.es.resx">
+      <DependentUpon>_AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_AboutBox.fr.resx">
+      <DependentUpon>_AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_AboutBox.pt.resx">
+      <DependentUpon>_AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="_AboutBox.resx">
       <DependentUpon>_AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_AboutBox.ru.resx">
+      <DependentUpon>_AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_AddressBook.de.resx">
+      <DependentUpon>_AddressBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_AddressBook.es.resx">
+      <DependentUpon>_AddressBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_AddressBook.fr.resx">
+      <DependentUpon>_AddressBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_AddressBook.pt.resx">
+      <DependentUpon>_AddressBook.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_AddressBook.resx">
       <DependentUpon>_AddressBook.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="_AddressBook.ru.resx">
+      <DependentUpon>_AddressBook.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="_eNumismatMain.de.resx">
+      <DependentUpon>_eNumismatMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_eNumismatMain.es.resx">
+      <DependentUpon>_eNumismatMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_eNumismatMain.fr.resx">
+      <DependentUpon>_eNumismatMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_eNumismatMain.pt.resx">
       <DependentUpon>_eNumismatMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_eNumismatMain.resx">
@@ -137,7 +187,25 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="_eNumismatMain.ru.resx">
+      <DependentUpon>_eNumismatMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_SettingsDialog.de.resx">
+      <DependentUpon>_SettingsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_SettingsDialog.es.resx">
+      <DependentUpon>_SettingsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_SettingsDialog.fr.resx">
+      <DependentUpon>_SettingsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_SettingsDialog.pt.resx">
+      <DependentUpon>_SettingsDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="_SettingsDialog.resx">
+      <DependentUpon>_SettingsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_SettingsDialog.ru.resx">
       <DependentUpon>_SettingsDialog.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -294,7 +362,13 @@
     <Content Include="Resources\Database Scripts\Insert.sql" />
     <None Include="Resources\door_in.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <XliffResource Include="MultilingualResources\eNumismat2.0.de.xlf" />
+    <XliffResource Include="MultilingualResources\eNumismat2.0.es.xlf" />
+    <XliffResource Include="MultilingualResources\eNumismat2.0.fr.xlf" />
+    <XliffResource Include="MultilingualResources\eNumismat2.0.pt.xlf" />
+    <XliffResource Include="MultilingualResources\eNumismat2.0.ru.xlf" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\System.Data.SQLite.Core.1.0.109.1\build\net45\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.109.1\build\net45\System.Data.SQLite.Core.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
@@ -305,4 +379,8 @@
     <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.109.1\build\net451\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.109.1\build\net451\System.Data.SQLite.Core.targets'))" />
   </Target>
   <Import Project="..\packages\System.Data.SQLite.Core.1.0.109.1\build\net451\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.109.1\build\net451\System.Data.SQLite.Core.targets')" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.ResxResources.targets')" />
+  <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets')" Label="MultilingualAppToolkit">
+    <Warning Text="$(MSBuildProjectFile) is Multilingual build enabled, but the Multilingual App Toolkit is unavailable during the build. If building with Visual Studio, please check to ensure that toolkit is properly installed." />
+  </Target>
 </Project>

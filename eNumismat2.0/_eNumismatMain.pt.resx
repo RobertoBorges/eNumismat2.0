@@ -54,12 +54,6 @@
         rkJggg==
 </value>
   </data>
-  <data name="buttonItem9.Text" xml:space="preserve">
-    <value>Einstellungen</value>
-  </data>
-  <data name="applicationButton1.Text" xml:space="preserve">
-    <value>&amp;Datei</value>
-  </data>
   <data name="ribbonControl1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
     <value>5, 1</value>
   </data>
@@ -89,9 +83,6 @@
   </data>
   <data name="labelX1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="labelX1.Text" xml:space="preserve">
-    <value>Standard Testlabel</value>
   </data>
   <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
     <value>96, 96</value>
