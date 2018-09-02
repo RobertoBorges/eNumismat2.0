@@ -30,7 +30,7 @@ namespace eNumismat2._0
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_AddressBook));
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("Test");
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("Test");
             this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
             this.ribbonTabItem2 = new DevComponents.DotNetBar.RibbonTabItem();
             this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
@@ -117,6 +117,7 @@ namespace eNumismat2._0
             this.requiredFieldValidator1 = new DevComponents.DotNetBar.Validator.RequiredFieldValidator("Your error message here.");
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.highlighter1 = new DevComponents.DotNetBar.Validator.Highlighter();
+            this.regularExpressionValidator1 = new DevComponents.DotNetBar.Validator.RegularExpressionValidator();
             this.statusStrip1.SuspendLayout();
             this.ribbonControl1.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
@@ -158,7 +159,7 @@ namespace eNumismat2._0
             this.toolStripStatusLabel1});
             this.statusStrip1.Location = new System.Drawing.Point(5, 676);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1068, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(1022, 22);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -183,7 +184,7 @@ namespace eNumismat2._0
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.QuickToolbarItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.qatCustomizeItem2});
-            this.ribbonControl1.Size = new System.Drawing.Size(1068, 154);
+            this.ribbonControl1.Size = new System.Drawing.Size(1022, 154);
             this.ribbonControl1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.ribbonControl1.SystemText.MaximizeRibbonText = "&Maximize the Ribbon";
             this.ribbonControl1.SystemText.MinimizeRibbonText = "Mi&nimize the Ribbon";
@@ -212,7 +213,7 @@ namespace eNumismat2._0
             this.ribbonPanel1.Location = new System.Drawing.Point(0, 54);
             this.ribbonPanel1.Name = "ribbonPanel1";
             this.ribbonPanel1.Padding = new System.Windows.Forms.Padding(3, 0, 3, 2);
-            this.ribbonPanel1.Size = new System.Drawing.Size(1068, 100);
+            this.ribbonPanel1.Size = new System.Drawing.Size(1022, 100);
             // 
             // 
             // 
@@ -566,7 +567,7 @@ namespace eNumismat2._0
             this.dockSite4.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
             this.dockSite4.Location = new System.Drawing.Point(5, 698);
             this.dockSite4.Name = "dockSite4";
-            this.dockSite4.Size = new System.Drawing.Size(1068, 0);
+            this.dockSite4.Size = new System.Drawing.Size(1022, 0);
             this.dockSite4.TabIndex = 18;
             this.dockSite4.TabStop = false;
             // 
@@ -641,9 +642,9 @@ namespace eNumismat2._0
             this.listViewEx1.ForeColor = System.Drawing.Color.Black;
             this.listViewEx1.FullRowSelect = true;
             this.listViewEx1.HideSelection = false;
-            listViewItem1.StateImageIndex = 0;
+            listViewItem2.StateImageIndex = 0;
             this.listViewEx1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1});
+            listViewItem2});
             this.listViewEx1.Location = new System.Drawing.Point(0, 0);
             this.listViewEx1.Name = "listViewEx1";
             this.listViewEx1.Size = new System.Drawing.Size(303, 495);
@@ -668,7 +669,7 @@ namespace eNumismat2._0
             this.dockSite2.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
             this.dockSite2.Dock = System.Windows.Forms.DockStyle.Right;
             this.dockSite2.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
-            this.dockSite2.Location = new System.Drawing.Point(1073, 155);
+            this.dockSite2.Location = new System.Drawing.Point(1027, 155);
             this.dockSite2.Name = "dockSite2";
             this.dockSite2.Size = new System.Drawing.Size(0, 521);
             this.dockSite2.TabIndex = 16;
@@ -680,7 +681,7 @@ namespace eNumismat2._0
             this.dockSite8.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dockSite8.Location = new System.Drawing.Point(5, 698);
             this.dockSite8.Name = "dockSite8";
-            this.dockSite8.Size = new System.Drawing.Size(1068, 0);
+            this.dockSite8.Size = new System.Drawing.Size(1022, 0);
             this.dockSite8.TabIndex = 22;
             this.dockSite8.TabStop = false;
             // 
@@ -698,7 +699,7 @@ namespace eNumismat2._0
             // 
             this.dockSite6.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
             this.dockSite6.Dock = System.Windows.Forms.DockStyle.Right;
-            this.dockSite6.Location = new System.Drawing.Point(1073, 1);
+            this.dockSite6.Location = new System.Drawing.Point(1027, 1);
             this.dockSite6.Name = "dockSite6";
             this.dockSite6.Size = new System.Drawing.Size(0, 697);
             this.dockSite6.TabIndex = 20;
@@ -710,7 +711,7 @@ namespace eNumismat2._0
             this.dockSite7.Dock = System.Windows.Forms.DockStyle.Top;
             this.dockSite7.Location = new System.Drawing.Point(5, 1);
             this.dockSite7.Name = "dockSite7";
-            this.dockSite7.Size = new System.Drawing.Size(1068, 0);
+            this.dockSite7.Size = new System.Drawing.Size(1022, 0);
             this.dockSite7.TabIndex = 21;
             this.dockSite7.TabStop = false;
             // 
@@ -721,7 +722,7 @@ namespace eNumismat2._0
             this.dockSite3.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
             this.dockSite3.Location = new System.Drawing.Point(5, 1);
             this.dockSite3.Name = "dockSite3";
-            this.dockSite3.Size = new System.Drawing.Size(1068, 0);
+            this.dockSite3.Size = new System.Drawing.Size(1022, 0);
             this.dockSite3.TabIndex = 17;
             this.dockSite3.TabStop = false;
             // 
@@ -754,7 +755,7 @@ namespace eNumismat2._0
             this.panelEx1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelEx1.Location = new System.Drawing.Point(317, 155);
             this.panelEx1.Name = "panelEx1";
-            this.panelEx1.Size = new System.Drawing.Size(756, 521);
+            this.panelEx1.Size = new System.Drawing.Size(710, 521);
             this.panelEx1.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.panelEx1.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
             this.panelEx1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
@@ -803,7 +804,7 @@ namespace eNumismat2._0
             this.panelEx2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelEx2.Location = new System.Drawing.Point(0, 0);
             this.panelEx2.Name = "panelEx2";
-            this.panelEx2.Size = new System.Drawing.Size(756, 521);
+            this.panelEx2.Size = new System.Drawing.Size(710, 521);
             this.panelEx2.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.panelEx2.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
             this.panelEx2.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
@@ -1045,6 +1046,7 @@ namespace eNumismat2._0
             this.textBoxX7.PreventEnterBeep = true;
             this.textBoxX7.Size = new System.Drawing.Size(227, 20);
             this.textBoxX7.TabIndex = 14;
+            this.superValidator1.SetValidator1(this.textBoxX7, this.regularExpressionValidator1);
             // 
             // textBoxX6
             // 
@@ -1295,6 +1297,7 @@ namespace eNumismat2._0
             // 
             // errorProvider1
             // 
+            this.errorProvider1.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
             this.errorProvider1.ContainerControl = this;
             this.errorProvider1.Icon = ((System.Drawing.Icon)(resources.GetObject("errorProvider1.Icon")));
             // 
@@ -1303,9 +1306,17 @@ namespace eNumismat2._0
             this.highlighter1.ContainerControl = this;
             this.highlighter1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             // 
+            // regularExpressionValidator1
+            // 
+            this.regularExpressionValidator1.EmptyValueIsValid = true;
+            this.regularExpressionValidator1.ErrorMessage = "The Email Address does not seem to have a valid format! ";
+            this.regularExpressionValidator1.HighlightColor = DevComponents.DotNetBar.Validator.eHighlightColor.Red;
+            this.regularExpressionValidator1.ValidationExpression = "[a-z0-9!#$%&\'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&\'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-" +
+    "z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?";
+            // 
             // _AddressBook
             // 
-            this.ClientSize = new System.Drawing.Size(1078, 700);
+            this.ClientSize = new System.Drawing.Size(1032, 700);
             this.Controls.Add(this.panelEx1);
             this.Controls.Add(this.dockSite2);
             this.Controls.Add(this.dockSite1);
@@ -1425,5 +1436,6 @@ namespace eNumismat2._0
         private DevComponents.DotNetBar.LabelX labelX9;
         private DevComponents.DotNetBar.ButtonX btn_Cancel;
         private DevComponents.DotNetBar.ButtonX btn_Save;
+        private DevComponents.DotNetBar.Validator.RegularExpressionValidator regularExpressionValidator1;
     }
 }
