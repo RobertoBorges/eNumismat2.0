@@ -58,12 +58,10 @@
     <value>Neue Datenbank</value>
   </data>
   <data name="btn_OpenDB.Text" xml:space="preserve">
-    <value>Datenbank Öffnen
-</value>
+    <value>Datenbank öffnen</value>
   </data>
   <data name="btn_BackupDB.Text" xml:space="preserve">
-    <value>Datenbank Sichern
-</value>
+    <value>Datenbank Sichern</value>
   </data>
   <data name="btn_CompressDB.Text" xml:space="preserve">
     <value>Datenbank Komprimieren</value>
@@ -87,11 +85,10 @@
     <value>Portugiesisch</value>
   </data>
   <data name="LangRU.Text" xml:space="preserve">
-    <value>Russisch
-</value>
+    <value>Russisch</value>
   </data>
   <data name="buttonItem10.Text" xml:space="preserve">
-    <value>Spracheinstellungen</value>
+    <value>Sprach-Einstellungen</value>
   </data>
   <data name="btn_SettingsDialog.Text" xml:space="preserve">
     <value>Anwendungs-Einstellungen</value>
@@ -104,9 +101,6 @@
   </data>
   <data name="applicationButton1.Text" xml:space="preserve">
     <value>&amp;Datei</value>
-  </data>
-  <data name="OpenExchangeMonitorFrm.Text" xml:space="preserve">
-    <value>Tauschmonitor</value>
   </data>
   <data name="OpenAddrBookFrm.Text" xml:space="preserve">
     <value>Adressbuch</value>
@@ -123,23 +117,11 @@
   <data name="ribbonControl1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
     <value>1035, 171</value>
   </data>
-  <data name="ribbonControl1.SystemText.MaximizeRibbonText" xml:space="preserve">
-    <value>&amp;Ribbon Maximieren</value>
-  </data>
-  <data name="ribbonControl1.SystemText.MinimizeRibbonText" xml:space="preserve">
-    <value>Ribbon Mi&amp;nimieren</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatAddItemText" xml:space="preserve">
-    <value>&amp;Zur Schnellauswahl hinzufügen</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatCustomizeMenuLabel" xml:space="preserve">
-    <value>&lt;b&gt;Schnellauswahl bearbeiten&lt;/b&gt;</value>
-  </data>
   <data name="ribbonControl1.SystemText.QatDialogCancelButton" xml:space="preserve">
     <value>Abbrechen</value>
   </data>
-  <data name="ribbonControl1.SystemText.QatDialogRemoveButton" xml:space="preserve">
-    <value>&amp;Entfernen</value>
+  <data name="ribbonControl1.SystemText.QatDialogOkButton" xml:space="preserve">
+    <value>OK</value>
   </data>
   <data name="ribbonControl1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>0</value>
@@ -164,9 +146,6 @@
   </data>
   <data name="labelX1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="labelX1.Text" xml:space="preserve">
-    <value>Standard Testlabel</value>
   </data>
   <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
     <value>96, 96</value>

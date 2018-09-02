@@ -18,24 +18,7 @@
   <data name="_contactsAvailable" xml:space="preserve">
     <value>Kontakte vorhanden</value>
   </data>
-  <data name="_dbBackupNullReferenceExceptionText" xml:space="preserve">
-    <value>Es konnte keine Sicherung erstellt werden, da keine Datenbankdatei ausgewählt war.
-</value>
-  </data>
   <data name="_dbBackupNullReferenceExceptionTitle" xml:space="preserve">
     <value>Fehler</value>
-  </data>
-  <data name="_dbBackup_BallonText" xml:space="preserve">
-    <value>Die Sicherung war erfolgreich</value>
-  </data>
-  <data name="_dbBackup_BalloonTitle" xml:space="preserve">
-    <value>Datenbanksicherung</value>
-  </data>
-  <data name="_dbCompress_BallonText" xml:space="preserve">
-    <value>Die Komprimierung der Datenbank war erfolgreich
-</value>
-  </data>
-  <data name="_dbCompress_BalloonTitle" xml:space="preserve">
-    <value>Datenbank Komprimierung</value>
   </data>
 </root>

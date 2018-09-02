@@ -8,8 +8,7 @@
       <group id="ENUMISMAT2.0/_SETTINGSDIALOG.RESX" datatype="resx">
         <trans-unit id="styleManager1.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
           <source>17, 17</source>
-          <target state="needs-review-translation">17, 17</target>
-          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
+          <target state="final">17, 17</target>
         </trans-unit>
       </group>
     </body>
@@ -22,23 +21,19 @@
       <group id="ENUMISMAT2.0/_ADDRESSBOOK.RESX" datatype="resx">
         <trans-unit id="styleManager1.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
           <source>17, 17</source>
-          <target state="needs-review-translation">17, 17</target>
-          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
+          <target state="final">17, 17</target>
         </trans-unit>
         <trans-unit id="statusStrip1.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
           <source>312, 17</source>
-          <target state="needs-review-translation">312, 17</target>
-          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
+          <target state="final">312, 17</target>
         </trans-unit>
         <trans-unit id="dotNetBarManager1.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
           <source>428, 17</source>
-          <target state="needs-review-translation">428, 17</target>
-          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
+          <target state="final">428, 17</target>
         </trans-unit>
         <trans-unit id="$this.TrayHeight" translate="yes" extype="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" extradata="metadata" xml:space="preserve">
           <source>25</source>
-          <target state="needs-review-translation">25</target>
-          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
+          <target state="final">25</target>
         </trans-unit>
       </group>
     </body>
@@ -51,16 +46,15 @@
       <group id="ENUMISMAT2.0/GLOBALSTRINGS.RESX" datatype="resx">
         <trans-unit id="_contactAvailable" translate="yes" xml:space="preserve">
           <source>Contact available</source>
-          <target state="translated">Kontakt vorhanden</target>
+          <target state="final">Kontakt vorhanden</target>
         </trans-unit>
         <trans-unit id="_contactsAvailable" translate="yes" xml:space="preserve">
           <source>Contacts available</source>
-          <target state="translated">Kontakte vorhanden</target>
+          <target state="final">Kontakte vorhanden</target>
         </trans-unit>
         <trans-unit id="_dbBackupNullReferenceExceptionText" translate="yes" xml:space="preserve">
           <source>We could not run a Backup, since there is no Database file selected.</source>
-          <target state="translated">Es konnte keine Sicherung erstellt werden, da keine Datenbankdatei ausgewählt war.
-</target>
+          <target state="new">We could not run a Backup, since there is no Database file selected.</target>
         </trans-unit>
         <trans-unit id="_dbBackupNullReferenceExceptionTitle" translate="yes" xml:space="preserve">
           <source>Error</source>
@@ -68,20 +62,19 @@
         </trans-unit>
         <trans-unit id="_dbBackup_BallonText" translate="yes" xml:space="preserve">
           <source>The Backup was successful</source>
-          <target state="translated">Die Sicherung war erfolgreich</target>
+          <target state="new">The Backup was successful</target>
         </trans-unit>
         <trans-unit id="_dbBackup_BalloonTitle" translate="yes" xml:space="preserve">
           <source>Database Backup</source>
-          <target state="translated">Datenbanksicherung</target>
+          <target state="new">Database Backup</target>
         </trans-unit>
         <trans-unit id="_dbCompress_BallonText" translate="yes" xml:space="preserve">
           <source>Compression of the Database was successful</source>
-          <target state="translated">Die Komprimierung der Datenbank war erfolgreich
-</target>
+          <target state="new">Compression of the Database was successful</target>
         </trans-unit>
         <trans-unit id="_dbCompress_BalloonTitle" translate="yes" xml:space="preserve">
           <source>Database Compression</source>
-          <target state="translated">Datenbank Komprimierung</target>
+          <target state="new">Database Compression</target>
         </trans-unit>
       </group>
     </body>
@@ -573,7 +566,7 @@
         ipcU73XhimscoJ7nmkq/K3pARbMxQSFYLIVi2aW4L35fP8fS4CSscnUDZfV/BZrfFf2jFa0A/vv6hdfP
         cJWw3xX9u6JfoPW7on9X9Ku1flf074p+tdbviv5d0a/S+r//+/8BPTxUq6Ub7iwAAAAASUVORK5CYII=
 </source>
-          <target state="needs-review-translation">
+          <target state="final">
         iVBORw0KGgoAAAANSUhEUgAAAHgAAAEGCAIAAAAhWcaAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
         JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AABvkklEQVR4Xu29B1hUd9r+z3X939+7bzax
         RQWmnZmhS++9i4KCXRRRsKGoiKKIKIJKlSrSpTdpioWmYm9gLzEao4kliTGmZ3ez6767yb7/+3u+M8fD
@@ -1053,257 +1046,6 @@
         ipcU73XhimscoJ7nmkq/K3pARbMxQSFYLIVi2aW4L35fP8fS4CSscnUDZfV/BZrfFf2jFa0A/vv6hdfP
         cJWw3xX9u6JfoPW7on9X9Ku1flf074p+tdbviv5d0a/S+r//+/8BPTxUq6Ub7iwAAAAASUVORK5CYII=
 </target>
-          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
-        </trans-unit>
-      </group>
-    </body>
-  </file>
-  <file datatype="xml" source-language="en" target-language="de" original="ENUMISMAT2.0/PROPERTIES/RESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
-    <header>
-      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6900.0" tool-company="Microsoft" />
-    </header>
-    <body>
-      <group id="ENUMISMAT2.0/PROPERTIES/RESOURCES.RESX" datatype="resx">
-        <trans-unit id="information" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\information.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\information.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="vcard" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\vcard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\vcard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="tag_pink" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\tag_pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\tag_pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="book_addresses" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\book_addresses.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\book_addresses.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="package_go" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\package_go.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\package_go.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="user_female" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\user_female.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\user_female.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
-        </trans-unit>
-        <trans-unit id="tag_yellow" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\tag_yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\tag_yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
-        </trans-unit>
-        <trans-unit id="action_check" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\action_check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\action_check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
-        </trans-unit>
-        <trans-unit id="package_add" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\package_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\package_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
-        </trans-unit>
-        <trans-unit id="help1" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\help1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\help1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
-        </trans-unit>
-        <trans-unit id="action_delete" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\action_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\action_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
-        </trans-unit>
-        <trans-unit id="bullet_wrench" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\bullet_wrench.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\bullet_wrench.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
-        </trans-unit>
-        <trans-unit id="tag_red" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\tag_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\tag_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
-        </trans-unit>
-        <trans-unit id="tag_green" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\tag_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\tag_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
-        </trans-unit>
-        <trans-unit id="package_delete" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\package_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\package_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="page_refresh" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\page_refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\page_refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="compress" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\compress.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\compress.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="help" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="es" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\resources\countryflags\es.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\resources\countryflags\es.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="user_comment" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\user_comment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\user_comment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="user" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="ru" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\resources\countryflags\ru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\resources\countryflags\ru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="group" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\group.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\group.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="tag_blue" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\tag_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\tag_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="disk" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\disk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\disk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="map_go" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\map_go.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\map_go.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="user_add" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\user_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\user_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="email" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\email.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\email.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="group_add" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\group_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\group_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="pt" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\resources\countryflags\pt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\resources\countryflags\pt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="connect" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\connect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\connect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="action_remove" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\action_remove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\action_remove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="user_delete" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\user_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\user_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="database_save" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\database_save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\database_save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="disconnect" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\disconnect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\disconnect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="group_delete" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\group_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\group_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="vcard_edit" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\vcard_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\vcard_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="exclamation" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\exclamation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\exclamation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="magnifier" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\magnifier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\magnifier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="disk_multiple" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\disk_multiple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\disk_multiple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="delete" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="database_add" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\database_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\database_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="wrench" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\wrench.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\wrench.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="tag_purple" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\tag_purple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\tag_purple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="database" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="database_connect" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\database_connect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\database_connect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="door_in" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\door_in.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\door_in.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="vcard_delete" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\vcard_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\vcard_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="de" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\resources\countryflags\de.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\resources\countryflags\de.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="user_edit" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\user_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\user_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="tag_orange" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\tag_orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\tag_orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="fr" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\resources\countryflags\fr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\resources\countryflags\fr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="us" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\resources\countryflags\us.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\resources\countryflags\us.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="gb" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\resources\countryflags\gb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\resources\countryflags\gb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="vcard_add" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\vcard_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\vcard_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="action_add" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Resources\action_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Resources\action_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-        <trans-unit id="Create" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\resources\database scripts\create.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</source>
-          <target state="needs-review-translation">..\resources\database scripts\create.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</target>
-        </trans-unit>
-        <trans-unit id="Insert" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\resources\database scripts\insert.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</source>
-          <target state="needs-review-translation">..\resources\database scripts\insert.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</target>
         </trans-unit>
       </group>
     </body>
@@ -1320,19 +1062,19 @@
         </trans-unit>
         <trans-unit id="ribbonPanel1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>0, 55</source>
-          <target state="needs-review-translation">0, 55</target>
+          <target state="final">0, 55</target>
         </trans-unit>
         <trans-unit id="ribbonPanel1.Padding" translate="yes" extype="System.Windows.Forms.Padding, System.Windows.Forms" xml:space="preserve">
           <source>3, 0, 3, 2</source>
-          <target state="needs-review-translation">3, 0, 3, 2</target>
+          <target state="final">3, 0, 3, 2</target>
         </trans-unit>
         <trans-unit id="ribbonPanel1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>1035, 116</source>
-          <target state="needs-review-translation">1035, 116</target>
+          <target state="final">1035, 116</target>
         </trans-unit>
         <trans-unit id="ribbonPanel1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>1</source>
-          <target state="needs-review-translation">1</target>
+          <target state="final">1</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
           <source>Top</source>
@@ -1361,7 +1103,7 @@
         19gcp+Vr8wDA8yEFz4fDxS4rihsYCEJ7mJavzU1/5TQ2vqUUhLaHOGtC/gatLmr0BdUBeQAAAABJRU5E
         rkJggg==
 </source>
-          <target state="needs-review-translation">
+          <target state="final">
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAANbY1E9YMgAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAQKSURBVEhLrdZtTBt1HAfwf/bCZWakJhrlhQlvJNGY
         ra+ciW8gPmT6gjQhMlraFUYotFy741pucH1u6daNQLvJ04BNggx56LbO6ZxjDkQ2suGwZnMqTG2QDRe3
@@ -1383,58 +1125,54 @@
         19gcp+Vr8wDA8yEFz4fDxS4rihsYCEJ7mJavzU1/5TQ2vqUUhLaHOGtC/gatLmr0BdUBeQAAAABJRU5E
         rkJggg==
 </target>
-          <note from="MultilingualUpdate" priority="2">When the XLIFF file support was added via MAT, existing resources were found and auto-imported.  This source and target string contained the same value so the resource was marked as 'Needs review' to ensure the translation could be easily reviewed.</note>
         </trans-unit>
         <trans-unit id="btn_NewDB.Text" translate="yes" xml:space="preserve">
           <source>New Database</source>
-          <target state="translated">Neue Datenbank</target>
+          <target state="final">Neue Datenbank</target>
         </trans-unit>
         <trans-unit id="btn_OpenDB.Text" translate="yes" xml:space="preserve">
           <source>Open Database</source>
-          <target state="translated">Datenbank Öffnen
-</target>
+          <target state="final">Datenbank öffnen</target>
         </trans-unit>
         <trans-unit id="btn_BackupDB.Text" translate="yes" xml:space="preserve">
           <source>Backup Database</source>
-          <target state="translated">Datenbank Sichern
-</target>
+          <target state="final">Datenbank Sichern</target>
         </trans-unit>
         <trans-unit id="btn_CompressDB.Text" translate="yes" xml:space="preserve">
           <source>Compress Database</source>
-          <target state="translated">Datenbank Komprimieren</target>
+          <target state="final">Datenbank Komprimieren</target>
         </trans-unit>
         <trans-unit id="LangEN_GB.Text" translate="yes" xml:space="preserve">
           <source>English (GB)</source>
-          <target state="translated">Englisch (GB)</target>
+          <target state="final">Englisch (GB)</target>
         </trans-unit>
         <trans-unit id="LangEN_US.Text" translate="yes" xml:space="preserve">
           <source>English (US)</source>
-          <target state="translated">Englisch (US)</target>
+          <target state="final">Englisch (US)</target>
         </trans-unit>
         <trans-unit id="LangDE.Text" translate="yes" xml:space="preserve">
           <source>German</source>
-          <target state="translated">Deutsch</target>
+          <target state="final">Deutsch</target>
         </trans-unit>
         <trans-unit id="LangFR.Text" translate="yes" xml:space="preserve">
           <source>French</source>
-          <target state="translated">Französisch</target>
+          <target state="final">Französisch</target>
         </trans-unit>
         <trans-unit id="LangES.Text" translate="yes" xml:space="preserve">
           <source>Spanish</source>
-          <target state="translated">Spanisch</target>
+          <target state="final">Spanisch</target>
         </trans-unit>
         <trans-unit id="LangPT.Text" translate="yes" xml:space="preserve">
           <source>Portuguese</source>
-          <target state="translated">Portugiesisch</target>
+          <target state="final">Portugiesisch</target>
         </trans-unit>
         <trans-unit id="LangRU.Text" translate="yes" xml:space="preserve">
           <source>Russian</source>
-          <target state="translated">Russisch
-</target>
+          <target state="final">Russisch</target>
         </trans-unit>
         <trans-unit id="buttonItem10.Text" translate="yes" xml:space="preserve">
           <source>Language Settings</source>
-          <target state="translated">Spracheinstellungen</target>
+          <target state="translated">Sprach-Einstellungen</target>
         </trans-unit>
         <trans-unit id="btn_SettingsDialog.Text" translate="yes" xml:space="preserve">
           <source>Application Settings</source>
@@ -1442,15 +1180,15 @@
         </trans-unit>
         <trans-unit id="buttonItem9.Text" translate="yes" xml:space="preserve">
           <source>Settings</source>
-          <target state="translated">Einstellungen</target>
+          <target state="final">Einstellungen</target>
         </trans-unit>
         <trans-unit id="btn_Close.Text" translate="yes" xml:space="preserve">
           <source>Close</source>
-          <target state="translated">Schließen</target>
+          <target state="final">Schließen</target>
         </trans-unit>
         <trans-unit id="applicationButton1.Text" translate="yes" xml:space="preserve">
           <source>&amp;File</source>
-          <target state="translated">&amp;Datei</target>
+          <target state="final">&amp;Datei</target>
         </trans-unit>
         <trans-unit id="ribbonTabItem1.Text" translate="yes" xml:space="preserve">
           <source>ribbonTabItem1</source>
@@ -1458,43 +1196,43 @@
         </trans-unit>
         <trans-unit id="OpenExchangeMonitorFrm.Text" translate="yes" xml:space="preserve">
           <source>Exchange Monitor</source>
-          <target state="translated">Tauschmonitor</target>
+          <target state="new">Exchange Monitor</target>
         </trans-unit>
         <trans-unit id="OpenAddrBookFrm.Text" translate="yes" xml:space="preserve">
           <source>Address Book</source>
-          <target state="translated">Adressbuch</target>
+          <target state="final">Adressbuch</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>5, 1</source>
-          <target state="needs-review-translation">5, 1</target>
+          <target state="final">5, 1</target>
         </trans-unit>
         <trans-unit id="btnAbout.Text" translate="yes" xml:space="preserve">
           <source>About eNumismat</source>
-          <target state="translated">Über eNumismat</target>
+          <target state="final">Über eNumismat</target>
         </trans-unit>
         <trans-unit id="btnHelp2.Text" translate="yes" xml:space="preserve">
           <source>Help</source>
-          <target state="translated">Hilfe</target>
+          <target state="final">Hilfe</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>1035, 171</source>
-          <target state="needs-review-translation">1035, 171</target>
+          <target state="final">1035, 171</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.MaximizeRibbonText" translate="yes" xml:space="preserve">
           <source>&amp;Maximize the Ribbon</source>
-          <target state="translated">&amp;Ribbon Maximieren</target>
+          <target state="new">&amp;Maximize the Ribbon</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.MinimizeRibbonText" translate="yes" xml:space="preserve">
           <source>Mi&amp;nimize the Ribbon</source>
-          <target state="translated">Ribbon Mi&amp;nimieren</target>
+          <target state="new">Mi&amp;nimize the Ribbon</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatAddItemText" translate="yes" xml:space="preserve">
           <source>&amp;Add to Quick Access Toolbar</source>
-          <target state="translated">&amp;Zur Schnellauswahl hinzufügen</target>
+          <target state="new">&amp;Add to Quick Access Toolbar</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatCustomizeMenuLabel" translate="yes" xml:space="preserve">
           <source><bpt id="1">&lt;b&gt;</bpt>Customize Quick Access Toolbar<ept id="1">&lt;/b&gt;</ept></source>
-          <target state="translated"><bpt id="1">&lt;b&gt;</bpt>Schnellauswahl bearbeiten<ept id="1">&lt;/b&gt;</ept></target>
+          <target state="new"><bpt id="1">&lt;b&gt;</bpt>Customize Quick Access Toolbar<ept id="1">&lt;/b&gt;</ept></target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatCustomizeText" translate="yes" xml:space="preserve">
           <source>&amp;Customize Quick Access Toolbar...</source>
@@ -1518,7 +1256,7 @@
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogOkButton" translate="yes" xml:space="preserve">
           <source>OK</source>
-          <target state="new">OK</target>
+          <target state="translated">OK</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogPlacementCheckbox" translate="yes" xml:space="preserve">
           <source>&amp;Place Quick Access Toolbar below the Ribbon</source>
@@ -1526,7 +1264,7 @@
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogRemoveButton" translate="yes" xml:space="preserve">
           <source>&amp;Remove</source>
-          <target state="translated">&amp;Entfernen</target>
+          <target state="new">&amp;Remove</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatPlaceAboveRibbonText" translate="yes" xml:space="preserve">
           <source>&amp;Place Quick Access Toolbar above the Ribbon</source>
@@ -1542,11 +1280,11 @@
         </trans-unit>
         <trans-unit id="ribbonControl1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>0</source>
-          <target state="needs-review-translation">0</target>
+          <target state="final">0</target>
         </trans-unit>
         <trans-unit id="toolStripStatusLabel1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>118, 17</source>
-          <target state="needs-review-translation">118, 17</target>
+          <target state="final">118, 17</target>
         </trans-unit>
         <trans-unit id="toolStripStatusLabel1.Text" translate="yes" xml:space="preserve">
           <source>toolStripStatusLabel1</source>
@@ -1554,15 +1292,15 @@
         </trans-unit>
         <trans-unit id="statusStrip1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>5, 688</source>
-          <target state="needs-review-translation">5, 688</target>
+          <target state="final">5, 688</target>
         </trans-unit>
         <trans-unit id="statusStrip1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>1035, 22</source>
-          <target state="needs-review-translation">1035, 22</target>
+          <target state="final">1035, 22</target>
         </trans-unit>
         <trans-unit id="statusStrip1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>1</source>
-          <target state="needs-review-translation">1</target>
+          <target state="final">1</target>
         </trans-unit>
         <trans-unit id="statusStrip1.Text" translate="yes" xml:space="preserve">
           <source>statusStrip1</source>
@@ -1570,27 +1308,27 @@
         </trans-unit>
         <trans-unit id="labelX1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>485, 297</source>
-          <target state="needs-review-translation">485, 297</target>
+          <target state="final">485, 297</target>
         </trans-unit>
         <trans-unit id="labelX1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>261, 118</source>
-          <target state="needs-review-translation">261, 118</target>
+          <target state="final">261, 118</target>
         </trans-unit>
         <trans-unit id="labelX1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>2</source>
-          <target state="needs-review-translation">2</target>
+          <target state="final">2</target>
         </trans-unit>
         <trans-unit id="labelX1.Text" translate="yes" xml:space="preserve">
           <source>default test label</source>
-          <target state="translated">Standard Testlabel</target>
+          <target state="new">default test label</target>
         </trans-unit>
         <trans-unit id="$this.AutoScaleDimensions" translate="yes" extype="System.Drawing.SizeF, System.Drawing" xml:space="preserve">
           <source>96, 96</source>
-          <target state="needs-review-translation">96, 96</target>
+          <target state="final">96, 96</target>
         </trans-unit>
         <trans-unit id="$this.ClientSize" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>1045, 712</source>
-          <target state="needs-review-translation">1045, 712</target>
+          <target state="final">1045, 712</target>
         </trans-unit>
         <trans-unit id="$this.Text" translate="yes" xml:space="preserve">
           <source>eNumismat</source>
@@ -1598,7 +1336,7 @@
         </trans-unit>
         <trans-unit id="contextMenuStrip1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>61, 4</source>
-          <target state="needs-review-translation">61, 4</target>
+          <target state="final">61, 4</target>
         </trans-unit>
         <trans-unit id="TrayIcon.Icon" translate="yes" extype="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64" xml:space="preserve">
           <source>
@@ -1674,7 +1412,7 @@
         AQCAAAMAwAAHAOAABwDAAAAAAAAAAIAAAQDgAAcAwAABAIAAAAAAAAMA8AAHAPAABwDgAAMA4gA7AP4A
         PwD+Qj8A/ue/AP/n/wA=
 </source>
-          <target state="needs-review-translation">
+          <target state="final">
         AAABAAIAGBgAAAEACADIBgAAJgAAABgYAAABACAAiAkAAO4GAAAoAAAAGAAAADAAAAABAAgAAAAAAKAC
         AAAAAAAAAAAAAAABAAAAAAAA////AAAAAAC+/v8Axv//AMj//wDK//8Ay///AMz//wDN//8Azv//AFj5
         /wBa+f8AW/n/AFz5/wBd+f8AXvn/AGP6/wBk+v8AZfr/AHb7/wB5+/8Affv/AIH7/wCV+/8Anf3/AKX9
@@ -1750,31 +1488,272 @@
         </trans-unit>
         <trans-unit id="TrayIcon.Visible" translate="yes" extype="System.Boolean, mscorlib" xml:space="preserve">
           <source>True</source>
-          <target state="needs-review-translation">True</target>
+          <target state="final">True</target>
         </trans-unit>
         <trans-unit id="styleManager1.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
           <source>166, 17</source>
-          <target state="needs-review-translation">166, 17</target>
+          <target state="final">166, 17</target>
         </trans-unit>
         <trans-unit id="statusStrip1.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
           <source>298, 17</source>
-          <target state="needs-review-translation">298, 17</target>
+          <target state="final">298, 17</target>
         </trans-unit>
         <trans-unit id="culture.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
           <source>414, 17</source>
-          <target state="needs-review-translation">414, 17</target>
+          <target state="final">414, 17</target>
         </trans-unit>
         <trans-unit id="$this.Localizable" translate="yes" extype="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" extradata="metadata" xml:space="preserve">
           <source>True</source>
-          <target state="needs-review-translation">True</target>
+          <target state="final">True</target>
         </trans-unit>
         <trans-unit id="TrayIcon.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
           <source>503, 17</source>
-          <target state="needs-review-translation">503, 17</target>
+          <target state="final">503, 17</target>
         </trans-unit>
         <trans-unit id="contextMenuStrip1.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
           <source>601, 17</source>
-          <target state="needs-review-translation">601, 17</target>
+          <target state="final">601, 17</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="en" target-language="de" original="ENUMISMAT2.0/PROPERTIES/RESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6900.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="ENUMISMAT2.0/PROPERTIES/RESOURCES.RESX" datatype="resx">
+        <trans-unit id="information" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\information.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\information.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="vcard" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\vcard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\vcard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="tag_pink" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\tag_pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\tag_pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="book_addresses" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\book_addresses.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\book_addresses.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="package_go" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\package_go.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\package_go.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="user_female" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\user_female.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\user_female.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="tag_yellow" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\tag_yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\tag_yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="action_check" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\action_check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\action_check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="package_add" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\package_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\package_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="help1" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\help1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\help1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="action_delete" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\action_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\action_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="bullet_wrench" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\bullet_wrench.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\bullet_wrench.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="tag_red" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\tag_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\tag_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="tag_green" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\tag_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\tag_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="package_delete" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\package_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\package_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="page_refresh" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\page_refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\page_refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="compress" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\compress.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\compress.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="help" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="es" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\resources\countryflags\es.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\resources\countryflags\es.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="user_comment" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\user_comment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\user_comment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="user" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="ru" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\resources\countryflags\ru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\resources\countryflags\ru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="group" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\group.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\group.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="tag_blue" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\tag_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\tag_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="disk" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\disk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\disk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="map_go" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\map_go.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\map_go.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="user_add" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\user_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\user_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="email" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\email.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\email.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="group_add" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\group_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\group_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="pt" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\resources\countryflags\pt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\resources\countryflags\pt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="connect" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\connect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\connect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="action_remove" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\action_remove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\action_remove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="user_delete" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\user_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\user_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="database_save" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\database_save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\database_save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="disconnect" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\disconnect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\disconnect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="group_delete" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\group_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\group_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="vcard_edit" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\vcard_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\vcard_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="exclamation" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\exclamation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\exclamation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="magnifier" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\magnifier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\magnifier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="disk_multiple" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\disk_multiple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\disk_multiple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="delete" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="database_add" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\database_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\database_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="wrench" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\wrench.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\wrench.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="tag_purple" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\tag_purple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\tag_purple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="database" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="database_connect" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\database_connect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\database_connect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="door_in" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\door_in.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\door_in.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="vcard_delete" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\vcard_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\vcard_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="de" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\resources\countryflags\de.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\resources\countryflags\de.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="user_edit" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\user_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\user_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="tag_orange" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\tag_orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\tag_orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="fr" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\resources\countryflags\fr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\resources\countryflags\fr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="us" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\resources\countryflags\us.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\resources\countryflags\us.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="gb" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\resources\countryflags\gb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\resources\countryflags\gb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="vcard_add" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\vcard_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\vcard_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="action_add" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\Resources\action_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="final">..\Resources\action_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="Create" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\resources\database scripts\create.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</source>
+          <target state="final">..\resources\database scripts\create.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</target>
+        </trans-unit>
+        <trans-unit id="Insert" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\resources\database scripts\insert.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</source>
+          <target state="final">..\resources\database scripts\insert.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</target>
         </trans-unit>
       </group>
     </body>

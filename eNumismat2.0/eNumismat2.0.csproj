@@ -126,6 +126,11 @@
       <LastGenOutput>GlobalStrings.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="GlobalStrings.ru.resx" />
+    <EmbeddedResource Include="Properties\Resources.de.resx" />
+    <EmbeddedResource Include="Properties\Resources.es.resx" />
+    <EmbeddedResource Include="Properties\Resources.fr.resx" />
+    <EmbeddedResource Include="Properties\Resources.pt.resx" />
+    <EmbeddedResource Include="Properties\Resources.ru.resx" />
     <EmbeddedResource Include="_AboutBox.de.resx">
       <DependentUpon>_AboutBox.cs</DependentUpon>
     </EmbeddedResource>
