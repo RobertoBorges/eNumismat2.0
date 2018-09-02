@@ -25,6 +25,15 @@ CREATE TABLE IF NOT EXISTS [labelstocontact](
 CREATE TABLE IF NOT EXISTS [tags](
   [tag] TEXT(30) PRIMARY KEY UNIQUE NOT NULL);
 
+-- Insert Values into TAGS
+INSERT INTO [tags] (
+  [tag])
+VALUES
+('Test'),
+('Noch ein Test Tag'),
+('und noch einer'),
+('Nur mal so');
+
 -- Table TAGCOLLECTION FOR CONTACTS
 CREATE TABLE IF NOT EXISTS [tagstocontact](
   [tag] TEXT(30) NOT NULL,

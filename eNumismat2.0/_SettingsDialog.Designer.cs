@@ -94,7 +94,8 @@
             this.colorPickerDropDown1 = new DevComponents.DotNetBar.ColorPickerDropDown();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.listBoxAdv1 = new DevComponents.DotNetBar.ListBoxAdv();
-            this.listBoxAdv2 = new DevComponents.DotNetBar.ListBoxAdv();
+            this.ListBox_TagCollection = new DevComponents.DotNetBar.ListBoxAdv();
+            this.labelItem1 = new DevComponents.DotNetBar.LabelItem();
             this.flowLayoutPanel1.SuspendLayout();
             this.panelEx1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl1)).BeginInit();
@@ -384,7 +385,7 @@
             // 
             // tabControlPanel2
             // 
-            this.tabControlPanel2.Controls.Add(this.listBoxAdv2);
+            this.tabControlPanel2.Controls.Add(this.ListBox_TagCollection);
             this.tabControlPanel2.Controls.Add(this.listBoxAdv1);
             this.tabControlPanel2.Controls.Add(this.labelX8);
             this.tabControlPanel2.Controls.Add(this.buttonX3);
@@ -709,32 +710,42 @@
             // 
             this.listBoxAdv1.BackgroundStyle.Class = "ListBoxAdv";
             this.listBoxAdv1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.listBoxAdv1.CheckBoxesVisible = true;
             this.listBoxAdv1.CheckStateMember = null;
             this.listBoxAdv1.ContainerControlProcessDialogKey = true;
+            this.listBoxAdv1.Cursor = System.Windows.Forms.Cursors.Default;
             this.listBoxAdv1.DragDropSupport = true;
+            this.listBoxAdv1.ItemTemplate = this.labelItem1;
             this.listBoxAdv1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.listBoxAdv1.Location = new System.Drawing.Point(12, 91);
             this.listBoxAdv1.Name = "listBoxAdv1";
             this.listBoxAdv1.Size = new System.Drawing.Size(197, 95);
+            this.listBoxAdv1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.listBoxAdv1.TabIndex = 13;
             this.listBoxAdv1.Text = "listBoxAdv1";
             // 
-            // listBoxAdv2
+            // ListBox_TagCollection
             // 
-            this.listBoxAdv2.AutoScroll = true;
+            this.ListBox_TagCollection.AutoScroll = true;
             // 
             // 
             // 
-            this.listBoxAdv2.BackgroundStyle.Class = "ListBoxAdv";
-            this.listBoxAdv2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.listBoxAdv2.ContainerControlProcessDialogKey = true;
-            this.listBoxAdv2.DragDropSupport = true;
-            this.listBoxAdv2.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
-            this.listBoxAdv2.Location = new System.Drawing.Point(12, 239);
-            this.listBoxAdv2.Name = "listBoxAdv2";
-            this.listBoxAdv2.Size = new System.Drawing.Size(197, 95);
-            this.listBoxAdv2.TabIndex = 14;
-            this.listBoxAdv2.Text = "listBoxAdv2";
+            this.ListBox_TagCollection.BackgroundStyle.Class = "ListBoxAdv";
+            this.ListBox_TagCollection.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ListBox_TagCollection.ContainerControlProcessDialogKey = true;
+            this.ListBox_TagCollection.DragDropSupport = true;
+            this.ListBox_TagCollection.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
+            this.ListBox_TagCollection.Location = new System.Drawing.Point(12, 239);
+            this.ListBox_TagCollection.Name = "ListBox_TagCollection";
+            this.ListBox_TagCollection.Size = new System.Drawing.Size(197, 95);
+            this.ListBox_TagCollection.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ListBox_TagCollection.TabIndex = 14;
+            this.ListBox_TagCollection.Text = "listBoxAdv2";
+            // 
+            // labelItem1
+            // 
+            this.labelItem1.GlobalItem = false;
+            this.labelItem1.Name = "labelItem1";
             // 
             // _SettingsDialog
             // 
@@ -828,7 +839,8 @@
         private DevComponents.DotNetBar.ButtonX buttonX2;
         private DevComponents.DotNetBar.ButtonX buttonX1;
         private DevComponents.DotNetBar.StyleManager styleManager1;
-        private DevComponents.DotNetBar.ListBoxAdv listBoxAdv2;
+        private DevComponents.DotNetBar.ListBoxAdv ListBox_TagCollection;
         private DevComponents.DotNetBar.ListBoxAdv listBoxAdv1;
+        private DevComponents.DotNetBar.LabelItem labelItem1;
     }
 }

@@ -15,6 +15,7 @@ namespace eNumismat2._0
     public partial class _SettingsDialog : Form
     {
         StringCollection DbBackupPathCollection;
+        Classes.DataBaseWork DBWorker = new Classes.DataBaseWork();
 
         //=====================================================================================================================================================================
         public _SettingsDialog()
@@ -45,6 +46,26 @@ namespace eNumismat2._0
                 }
             }
             cb_DbBackupPath.SelectedItem = Properties.Settings.Default.DBBackupPath;
+
+            FillListBoxTagCollection();
+        }
+
+        //=====================================================================================================================================================================
+        private void FillListBoxTagCollection()
+        {
+            try
+            {
+                DataTable TagCollection = DBWorker.GetTagCollection();
+
+                foreach (DataRow Tag in TagCollection.Rows)
+                {
+                    ListBox_TagCollection.Items.Add(Tag[0].ToString());
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         //=====================================================================================================================================================================

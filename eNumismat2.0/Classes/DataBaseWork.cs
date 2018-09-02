@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
 using System.IO;
 using System.Data.SQLite;
 
@@ -125,6 +126,43 @@ namespace eNumismat2._0.Classes
                 catch (Exception ex)
                 {
                     return false;
+                    throw ex;
+                }
+            }
+        }
+
+        //=====================================================================================================================================================================
+        public DataTable GetTagCollection()
+        {
+            using (SQLiteConnection SQLiteConn = new SQLiteConnection("Datasource=" + DataBaseFile))
+            {
+                try
+                {
+                    SQLiteConn.Open();
+
+                    string SQL = "SELECT tag FROM tags";
+
+                    using (SQLiteCommand command = new SQLiteCommand(SQL, SQLiteConn))
+                    {
+                        using (SQLiteDataAdapter da_TagCollection = new SQLiteDataAdapter(command))
+                        {
+                            DataTable dt_TagCollection = new DataTable();
+
+                            try
+                            {
+                                da_TagCollection.Fill(dt_TagCollection);
+
+                                return dt_TagCollection;
+                            }
+                            catch (Exception ex)
+                            {
+                                throw ex;
+                            }
+                        }
+                    }
+                }
+                catch(Exception ex)
+                {
                     throw ex;
                 }
             }
