@@ -9,6 +9,7 @@
         <trans-unit id="styleManager1.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
           <source>17, 17</source>
           <target state="needs-review-translation">17, 17</target>
+          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
         </trans-unit>
       </group>
     </body>
@@ -22,18 +23,22 @@
         <trans-unit id="styleManager1.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
           <source>17, 17</source>
           <target state="needs-review-translation">17, 17</target>
+          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
         </trans-unit>
         <trans-unit id="statusStrip1.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
           <source>312, 17</source>
           <target state="needs-review-translation">312, 17</target>
+          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
         </trans-unit>
         <trans-unit id="dotNetBarManager1.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
           <source>428, 17</source>
           <target state="needs-review-translation">428, 17</target>
+          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
         </trans-unit>
         <trans-unit id="$this.TrayHeight" translate="yes" extype="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" extradata="metadata" xml:space="preserve">
           <source>25</source>
           <target state="needs-review-translation">25</target>
+          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
         </trans-unit>
       </group>
     </body>
@@ -46,35 +51,37 @@
       <group id="ENUMISMAT2.0/GLOBALSTRINGS.RESX" datatype="resx">
         <trans-unit id="_contactAvailable" translate="yes" xml:space="preserve">
           <source>Contact available</source>
-          <target state="new">Contact available</target>
+          <target state="translated">Kontakt vorhanden</target>
         </trans-unit>
         <trans-unit id="_contactsAvailable" translate="yes" xml:space="preserve">
           <source>Contacts available</source>
-          <target state="new">Contacts available</target>
+          <target state="translated">Kontakte vorhanden</target>
         </trans-unit>
         <trans-unit id="_dbBackupNullReferenceExceptionText" translate="yes" xml:space="preserve">
           <source>We could not run a Backup, since there is no Database file selected.</source>
-          <target state="new">We could not run a Backup, since there is no Database file selected.</target>
+          <target state="translated">Es konnte keine Sicherung erstellt werden, da keine Datenbankdatei ausgewählt war.
+</target>
         </trans-unit>
         <trans-unit id="_dbBackupNullReferenceExceptionTitle" translate="yes" xml:space="preserve">
           <source>Error</source>
-          <target state="new">Error</target>
+          <target state="translated">Fehler</target>
         </trans-unit>
         <trans-unit id="_dbBackup_BallonText" translate="yes" xml:space="preserve">
           <source>The Backup was successful</source>
-          <target state="new">The Backup was successful</target>
+          <target state="translated">Die Sicherung war erfolgreich</target>
         </trans-unit>
         <trans-unit id="_dbBackup_BalloonTitle" translate="yes" xml:space="preserve">
           <source>Database Backup</source>
-          <target state="new">Database Backup</target>
+          <target state="translated">Datenbanksicherung</target>
         </trans-unit>
         <trans-unit id="_dbCompress_BallonText" translate="yes" xml:space="preserve">
           <source>Compression of the Database was successful</source>
-          <target state="new">Compression of the Database was successful</target>
+          <target state="translated">Die Komprimierung der Datenbank war erfolgreich
+</target>
         </trans-unit>
         <trans-unit id="_dbCompress_BalloonTitle" translate="yes" xml:space="preserve">
           <source>Database Compression</source>
-          <target state="new">Database Compression</target>
+          <target state="translated">Datenbank Komprimierung</target>
         </trans-unit>
       </group>
     </body>
@@ -1046,6 +1053,7 @@
         ipcU73XhimscoJ7nmkq/K3pARbMxQSFYLIVi2aW4L35fP8fS4CSscnUDZfV/BZrfFf2jFa0A/vv6hdfP
         cJWw3xX9u6JfoPW7on9X9Ku1flf074p+tdbviv5d0a/S+r//+/8BPTxUq6Ub7iwAAAAASUVORK5CYII=
 </target>
+          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
         </trans-unit>
       </group>
     </body>
@@ -1079,38 +1087,47 @@
         <trans-unit id="user_female" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
           <source>..\Resources\user_female.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
           <target state="needs-review-translation">..\Resources\user_female.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
         </trans-unit>
         <trans-unit id="tag_yellow" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
           <source>..\Resources\tag_yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
           <target state="needs-review-translation">..\Resources\tag_yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
         </trans-unit>
         <trans-unit id="action_check" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
           <source>..\Resources\action_check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
           <target state="needs-review-translation">..\Resources\action_check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
         </trans-unit>
         <trans-unit id="package_add" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
           <source>..\Resources\package_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
           <target state="needs-review-translation">..\Resources\package_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
         </trans-unit>
         <trans-unit id="help1" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
           <source>..\Resources\help1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
           <target state="needs-review-translation">..\Resources\help1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
         </trans-unit>
         <trans-unit id="action_delete" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
           <source>..\Resources\action_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
           <target state="needs-review-translation">..\Resources\action_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
         </trans-unit>
         <trans-unit id="bullet_wrench" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
           <source>..\Resources\bullet_wrench.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
           <target state="needs-review-translation">..\Resources\bullet_wrench.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
         </trans-unit>
         <trans-unit id="tag_red" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
           <source>..\Resources\tag_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
           <target state="needs-review-translation">..\Resources\tag_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
         </trans-unit>
         <trans-unit id="tag_green" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
           <source>..\Resources\tag_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
           <target state="needs-review-translation">..\Resources\tag_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+          <note from="MultilingualEditor" annotates="source" priority="4">nicht Übersetzbarer Wert</note>
         </trans-unit>
         <trans-unit id="package_delete" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
           <source>..\Resources\package_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
@@ -1370,55 +1387,58 @@
         </trans-unit>
         <trans-unit id="btn_NewDB.Text" translate="yes" xml:space="preserve">
           <source>New Database</source>
-          <target state="new">New Database</target>
+          <target state="translated">Neue Datenbank</target>
         </trans-unit>
         <trans-unit id="btn_OpenDB.Text" translate="yes" xml:space="preserve">
           <source>Open Database</source>
-          <target state="new">Open Database</target>
+          <target state="translated">Datenbank Öffnen
+</target>
         </trans-unit>
         <trans-unit id="btn_BackupDB.Text" translate="yes" xml:space="preserve">
           <source>Backup Database</source>
-          <target state="new">Backup Database</target>
+          <target state="translated">Datenbank Sichern
+</target>
         </trans-unit>
         <trans-unit id="btn_CompressDB.Text" translate="yes" xml:space="preserve">
           <source>Compress Database</source>
-          <target state="new">Compress Database</target>
+          <target state="translated">Datenbank Komprimieren</target>
         </trans-unit>
         <trans-unit id="LangEN_GB.Text" translate="yes" xml:space="preserve">
           <source>English (GB)</source>
-          <target state="new">English (GB)</target>
+          <target state="translated">Englisch (GB)</target>
         </trans-unit>
         <trans-unit id="LangEN_US.Text" translate="yes" xml:space="preserve">
           <source>English (US)</source>
-          <target state="new">English (US)</target>
+          <target state="translated">Englisch (US)</target>
         </trans-unit>
         <trans-unit id="LangDE.Text" translate="yes" xml:space="preserve">
           <source>German</source>
-          <target state="new">German</target>
+          <target state="translated">Deutsch</target>
         </trans-unit>
         <trans-unit id="LangFR.Text" translate="yes" xml:space="preserve">
           <source>French</source>
-          <target state="new">French</target>
+          <target state="translated">Französisch</target>
         </trans-unit>
         <trans-unit id="LangES.Text" translate="yes" xml:space="preserve">
           <source>Spanish</source>
-          <target state="new">Spanish</target>
+          <target state="translated">Spanisch</target>
         </trans-unit>
         <trans-unit id="LangPT.Text" translate="yes" xml:space="preserve">
           <source>Portuguese</source>
-          <target state="new">Portuguese</target>
+          <target state="translated">Portugiesisch</target>
         </trans-unit>
         <trans-unit id="LangRU.Text" translate="yes" xml:space="preserve">
           <source>Russian</source>
-          <target state="new">Russian</target>
+          <target state="translated">Russisch
+</target>
         </trans-unit>
         <trans-unit id="buttonItem10.Text" translate="yes" xml:space="preserve">
           <source>Language Settings</source>
-          <target state="new">Language Settings</target>
+          <target state="translated">Spracheinstellungen</target>
         </trans-unit>
         <trans-unit id="btn_SettingsDialog.Text" translate="yes" xml:space="preserve">
           <source>Application Settings</source>
-          <target state="new">Application Settings</target>
+          <target state="translated">Anwendungs-Einstellungen</target>
         </trans-unit>
         <trans-unit id="buttonItem9.Text" translate="yes" xml:space="preserve">
           <source>Settings</source>
@@ -1426,7 +1446,7 @@
         </trans-unit>
         <trans-unit id="btn_Close.Text" translate="yes" xml:space="preserve">
           <source>Close</source>
-          <target state="new">Close</target>
+          <target state="translated">Schließen</target>
         </trans-unit>
         <trans-unit id="applicationButton1.Text" translate="yes" xml:space="preserve">
           <source>&amp;File</source>
@@ -1438,11 +1458,11 @@
         </trans-unit>
         <trans-unit id="OpenExchangeMonitorFrm.Text" translate="yes" xml:space="preserve">
           <source>Exchange Monitor</source>
-          <target state="new">Exchange Monitor</target>
+          <target state="translated">Tauschmonitor</target>
         </trans-unit>
         <trans-unit id="OpenAddrBookFrm.Text" translate="yes" xml:space="preserve">
           <source>Address Book</source>
-          <target state="new">Address Book</target>
+          <target state="translated">Adressbuch</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>5, 1</source>
@@ -1450,11 +1470,11 @@
         </trans-unit>
         <trans-unit id="btnAbout.Text" translate="yes" xml:space="preserve">
           <source>About eNumismat</source>
-          <target state="new">About eNumismat</target>
+          <target state="translated">Über eNumismat</target>
         </trans-unit>
         <trans-unit id="btnHelp2.Text" translate="yes" xml:space="preserve">
           <source>Help</source>
-          <target state="new">Help</target>
+          <target state="translated">Hilfe</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>1035, 171</source>
@@ -1462,19 +1482,19 @@
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.MaximizeRibbonText" translate="yes" xml:space="preserve">
           <source>&amp;Maximize the Ribbon</source>
-          <target state="new">&amp;Maximize the Ribbon</target>
+          <target state="translated">&amp;Ribbon Maximieren</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.MinimizeRibbonText" translate="yes" xml:space="preserve">
           <source>Mi&amp;nimize the Ribbon</source>
-          <target state="new">Mi&amp;nimize the Ribbon</target>
+          <target state="translated">Ribbon Mi&amp;nimieren</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatAddItemText" translate="yes" xml:space="preserve">
           <source>&amp;Add to Quick Access Toolbar</source>
-          <target state="new">&amp;Add to Quick Access Toolbar</target>
+          <target state="translated">&amp;Zur Schnellauswahl hinzufügen</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatCustomizeMenuLabel" translate="yes" xml:space="preserve">
           <source><bpt id="1">&lt;b&gt;</bpt>Customize Quick Access Toolbar<ept id="1">&lt;/b&gt;</ept></source>
-          <target state="new"><bpt id="1">&lt;b&gt;</bpt>Customize Quick Access Toolbar<ept id="1">&lt;/b&gt;</ept></target>
+          <target state="translated"><bpt id="1">&lt;b&gt;</bpt>Schnellauswahl bearbeiten<ept id="1">&lt;/b&gt;</ept></target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatCustomizeText" translate="yes" xml:space="preserve">
           <source>&amp;Customize Quick Access Toolbar...</source>
@@ -1486,7 +1506,7 @@
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogCancelButton" translate="yes" xml:space="preserve">
           <source>Cancel</source>
-          <target state="new">Cancel</target>
+          <target state="translated">Abbrechen</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogCaption" translate="yes" xml:space="preserve">
           <source>Customize Quick Access Toolbar</source>
@@ -1506,7 +1526,7 @@
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogRemoveButton" translate="yes" xml:space="preserve">
           <source>&amp;Remove</source>
-          <target state="new">&amp;Remove</target>
+          <target state="translated">&amp;Entfernen</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatPlaceAboveRibbonText" translate="yes" xml:space="preserve">
           <source>&amp;Place Quick Access Toolbar above the Ribbon</source>
