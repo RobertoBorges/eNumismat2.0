@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Collections.Specialized;
+using DevComponents.DotNetBar;
+using DevComponents.DotNetBar.Controls;
 
 namespace eNumismat2._0
 {
@@ -63,13 +65,15 @@ namespace eNumismat2._0
             }
             ListBox_TagCollection.Items.Clear();
 
+            // only for testing --> to use listbox or to use token exitor 
+            tokenEditor1.Tokens.Clear();
+            
             FillListBoxTagCollection();
         }
 
         //=====================================================================================================================================================================
         private void FillListBoxTagCollection()
         {
-            
             try
             {
                 DataTable TagCollection = DBWorker.GetTagCollection();
@@ -77,6 +81,15 @@ namespace eNumismat2._0
                 foreach (DataRow Tag in TagCollection.Rows)
                 {
                     ListBox_TagCollection.Items.Add(Tag[0].ToString());
+
+                    // only for testing --> to use listbox or to use token exitor 
+                    tokenEditor1.Tokens.Add(new EditToken(Tag[0].ToString(), Tag[0].ToString()));
+                }
+
+                // only for testing --> to use listbox or to use token exitor 
+                for (int i = 0; i < tokenEditor1.Tokens.Count(); i++)
+                {
+                    tokenEditor1.SelectedTokens.Add(tokenEditor1.Tokens[i]);
                 }
             }
             catch (Exception ex)

@@ -96,6 +96,7 @@
             this.buttonItem13 = new DevComponents.DotNetBar.ButtonItem();
             this.colorPickerDropDown1 = new DevComponents.DotNetBar.ColorPickerDropDown();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
+            this.tokenEditor1 = new DevComponents.DotNetBar.Controls.TokenEditor();
             this.flowLayoutPanel1.SuspendLayout();
             this.panelEx1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl1)).BeginInit();
@@ -165,6 +166,7 @@
             // 
             // tabControlPanel2
             // 
+            this.tabControlPanel2.Controls.Add(this.tokenEditor1);
             this.tabControlPanel2.Controls.Add(this.ListBox_TagCollection);
             this.tabControlPanel2.Controls.Add(this.listBoxAdv1);
             this.tabControlPanel2.Controls.Add(this.labelX8);
@@ -749,6 +751,21 @@
             this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Light;
             this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254))))), System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(143))))));
             // 
+            // tokenEditor1
+            // 
+            this.tokenEditor1.AutoSizeHeight = false;
+            // 
+            // 
+            // 
+            this.tokenEditor1.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.tokenEditor1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.tokenEditor1.Location = new System.Drawing.Point(215, 239);
+            this.tokenEditor1.Name = "tokenEditor1";
+            this.tokenEditor1.Separators.Add(";");
+            this.tokenEditor1.Separators.Add(",");
+            this.tokenEditor1.Size = new System.Drawing.Size(206, 95);
+            this.tokenEditor1.TabIndex = 15;
+            // 
             // _SettingsDialog
             // 
             this.AcceptButton = this.btn_Save;
@@ -844,5 +861,6 @@
         private DevComponents.DotNetBar.ListBoxAdv ListBox_TagCollection;
         private DevComponents.DotNetBar.ListBoxAdv listBoxAdv1;
         private DevComponents.DotNetBar.LabelItem labelItem1;
+        private DevComponents.DotNetBar.Controls.TokenEditor tokenEditor1;
     }
 }
