@@ -65,9 +65,6 @@ namespace eNumismat2._0
             }
             ListBox_TagCollection.Items.Clear();
 
-            // only for testing --> to use listbox or to use token exitor 
-            tokenEditor1.Tokens.Clear();
-            
             FillListBoxTagCollection();
         }
 
