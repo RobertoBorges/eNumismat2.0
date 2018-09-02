@@ -61,6 +61,24 @@ namespace eNumismat2._0 {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Contact available ähnelt.
+        /// </summary>
+        internal static string _contactAvailable {
+            get {
+                return ResourceManager.GetString("_contactAvailable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Contacts available ähnelt.
+        /// </summary>
+        internal static string _contactsAvailable {
+            get {
+                return ResourceManager.GetString("_contactsAvailable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die The Backup was successful ähnelt.
         /// </summary>
         internal static string _dbBackup_BallonText {

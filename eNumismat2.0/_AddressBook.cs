@@ -13,6 +13,8 @@ namespace eNumismat2._0
 {
     public partial class _AddressBook : RibbonForm
     {
+        Classes.DataBaseWork DBWorker;
+
         public _AddressBook()
         {
             InitializeComponent();
@@ -20,7 +22,38 @@ namespace eNumismat2._0
 
         private void _AddressBook_Load(object sender, EventArgs e)
         {
+            DBWorker = new Classes.DataBaseWork();
+            GetContactsCount();
+        }
 
+        private void GetContactsCount()
+        {
+            int ContactCounter = 0;
+
+            try
+            {
+                ContactCounter = DBWorker.ContactCounter();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            if (ContactCounter == 0)
+            {
+                toolStripStatusLabel1.Text = ContactCounter.ToString() + " " + GlobalStrings._contactsAvailable;
+
+            }
+            else if (ContactCounter == 1)
+            {
+                toolStripStatusLabel1.Text = ContactCounter.ToString() + " " + GlobalStrings._contactAvailable;
+
+            }
+            else if (ContactCounter > 1)
+            {
+                toolStripStatusLabel1.Text = ContactCounter.ToString() + " " + GlobalStrings._contactsAvailable;
+
+            }
         }
     }
 }

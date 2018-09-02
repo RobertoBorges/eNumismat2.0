@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="_contactAvailable" xml:space="preserve">
+    <value>Contact available</value>
+  </data>
+  <data name="_contactsAvailable" xml:space="preserve">
+    <value>Contacts available</value>
+  </data>
   <data name="_dbBackupNullReferenceExceptionText" xml:space="preserve">
     <value>We could not run a Backup, since there is no Database file selected.</value>
   </data>
