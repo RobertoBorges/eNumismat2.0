@@ -85,7 +85,7 @@ namespace eNumismat2._0.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1078")]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
         public int AddressBookWindowWidth {
             get {
                 return ((int)(this["AddressBookWindowWidth"]));
@@ -97,7 +97,7 @@ namespace eNumismat2._0.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("700")]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
         public int AddressBookWindowHight {
             get {
                 return ((int)(this["AddressBookWindowHight"]));
