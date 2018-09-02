@@ -51,8 +51,25 @@ namespace eNumismat2._0
         }
 
         //=====================================================================================================================================================================
+        private void DeleteSelectedTags()
+        {
+            List<string> TagItems = new List<string>();
+            
+            foreach (var Tag in ListBox_TagCollection.CheckedItems)
+            {
+                TagItems.Add(Tag.ToString());
+
+                DBWorker.DeleteTagFromTagCollection(TagItems);
+            }
+            ListBox_TagCollection.Items.Clear();
+
+            FillListBoxTagCollection();
+        }
+
+        //=====================================================================================================================================================================
         private void FillListBoxTagCollection()
         {
+            
             try
             {
                 DataTable TagCollection = DBWorker.GetTagCollection();
@@ -101,6 +118,12 @@ namespace eNumismat2._0
 
             // if Settings are saved, Hide the form
             Hide();
+        }
+
+        //=====================================================================================================================================================================
+        private void buttonX3_Click(object sender, EventArgs e)
+        {
+            DeleteSelectedTags();
         }
     }
 }

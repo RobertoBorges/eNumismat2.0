@@ -118,6 +118,7 @@ namespace eNumismat2._0.Classes
             using (SQLiteCommand cmd = Database.CreateCommand())
             {
                 cmd.CommandText = "vacuum";
+
                 try
                 {
                     cmd.ExecuteNonQuery();
@@ -140,7 +141,7 @@ namespace eNumismat2._0.Classes
                 {
                     SQLiteConn.Open();
 
-                    string SQL = "SELECT tag FROM tags";
+                    string SQL = "SELECT [tag] FROM [tags]";
 
                     using (SQLiteCommand command = new SQLiteCommand(SQL, SQLiteConn))
                     {
@@ -162,6 +163,42 @@ namespace eNumismat2._0.Classes
                     }
                 }
                 catch(Exception ex)
+                {
+                    throw ex;
+                }
+            }
+        }
+
+        public void DeleteTagFromTagCollection(List<string>Tags)
+        {
+            string TagItems = null;
+
+            using (SQLiteConnection SQLiteConn = new SQLiteConnection("Datasource=" + DataBaseFile))
+            {
+                try
+                {
+                    SQLiteConn.Open();
+
+                    foreach (string Item in Tags)
+                    {
+                        string SQL = "DELETE FROM [tags] WHERE [tag] = (@TagItems)";
+
+                        using (SQLiteCommand command = new SQLiteCommand(SQL, SQLiteConn))
+                        {
+                            command.Parameters.AddWithValue("@TagItems", Item);
+
+                            try
+                            {
+                                command.ExecuteNonQuery();
+                            }
+                            catch (Exception ex)
+                            {
+                                throw ex;
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
                 {
                     throw ex;
                 }
