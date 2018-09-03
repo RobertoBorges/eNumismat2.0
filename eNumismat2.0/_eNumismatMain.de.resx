@@ -102,6 +102,9 @@
   <data name="applicationButton1.Text" xml:space="preserve">
     <value>&amp;Datei</value>
   </data>
+  <data name="OpenExchangeMonitorFrm.Text" xml:space="preserve">
+    <value>Tauschmonitor</value>
+  </data>
   <data name="OpenAddrBookFrm.Text" xml:space="preserve">
     <value>Adressbuch</value>
   </data>
@@ -117,11 +120,47 @@
   <data name="ribbonControl1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
     <value>1035, 171</value>
   </data>
+  <data name="ribbonControl1.SystemText.MaximizeRibbonText" xml:space="preserve">
+    <value>&amp;Maximiere das Ribbon</value>
+  </data>
+  <data name="ribbonControl1.SystemText.MinimizeRibbonText" xml:space="preserve">
+    <value>Mi&amp;nimiere das Ribbon</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatAddItemText" xml:space="preserve">
+    <value>&amp;Zum Schnellstart Menü hinzufügen</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatCustomizeMenuLabel" xml:space="preserve">
+    <value>&lt;b&gt;Schnellstartmenü Personalisieren&lt;/b&gt;</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatCustomizeText" xml:space="preserve">
+    <value>&amp;Schnellstartmenü Personalisieren...</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogAddButton" xml:space="preserve">
+    <value>&amp;Hinzufügen &gt;&gt;</value>
+  </data>
   <data name="ribbonControl1.SystemText.QatDialogCancelButton" xml:space="preserve">
     <value>Abbrechen</value>
   </data>
+  <data name="ribbonControl1.SystemText.QatDialogCaption" xml:space="preserve">
+    <value>Schnellstartmenü Personalisieren</value>
+  </data>
   <data name="ribbonControl1.SystemText.QatDialogOkButton" xml:space="preserve">
     <value>OK</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogPlacementCheckbox" xml:space="preserve">
+    <value>&amp;Platziere das Schnellstartmenü unter den Ribbons</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogRemoveButton" xml:space="preserve">
+    <value>&amp;Entfernen</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatPlaceAboveRibbonText" xml:space="preserve">
+    <value>&amp;Platziere das Schnellstartmenü über den Ribbons</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatPlaceBelowRibbonText" xml:space="preserve">
+    <value>&amp;Platziere das Schnellstartmenü unter den Ribbons</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatRemoveItemText" xml:space="preserve">
+    <value>Vom Schnellstartmenü &amp;Entfernen</value>
   </data>
   <data name="ribbonControl1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>0</value>
@@ -146,6 +185,9 @@
   </data>
   <data name="labelX1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="labelX1.Text" xml:space="preserve">
+    <value>standard Test Label</value>
   </data>
   <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
     <value>96, 96</value>

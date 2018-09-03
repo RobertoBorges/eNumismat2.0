@@ -54,27 +54,27 @@
         </trans-unit>
         <trans-unit id="_dbBackupNullReferenceExceptionText" translate="yes" xml:space="preserve">
           <source>We could not run a Backup, since there is no Database file selected.</source>
-          <target state="new">We could not run a Backup, since there is no Database file selected.</target>
+          <target state="translated">Es konnte keine Sicherung erstellt werden, da keine Datenbank ausgewählt war.</target>
         </trans-unit>
         <trans-unit id="_dbBackupNullReferenceExceptionTitle" translate="yes" xml:space="preserve">
           <source>Error</source>
-          <target state="translated">Fehler</target>
+          <target state="final">Fehler</target>
         </trans-unit>
         <trans-unit id="_dbBackup_BallonText" translate="yes" xml:space="preserve">
           <source>The Backup was successful</source>
-          <target state="new">The Backup was successful</target>
+          <target state="translated">Die Sicherung war erfolgreich</target>
         </trans-unit>
         <trans-unit id="_dbBackup_BalloonTitle" translate="yes" xml:space="preserve">
           <source>Database Backup</source>
-          <target state="new">Database Backup</target>
+          <target state="translated">Datenbanksicherung</target>
         </trans-unit>
         <trans-unit id="_dbCompress_BallonText" translate="yes" xml:space="preserve">
           <source>Compression of the Database was successful</source>
-          <target state="new">Compression of the Database was successful</target>
+          <target state="translated">Die Komprimierung der Datenbank war erfolgreich</target>
         </trans-unit>
         <trans-unit id="_dbCompress_BalloonTitle" translate="yes" xml:space="preserve">
           <source>Database Compression</source>
-          <target state="new">Database Compression</target>
+          <target state="translated">Datenbankkomprimierung</target>
         </trans-unit>
       </group>
     </body>
@@ -1196,7 +1196,7 @@
         </trans-unit>
         <trans-unit id="OpenExchangeMonitorFrm.Text" translate="yes" xml:space="preserve">
           <source>Exchange Monitor</source>
-          <target state="new">Exchange Monitor</target>
+          <target state="translated">Tauschmonitor</target>
         </trans-unit>
         <trans-unit id="OpenAddrBookFrm.Text" translate="yes" xml:space="preserve">
           <source>Address Book</source>
@@ -1220,27 +1220,27 @@
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.MaximizeRibbonText" translate="yes" xml:space="preserve">
           <source>&amp;Maximize the Ribbon</source>
-          <target state="new">&amp;Maximize the Ribbon</target>
+          <target state="translated">&amp;Maximiere das Ribbon</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.MinimizeRibbonText" translate="yes" xml:space="preserve">
           <source>Mi&amp;nimize the Ribbon</source>
-          <target state="new">Mi&amp;nimize the Ribbon</target>
+          <target state="translated">Mi&amp;nimiere das Ribbon</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatAddItemText" translate="yes" xml:space="preserve">
           <source>&amp;Add to Quick Access Toolbar</source>
-          <target state="new">&amp;Add to Quick Access Toolbar</target>
+          <target state="translated">&amp;Zum Schnellstart Menü hinzufügen</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatCustomizeMenuLabel" translate="yes" xml:space="preserve">
           <source><bpt id="1">&lt;b&gt;</bpt>Customize Quick Access Toolbar<ept id="1">&lt;/b&gt;</ept></source>
-          <target state="new"><bpt id="1">&lt;b&gt;</bpt>Customize Quick Access Toolbar<ept id="1">&lt;/b&gt;</ept></target>
+          <target state="translated"><bpt id="1">&lt;b&gt;</bpt>Schnellstartmenü Personalisieren<ept id="1">&lt;/b&gt;</ept></target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatCustomizeText" translate="yes" xml:space="preserve">
           <source>&amp;Customize Quick Access Toolbar...</source>
-          <target state="new">&amp;Customize Quick Access Toolbar...</target>
+          <target state="translated">&amp;Schnellstartmenü Personalisieren...</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogAddButton" translate="yes" xml:space="preserve">
           <source>&amp;Add &gt;&gt;</source>
-          <target state="new">&amp;Add &gt;&gt;</target>
+          <target state="translated">&amp;Hinzufügen &gt;&gt;</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogCancelButton" translate="yes" xml:space="preserve">
           <source>Cancel</source>
@@ -1248,7 +1248,7 @@
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogCaption" translate="yes" xml:space="preserve">
           <source>Customize Quick Access Toolbar</source>
-          <target state="new">Customize Quick Access Toolbar</target>
+          <target state="translated">Schnellstartmenü Personalisieren</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogCategoriesLabel" translate="yes" xml:space="preserve">
           <source>&amp;Choose commands from:</source>
@@ -1260,23 +1260,23 @@
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogPlacementCheckbox" translate="yes" xml:space="preserve">
           <source>&amp;Place Quick Access Toolbar below the Ribbon</source>
-          <target state="new">&amp;Place Quick Access Toolbar below the Ribbon</target>
+          <target state="translated">&amp;Platziere das Schnellstartmenü unter den Ribbons</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogRemoveButton" translate="yes" xml:space="preserve">
           <source>&amp;Remove</source>
-          <target state="new">&amp;Remove</target>
+          <target state="translated">&amp;Entfernen</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatPlaceAboveRibbonText" translate="yes" xml:space="preserve">
           <source>&amp;Place Quick Access Toolbar above the Ribbon</source>
-          <target state="new">&amp;Place Quick Access Toolbar above the Ribbon</target>
+          <target state="translated">&amp;Platziere das Schnellstartmenü über den Ribbons</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatPlaceBelowRibbonText" translate="yes" xml:space="preserve">
           <source>&amp;Place Quick Access Toolbar below the Ribbon</source>
-          <target state="new">&amp;Place Quick Access Toolbar below the Ribbon</target>
+          <target state="translated">&amp;Platziere das Schnellstartmenü unter den Ribbons</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatRemoveItemText" translate="yes" xml:space="preserve">
           <source>&amp;Remove from Quick Access Toolbar</source>
-          <target state="new">&amp;Remove from Quick Access Toolbar</target>
+          <target state="translated">Vom Schnellstartmenü &amp;Entfernen</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>0</source>
@@ -1320,7 +1320,7 @@
         </trans-unit>
         <trans-unit id="labelX1.Text" translate="yes" xml:space="preserve">
           <source>default test label</source>
-          <target state="new">default test label</target>
+          <target state="translated">standard Test Label</target>
         </trans-unit>
         <trans-unit id="$this.AutoScaleDimensions" translate="yes" extype="System.Drawing.SizeF, System.Drawing" xml:space="preserve">
           <source>96, 96</source>
