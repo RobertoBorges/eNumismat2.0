@@ -46,9 +46,11 @@
             // 
             // 
             this.ribbonControl1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonControl1.CanCustomize = false;
             this.ribbonControl1.CaptionVisible = true;
             this.ribbonControl1.Controls.Add(this.ribbonPanel1);
             resources.ApplyResources(this.ribbonControl1, "ribbonControl1");
+            this.ribbonControl1.EnableQatPlacement = false;
             this.ribbonControl1.ForeColor = System.Drawing.Color.Black;
             this.ribbonControl1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.ribbonTabItem1});
@@ -99,7 +101,7 @@
             // 
             // styleManager1
             // 
-            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Light;
+            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2010Silver;
             this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254))))), System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(143))))));
             // 
             // ribbonBar1

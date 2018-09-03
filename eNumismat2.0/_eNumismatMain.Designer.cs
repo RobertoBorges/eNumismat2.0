@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_eNumismatMain));
             this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
             this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
+            this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
             this.applicationButton1 = new DevComponents.DotNetBar.ApplicationButton();
             this.btn_NewDB = new DevComponents.DotNetBar.ButtonItem();
             this.btn_OpenDB = new DevComponents.DotNetBar.ButtonItem();
@@ -62,7 +63,6 @@
             this.culture = new Infralution.Localization.CultureManager(this.components);
             this.TrayIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
             this.ribbonControl1.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -128,6 +128,32 @@
             // 
             this.ribbonPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
+            // ribbonBar1
+            // 
+            this.ribbonBar1.AutoOverflowEnabled = true;
+            // 
+            // 
+            // 
+            this.ribbonBar1.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar1.ContainerControlProcessDialogKey = true;
+            resources.ApplyResources(this.ribbonBar1, "ribbonBar1");
+            this.ribbonBar1.DragDropSupport = true;
+            this.ribbonBar1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
+            this.ribbonBar1.Name = "ribbonBar1";
+            this.ribbonBar1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            // 
+            // 
+            // 
+            this.ribbonBar1.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar1.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
             // applicationButton1
             // 
             this.applicationButton1.AutoExpandOnClick = true;
@@ -136,7 +162,7 @@
             this.applicationButton1.Image = ((System.Drawing.Image)(resources.GetObject("applicationButton1.Image")));
             this.applicationButton1.ImageFixedSize = new System.Drawing.Size(16, 16);
             this.applicationButton1.ImagePaddingHorizontal = 0;
-            this.applicationButton1.ImagePaddingVertical = 1;
+            this.applicationButton1.ImagePaddingVertical = 0;
             this.applicationButton1.Name = "applicationButton1";
             this.applicationButton1.ShowSubItems = false;
             this.applicationButton1.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
@@ -317,7 +343,7 @@
             // 
             // styleManager1
             // 
-            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Light;
+            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2010Silver;
             this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254))))), System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(143))))));
             // 
             // statusStrip1
@@ -357,32 +383,6 @@
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
-            // 
-            // ribbonBar1
-            // 
-            this.ribbonBar1.AutoOverflowEnabled = true;
-            // 
-            // 
-            // 
-            this.ribbonBar1.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonBar1.ContainerControlProcessDialogKey = true;
-            resources.ApplyResources(this.ribbonBar1, "ribbonBar1");
-            this.ribbonBar1.DragDropSupport = true;
-            this.ribbonBar1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
-            this.ribbonBar1.Name = "ribbonBar1";
-            this.ribbonBar1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            // 
-            // 
-            // 
-            this.ribbonBar1.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar1.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
             // _eNumismatMain
             // 
