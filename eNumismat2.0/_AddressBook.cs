@@ -60,6 +60,7 @@ namespace eNumismat2._0
             }
         }
 
+        //=====================================================================================================================================================================
         private void _AddressBook_SizeChanged(object sender, EventArgs e)
         {
             SaveWindowSizeSettings();
