@@ -127,13 +127,13 @@
     <value>Mi&amp;nimiere das Ribbon</value>
   </data>
   <data name="ribbonControl1.SystemText.QatAddItemText" xml:space="preserve">
-    <value>&amp;Zum Schnellstart Menü hinzufügen</value>
+    <value>Zum Schnellstart &amp;Menü hinzufügen</value>
   </data>
   <data name="ribbonControl1.SystemText.QatCustomizeMenuLabel" xml:space="preserve">
     <value>&lt;b&gt;Schnellstartmenü Personalisieren&lt;/b&gt;</value>
   </data>
   <data name="ribbonControl1.SystemText.QatCustomizeText" xml:space="preserve">
-    <value>&amp;Schnellstartmenü Personalisieren...</value>
+    <value>Schnellstartmenü &amp;Personalisieren...</value>
   </data>
   <data name="ribbonControl1.SystemText.QatDialogAddButton" xml:space="preserve">
     <value>&amp;Hinzufügen &gt;&gt;</value>
@@ -194,6 +194,9 @@
   </data>
   <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
     <value>1045, 712</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>eNumismat</value>
   </data>
   <data name="contextMenuStrip1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
     <value>61, 4</value>
@@ -294,4 +297,37 @@
   <metadata name="contextMenuStrip1.TrayLocation" xml:space="preserve" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>601, 17</value>
   </metadata>
+  <data name="ribbonBar1.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="ribbonBar1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="ribbonBar1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>100, 114</value>
+  </data>
+  <data name="ribbonBar1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="OpenExchangeMonitorFrm.RibbonWordWrap" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OpenAddrBookFrm.RibbonWordWrap" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripStatusLabel1.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripStatusLabel1.TextAlign" xml:space="preserve" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="toolStripStatusLabel2.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripStatusLabel2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>200, 17</value>
+  </data>
+  <data name="toolStripStatusLabel2.TextAlign" xml:space="preserve" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
 </root>

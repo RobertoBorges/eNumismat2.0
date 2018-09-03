@@ -142,30 +142,43 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void BtnUsePassword_ValueChanged(object sender, EventArgs e)
         {
-            if (SetPasswordProtection())
-            {
-                Properties.Settings.Default.UsePasswordProtection = btn_UsePassword.Value;
-                Properties.Settings.Default.Save();
-            }
-            else
-            {
-                btn_UsePassword.Value = false;
-            }
+            SetPasswordProtection();
+
+            Properties.Settings.Default.UsePasswordProtection = btn_UsePassword.Value;
+            Properties.Settings.Default.Save();
         }
 
         //=====================================================================================================================================================================
         private bool SetPasswordProtection()
         {
+            _SettingsDialog_PasswordProtection PWProtect = new _SettingsDialog_PasswordProtection();
+
             if (btn_UsePassword.Value == true)
             {
-                _SettingsDialog_PasswordProtection PWProtect = new _SettingsDialog_PasswordProtection();
-
-                if (PWProtect.ShowDialog() == DialogResult.OK)
+                if (Properties.Settings.Default.UsePasswordProtection == false)
                 {
-                    return true;
+                    if (PWProtect.ShowDialog() == DialogResult.OK)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
                 }
                 else
                 {
+                    if (string.IsNullOrEmpty(Properties.Settings.Default.CurrentUserPassword))
+                    {
+                        if (PWProtect.ShowDialog() == DialogResult.OK)
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+                    }
                     return false;
                 }
             }

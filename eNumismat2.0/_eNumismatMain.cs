@@ -19,15 +19,28 @@ namespace eNumismat2._0
     {
         Classes.DataBaseWork DBWorker;
 
+        public string[] args = Environment.GetCommandLineArgs();
+
         //=====================================================================================================================================================================
         public _eNumismatMain()
         {
             InitializeComponent();
 
-            //Properties.Settings.Default.UsePasswordProtection = false;
-            //Properties.Settings.Default.CurrentUserPassword = "";
-            //Properties.Settings.Default.Save();
-            
+            if (args.Count() > 1)
+            {
+                foreach (string arg in args)
+                {
+                    if (arg.ToUpper() == "RESETPW")
+                    {
+                        Properties.Settings.Default.UsePasswordProtection = false;
+                        Properties.Settings.Default.CurrentUserPassword = "";
+                        Properties.Settings.Default.Save();
+
+                        MessageBox.Show("Passwort zurückgesetzt!");
+                    }
+                }
+            }
+
             CheckIfDbFileExists();
 
             if (Properties.Settings.Default.MainWindowState == FormWindowState.Maximized)
@@ -41,18 +54,6 @@ namespace eNumismat2._0
             else if (Properties.Settings.Default.MainWindowState == FormWindowState.Minimized)
             {
                 WindowState = FormWindowState.Maximized;
-            }
-
-            if (Properties.Settings.Default.UsePasswordProtection == true)
-            {
-                if (!string.IsNullOrEmpty(Properties.Settings.Default.CurrentUserPassword))
-                {
-                    MessageBox.Show(Properties.Settings.Default.CurrentUserPassword);
-                }
-            }
-            else
-            {
-                MessageBox.Show(Properties.Settings.Default.UsePasswordProtection.ToString());
             }
         }
 

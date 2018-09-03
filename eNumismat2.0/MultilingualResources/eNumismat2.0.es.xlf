@@ -10,20 +10,21 @@
           <source>17, 17</source>
           <target state="needs-review-translation">17, 17</target>
         </trans-unit>
-        <trans-unit id="labelX5.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
-          <source>81, 11</source>
+        <trans-unit id="labelX5.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>81, 40</source>
           <target state="needs-review-translation">81, 11</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
-        <trans-unit id="labelX5.Margin" translate="yes" xml:space="preserve" extype="System.Windows.Forms.Padding, System.Windows.Forms">
+        <trans-unit id="labelX5.Margin" translate="yes" extype="System.Windows.Forms.Padding, System.Windows.Forms" xml:space="preserve">
           <source>0, 0, 0, 0</source>
           <target state="needs-review-translation">0, 0, 0, 0</target>
         </trans-unit>
-        <trans-unit id="labelX5.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="labelX5.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>301, 23</source>
           <target state="needs-review-translation">217, 23</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
-        <trans-unit id="labelX5.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="labelX5.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>11</source>
           <target state="needs-review-translation">11</target>
         </trans-unit>
@@ -31,39 +32,40 @@
           <source>Minimize Application to System Tray</source>
           <target state="new">Minimize Application to System Tray</target>
         </trans-unit>
-        <trans-unit id="btn_MinimizeToTray.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
-          <source>9, 11</source>
+        <trans-unit id="btn_MinimizeToTray.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>9, 40</source>
           <target state="needs-review-translation">9, 11</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
-        <trans-unit id="btn_MinimizeToTray.Margin" translate="yes" xml:space="preserve" extype="System.Windows.Forms.Padding, System.Windows.Forms">
+        <trans-unit id="btn_MinimizeToTray.Margin" translate="yes" extype="System.Windows.Forms.Padding, System.Windows.Forms" xml:space="preserve">
           <source>0, 0, 0, 0</source>
           <target state="needs-review-translation">0, 0, 0, 0</target>
         </trans-unit>
-        <trans-unit id="btn_MinimizeToTray.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="btn_MinimizeToTray.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>67, 22</source>
           <target state="needs-review-translation">67, 22</target>
         </trans-unit>
-        <trans-unit id="btn_MinimizeToTray.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="btn_MinimizeToTray.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>10</source>
           <target state="needs-review-translation">10</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel4.Dock" translate="yes" xml:space="preserve" extype="System.Windows.Forms.DockStyle, System.Windows.Forms">
+        <trans-unit id="tabControlPanel4.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
           <source>Fill</source>
           <target state="needs-review-translation">Fill</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel4.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="tabControlPanel4.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>0, 27</source>
           <target state="needs-review-translation">0, 27</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel4.Padding" translate="yes" xml:space="preserve" extype="System.Windows.Forms.Padding, System.Windows.Forms">
+        <trans-unit id="tabControlPanel4.Padding" translate="yes" extype="System.Windows.Forms.Padding, System.Windows.Forms" xml:space="preserve">
           <source>1, 1, 1, 1</source>
           <target state="needs-review-translation">1, 1, 1, 1</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel4.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="tabControlPanel4.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>556, 456</source>
           <target state="needs-review-translation">556, 456</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel4.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="tabControlPanel4.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>13</source>
           <target state="needs-review-translation">13</target>
         </trans-unit>
@@ -71,7 +73,7 @@
           <source>General Settings</source>
           <target state="new">General Settings</target>
         </trans-unit>
-        <trans-unit id="tokenEditor1.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="tokenEditor1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>347, 239</source>
           <target state="needs-review-translation">215, 239</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
@@ -84,28 +86,28 @@
           <source>,</source>
           <target state="new">,</target>
         </trans-unit>
-        <trans-unit id="tokenEditor1.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="tokenEditor1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>206, 95</source>
           <target state="needs-review-translation">206, 95</target>
         </trans-unit>
-        <trans-unit id="tokenEditor1.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="tokenEditor1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>15</source>
           <target state="needs-review-translation">15</target>
         </trans-unit>
-        <trans-unit id="ListBox_TagCollection.AutoScroll" translate="yes" xml:space="preserve" extype="System.Boolean, mscorlib">
+        <trans-unit id="ListBox_TagCollection.AutoScroll" translate="yes" extype="System.Boolean, mscorlib" xml:space="preserve">
           <source>True</source>
           <target state="needs-review-translation">True</target>
         </trans-unit>
-        <trans-unit id="ListBox_TagCollection.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="ListBox_TagCollection.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>12, 239</source>
           <target state="needs-review-translation">12, 239</target>
         </trans-unit>
-        <trans-unit id="ListBox_TagCollection.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="ListBox_TagCollection.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>333, 95</source>
           <target state="needs-review-translation">197, 95</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
-        <trans-unit id="ListBox_TagCollection.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="ListBox_TagCollection.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>14</source>
           <target state="needs-review-translation">14</target>
         </trans-unit>
@@ -113,20 +115,20 @@
           <source>listBoxAdv2</source>
           <target state="new">listBoxAdv2</target>
         </trans-unit>
-        <trans-unit id="listBoxAdv1.AutoScroll" translate="yes" xml:space="preserve" extype="System.Boolean, mscorlib">
+        <trans-unit id="listBoxAdv1.AutoScroll" translate="yes" extype="System.Boolean, mscorlib" xml:space="preserve">
           <source>True</source>
           <target state="needs-review-translation">True</target>
         </trans-unit>
-        <trans-unit id="listBoxAdv1.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="listBoxAdv1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>12, 91</source>
           <target state="needs-review-translation">12, 91</target>
         </trans-unit>
-        <trans-unit id="listBoxAdv1.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="listBoxAdv1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>333, 95</source>
           <target state="needs-review-translation">197, 95</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
-        <trans-unit id="listBoxAdv1.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="listBoxAdv1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>13</source>
           <target state="needs-review-translation">13</target>
         </trans-unit>
@@ -134,16 +136,16 @@
           <source>listBoxAdv1</source>
           <target state="new">listBoxAdv1</target>
         </trans-unit>
-        <trans-unit id="labelX8.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="labelX8.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>15, 340</source>
           <target state="needs-review-translation">15, 340</target>
         </trans-unit>
-        <trans-unit id="labelX8.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="labelX8.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>258, 30</source>
           <target state="needs-review-translation">108, 30</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
-        <trans-unit id="labelX8.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="labelX8.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>12</source>
           <target state="needs-review-translation">12</target>
         </trans-unit>
@@ -151,42 +153,42 @@
           <source>Add or Delete Tags</source>
           <target state="new">Add or Delete Tags</target>
         </trans-unit>
-        <trans-unit id="buttonX3.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="buttonX3.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>279, 340</source>
           <target state="needs-review-translation">145, 340</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
-        <trans-unit id="buttonX3.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="buttonX3.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>30, 30</source>
           <target state="needs-review-translation">30, 30</target>
         </trans-unit>
-        <trans-unit id="buttonX3.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="buttonX3.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>11</source>
           <target state="needs-review-translation">11</target>
         </trans-unit>
-        <trans-unit id="buttonX4.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="buttonX4.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>315, 340</source>
           <target state="needs-review-translation">181, 340</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
-        <trans-unit id="buttonX4.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="buttonX4.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>30, 30</source>
           <target state="needs-review-translation">30, 30</target>
         </trans-unit>
-        <trans-unit id="buttonX4.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="buttonX4.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>10</source>
           <target state="needs-review-translation">10</target>
         </trans-unit>
-        <trans-unit id="labelX7.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="labelX7.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>12, 192</source>
           <target state="needs-review-translation">12, 192</target>
         </trans-unit>
-        <trans-unit id="labelX7.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="labelX7.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>261, 30</source>
           <target state="needs-review-translation">108, 30</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
-        <trans-unit id="labelX7.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="labelX7.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>8</source>
           <target state="needs-review-translation">8</target>
         </trans-unit>
@@ -194,71 +196,71 @@
           <source>Add or Delete Labels</source>
           <target state="new">Add or Delete Labels</target>
         </trans-unit>
-        <trans-unit id="buttonX2.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="buttonX2.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>279, 192</source>
           <target state="needs-review-translation">142, 192</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
-        <trans-unit id="buttonX2.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="buttonX2.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>30, 30</source>
           <target state="needs-review-translation">30, 30</target>
         </trans-unit>
-        <trans-unit id="buttonX2.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="buttonX2.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>7</source>
           <target state="needs-review-translation">7</target>
         </trans-unit>
-        <trans-unit id="buttonX1.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="buttonX1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>315, 192</source>
           <target state="needs-review-translation">178, 192</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
-        <trans-unit id="buttonX1.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="buttonX1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>30, 30</source>
           <target state="needs-review-translation">30, 30</target>
         </trans-unit>
-        <trans-unit id="buttonX1.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="buttonX1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>6</source>
           <target state="needs-review-translation">6</target>
         </trans-unit>
-        <trans-unit id="labelX6.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="labelX6.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>81, 39</source>
           <target state="needs-review-translation">81, 39</target>
         </trans-unit>
-        <trans-unit id="labelX6.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="labelX6.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>264, 23</source>
           <target state="needs-review-translation">149, 23</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
-        <trans-unit id="labelX6.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="labelX6.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>4</source>
           <target state="needs-review-translation">4</target>
         </trans-unit>
         <trans-unit id="labelX6.Text" translate="yes" xml:space="preserve">
-          <source>AutoFill for Address-Data</source>
-          <target state="new">AutoFill for Address-Data</target>
+          <source>Use AutoFill for Address-Data</source>
+          <target state="new">Use AutoFill for Address-Data</target>
         </trans-unit>
-        <trans-unit id="switchButton1.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="switchButton1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>9, 39</source>
           <target state="needs-review-translation">9, 39</target>
         </trans-unit>
-        <trans-unit id="switchButton1.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="switchButton1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>66, 22</source>
           <target state="needs-review-translation">66, 22</target>
         </trans-unit>
-        <trans-unit id="switchButton1.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="switchButton1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>3</source>
           <target state="needs-review-translation">3</target>
         </trans-unit>
-        <trans-unit id="labelX3.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="labelX3.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>81, 10</source>
           <target state="needs-review-translation">81, 10</target>
         </trans-unit>
-        <trans-unit id="labelX3.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="labelX3.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>264, 23</source>
           <target state="needs-review-translation">149, 23</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
-        <trans-unit id="labelX3.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="labelX3.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>1</source>
           <target state="needs-review-translation">1</target>
         </trans-unit>
@@ -266,35 +268,35 @@
           <source>Use Validation for Contacts</source>
           <target state="new">Use Validation for Contacts</target>
         </trans-unit>
-        <trans-unit id="btn_UseValidation.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="btn_UseValidation.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>9, 11</source>
           <target state="needs-review-translation">9, 11</target>
         </trans-unit>
-        <trans-unit id="btn_UseValidation.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="btn_UseValidation.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>66, 22</source>
           <target state="needs-review-translation">66, 22</target>
         </trans-unit>
-        <trans-unit id="btn_UseValidation.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="btn_UseValidation.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>0</source>
           <target state="needs-review-translation">0</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel2.Dock" translate="yes" xml:space="preserve" extype="System.Windows.Forms.DockStyle, System.Windows.Forms">
+        <trans-unit id="tabControlPanel2.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
           <source>Fill</source>
           <target state="needs-review-translation">Fill</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel2.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="tabControlPanel2.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>0, 27</source>
           <target state="needs-review-translation">0, 27</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel2.Padding" translate="yes" xml:space="preserve" extype="System.Windows.Forms.Padding, System.Windows.Forms">
+        <trans-unit id="tabControlPanel2.Padding" translate="yes" extype="System.Windows.Forms.Padding, System.Windows.Forms" xml:space="preserve">
           <source>1, 1, 1, 1</source>
           <target state="needs-review-translation">1, 1, 1, 1</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel2.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="tabControlPanel2.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>556, 456</source>
           <target state="needs-review-translation">556, 456</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel2.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="tabControlPanel2.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>5</source>
           <target state="needs-review-translation">5</target>
         </trans-unit>
@@ -302,23 +304,23 @@
           <source>Addressbook</source>
           <target state="new">Addressbook</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel5.Dock" translate="yes" xml:space="preserve" extype="System.Windows.Forms.DockStyle, System.Windows.Forms">
+        <trans-unit id="tabControlPanel5.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
           <source>Fill</source>
           <target state="needs-review-translation">Fill</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel5.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="tabControlPanel5.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>0, 27</source>
           <target state="needs-review-translation">0, 27</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel5.Padding" translate="yes" xml:space="preserve" extype="System.Windows.Forms.Padding, System.Windows.Forms">
+        <trans-unit id="tabControlPanel5.Padding" translate="yes" extype="System.Windows.Forms.Padding, System.Windows.Forms" xml:space="preserve">
           <source>1, 1, 1, 1</source>
           <target state="needs-review-translation">1, 1, 1, 1</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel5.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="tabControlPanel5.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>556, 456</source>
           <target state="needs-review-translation">556, 456</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel5.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="tabControlPanel5.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>26</source>
           <target state="needs-review-translation">26</target>
         </trans-unit>
@@ -326,23 +328,23 @@
           <source>Collection Management</source>
           <target state="new">Collection Management</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel3.Dock" translate="yes" xml:space="preserve" extype="System.Windows.Forms.DockStyle, System.Windows.Forms">
+        <trans-unit id="tabControlPanel3.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
           <source>Fill</source>
           <target state="needs-review-translation">Fill</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel3.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="tabControlPanel3.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>0, 27</source>
           <target state="needs-review-translation">0, 27</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel3.Padding" translate="yes" xml:space="preserve" extype="System.Windows.Forms.Padding, System.Windows.Forms">
+        <trans-unit id="tabControlPanel3.Padding" translate="yes" extype="System.Windows.Forms.Padding, System.Windows.Forms" xml:space="preserve">
           <source>1, 1, 1, 1</source>
           <target state="needs-review-translation">1, 1, 1, 1</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel3.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="tabControlPanel3.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>556, 456</source>
           <target state="needs-review-translation">556, 456</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel3.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="tabControlPanel3.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>9</source>
           <target state="needs-review-translation">9</target>
         </trans-unit>
@@ -350,15 +352,15 @@
           <source>Exchange Monitor</source>
           <target state="new">Exchange Monitor</target>
         </trans-unit>
-        <trans-unit id="btn_SelectDbBackupPath.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="btn_SelectDbBackupPath.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>248, 109</source>
           <target state="needs-review-translation">248, 109</target>
         </trans-unit>
-        <trans-unit id="btn_SelectDbBackupPath.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="btn_SelectDbBackupPath.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>75, 20</source>
           <target state="needs-review-translation">75, 20</target>
         </trans-unit>
-        <trans-unit id="btn_SelectDbBackupPath.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="btn_SelectDbBackupPath.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>15</source>
           <target state="needs-review-translation">15</target>
         </trans-unit>
@@ -366,16 +368,16 @@
           <source>Select</source>
           <target state="new">Select</target>
         </trans-unit>
-        <trans-unit id="labelX4.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="labelX4.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>12, 80</source>
           <target state="needs-review-translation">12, 80</target>
         </trans-unit>
-        <trans-unit id="labelX4.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="labelX4.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>463, 23</source>
           <target state="needs-review-translation">293, 23</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
-        <trans-unit id="labelX4.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="labelX4.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>14</source>
           <target state="needs-review-translation">14</target>
         </trans-unit>
@@ -383,52 +385,52 @@
           <source>Select the path where the Backup should be stored</source>
           <target state="new">Select the path where the Backup should be stored</target>
         </trans-unit>
-        <trans-unit id="cb_DbBackupPath.ItemHeight" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="cb_DbBackupPath.ItemHeight" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>14</source>
           <target state="needs-review-translation">14</target>
         </trans-unit>
-        <trans-unit id="cb_DbBackupPath.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="cb_DbBackupPath.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>12, 109</source>
           <target state="needs-review-translation">12, 109</target>
         </trans-unit>
-        <trans-unit id="cb_DbBackupPath.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="cb_DbBackupPath.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>230, 20</source>
           <target state="needs-review-translation">230, 20</target>
         </trans-unit>
-        <trans-unit id="cb_DbBackupPath.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="cb_DbBackupPath.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>13</source>
           <target state="needs-review-translation">13</target>
         </trans-unit>
-        <trans-unit id="btn_DbCompressBeforeBackup.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="btn_DbCompressBeforeBackup.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>9, 35</source>
           <target state="needs-review-translation">9, 35</target>
         </trans-unit>
-        <trans-unit id="btn_DbCompressBeforeBackup.Margin" translate="yes" xml:space="preserve" extype="System.Windows.Forms.Padding, System.Windows.Forms">
+        <trans-unit id="btn_DbCompressBeforeBackup.Margin" translate="yes" extype="System.Windows.Forms.Padding, System.Windows.Forms" xml:space="preserve">
           <source>0, 0, 0, 0</source>
           <target state="needs-review-translation">0, 0, 0, 0</target>
         </trans-unit>
-        <trans-unit id="btn_DbCompressBeforeBackup.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="btn_DbCompressBeforeBackup.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>67, 22</source>
           <target state="needs-review-translation">67, 22</target>
         </trans-unit>
-        <trans-unit id="btn_DbCompressBeforeBackup.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="btn_DbCompressBeforeBackup.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>11</source>
           <target state="needs-review-translation">11</target>
         </trans-unit>
-        <trans-unit id="labelX2.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="labelX2.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>85, 34</source>
           <target state="needs-review-translation">85, 34</target>
         </trans-unit>
-        <trans-unit id="labelX2.Margin" translate="yes" xml:space="preserve" extype="System.Windows.Forms.Padding, System.Windows.Forms">
+        <trans-unit id="labelX2.Margin" translate="yes" extype="System.Windows.Forms.Padding, System.Windows.Forms" xml:space="preserve">
           <source>0, 0, 0, 0</source>
           <target state="needs-review-translation">0, 0, 0, 0</target>
         </trans-unit>
-        <trans-unit id="labelX2.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="labelX2.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>390, 23</source>
           <target state="needs-review-translation">195, 23</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
-        <trans-unit id="labelX2.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="labelX2.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>12</source>
           <target state="needs-review-translation">12</target>
         </trans-unit>
@@ -436,36 +438,36 @@
           <source>Compress Database before Backup</source>
           <target state="new">Compress Database before Backup</target>
         </trans-unit>
-        <trans-unit id="btn_DbBackupOnAppClose.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="btn_DbBackupOnAppClose.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>9, 11</source>
           <target state="needs-review-translation">9, 11</target>
         </trans-unit>
-        <trans-unit id="btn_DbBackupOnAppClose.Margin" translate="yes" xml:space="preserve" extype="System.Windows.Forms.Padding, System.Windows.Forms">
+        <trans-unit id="btn_DbBackupOnAppClose.Margin" translate="yes" extype="System.Windows.Forms.Padding, System.Windows.Forms" xml:space="preserve">
           <source>0, 0, 0, 0</source>
           <target state="needs-review-translation">0, 0, 0, 0</target>
         </trans-unit>
-        <trans-unit id="btn_DbBackupOnAppClose.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="btn_DbBackupOnAppClose.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>67, 22</source>
           <target state="needs-review-translation">67, 22</target>
         </trans-unit>
-        <trans-unit id="btn_DbBackupOnAppClose.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="btn_DbBackupOnAppClose.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>9</source>
           <target state="needs-review-translation">9</target>
         </trans-unit>
-        <trans-unit id="labelX1.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="labelX1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>85, 11</source>
           <target state="needs-review-translation">85, 11</target>
         </trans-unit>
-        <trans-unit id="labelX1.Margin" translate="yes" xml:space="preserve" extype="System.Windows.Forms.Padding, System.Windows.Forms">
+        <trans-unit id="labelX1.Margin" translate="yes" extype="System.Windows.Forms.Padding, System.Windows.Forms" xml:space="preserve">
           <source>0, 0, 0, 0</source>
           <target state="needs-review-translation">0, 0, 0, 0</target>
         </trans-unit>
-        <trans-unit id="labelX1.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="labelX1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>376, 23</source>
           <target state="needs-review-translation">176, 23</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
-        <trans-unit id="labelX1.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="labelX1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>10</source>
           <target state="needs-review-translation">10</target>
         </trans-unit>
@@ -473,23 +475,23 @@
           <source>Run Backup on Application Close</source>
           <target state="new">Run Backup on Application Close</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel1.Dock" translate="yes" xml:space="preserve" extype="System.Windows.Forms.DockStyle, System.Windows.Forms">
+        <trans-unit id="tabControlPanel1.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
           <source>Fill</source>
           <target state="needs-review-translation">Fill</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel1.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="tabControlPanel1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>0, 27</source>
           <target state="needs-review-translation">0, 27</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel1.Padding" translate="yes" xml:space="preserve" extype="System.Windows.Forms.Padding, System.Windows.Forms">
+        <trans-unit id="tabControlPanel1.Padding" translate="yes" extype="System.Windows.Forms.Padding, System.Windows.Forms" xml:space="preserve">
           <source>1, 1, 1, 1</source>
           <target state="needs-review-translation">1, 1, 1, 1</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel1.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="tabControlPanel1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>556, 456</source>
           <target state="needs-review-translation">556, 456</target>
         </trans-unit>
-        <trans-unit id="tabControlPanel1.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="tabControlPanel1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>1</source>
           <target state="needs-review-translation">1</target>
         </trans-unit>
@@ -497,19 +499,19 @@
           <source>Database Settings</source>
           <target state="new">Database Settings</target>
         </trans-unit>
-        <trans-unit id="tabControl1.Dock" translate="yes" xml:space="preserve" extype="System.Windows.Forms.DockStyle, System.Windows.Forms">
+        <trans-unit id="tabControl1.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
           <source>Fill</source>
           <target state="needs-review-translation">Fill</target>
         </trans-unit>
-        <trans-unit id="tabControl1.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="tabControl1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>0, 0</source>
           <target state="needs-review-translation">0, 0</target>
         </trans-unit>
-        <trans-unit id="tabControl1.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="tabControl1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>556, 483</source>
           <target state="needs-review-translation">556, 483</target>
         </trans-unit>
-        <trans-unit id="tabControl1.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="tabControl1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>6</source>
           <target state="needs-review-translation">6</target>
         </trans-unit>
@@ -517,15 +519,15 @@
           <source>tabControl1</source>
           <target state="new">tabControl1</target>
         </trans-unit>
-        <trans-unit id="panelEx1.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="panelEx1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>3, 3</source>
           <target state="needs-review-translation">3, 3</target>
         </trans-unit>
-        <trans-unit id="panelEx1.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="panelEx1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>556, 483</source>
           <target state="needs-review-translation">556, 483</target>
         </trans-unit>
-        <trans-unit id="panelEx1.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="panelEx1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>12</source>
           <target state="needs-review-translation">12</target>
         </trans-unit>
@@ -533,15 +535,15 @@
           <source>panelEx1</source>
           <target state="new">panelEx1</target>
         </trans-unit>
-        <trans-unit id="btn_Cancel.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="btn_Cancel.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>375, 3</source>
           <target state="needs-review-translation">375, 3</target>
         </trans-unit>
-        <trans-unit id="btn_Cancel.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="btn_Cancel.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>86, 35</source>
           <target state="needs-review-translation">86, 35</target>
         </trans-unit>
-        <trans-unit id="btn_Cancel.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="btn_Cancel.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>1</source>
           <target state="needs-review-translation">1</target>
         </trans-unit>
@@ -549,15 +551,15 @@
           <source>Cancel</source>
           <target state="new">Cancel</target>
         </trans-unit>
-        <trans-unit id="btn_Save.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="btn_Save.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>467, 3</source>
           <target state="needs-review-translation">467, 3</target>
         </trans-unit>
-        <trans-unit id="btn_Save.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="btn_Save.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>86, 35</source>
           <target state="needs-review-translation">86, 35</target>
         </trans-unit>
-        <trans-unit id="btn_Save.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="btn_Save.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>0</source>
           <target state="needs-review-translation">0</target>
         </trans-unit>
@@ -565,43 +567,43 @@
           <source>Save</source>
           <target state="new">Save</target>
         </trans-unit>
-        <trans-unit id="panelEx2.Dock" translate="yes" xml:space="preserve" extype="System.Windows.Forms.DockStyle, System.Windows.Forms">
+        <trans-unit id="panelEx2.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
           <source>Bottom</source>
           <target state="needs-review-translation">Bottom</target>
         </trans-unit>
-        <trans-unit id="panelEx2.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="panelEx2.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>3, 492</source>
           <target state="needs-review-translation">3, 492</target>
         </trans-unit>
-        <trans-unit id="panelEx2.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="panelEx2.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>556, 41</source>
           <target state="needs-review-translation">556, 41</target>
         </trans-unit>
-        <trans-unit id="panelEx2.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="panelEx2.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>20</source>
           <target state="needs-review-translation">20</target>
         </trans-unit>
-        <trans-unit id="flowLayoutPanel1.Dock" translate="yes" xml:space="preserve" extype="System.Windows.Forms.DockStyle, System.Windows.Forms">
+        <trans-unit id="flowLayoutPanel1.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
           <source>Fill</source>
           <target state="needs-review-translation">Fill</target>
         </trans-unit>
-        <trans-unit id="flowLayoutPanel1.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+        <trans-unit id="flowLayoutPanel1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>0, 0</source>
           <target state="needs-review-translation">0, 0</target>
         </trans-unit>
-        <trans-unit id="flowLayoutPanel1.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="flowLayoutPanel1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>562, 536</source>
           <target state="needs-review-translation">562, 536</target>
         </trans-unit>
-        <trans-unit id="flowLayoutPanel1.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+        <trans-unit id="flowLayoutPanel1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>15</source>
           <target state="needs-review-translation">15</target>
         </trans-unit>
-        <trans-unit id="$this.AutoScaleDimensions" translate="yes" xml:space="preserve" extype="System.Drawing.SizeF, System.Drawing">
+        <trans-unit id="$this.AutoScaleDimensions" translate="yes" extype="System.Drawing.SizeF, System.Drawing" xml:space="preserve">
           <source>6, 13</source>
           <target state="needs-review-translation">6, 13</target>
         </trans-unit>
-        <trans-unit id="$this.ClientSize" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+        <trans-unit id="$this.ClientSize" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>562, 536</source>
           <target state="needs-review-translation">562, 536</target>
         </trans-unit>
@@ -609,9 +611,45 @@
           <source>_SettingsDialog</source>
           <target state="new">_SettingsDialog</target>
         </trans-unit>
-        <trans-unit id="$this.Localizable" translate="yes" xml:space="preserve" extype="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" extradata="metadata">
+        <trans-unit id="$this.Localizable" translate="yes" extype="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" extradata="metadata" xml:space="preserve">
           <source>True</source>
           <target state="needs-review-translation">True</target>
+        </trans-unit>
+        <trans-unit id="labelX9.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>81, 10</source>
+          <target state="needs-review-translation">81, 10</target>
+        </trans-unit>
+        <trans-unit id="labelX9.Margin" translate="yes" extype="System.Windows.Forms.Padding, System.Windows.Forms" xml:space="preserve">
+          <source>0, 0, 0, 0</source>
+          <target state="needs-review-translation">0, 0, 0, 0</target>
+        </trans-unit>
+        <trans-unit id="labelX9.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>301, 23</source>
+          <target state="needs-review-translation">301, 23</target>
+        </trans-unit>
+        <trans-unit id="labelX9.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>13</source>
+          <target state="needs-review-translation">13</target>
+        </trans-unit>
+        <trans-unit id="labelX9.Text" translate="yes" xml:space="preserve">
+          <source>Use Password protection</source>
+          <target state="new">Use Password protection</target>
+        </trans-unit>
+        <trans-unit id="btn_UsePassword.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>9, 11</source>
+          <target state="needs-review-translation">9, 11</target>
+        </trans-unit>
+        <trans-unit id="btn_UsePassword.Margin" translate="yes" extype="System.Windows.Forms.Padding, System.Windows.Forms" xml:space="preserve">
+          <source>0, 0, 0, 0</source>
+          <target state="needs-review-translation">0, 0, 0, 0</target>
+        </trans-unit>
+        <trans-unit id="btn_UsePassword.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>67, 22</source>
+          <target state="needs-review-translation">67, 22</target>
+        </trans-unit>
+        <trans-unit id="btn_UsePassword.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>12</source>
+          <target state="needs-review-translation">12</target>
         </trans-unit>
       </group>
     </body>
@@ -623,20 +661,450 @@
     <body>
       <group id="ENUMISMAT2.0/_ADDRESSBOOK.RESX" datatype="resx">
         <trans-unit id="styleManager1.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
-          <source>17, 17</source>
+          <source>23, 21</source>
           <target state="needs-review-translation">17, 17</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="statusStrip1.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
-          <source>312, 17</source>
+          <source>149, 17</source>
           <target state="needs-review-translation">312, 17</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="dotNetBarManager1.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
-          <source>428, 17</source>
+          <source>265, 17</source>
           <target state="needs-review-translation">428, 17</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="$this.TrayHeight" translate="yes" extype="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" extradata="metadata" xml:space="preserve">
-          <source>25</source>
+          <source>34</source>
           <target state="needs-review-translation">25</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="ribbonBar1.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
+          <source>Left</source>
+          <target state="needs-review-translation">Left</target>
+        </trans-unit>
+        <trans-unit id="ribbonBar1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>3, 0</source>
+          <target state="needs-review-translation">3, 0</target>
+        </trans-unit>
+        <trans-unit id="ribbonBar1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>100, 99</source>
+          <target state="needs-review-translation">100, 99</target>
+        </trans-unit>
+        <trans-unit id="ribbonBar1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>0</source>
+          <target state="needs-review-translation">0</target>
+        </trans-unit>
+        <trans-unit id="ribbonBar1.Text" translate="yes" xml:space="preserve">
+          <source>ribbonBar1</source>
+          <target state="new">ribbonBar1</target>
+        </trans-unit>
+        <trans-unit id="ribbonPanel1.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
+          <source>Fill</source>
+          <target state="needs-review-translation">Fill</target>
+        </trans-unit>
+        <trans-unit id="ribbonPanel1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>0, 53</source>
+          <target state="needs-review-translation">0, 53</target>
+        </trans-unit>
+        <trans-unit id="ribbonPanel1.Padding" translate="yes" extype="System.Windows.Forms.Padding, System.Windows.Forms" xml:space="preserve">
+          <source>3, 0, 3, 2</source>
+          <target state="needs-review-translation">3, 0, 3, 2</target>
+        </trans-unit>
+        <trans-unit id="ribbonPanel1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>1060, 101</source>
+          <target state="needs-review-translation">1060, 101</target>
+        </trans-unit>
+        <trans-unit id="ribbonPanel1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>1</source>
+          <target state="needs-review-translation">1</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
+          <source>Top</source>
+          <target state="needs-review-translation">Top</target>
+        </trans-unit>
+        <trans-unit id="ribbonTabItem1.Text" translate="yes" xml:space="preserve">
+          <source>ribbonTabItem1</source>
+          <target state="new">ribbonTabItem1</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>5, 1</source>
+          <target state="needs-review-translation">5, 1</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>1060, 154</source>
+          <target state="needs-review-translation">1060, 154</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.MaximizeRibbonText" translate="yes" xml:space="preserve">
+          <source>&amp;Maximize the Ribbon</source>
+          <target state="new">&amp;Maximize the Ribbon</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.MinimizeRibbonText" translate="yes" xml:space="preserve">
+          <source>Mi&amp;nimize the Ribbon</source>
+          <target state="new">Mi&amp;nimize the Ribbon</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatAddItemText" translate="yes" xml:space="preserve">
+          <source>&amp;Add to Quick Access Toolbar</source>
+          <target state="new">&amp;Add to Quick Access Toolbar</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatCustomizeMenuLabel" translate="yes" xml:space="preserve">
+          <source><bpt id="1">&lt;b&gt;</bpt>Customize Quick Access Toolbar<ept id="1">&lt;/b&gt;</ept></source>
+          <target state="new"><bpt id="1">&lt;b&gt;</bpt>Customize Quick Access Toolbar<ept id="1">&lt;/b&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatCustomizeText" translate="yes" xml:space="preserve">
+          <source>&amp;Customize Quick Access Toolbar...</source>
+          <target state="new">&amp;Customize Quick Access Toolbar...</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatDialogAddButton" translate="yes" xml:space="preserve">
+          <source>&amp;Add &gt;&gt;</source>
+          <target state="new">&amp;Add &gt;&gt;</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatDialogCancelButton" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="new">Cancel</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatDialogCaption" translate="yes" xml:space="preserve">
+          <source>Customize Quick Access Toolbar</source>
+          <target state="new">Customize Quick Access Toolbar</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatDialogCategoriesLabel" translate="yes" xml:space="preserve">
+          <source>&amp;Choose commands from:</source>
+          <target state="new">&amp;Choose commands from:</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatDialogOkButton" translate="yes" xml:space="preserve">
+          <source>OK</source>
+          <target state="new">OK</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatDialogPlacementCheckbox" translate="yes" xml:space="preserve">
+          <source>&amp;Place Quick Access Toolbar below the Ribbon</source>
+          <target state="new">&amp;Place Quick Access Toolbar below the Ribbon</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatDialogRemoveButton" translate="yes" xml:space="preserve">
+          <source>&amp;Remove</source>
+          <target state="new">&amp;Remove</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatPlaceAboveRibbonText" translate="yes" xml:space="preserve">
+          <source>&amp;Place Quick Access Toolbar above the Ribbon</source>
+          <target state="new">&amp;Place Quick Access Toolbar above the Ribbon</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatPlaceBelowRibbonText" translate="yes" xml:space="preserve">
+          <source>&amp;Place Quick Access Toolbar below the Ribbon</source>
+          <target state="new">&amp;Place Quick Access Toolbar below the Ribbon</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatRemoveItemText" translate="yes" xml:space="preserve">
+          <source>&amp;Remove from Quick Access Toolbar</source>
+          <target state="new">&amp;Remove from Quick Access Toolbar</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>0</source>
+          <target state="needs-review-translation">0</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.Text" translate="yes" xml:space="preserve">
+          <source>ribbonControl1</source>
+          <target state="new">ribbonControl1</target>
+        </trans-unit>
+        <trans-unit id="toolStripStatusLabel1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>118, 17</source>
+          <target state="needs-review-translation">118, 17</target>
+        </trans-unit>
+        <trans-unit id="toolStripStatusLabel1.Text" translate="yes" xml:space="preserve">
+          <source>toolStripStatusLabel1</source>
+          <target state="new">toolStripStatusLabel1</target>
+        </trans-unit>
+        <trans-unit id="statusStrip1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>5, 676</source>
+          <target state="needs-review-translation">5, 676</target>
+        </trans-unit>
+        <trans-unit id="statusStrip1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>1060, 22</source>
+          <target state="needs-review-translation">1060, 22</target>
+        </trans-unit>
+        <trans-unit id="statusStrip1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>9</source>
+          <target state="needs-review-translation">9</target>
+        </trans-unit>
+        <trans-unit id="statusStrip1.Text" translate="yes" xml:space="preserve">
+          <source>statusStrip1</source>
+          <target state="new">statusStrip1</target>
+        </trans-unit>
+        <trans-unit id="dockSite4.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
+          <source>Bottom</source>
+          <target state="needs-review-translation">Bottom</target>
+        </trans-unit>
+        <trans-unit id="dockSite4.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>5, 698</source>
+          <target state="needs-review-translation">5, 698</target>
+        </trans-unit>
+        <trans-unit id="dockSite4.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>1060, 0</source>
+          <target state="needs-review-translation">1060, 0</target>
+        </trans-unit>
+        <trans-unit id="dockSite4.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>13</source>
+          <target state="needs-review-translation">13</target>
+        </trans-unit>
+        <trans-unit id="bar1.AccessibleDescription" translate="yes" xml:space="preserve">
+          <source>Contacts (bar1)</source>
+          <target state="new">Contacts (bar1)</target>
+        </trans-unit>
+        <trans-unit id="bar1.AccessibleName" translate="yes" xml:space="preserve">
+          <source>Contacts</source>
+          <target state="new">Contacts</target>
+        </trans-unit>
+        <trans-unit id="columnHeader1.Text" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+        </trans-unit>
+        <trans-unit id="columnHeader1.Width" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>100</source>
+          <target state="needs-review-translation">100</target>
+        </trans-unit>
+        <trans-unit id="columnHeader2.Text" translate="yes" xml:space="preserve">
+          <source>Country</source>
+          <target state="new">Country</target>
+        </trans-unit>
+        <trans-unit id="columnHeader2.Width" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>100</source>
+          <target state="needs-review-translation">100</target>
+        </trans-unit>
+        <trans-unit id="listViewEx1.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
+          <source>Fill</source>
+          <target state="needs-review-translation">Fill</target>
+        </trans-unit>
+        <trans-unit id="listViewEx1.Items" translate="yes" mimetype="application/x-microsoft.net.object.binary.base64" xml:space="preserve">
+          <source>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
+        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
+        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
+        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAARUZXN0/////wX7////
+        FFN5c3RlbS5EcmF3aW5nLkNvbG9yBAAAAARuYW1lBXZhbHVlCmtub3duQ29sb3IFc3RhdGUBAAAACQcH
+        AwAAAAoAAAAAAAAAAKQAAQAACQYAAAAB+f////v///8KAAAAAAAAAAAjAAEAAQUGAAAAE1N5c3RlbS5E
+        cmF3aW5nLkZvbnQEAAAABE5hbWUEU2l6ZQVTdHlsZQRVbml0AQAEBAsYU3lzdGVtLkRyYXdpbmcuRm9u
+        dFN0eWxlAwAAABtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQDAAAAAwAAAAYIAAAAFE1pY3Jvc29m
+        dCBTYW5zIFNlcmlmAAAEQQX3////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAI
+        AwAAAAAAAAAF9v///xtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAAD
+        AAAACw==
+</source>
+          <target state="needs-review-translation">
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
+        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
+        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
+        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAARUZXN0/////wX7////
+        FFN5c3RlbS5EcmF3aW5nLkNvbG9yBAAAAARuYW1lBXZhbHVlCmtub3duQ29sb3IFc3RhdGUBAAAACQcH
+        AwAAAAoAAAAAAAAAAKQAAQAACQYAAAAB+f////v///8KAAAAAAAAAAAjAAEAAQUGAAAAE1N5c3RlbS5E
+        cmF3aW5nLkZvbnQEAAAABE5hbWUEU2l6ZQVTdHlsZQRVbml0AQAEBAsYU3lzdGVtLkRyYXdpbmcuRm9u
+        dFN0eWxlAwAAABtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQDAAAAAwAAAAYIAAAAFE1pY3Jvc29m
+        dCBTYW5zIFNlcmlmAAAEQQX3////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAI
+        AwAAAAAAAAAF9v///xtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAAD
+        AAAACw==
+</target>
+        </trans-unit>
+        <trans-unit id="listViewEx1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>0, 0</source>
+          <target state="needs-review-translation">0, 0</target>
+        </trans-unit>
+        <trans-unit id="listViewEx1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>205, 495</source>
+          <target state="needs-review-translation">205, 495</target>
+        </trans-unit>
+        <trans-unit id="listViewEx1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>0</source>
+          <target state="needs-review-translation">0</target>
+        </trans-unit>
+        <trans-unit id="panelDockContainer1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>3, 23</source>
+          <target state="needs-review-translation">3, 23</target>
+        </trans-unit>
+        <trans-unit id="panelDockContainer1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>205, 495</source>
+          <target state="needs-review-translation">205, 495</target>
+        </trans-unit>
+        <trans-unit id="panelDockContainer1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>0</source>
+          <target state="needs-review-translation">0</target>
+        </trans-unit>
+        <trans-unit id="bar1.Font" translate="yes" extype="System.Drawing.Font, System.Drawing" xml:space="preserve">
+          <source>Microsoft Sans Serif, 8.25pt</source>
+          <target state="needs-review-translation">Microsoft Sans Serif, 8.25pt</target>
+        </trans-unit>
+        <trans-unit id="dockContainerItem1.Text" translate="yes" xml:space="preserve">
+          <source>Contacts</source>
+          <target state="new">Contacts</target>
+        </trans-unit>
+        <trans-unit id="bar1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>0, 0</source>
+          <target state="needs-review-translation">0, 0</target>
+        </trans-unit>
+        <trans-unit id="bar1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>211, 521</source>
+          <target state="needs-review-translation">211, 521</target>
+        </trans-unit>
+        <trans-unit id="bar1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>0</source>
+          <target state="needs-review-translation">0</target>
+        </trans-unit>
+        <trans-unit id="bar1.Text" translate="yes" xml:space="preserve">
+          <source>Contacts</source>
+          <target state="new">Contacts</target>
+        </trans-unit>
+        <trans-unit id="dockSite1.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
+          <source>Left</source>
+          <target state="needs-review-translation">Left</target>
+        </trans-unit>
+        <trans-unit id="dockSite1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>5, 155</source>
+          <target state="needs-review-translation">5, 155</target>
+        </trans-unit>
+        <trans-unit id="dockSite1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>214, 521</source>
+          <target state="needs-review-translation">214, 521</target>
+        </trans-unit>
+        <trans-unit id="dockSite1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>10</source>
+          <target state="needs-review-translation">10</target>
+        </trans-unit>
+        <trans-unit id="$this.AutoScaleDimensions" translate="yes" extype="System.Drawing.SizeF, System.Drawing" xml:space="preserve">
+          <source>6, 13</source>
+          <target state="needs-review-translation">6, 13</target>
+        </trans-unit>
+        <trans-unit id="$this.ClientSize" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>1070, 700</source>
+          <target state="needs-review-translation">1070, 700</target>
+        </trans-unit>
+        <trans-unit id="label1.AutoSize" translate="yes" extype="System.Boolean, mscorlib" xml:space="preserve">
+          <source>True</source>
+          <target state="needs-review-translation">True</target>
+        </trans-unit>
+        <trans-unit id="label1.ImeMode" translate="yes" extype="System.Windows.Forms.ImeMode, System.Windows.Forms" xml:space="preserve">
+          <source>NoControl</source>
+          <target state="needs-review-translation">NoControl</target>
+        </trans-unit>
+        <trans-unit id="label1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>533, 392</source>
+          <target state="needs-review-translation">533, 392</target>
+        </trans-unit>
+        <trans-unit id="label1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>331, 13</source>
+          <target state="needs-review-translation">331, 13</target>
+        </trans-unit>
+        <trans-unit id="label1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>18</source>
+          <target state="needs-review-translation">18</target>
+        </trans-unit>
+        <trans-unit id="label1.Text" translate="yes" xml:space="preserve">
+          <source>English Test label - this should be translated, if I swith the language :)</source>
+          <target state="new">English Test label - this should be translated, if I swith the language :)</target>
+        </trans-unit>
+        <trans-unit id="dockSite2.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
+          <source>Right</source>
+          <target state="needs-review-translation">Right</target>
+        </trans-unit>
+        <trans-unit id="dockSite2.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>1065, 155</source>
+          <target state="needs-review-translation">1065, 155</target>
+        </trans-unit>
+        <trans-unit id="dockSite2.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>0, 521</source>
+          <target state="needs-review-translation">0, 521</target>
+        </trans-unit>
+        <trans-unit id="dockSite2.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>11</source>
+          <target state="needs-review-translation">11</target>
+        </trans-unit>
+        <trans-unit id="dockSite3.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
+          <source>Top</source>
+          <target state="needs-review-translation">Top</target>
+        </trans-unit>
+        <trans-unit id="dockSite3.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>5, 1</source>
+          <target state="needs-review-translation">5, 1</target>
+        </trans-unit>
+        <trans-unit id="dockSite3.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>1060, 0</source>
+          <target state="needs-review-translation">1060, 0</target>
+        </trans-unit>
+        <trans-unit id="dockSite3.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>12</source>
+          <target state="needs-review-translation">12</target>
+        </trans-unit>
+        <trans-unit id="dockSite5.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
+          <source>Left</source>
+          <target state="needs-review-translation">Left</target>
+        </trans-unit>
+        <trans-unit id="dockSite5.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>5, 1</source>
+          <target state="needs-review-translation">5, 1</target>
+        </trans-unit>
+        <trans-unit id="dockSite5.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>0, 697</source>
+          <target state="needs-review-translation">0, 697</target>
+        </trans-unit>
+        <trans-unit id="dockSite5.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>14</source>
+          <target state="needs-review-translation">14</target>
+        </trans-unit>
+        <trans-unit id="dockSite6.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
+          <source>Right</source>
+          <target state="needs-review-translation">Right</target>
+        </trans-unit>
+        <trans-unit id="dockSite6.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>1065, 1</source>
+          <target state="needs-review-translation">1065, 1</target>
+        </trans-unit>
+        <trans-unit id="dockSite6.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>0, 697</source>
+          <target state="needs-review-translation">0, 697</target>
+        </trans-unit>
+        <trans-unit id="dockSite6.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>15</source>
+          <target state="needs-review-translation">15</target>
+        </trans-unit>
+        <trans-unit id="dockSite7.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
+          <source>Top</source>
+          <target state="needs-review-translation">Top</target>
+        </trans-unit>
+        <trans-unit id="dockSite7.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>5, 1</source>
+          <target state="needs-review-translation">5, 1</target>
+        </trans-unit>
+        <trans-unit id="dockSite7.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>1060, 0</source>
+          <target state="needs-review-translation">1060, 0</target>
+        </trans-unit>
+        <trans-unit id="dockSite7.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>16</source>
+          <target state="needs-review-translation">16</target>
+        </trans-unit>
+        <trans-unit id="dockSite8.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
+          <source>Bottom</source>
+          <target state="needs-review-translation">Bottom</target>
+        </trans-unit>
+        <trans-unit id="dockSite8.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>5, 698</source>
+          <target state="needs-review-translation">5, 698</target>
+        </trans-unit>
+        <trans-unit id="dockSite8.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>1060, 0</source>
+          <target state="needs-review-translation">1060, 0</target>
+        </trans-unit>
+        <trans-unit id="dockSite8.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>17</source>
+          <target state="needs-review-translation">17</target>
+        </trans-unit>
+        <trans-unit id="$this.Text" translate="yes" xml:space="preserve">
+          <source>_AddressBook</source>
+          <target state="new">_AddressBook</target>
+        </trans-unit>
+        <trans-unit id="$this.Localizable" translate="yes" extype="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" extradata="metadata" xml:space="preserve">
+          <source>True</source>
+          <target state="needs-review-translation">True</target>
         </trans-unit>
       </group>
     </body>
@@ -678,6 +1146,14 @@
         <trans-unit id="_dbCompress_BalloonTitle" translate="yes" xml:space="preserve">
           <source>Database Compression</source>
           <target state="new">Database Compression</target>
+        </trans-unit>
+        <trans-unit id="_dbConnectionDbFile" translate="yes" xml:space="preserve">
+          <source>Connected to:</source>
+          <target state="new">Connected to:</target>
+        </trans-unit>
+        <trans-unit id="_dbConnectionNoDbFile" translate="yes" xml:space="preserve">
+          <source>Not Connected to a Database file</source>
+          <target state="new">Not Connected to a Database file</target>
         </trans-unit>
       </group>
     </body>
@@ -1822,28 +2298,28 @@
           <target state="needs-review-translation">1035, 171</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.MaximizeRibbonText" translate="yes" xml:space="preserve">
-          <source>&amp;Maximize the Ribbon</source>
-          <target state="new">&amp;Maximize the Ribbon</target>
+          <source>Maximize the Ribbon</source>
+          <target state="new">Maximize the Ribbon</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.MinimizeRibbonText" translate="yes" xml:space="preserve">
-          <source>Mi&amp;nimize the Ribbon</source>
-          <target state="new">Mi&amp;nimize the Ribbon</target>
+          <source>Minimize the Ribbon</source>
+          <target state="new">Minimize the Ribbon</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatAddItemText" translate="yes" xml:space="preserve">
-          <source>&amp;Add to Quick Access Toolbar</source>
-          <target state="new">&amp;Add to Quick Access Toolbar</target>
+          <source>Add to Quick Access Toolbar</source>
+          <target state="new">Add to Quick Access Toolbar</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatCustomizeMenuLabel" translate="yes" xml:space="preserve">
           <source><bpt id="1">&lt;b&gt;</bpt>Customize Quick Access Toolbar<ept id="1">&lt;/b&gt;</ept></source>
           <target state="new"><bpt id="1">&lt;b&gt;</bpt>Customize Quick Access Toolbar<ept id="1">&lt;/b&gt;</ept></target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatCustomizeText" translate="yes" xml:space="preserve">
-          <source>&amp;Customize Quick Access Toolbar...</source>
-          <target state="new">&amp;Customize Quick Access Toolbar...</target>
+          <source>Customize Quick Access Toolbar...</source>
+          <target state="new">Customize Quick Access Toolbar...</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogAddButton" translate="yes" xml:space="preserve">
-          <source>&amp;Add &gt;&gt;</source>
-          <target state="new">&amp;Add &gt;&gt;</target>
+          <source>Add &gt;&gt;</source>
+          <target state="new">Add &gt;&gt;</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogCancelButton" translate="yes" xml:space="preserve">
           <source>Cancel</source>
@@ -1854,44 +2330,41 @@
           <target state="new">Customize Quick Access Toolbar</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogCategoriesLabel" translate="yes" xml:space="preserve">
-          <source>&amp;Choose commands from:</source>
-          <target state="new">&amp;Choose commands from:</target>
+          <source>Choose commands from:</source>
+          <target state="new">Choose commands from:</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogOkButton" translate="yes" xml:space="preserve">
           <source>OK</source>
           <target state="new">OK</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogPlacementCheckbox" translate="yes" xml:space="preserve">
-          <source>&amp;Place Quick Access Toolbar below the Ribbon</source>
-          <target state="new">&amp;Place Quick Access Toolbar below the Ribbon</target>
+          <source>Place Quick Access Toolbar below the Ribbon</source>
+          <target state="new">Place Quick Access Toolbar below the Ribbon</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogRemoveButton" translate="yes" xml:space="preserve">
-          <source>&amp;Remove</source>
-          <target state="new">&amp;Remove</target>
+          <source>Remove</source>
+          <target state="new">Remove</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatPlaceAboveRibbonText" translate="yes" xml:space="preserve">
-          <source>&amp;Place Quick Access Toolbar above the Ribbon</source>
-          <target state="new">&amp;Place Quick Access Toolbar above the Ribbon</target>
+          <source>Place Quick Access Toolbar above the Ribbon</source>
+          <target state="new">Place Quick Access Toolbar above the Ribbon</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatPlaceBelowRibbonText" translate="yes" xml:space="preserve">
-          <source>&amp;Place Quick Access Toolbar below the Ribbon</source>
-          <target state="new">&amp;Place Quick Access Toolbar below the Ribbon</target>
+          <source>Place Quick Access Toolbar below the Ribbon</source>
+          <target state="new">Place Quick Access Toolbar below the Ribbon</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatRemoveItemText" translate="yes" xml:space="preserve">
-          <source>&amp;Remove from Quick Access Toolbar</source>
-          <target state="new">&amp;Remove from Quick Access Toolbar</target>
+          <source>Remove from Quick Access Toolbar</source>
+          <target state="new">Remove from Quick Access Toolbar</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>0</source>
           <target state="needs-review-translation">0</target>
         </trans-unit>
         <trans-unit id="toolStripStatusLabel1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
-          <source>118, 17</source>
+          <source>200, 17</source>
           <target state="needs-review-translation">118, 17</target>
-        </trans-unit>
-        <trans-unit id="toolStripStatusLabel1.Text" translate="yes" xml:space="preserve">
-          <source>toolStripStatusLabel1</source>
-          <target state="new">toolStripStatusLabel1</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="statusStrip1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
           <source>5, 688</source>
@@ -2116,6 +2589,54 @@
         <trans-unit id="contextMenuStrip1.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
           <source>601, 17</source>
           <target state="needs-review-translation">601, 17</target>
+        </trans-unit>
+        <trans-unit id="ribbonBar1.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
+          <source>Left</source>
+          <target state="needs-review-translation">Left</target>
+        </trans-unit>
+        <trans-unit id="ribbonBar1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>3, 0</source>
+          <target state="needs-review-translation">3, 0</target>
+        </trans-unit>
+        <trans-unit id="ribbonBar1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>100, 114</source>
+          <target state="needs-review-translation">100, 114</target>
+        </trans-unit>
+        <trans-unit id="ribbonBar1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>0</source>
+          <target state="needs-review-translation">0</target>
+        </trans-unit>
+        <trans-unit id="ribbonBar1.Text" translate="yes" xml:space="preserve">
+          <source>ribbonBar1</source>
+          <target state="new">ribbonBar1</target>
+        </trans-unit>
+        <trans-unit id="OpenExchangeMonitorFrm.RibbonWordWrap" translate="yes" extype="System.Boolean, mscorlib" xml:space="preserve">
+          <source>False</source>
+          <target state="needs-review-translation">False</target>
+        </trans-unit>
+        <trans-unit id="OpenAddrBookFrm.RibbonWordWrap" translate="yes" extype="System.Boolean, mscorlib" xml:space="preserve">
+          <source>False</source>
+          <target state="needs-review-translation">False</target>
+        </trans-unit>
+        <trans-unit id="toolStripStatusLabel1.AutoSize" translate="yes" extype="System.Boolean, mscorlib" xml:space="preserve">
+          <source>False</source>
+          <target state="needs-review-translation">False</target>
+        </trans-unit>
+        <trans-unit id="toolStripStatusLabel1.TextAlign" translate="yes" extype="System.Drawing.ContentAlignment, System.Drawing" xml:space="preserve">
+          <source>MiddleLeft</source>
+          <target state="needs-review-translation">MiddleLeft</target>
+        </trans-unit>
+        <trans-unit id="toolStripStatusLabel2.AutoSize" translate="yes" extype="System.Boolean, mscorlib" xml:space="preserve">
+          <source>False</source>
+          <target state="needs-review-translation">False</target>
+        </trans-unit>
+        <trans-unit id="toolStripStatusLabel2.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>200, 17</source>
+          <target state="needs-review-translation">200, 17</target>
+        </trans-unit>
+        <trans-unit id="toolStripStatusLabel2.TextAlign" translate="yes" extype="System.Drawing.ContentAlignment, System.Drawing" xml:space="preserve">
+          <source>MiddleLeft</source>
+          <target state="needs-review-translation">MiddleLeft</target>
         </trans-unit>
       </group>
     </body>
@@ -2357,6 +2878,450 @@
         <trans-unit id="Insert" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
           <source>..\resources\database scripts\insert.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</source>
           <target state="needs-review-translation">..\resources\database scripts\insert.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="en" target-language="es" original="ENUMISMAT2.0/_SETTINGSDIALOG_PASSWORDPROTECTION.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6900.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="ENUMISMAT2.0/_SETTINGSDIALOG_PASSWORDPROTECTION.RESX" datatype="resx">
+        <trans-unit id="errorProvider1.Icon" translate="yes" extype="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64" xml:space="preserve">
+          <source>
+        AAABAAMAICAAAAEAIACoEAAANgAAABgYAAABACAAiAkAAN4QAAAQEAAAAQAgAGgEAABmGgAAKAAAACAA
+        AABAAAAAAQAgAAAAAACAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACFRjAghTYQpGFGMCAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYUYwhIU2E5xhR
+        jP8hTYTvGFGMKQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGE2UISFN
+        hOcQXa3/AGXO/xBZpf8hTYSEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA4
+        lBghSXveGGGt/whtzv8IZcb/IU2E/yFRjDEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAo
+        rRgAHJzOACCU7xBFpf8Qdc7/EG3G/yFNhP8hTYxjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAQKK0YABic3jFBzv85Tef/ECi1/wAwrf8hSYz/IUmMawAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AADcDwAA/g8AAP8HAAD/BwAA/4EAAP/hAAA=
+</source>
+          <target state="needs-review-translation">
+        AAABAAMAICAAAAEAIACoEAAANgAAABgYAAABACAAiAkAAN4QAAAQEAAAAQAgAGgEAABmGgAAKAAAACAA
+        AABAAAAAAQAgAAAAAACAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACFRjAghTYQpGFGMCAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYUYwhIU2E5xhR
+        jP8hTYTvGFGMKQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGE2UISFN
+        hOcQXa3/AGXO/xBZpf8hTYSEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA4
+        lBghSXveGGGt/whtzv8IZcb/IU2E/yFRjDEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAo
+        rRgAHJzOACCU7xBFpf8Qdc7/EG3G/yFNhP8hTYxjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAQKK0YABic3jFBzv85Tef/ECi1/wAwrf8hSYz/IUmMawAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AADcDwAA/g8AAP8HAAD/BwAA/4EAAP/hAAA=
+</target>
+        </trans-unit>
+        <trans-unit id="superValidator1.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
+          <source>17, 17</source>
+          <target state="needs-review-translation">17, 17</target>
+        </trans-unit>
+        <trans-unit id="errorProvider1.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
+          <source>155, 17</source>
+          <target state="needs-review-translation">155, 17</target>
+        </trans-unit>
+        <trans-unit id="highlighter1.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
+          <source>285, 17</source>
+          <target state="needs-review-translation">285, 17</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="en" target-language="es" original="ENUMISMAT2.0/_EXCHANGEMONITOR.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6900.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="ENUMISMAT2.0/_EXCHANGEMONITOR.RESX" datatype="resx">
+        <trans-unit id="ribbonBar1.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
+          <source>Left</source>
+          <target state="needs-review-translation">Left</target>
+        </trans-unit>
+        <trans-unit id="ribbonBar1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>3, 0</source>
+          <target state="needs-review-translation">3, 0</target>
+        </trans-unit>
+        <trans-unit id="ribbonBar1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>100, 99</source>
+          <target state="needs-review-translation">100, 99</target>
+        </trans-unit>
+        <trans-unit id="ribbonBar1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>0</source>
+          <target state="needs-review-translation">0</target>
+        </trans-unit>
+        <trans-unit id="ribbonBar1.Text" translate="yes" xml:space="preserve">
+          <source>ribbonBar1</source>
+          <target state="new">ribbonBar1</target>
+        </trans-unit>
+        <trans-unit id="ribbonPanel1.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
+          <source>Fill</source>
+          <target state="needs-review-translation">Fill</target>
+        </trans-unit>
+        <trans-unit id="ribbonPanel1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>0, 53</source>
+          <target state="needs-review-translation">0, 53</target>
+        </trans-unit>
+        <trans-unit id="ribbonPanel1.Padding" translate="yes" extype="System.Windows.Forms.Padding, System.Windows.Forms" xml:space="preserve">
+          <source>3, 0, 3, 2</source>
+          <target state="needs-review-translation">3, 0, 3, 2</target>
+        </trans-unit>
+        <trans-unit id="ribbonPanel1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>968, 101</source>
+          <target state="needs-review-translation">968, 101</target>
+        </trans-unit>
+        <trans-unit id="ribbonPanel1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>1</source>
+          <target state="needs-review-translation">1</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.Dock" translate="yes" extype="System.Windows.Forms.DockStyle, System.Windows.Forms" xml:space="preserve">
+          <source>Top</source>
+          <target state="needs-review-translation">Top</target>
+        </trans-unit>
+        <trans-unit id="ribbonTabItem1.Text" translate="yes" xml:space="preserve">
+          <source>ribbonTabItem1</source>
+          <target state="new">ribbonTabItem1</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
+          <source>5, 1</source>
+          <target state="needs-review-translation">5, 1</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>968, 154</source>
+          <target state="needs-review-translation">968, 154</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.MaximizeRibbonText" translate="yes" xml:space="preserve">
+          <source>&amp;Maximize the Ribbon</source>
+          <target state="new">&amp;Maximize the Ribbon</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.MinimizeRibbonText" translate="yes" xml:space="preserve">
+          <source>Mi&amp;nimize the Ribbon</source>
+          <target state="new">Mi&amp;nimize the Ribbon</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatAddItemText" translate="yes" xml:space="preserve">
+          <source>&amp;Add to Quick Access Toolbar</source>
+          <target state="new">&amp;Add to Quick Access Toolbar</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatCustomizeMenuLabel" translate="yes" xml:space="preserve">
+          <source><bpt id="1">&lt;b&gt;</bpt>Customize Quick Access Toolbar<ept id="1">&lt;/b&gt;</ept></source>
+          <target state="new"><bpt id="1">&lt;b&gt;</bpt>Customize Quick Access Toolbar<ept id="1">&lt;/b&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatCustomizeText" translate="yes" xml:space="preserve">
+          <source>&amp;Customize Quick Access Toolbar...</source>
+          <target state="new">&amp;Customize Quick Access Toolbar...</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatDialogAddButton" translate="yes" xml:space="preserve">
+          <source>&amp;Add &gt;&gt;</source>
+          <target state="new">&amp;Add &gt;&gt;</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatDialogCancelButton" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="new">Cancel</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatDialogCaption" translate="yes" xml:space="preserve">
+          <source>Customize Quick Access Toolbar</source>
+          <target state="new">Customize Quick Access Toolbar</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatDialogCategoriesLabel" translate="yes" xml:space="preserve">
+          <source>&amp;Choose commands from:</source>
+          <target state="new">&amp;Choose commands from:</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatDialogOkButton" translate="yes" xml:space="preserve">
+          <source>OK</source>
+          <target state="new">OK</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatDialogPlacementCheckbox" translate="yes" xml:space="preserve">
+          <source>&amp;Place Quick Access Toolbar below the Ribbon</source>
+          <target state="new">&amp;Place Quick Access Toolbar below the Ribbon</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatDialogRemoveButton" translate="yes" xml:space="preserve">
+          <source>&amp;Remove</source>
+          <target state="new">&amp;Remove</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatPlaceAboveRibbonText" translate="yes" xml:space="preserve">
+          <source>&amp;Place Quick Access Toolbar above the Ribbon</source>
+          <target state="new">&amp;Place Quick Access Toolbar above the Ribbon</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatPlaceBelowRibbonText" translate="yes" xml:space="preserve">
+          <source>&amp;Place Quick Access Toolbar below the Ribbon</source>
+          <target state="new">&amp;Place Quick Access Toolbar below the Ribbon</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.SystemText.QatRemoveItemText" translate="yes" xml:space="preserve">
+          <source>&amp;Remove from Quick Access Toolbar</source>
+          <target state="new">&amp;Remove from Quick Access Toolbar</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
+          <source>0</source>
+          <target state="needs-review-translation">0</target>
+        </trans-unit>
+        <trans-unit id="ribbonControl1.Text" translate="yes" xml:space="preserve">
+          <source>ribbonControl1</source>
+          <target state="new">ribbonControl1</target>
+        </trans-unit>
+        <trans-unit id="$this.AutoScaleDimensions" translate="yes" extype="System.Drawing.SizeF, System.Drawing" xml:space="preserve">
+          <source>6, 13</source>
+          <target state="needs-review-translation">6, 13</target>
+        </trans-unit>
+        <trans-unit id="$this.ClientSize" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
+          <source>978, 690</source>
+          <target state="needs-review-translation">978, 690</target>
+        </trans-unit>
+        <trans-unit id="$this.Text" translate="yes" xml:space="preserve">
+          <source>_ExchangeMonitor</source>
+          <target state="new">_ExchangeMonitor</target>
+        </trans-unit>
+        <trans-unit id="styleManager1.TrayLocation" translate="yes" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata" xml:space="preserve">
+          <source>17, 17</source>
+          <target state="needs-review-translation">17, 17</target>
+        </trans-unit>
+        <trans-unit id="$this.Localizable" translate="yes" extype="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" extradata="metadata" xml:space="preserve">
+          <source>True</source>
+          <target state="needs-review-translation">True</target>
         </trans-unit>
       </group>
     </body>
