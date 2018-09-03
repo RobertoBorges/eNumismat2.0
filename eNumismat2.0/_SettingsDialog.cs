@@ -163,6 +163,7 @@ namespace eNumismat2._0
                     }
                     else
                     {
+                        btn_UsePassword.Value = false;
                         return false;
                     }
                 }
@@ -176,6 +177,7 @@ namespace eNumismat2._0
                         }
                         else
                         {
+                            btn_UsePassword.Value = false;
                             return false;
                         }
                     }

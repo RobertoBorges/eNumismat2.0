@@ -76,8 +76,6 @@ namespace eNumismat2._0
                 {
                     Properties.Settings.Default.CurrentUserPassword = EncryptPW.Calculate(tb_NewPassword.Text);
                     Properties.Settings.Default.Save();
-
-                    Hide();
                 }
             }
         }
@@ -85,7 +83,7 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void BtnCancel_Click(object sender, EventArgs e)
         {
-            Hide();
+            
         }
 
         //private string EncryptPWString(string input)
