@@ -55,7 +55,6 @@
             this.btnHelp = new DevComponents.DotNetBar.ButtonItem();
             this.btnAbout = new DevComponents.DotNetBar.ButtonItem();
             this.btnHelp2 = new DevComponents.DotNetBar.ButtonItem();
-            this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
@@ -63,6 +62,7 @@
             this.culture = new Infralution.Localization.CultureManager(this.components);
             this.TrayIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.ribbonControl1.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -88,8 +88,7 @@
             this.ribbonControl1.MdiSystemItemVisible = false;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.QuickToolbarItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.btnHelp,
-            this.qatCustomizeItem1});
+            this.btnHelp});
             this.ribbonControl1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.ribbonControl1.SystemText.MaximizeRibbonText = resources.GetString("ribbonControl1.SystemText.MaximizeRibbonText");
             this.ribbonControl1.SystemText.MinimizeRibbonText = resources.GetString("ribbonControl1.SystemText.MinimizeRibbonText");
@@ -339,10 +338,6 @@
             this.btnHelp2.Name = "btnHelp2";
             resources.ApplyResources(this.btnHelp2, "btnHelp2");
             // 
-            // qatCustomizeItem1
-            // 
-            this.qatCustomizeItem1.Name = "qatCustomizeItem1";
-            // 
             // styleManager1
             // 
             this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Light;
@@ -352,7 +347,8 @@
             // 
             this.statusStrip1.BackColor = System.Drawing.Color.Transparent;
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1});
+            this.toolStripStatusLabel1,
+            this.toolStripStatusLabel2});
             resources.ApplyResources(this.statusStrip1, "statusStrip1");
             this.statusStrip1.Name = "statusStrip1";
             // 
@@ -386,6 +382,11 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
             // 
+            // toolStripStatusLabel2
+            // 
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            resources.ApplyResources(this.toolStripStatusLabel2, "toolStripStatusLabel2");
+            // 
             // _eNumismatMain
             // 
             resources.ApplyResources(this, "$this");
@@ -412,7 +413,6 @@
         private DevComponents.DotNetBar.RibbonPanel ribbonPanel1;
         private DevComponents.DotNetBar.ApplicationButton applicationButton1;
         private DevComponents.DotNetBar.RibbonTabItem ribbonTabItem1;
-        private DevComponents.DotNetBar.QatCustomizeItem qatCustomizeItem1;
         private DevComponents.DotNetBar.StyleManager styleManager1;
         private DevComponents.DotNetBar.ButtonItem btn_NewDB;
         private DevComponents.DotNetBar.ButtonItem btn_OpenDB;
@@ -441,6 +441,7 @@
         private System.Windows.Forms.NotifyIcon TrayIcon;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private DevComponents.DotNetBar.RibbonBar ribbonBar1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
     }
 }
 

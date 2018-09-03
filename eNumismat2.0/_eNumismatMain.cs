@@ -23,6 +23,8 @@ namespace eNumismat2._0
         public _eNumismatMain()
         {
             InitializeComponent();
+            
+            CheckIfDbFileExists();
 
             if (Properties.Settings.Default.MainWindowState == FormWindowState.Maximized)
             {
@@ -42,7 +44,6 @@ namespace eNumismat2._0
         private void Form1_Load(object sender, EventArgs e)
         {
             DisplayLanguage();
-            //CheckIfDbFileExists();
         }
 
         //=====================================================================================================================================================================
@@ -161,12 +162,25 @@ namespace eNumismat2._0
         private bool CheckIfDbFileExists()
         {
             // Check if DB File exists
-            if(!File.Exists(Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile)))
+            if (!string.IsNullOrEmpty(Properties.Settings.Default.DBFilePath) || !string.IsNullOrEmpty(Properties.Settings.Default.DBFile))
             {
-                //MessageBox.Show("File does not exist: " + Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile));
+                if (!File.Exists(Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile)))
+                {
+                    toolStripStatusLabel2.Text = GlobalStrings._dbConnectionNoDbFile;
+                    return false;
+                }
+                else
+                {
+                    toolStripStatusLabel2.Text = GlobalStrings._dbConnectionDbFile + " " + Properties.Settings.Default.DBFile;
+                    return true;
+                }
+            }
+            else
+            {
+                toolStripStatusLabel2.Text = GlobalStrings._dbConnectionNoDbFile;
                 return false;
             }
-            return true;
+            
         }
 
         // Open "child" Forms
@@ -208,8 +222,8 @@ namespace eNumismat2._0
         {
             if (OpenForm("_AboutBox") == false)
             {
-                //_AboutBox AboutBox = new _AboutBox();
-                //AboutBox.Show();
+                _AboutBox AboutBox = new _AboutBox();
+                AboutBox.Show();
             }
         }
         //=====================================================================================================================================================================
@@ -352,7 +366,7 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void Btn_OpenDB_Click(object sender, EventArgs e)
         {
-            
+            OpenDbFile();
         }
 
         //=====================================================================================================================================================================
@@ -372,9 +386,9 @@ namespace eNumismat2._0
             SaveFileDialog SaveFile = new SaveFileDialog()
             {
                 DefaultExt = "*.enc",
+                Filter = "eNumismat Collection (*.enc) | *.enc",
                 AddExtension = true,
-                InitialDirectory = InitialDir,
-                Filter = "eNumismat Collection (*.enc) | *.enc"
+                InitialDirectory = InitialDir
             };
 
             if (SaveFile.ShowDialog() == DialogResult.OK)
@@ -383,8 +397,6 @@ namespace eNumismat2._0
                 Properties.Settings.Default.DBFilePath = Path.GetDirectoryName(SaveFile.FileName);
 
                 Properties.Settings.Default.Save();
-
-               // MessageBox.Show(Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile));
 
                 try
                 {
@@ -397,6 +409,39 @@ namespace eNumismat2._0
                 {
                     MessageBox.Show(ex.Message);
                 }
+            }
+        }
+
+        //=====================================================================================================================================================================
+        private void OpenDbFile()
+        {
+            string InitialDir = null;
+
+            if (string.IsNullOrEmpty(Properties.Settings.Default.DBFilePath))
+            {
+                InitialDir = Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments);
+            }
+            else
+            {
+                InitialDir = Properties.Settings.Default.DBFilePath;
+            }
+
+            OpenFileDialog OpenFile = new OpenFileDialog()
+            {
+                DefaultExt = "*.enc",
+                Filter = "eNumismat Collection (*.enc) | *.enc",
+                AddExtension = true,
+                InitialDirectory = InitialDir
+            };
+
+            if (OpenFile.ShowDialog() == DialogResult.OK)
+            {
+                Properties.Settings.Default.DBFile = Path.GetFileName(OpenFile.FileName);
+                Properties.Settings.Default.DBFilePath = Path.GetDirectoryName(OpenFile.FileName);
+
+                Properties.Settings.Default.Save();
+
+                CheckIfDbFileExists();
             }
         }
 
@@ -426,6 +471,7 @@ namespace eNumismat2._0
         {
             try
             {
+                DBWorker = new Classes.DataBaseWork();
                 if (DBWorker.CompactDatabase())
                 {
                     TrayIcon.BalloonTipTitle = GlobalStrings._dbCompress_BalloonTitle;
@@ -449,6 +495,7 @@ namespace eNumismat2._0
         {
             try
             {
+                DBWorker = new Classes.DataBaseWork();
                 if (DBWorker.ExcecuteBackup())
                 {
                     TrayIcon.BalloonTipTitle = GlobalStrings._dbBackup_BalloonTitle;
@@ -459,7 +506,13 @@ namespace eNumismat2._0
             }
             catch (NullReferenceException ex)
             {
-                MessageBox.Show(GlobalStrings._dbBackupNullReferenceExceptionText, GlobalStrings._dbBackupNullReferenceExceptionTitle);
+                MessageBox.Show(GlobalStrings._dbBackupNullReferenceExceptionText
+                    + Environment.NewLine
+                    + Environment.NewLine
+                    + ex.Message
+                    + Environment.NewLine
+                    + Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile),
+                    GlobalStrings._dbBackupNullReferenceExceptionTitle);
             }
             catch (Exception ex)
             {

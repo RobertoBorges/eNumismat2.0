@@ -51,12 +51,10 @@ namespace eNumismat2._0
             if (ContactCounter == 0 || ContactCounter > 1)
             {
                 toolStripStatusLabel1.Text = ContactCounter.ToString() + " " + GlobalStrings._contactsAvailable;
-
             }
             else if (ContactCounter == 1)
             {
                 toolStripStatusLabel1.Text = ContactCounter.ToString() + " " + GlobalStrings._contactAvailable;
-
             }
         }
 

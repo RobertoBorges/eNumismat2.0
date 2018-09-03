@@ -1818,7 +1818,7 @@
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatAddItemText" translate="yes" xml:space="preserve">
           <source>&amp;Add to Quick Access Toolbar</source>
-          <target state="final">&amp;Zum Schnellstart Menü hinzufügen</target>
+          <target state="translated">Zum Schnellstart &amp;Menü hinzufügen</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatCustomizeMenuLabel" translate="yes" xml:space="preserve">
           <source><bpt id="1">&lt;b&gt;</bpt>Customize Quick Access Toolbar<ept id="1">&lt;/b&gt;</ept></source>
@@ -1826,7 +1826,7 @@
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatCustomizeText" translate="yes" xml:space="preserve">
           <source>&amp;Customize Quick Access Toolbar...</source>
-          <target state="final">&amp;Schnellstartmenü Personalisieren...</target>
+          <target state="translated">Schnellstartmenü &amp;Personalisieren...</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogAddButton" translate="yes" xml:space="preserve">
           <source>&amp;Add &gt;&gt;</source>
@@ -1922,7 +1922,7 @@
         </trans-unit>
         <trans-unit id="$this.Text" translate="yes" xml:space="preserve">
           <source>eNumismat</source>
-          <target state="new">eNumismat</target>
+          <target state="final">eNumismat</target>
         </trans-unit>
         <trans-unit id="contextMenuStrip1.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>61, 4</source>

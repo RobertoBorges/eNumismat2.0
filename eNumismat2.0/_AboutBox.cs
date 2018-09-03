@@ -101,5 +101,10 @@ namespace eNumismat2._0
             }
         }
         #endregion
+
+        private void OkButton_Click(object sender, EventArgs e)
+        {
+            Hide();
+        }
     }
 }
