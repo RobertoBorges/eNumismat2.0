@@ -20,8 +20,8 @@
         </trans-unit>
         <trans-unit id="labelX5.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
           <source>301, 23</source>
-          <target state="needs-review-translation">217, 23</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">301,23
+</target>
         </trans-unit>
         <trans-unit id="labelX5.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
           <source>11</source>
@@ -74,8 +74,7 @@
         </trans-unit>
         <trans-unit id="tokenEditor1.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
           <source>347, 239</source>
-          <target state="needs-review-translation">215, 239</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">347,239</target>
         </trans-unit>
         <trans-unit id="tokenEditor1.Separators" translate="yes" xml:space="preserve">
           <source>;</source>
@@ -103,8 +102,7 @@
         </trans-unit>
         <trans-unit id="ListBox_TagCollection.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
           <source>333, 95</source>
-          <target state="needs-review-translation">197, 95</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">333, 95</target>
         </trans-unit>
         <trans-unit id="ListBox_TagCollection.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
           <source>14</source>
@@ -124,8 +122,7 @@
         </trans-unit>
         <trans-unit id="listBoxAdv1.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
           <source>333, 95</source>
-          <target state="needs-review-translation">197, 95</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">333, 95</target>
         </trans-unit>
         <trans-unit id="listBoxAdv1.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
           <source>13</source>
@@ -141,8 +138,7 @@
         </trans-unit>
         <trans-unit id="labelX8.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
           <source>258, 30</source>
-          <target state="needs-review-translation">108, 30</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">258, 30</target>
         </trans-unit>
         <trans-unit id="labelX8.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
           <source>12</source>
@@ -154,8 +150,7 @@
         </trans-unit>
         <trans-unit id="buttonX3.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
           <source>279, 340</source>
-          <target state="needs-review-translation">145, 340</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">279, 340</target>
         </trans-unit>
         <trans-unit id="buttonX3.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
           <source>30, 30</source>
@@ -167,8 +162,7 @@
         </trans-unit>
         <trans-unit id="buttonX4.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
           <source>315, 340</source>
-          <target state="needs-review-translation">181, 340</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">315, 340</target>
         </trans-unit>
         <trans-unit id="buttonX4.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
           <source>30, 30</source>
@@ -184,8 +178,7 @@
         </trans-unit>
         <trans-unit id="labelX7.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
           <source>261, 30</source>
-          <target state="needs-review-translation">108, 30</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">261, 30</target>
         </trans-unit>
         <trans-unit id="labelX7.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
           <source>8</source>
@@ -197,8 +190,7 @@
         </trans-unit>
         <trans-unit id="buttonX2.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
           <source>279, 192</source>
-          <target state="needs-review-translation">142, 192</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">279, 192</target>
         </trans-unit>
         <trans-unit id="buttonX2.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
           <source>30, 30</source>
@@ -210,8 +202,7 @@
         </trans-unit>
         <trans-unit id="buttonX1.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
           <source>315, 192</source>
-          <target state="needs-review-translation">178, 192</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">315, 192</target>
         </trans-unit>
         <trans-unit id="buttonX1.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
           <source>30, 30</source>
@@ -227,8 +218,7 @@
         </trans-unit>
         <trans-unit id="labelX6.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
           <source>264, 23</source>
-          <target state="needs-review-translation">149, 23</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">264, 23</target>
         </trans-unit>
         <trans-unit id="labelX6.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
           <source>4</source>
@@ -256,8 +246,7 @@
         </trans-unit>
         <trans-unit id="labelX3.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
           <source>264, 23</source>
-          <target state="needs-review-translation">149, 23</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">264, 23</target>
         </trans-unit>
         <trans-unit id="labelX3.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
           <source>1</source>
@@ -373,8 +362,7 @@
         </trans-unit>
         <trans-unit id="labelX4.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
           <source>463, 23</source>
-          <target state="needs-review-translation">293, 23</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">463, 23</target>
         </trans-unit>
         <trans-unit id="labelX4.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
           <source>14</source>
@@ -426,8 +414,7 @@
         </trans-unit>
         <trans-unit id="labelX2.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
           <source>390, 23</source>
-          <target state="needs-review-translation">195, 23</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">390, 23</target>
         </trans-unit>
         <trans-unit id="labelX2.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
           <source>12</source>
@@ -463,8 +450,7 @@
         </trans-unit>
         <trans-unit id="labelX1.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
           <source>376, 23</source>
-          <target state="needs-review-translation">176, 23</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">376, 23</target>
         </trans-unit>
         <trans-unit id="labelX1.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
           <source>10</source>
