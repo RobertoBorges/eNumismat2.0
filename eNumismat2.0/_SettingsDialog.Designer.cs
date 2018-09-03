@@ -100,6 +100,7 @@
             this.buttonItem13 = new DevComponents.DotNetBar.ButtonItem();
             this.colorPickerDropDown1 = new DevComponents.DotNetBar.ColorPickerDropDown();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
+            this.btn_changePW = new DevComponents.DotNetBar.ButtonX();
             this.flowLayoutPanel1.SuspendLayout();
             this.panelEx1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl1)).BeginInit();
@@ -159,6 +160,7 @@
             // 
             // tabControlPanel4
             // 
+            this.tabControlPanel4.Controls.Add(this.btn_changePW);
             this.tabControlPanel4.Controls.Add(this.labelX9);
             this.tabControlPanel4.Controls.Add(this.btn_UsePassword);
             this.tabControlPanel4.Controls.Add(this.labelX5);
@@ -364,6 +366,7 @@
             this.ListBox_TagCollection.BackgroundStyle.Class = "ListBoxAdv";
             this.ListBox_TagCollection.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.ListBox_TagCollection.CheckBoxesVisible = true;
+            this.ListBox_TagCollection.CheckStateMember = null;
             this.ListBox_TagCollection.ContainerControlProcessDialogKey = true;
             this.ListBox_TagCollection.DragDropSupport = true;
             this.ListBox_TagCollection.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
@@ -379,7 +382,6 @@
             this.listBoxAdv1.BackgroundStyle.Class = "ListBoxAdv";
             this.listBoxAdv1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.listBoxAdv1.CheckBoxesVisible = true;
-            this.listBoxAdv1.CheckStateMember = null;
             this.listBoxAdv1.ContainerControlProcessDialogKey = true;
             this.listBoxAdv1.Cursor = System.Windows.Forms.Cursors.Default;
             this.listBoxAdv1.DragDropSupport = true;
@@ -689,6 +691,15 @@
             this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Light;
             this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254))))), System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(143))))));
             // 
+            // btn_changePW
+            // 
+            this.btn_changePW.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btn_changePW.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            resources.ApplyResources(this.btn_changePW, "btn_changePW");
+            this.btn_changePW.Name = "btn_changePW";
+            this.btn_changePW.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btn_changePW.Click += new System.EventHandler(this.btn_changePW_Click);
+            // 
             // _SettingsDialog
             // 
             this.AcceptButton = this.btn_Save;
@@ -785,5 +796,6 @@
         private DevComponents.DotNetBar.Controls.TokenEditor tokenEditor1;
         private DevComponents.DotNetBar.LabelX labelX9;
         private DevComponents.DotNetBar.Controls.SwitchButton btn_UsePassword;
+        private DevComponents.DotNetBar.ButtonX btn_changePW;
     }
 }

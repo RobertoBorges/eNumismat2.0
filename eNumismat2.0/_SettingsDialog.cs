@@ -142,52 +142,60 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void BtnUsePassword_ValueChanged(object sender, EventArgs e)
         {
-            SetPasswordProtection();
+            //PWProtectionLogic();
 
             Properties.Settings.Default.UsePasswordProtection = btn_UsePassword.Value;
             Properties.Settings.Default.Save();
         }
 
         //=====================================================================================================================================================================
-        private bool SetPasswordProtection()
+        private void PWProtectionLogic()
         {
-            _SettingsDialog_PasswordProtection PWProtect = new _SettingsDialog_PasswordProtection();
-
-            if (btn_UsePassword.Value == true)
+            /*if (btn_UsePassword.Value == true)
             {
                 if (Properties.Settings.Default.UsePasswordProtection == false)
                 {
-                    if (PWProtect.ShowDialog() == DialogResult.OK)
+                    if (string.IsNullOrEmpty(Properties.Settings.Default.CurrentUserPassword))
                     {
-                        return true;
+                        SetPasswordProtection();
                     }
                     else
                     {
-                        btn_UsePassword.Value = false;
-                        return false;
+                        btn_changePW.Visible = true;
+                        btn_changePW.Enabled = true;
                     }
                 }
                 else
                 {
-                    if (string.IsNullOrEmpty(Properties.Settings.Default.CurrentUserPassword))
-                    {
-                        if (PWProtect.ShowDialog() == DialogResult.OK)
-                        {
-                            return true;
-                        }
-                        else
-                        {
-                            btn_UsePassword.Value = false;
-                            return false;
-                        }
-                    }
-                    return false;
+                    btn_changePW.Visible = true;
+                    btn_changePW.Enabled = true;
                 }
+            }
+            else
+            {
+                btn_changePW.Visible = true;
+                btn_changePW.Enabled = true;
+            }*/
+        }
+
+        _SettingsDialog_PasswordProtection PWProtect = new _SettingsDialog_PasswordProtection();
+        //=====================================================================================================================================================================
+        /*private bool SetPasswordProtection()
+        {
+            if (PWProtect.ShowDialog() == DialogResult.OK)
+            {
+                return true;
             }
             else
             {
                 return false;
             }
+        }*/
+
+        //=====================================================================================================================================================================
+        private void btn_changePW_Click(object sender, EventArgs e)
+        {
+            //PWProtect.ShowDialog();
         }
     }
 }

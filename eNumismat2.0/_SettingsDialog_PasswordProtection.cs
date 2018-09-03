@@ -20,6 +20,10 @@ namespace eNumismat2._0
 
             btn_Cancel.DialogResult = DialogResult.Cancel;
             btn_Save.DialogResult = DialogResult.OK;
+
+            //tb_NewPassword.Text = null;
+            //tb_CurrentPassword.Text = null;
+            //tb_PasswordConfirmation = null;
         }
 
         //=====================================================================================================================================================================
@@ -39,6 +43,7 @@ namespace eNumismat2._0
         private void BtnSave_Click(object sender, EventArgs e)
         {            
             Classes.GetHash EncryptPW = new Classes.GetHash();
+
             if (tb_CurrentPassword.Enabled == true)
             {
                 if (!string.IsNullOrEmpty(tb_CurrentPassword.Text))
@@ -72,10 +77,20 @@ namespace eNumismat2._0
                     Properties.Settings.Default.Save();
                 }
             }
+
+            tb_CurrentPassword.Text = null;
+            tb_NewPassword.Text = null;
+            tb_PasswordConfirmation = null;
         }
 
         //=====================================================================================================================================================================
         private void BtnCancel_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        //=====================================================================================================================================================================
+        private void _SettingsDialog_PasswordProtection_FormClosing(object sender, FormClosingEventArgs e)
         {
             
         }

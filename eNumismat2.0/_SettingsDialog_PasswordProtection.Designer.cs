@@ -203,6 +203,7 @@
             this.Controls.Add(this.tb_CurrentPassword);
             this.Name = "_SettingsDialog_PasswordProtection";
             this.Text = "_SettingsDialog_PasswordProtection";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this._SettingsDialog_PasswordProtection_FormClosing);
             this.Load += new System.EventHandler(this._SettingsDialog_PasswordProtection_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);

@@ -651,6 +651,30 @@
           <source>12</source>
           <target state="needs-review-translation">12</target>
         </trans-unit>
+        <trans-unit id="btn_changePW.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+          <source>234, 11</source>
+          <target state="needs-review-translation">234, 11</target>
+        </trans-unit>
+        <trans-unit id="btn_changePW.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+          <source>162, 23</source>
+          <target state="needs-review-translation">162, 23</target>
+        </trans-unit>
+        <trans-unit id="btn_changePW.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+          <source>14</source>
+          <target state="needs-review-translation">14</target>
+        </trans-unit>
+        <trans-unit id="btn_changePW.Text" translate="yes" xml:space="preserve">
+          <source>Change current Password</source>
+          <target state="new">Change current Password</target>
+        </trans-unit>
+        <trans-unit id="btn_changePW.Enabled" translate="yes" xml:space="preserve" extype="System.Boolean, mscorlib">
+          <source>False</source>
+          <target state="needs-review-translation">False</target>
+        </trans-unit>
+        <trans-unit id="btn_changePW.Visible" translate="yes" xml:space="preserve" extype="System.Boolean, mscorlib">
+          <source>False</source>
+          <target state="needs-review-translation">False</target>
+        </trans-unit>
       </group>
     </body>
   </file>

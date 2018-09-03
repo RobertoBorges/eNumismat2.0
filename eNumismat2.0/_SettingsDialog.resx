@@ -117,7 +117,38 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_changePW.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_changePW.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 11</value>
+  </data>
+  <data name="btn_changePW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 23</value>
+  </data>
+  <data name="btn_changePW.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btn_changePW.Text" xml:space="preserve">
+    <value>Change current Password</value>
+  </data>
+  <data name="btn_changePW.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btn_changePW.Name" xml:space="preserve">
+    <value>btn_changePW</value>
+  </data>
+  <data name="&gt;&gt;btn_changePW.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btn_changePW.Parent" xml:space="preserve">
+    <value>tabControlPanel4</value>
+  </data>
+  <data name="&gt;&gt;btn_changePW.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="labelX9.Location" type="System.Drawing.Point, System.Drawing">
     <value>81, 10</value>
   </data>
@@ -128,7 +159,6 @@
   <data name="labelX9.Size" type="System.Drawing.Size, System.Drawing">
     <value>301, 23</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="labelX9.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
@@ -145,7 +175,7 @@
     <value>tabControlPanel4</value>
   </data>
   <data name="&gt;&gt;labelX9.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="btn_UsePassword.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 11</value>
@@ -169,7 +199,7 @@
     <value>tabControlPanel4</value>
   </data>
   <data name="&gt;&gt;btn_UsePassword.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="labelX5.Location" type="System.Drawing.Point, System.Drawing">
     <value>81, 40</value>
@@ -196,7 +226,7 @@
     <value>tabControlPanel4</value>
   </data>
   <data name="&gt;&gt;labelX5.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="btn_MinimizeToTray.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 40</value>
@@ -220,7 +250,7 @@
     <value>tabControlPanel4</value>
   </data>
   <data name="&gt;&gt;btn_MinimizeToTray.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="tabControlPanel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
