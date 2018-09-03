@@ -23,6 +23,10 @@ namespace eNumismat2._0
         public _eNumismatMain()
         {
             InitializeComponent();
+
+            //Properties.Settings.Default.UsePasswordProtection = false;
+            //Properties.Settings.Default.CurrentUserPassword = "";
+            //Properties.Settings.Default.Save();
             
             CheckIfDbFileExists();
 
@@ -37,6 +41,18 @@ namespace eNumismat2._0
             else if (Properties.Settings.Default.MainWindowState == FormWindowState.Minimized)
             {
                 WindowState = FormWindowState.Maximized;
+            }
+
+            if (Properties.Settings.Default.UsePasswordProtection == true)
+            {
+                if (!string.IsNullOrEmpty(Properties.Settings.Default.CurrentUserPassword))
+                {
+                    MessageBox.Show(Properties.Settings.Default.CurrentUserPassword);
+                }
+            }
+            else
+            {
+                MessageBox.Show(Properties.Settings.Default.UsePasswordProtection.ToString());
             }
         }
 

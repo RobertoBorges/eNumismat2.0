@@ -33,15 +33,15 @@
             this.tb_CurrentPassword = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.tb_NewPassword = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.tb_PasswordConfirmation = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
-            this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
+            this.btn_Cancel = new DevComponents.DotNetBar.ButtonX();
+            this.btn_Save = new DevComponents.DotNetBar.ButtonX();
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.labelX2 = new DevComponents.DotNetBar.LabelX();
             this.labelX3 = new DevComponents.DotNetBar.LabelX();
             this.superValidator1 = new DevComponents.DotNetBar.Validator.SuperValidator();
+            this.compareValidator1 = new DevComponents.DotNetBar.Validator.CompareValidator();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.highlighter1 = new DevComponents.DotNetBar.Validator.Highlighter();
-            this.compareValidator1 = new DevComponents.DotNetBar.Validator.CompareValidator();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -97,30 +97,32 @@
             this.tb_PasswordConfirmation.UseSystemPasswordChar = true;
             this.superValidator1.SetValidator1(this.tb_PasswordConfirmation, this.compareValidator1);
             // 
-            // buttonX1
+            // btn_Cancel
             // 
-            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX1.Image = global::eNumismat2._0.Properties.Resources.action_delete;
-            this.buttonX1.Location = new System.Drawing.Point(135, 90);
-            this.buttonX1.Name = "buttonX1";
-            this.buttonX1.Size = new System.Drawing.Size(75, 23);
-            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX1.TabIndex = 3;
-            this.buttonX1.Text = "Cancel";
+            this.btn_Cancel.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btn_Cancel.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btn_Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btn_Cancel.Image = global::eNumismat2._0.Properties.Resources.action_delete;
+            this.btn_Cancel.Location = new System.Drawing.Point(135, 90);
+            this.btn_Cancel.Name = "btn_Cancel";
+            this.btn_Cancel.Size = new System.Drawing.Size(75, 23);
+            this.btn_Cancel.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btn_Cancel.TabIndex = 3;
+            this.btn_Cancel.Text = "Cancel";
+            this.btn_Cancel.Click += new System.EventHandler(this.BtnCancel_Click);
             // 
-            // buttonX2
+            // btn_Save
             // 
-            this.buttonX2.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX2.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX2.Image = global::eNumismat2._0.Properties.Resources.action_check;
-            this.buttonX2.Location = new System.Drawing.Point(216, 90);
-            this.buttonX2.Name = "buttonX2";
-            this.buttonX2.Size = new System.Drawing.Size(75, 23);
-            this.buttonX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX2.TabIndex = 4;
-            this.buttonX2.Text = "Save";
-            this.buttonX2.Click += new System.EventHandler(this.buttonX2_Click);
+            this.btn_Save.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btn_Save.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btn_Save.Image = global::eNumismat2._0.Properties.Resources.action_check;
+            this.btn_Save.Location = new System.Drawing.Point(216, 90);
+            this.btn_Save.Name = "btn_Save";
+            this.btn_Save.Size = new System.Drawing.Size(75, 23);
+            this.btn_Save.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btn_Save.TabIndex = 4;
+            this.btn_Save.Text = "Save";
+            this.btn_Save.Click += new System.EventHandler(this.BtnSave_Click);
             // 
             // labelX1
             // 
@@ -166,6 +168,12 @@
             this.superValidator1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.superValidator1.ValidationType = DevComponents.DotNetBar.Validator.eValidationType.ValidatingEventPerControl;
             // 
+            // compareValidator1
+            // 
+            this.compareValidator1.ControlToCompare = this.tb_NewPassword;
+            this.compareValidator1.ErrorMessage = "Your error message here.";
+            this.compareValidator1.HighlightColor = DevComponents.DotNetBar.Validator.eHighlightColor.Red;
+            // 
             // errorProvider1
             // 
             this.errorProvider1.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
@@ -175,24 +183,21 @@
             // highlighter1
             // 
             this.highlighter1.ContainerControl = this;
-            // 
-            // compareValidator1
-            // 
-            this.compareValidator1.ControlToCompare = this.tb_NewPassword;
-            this.compareValidator1.ErrorMessage = "Your error message here.";
-            this.compareValidator1.HighlightColor = DevComponents.DotNetBar.Validator.eHighlightColor.Red;
+            this.highlighter1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             // 
             // _SettingsDialog_PasswordProtection
             // 
+            this.AcceptButton = this.btn_Save;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.CancelButton = this.btn_Cancel;
             this.ClientSize = new System.Drawing.Size(320, 136);
             this.Controls.Add(this.labelX3);
             this.Controls.Add(this.labelX2);
             this.Controls.Add(this.labelX1);
-            this.Controls.Add(this.buttonX2);
-            this.Controls.Add(this.buttonX1);
+            this.Controls.Add(this.btn_Save);
+            this.Controls.Add(this.btn_Cancel);
             this.Controls.Add(this.tb_PasswordConfirmation);
             this.Controls.Add(this.tb_NewPassword);
             this.Controls.Add(this.tb_CurrentPassword);
@@ -209,8 +214,8 @@
         private DevComponents.DotNetBar.Controls.TextBoxX tb_CurrentPassword;
         private DevComponents.DotNetBar.Controls.TextBoxX tb_NewPassword;
         private DevComponents.DotNetBar.Controls.TextBoxX tb_PasswordConfirmation;
-        private DevComponents.DotNetBar.ButtonX buttonX1;
-        private DevComponents.DotNetBar.ButtonX buttonX2;
+        private DevComponents.DotNetBar.ButtonX btn_Cancel;
+        private DevComponents.DotNetBar.ButtonX btn_Save;
         private DevComponents.DotNetBar.LabelX labelX1;
         private DevComponents.DotNetBar.LabelX labelX2;
         private DevComponents.DotNetBar.LabelX labelX3;

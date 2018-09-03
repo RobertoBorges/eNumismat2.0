@@ -35,7 +35,7 @@
             this.tabControl1 = new DevComponents.DotNetBar.TabControl();
             this.tabControlPanel4 = new DevComponents.DotNetBar.TabControlPanel();
             this.labelX9 = new DevComponents.DotNetBar.LabelX();
-            this.switchButton2 = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.btn_UsePassword = new DevComponents.DotNetBar.Controls.SwitchButton();
             this.labelX5 = new DevComponents.DotNetBar.LabelX();
             this.btn_MinimizeToTray = new DevComponents.DotNetBar.Controls.SwitchButton();
             this.tabItem4 = new DevComponents.DotNetBar.TabItem(this.components);
@@ -160,7 +160,7 @@
             // tabControlPanel4
             // 
             this.tabControlPanel4.Controls.Add(this.labelX9);
-            this.tabControlPanel4.Controls.Add(this.switchButton2);
+            this.tabControlPanel4.Controls.Add(this.btn_UsePassword);
             this.tabControlPanel4.Controls.Add(this.labelX5);
             this.tabControlPanel4.Controls.Add(this.btn_MinimizeToTray);
             this.tabControlPanel4.DisabledBackColor = System.Drawing.Color.Empty;
@@ -184,16 +184,16 @@
             resources.ApplyResources(this.labelX9, "labelX9");
             this.labelX9.Name = "labelX9";
             // 
-            // switchButton2
+            // btn_UsePassword
             // 
             // 
             // 
             // 
-            this.switchButton2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            resources.ApplyResources(this.switchButton2, "switchButton2");
-            this.switchButton2.Name = "switchButton2";
-            this.switchButton2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.switchButton2.ValueChanged += new System.EventHandler(this.switchButton2_ValueChanged);
+            this.btn_UsePassword.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            resources.ApplyResources(this.btn_UsePassword, "btn_UsePassword");
+            this.btn_UsePassword.Name = "btn_UsePassword";
+            this.btn_UsePassword.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btn_UsePassword.ValueChanged += new System.EventHandler(this.BtnUsePassword_ValueChanged);
             // 
             // labelX5
             // 
@@ -784,6 +784,6 @@
         private DevComponents.DotNetBar.LabelItem labelItem1;
         private DevComponents.DotNetBar.Controls.TokenEditor tokenEditor1;
         private DevComponents.DotNetBar.LabelX labelX9;
-        private DevComponents.DotNetBar.Controls.SwitchButton switchButton2;
+        private DevComponents.DotNetBar.Controls.SwitchButton btn_UsePassword;
     }
 }

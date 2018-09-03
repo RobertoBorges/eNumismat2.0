@@ -34,6 +34,9 @@ namespace eNumismat2._0
             btn_UseValidation.Value = Properties.Settings.Default.AddressBook_UseValidation;
             btn_MinimizeToTray.Value = Properties.Settings.Default.MinimizeToTray;
 
+            // why is this button always set to false?
+            btn_UsePassword.Value = Properties.Settings.Default.UsePasswordProtection;
+
             // Get Properties for generating the ComboBox (DB Backup Path)
             if (Properties.Settings.Default.DBBackupPath == null)
             {
@@ -136,10 +139,40 @@ namespace eNumismat2._0
             DeleteSelectedTags();
         }
 
-        private void switchButton2_ValueChanged(object sender, EventArgs e)
+        //=====================================================================================================================================================================
+        private void BtnUsePassword_ValueChanged(object sender, EventArgs e)
         {
-            _SettingsDialog_PasswordProtection PWProtect = new _SettingsDialog_PasswordProtection();
-            PWProtect.ShowDialog();
+            if (SetPasswordProtection())
+            {
+                Properties.Settings.Default.UsePasswordProtection = btn_UsePassword.Value;
+                Properties.Settings.Default.Save();
+            }
+            else
+            {
+                btn_UsePassword.Value = false;
+            }
+        }
+
+        //=====================================================================================================================================================================
+        private bool SetPasswordProtection()
+        {
+            if (btn_UsePassword.Value == true)
+            {
+                _SettingsDialog_PasswordProtection PWProtect = new _SettingsDialog_PasswordProtection();
+
+                if (PWProtect.ShowDialog() == DialogResult.OK)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

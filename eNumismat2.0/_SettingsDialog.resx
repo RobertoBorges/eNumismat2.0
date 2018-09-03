@@ -147,28 +147,28 @@
   <data name="&gt;&gt;labelX9.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="switchButton2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="btn_UsePassword.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 11</value>
   </data>
-  <data name="switchButton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="btn_UsePassword.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="switchButton2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="btn_UsePassword.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 22</value>
   </data>
-  <data name="switchButton2.TabIndex" type="System.Int32, mscorlib">
+  <data name="btn_UsePassword.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
-  <data name="&gt;&gt;switchButton2.Name" xml:space="preserve">
-    <value>switchButton2</value>
+  <data name="&gt;&gt;btn_UsePassword.Name" xml:space="preserve">
+    <value>btn_UsePassword</value>
   </data>
-  <data name="&gt;&gt;switchButton2.Type" xml:space="preserve">
+  <data name="&gt;&gt;btn_UsePassword.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.Controls.SwitchButton, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;switchButton2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btn_UsePassword.Parent" xml:space="preserve">
     <value>tabControlPanel4</value>
   </data>
-  <data name="&gt;&gt;switchButton2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btn_UsePassword.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="labelX5.Location" type="System.Drawing.Point, System.Drawing">
@@ -900,18 +900,6 @@
   <data name="&gt;&gt;panelEx1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>375, 3</value>
-  </data>
-  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 35</value>
-  </data>
-  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="btn_Cancel.Text" xml:space="preserve">
-    <value>Cancel</value>
-  </data>
   <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
     <value>btn_Cancel</value>
   </data>
@@ -923,18 +911,6 @@
   </data>
   <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="btn_Save.Location" type="System.Drawing.Point, System.Drawing">
-    <value>467, 3</value>
-  </data>
-  <data name="btn_Save.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 35</value>
-  </data>
-  <data name="btn_Save.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="btn_Save.Text" xml:space="preserve">
-    <value>Save</value>
   </data>
   <data name="&gt;&gt;btn_Save.Name" xml:space="preserve">
     <value>btn_Save</value>
@@ -995,6 +971,54 @@
   </data>
   <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 3</value>
+  </data>
+  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 35</value>
+  </data>
+  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
+    <value>btn_Cancel</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
+    <value>panelEx2</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_Save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 3</value>
+  </data>
+  <data name="btn_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 35</value>
+  </data>
+  <data name="btn_Save.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btn_Save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Name" xml:space="preserve">
+    <value>btn_Save</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Parent" xml:space="preserve">
+    <value>panelEx2</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <metadata name="styleManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

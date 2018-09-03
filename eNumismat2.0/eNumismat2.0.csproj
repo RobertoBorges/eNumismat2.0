@@ -86,6 +86,7 @@
     <Compile Include="Classes\ConfigReadWrite.cs" />
     <Compile Include="Classes\DataBaseWork.cs" />
     <Compile Include="Classes\DataImportExport.cs" />
+    <Compile Include="Classes\GetHash.cs" />
     <Compile Include="Classes\LogWrite.cs" />
     <Compile Include="GlobalStrings.de.Designer.cs">
       <AutoGen>True</AutoGen>
