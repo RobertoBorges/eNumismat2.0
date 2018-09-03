@@ -167,6 +167,7 @@ namespace eNumismat2._0
                 if (!File.Exists(Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile)))
                 {
                     toolStripStatusLabel2.Text = GlobalStrings._dbConnectionNoDbFile;
+                    RefreshDbFileSettings();
                     return false;
                 }
                 else
@@ -178,9 +179,18 @@ namespace eNumismat2._0
             else
             {
                 toolStripStatusLabel2.Text = GlobalStrings._dbConnectionNoDbFile;
+                RefreshDbFileSettings();
                 return false;
             }
             
+        }
+
+        private void RefreshDbFileSettings()
+        {
+            Properties.Settings.Default.DBFilePath = "";
+            Properties.Settings.Default.DBFile = "";
+
+            Properties.Settings.Default.Save();
         }
 
         // Open "child" Forms
