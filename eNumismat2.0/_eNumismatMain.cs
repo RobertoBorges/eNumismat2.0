@@ -47,7 +47,7 @@ namespace eNumismat2._0
         }
 
         //=====================================================================================================================================================================
-        private void DisplayLanguage(string type = null)
+        private void DisplayLanguage()
         {
             CultureInfo DisplayCulture;
 
@@ -301,7 +301,7 @@ namespace eNumismat2._0
         {
             Properties.Settings.Default.UICulture = newCulture.Name;
             Properties.Settings.Default.Save();
-            DisplayLanguage("SetUiCulture");
+            DisplayLanguage();
         }
 
         //=====================================================================================================================================================================

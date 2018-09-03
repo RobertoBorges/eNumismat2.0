@@ -31,10 +31,10 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_ExchangeMonitor));
             this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
-            this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
             this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
-            this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
+            this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
+            this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.ribbonControl1.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -74,12 +74,6 @@
             this.ribbonControl1.SystemText.QatRemoveItemText = resources.GetString("ribbonControl1.SystemText.QatRemoveItemText");
             this.ribbonControl1.TabGroupHeight = 14;
             // 
-            // ribbonTabItem1
-            // 
-            this.ribbonTabItem1.Name = "ribbonTabItem1";
-            this.ribbonTabItem1.Panel = this.ribbonPanel1;
-            resources.ApplyResources(this.ribbonTabItem1, "ribbonTabItem1");
-            // 
             // ribbonPanel1
             // 
             this.ribbonPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -98,11 +92,6 @@
             // 
             // 
             this.ribbonPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // styleManager1
-            // 
-            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Light;
-            this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254))))), System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(143))))));
             // 
             // ribbonBar1
             // 
@@ -129,6 +118,17 @@
             // 
             // 
             this.ribbonBar1.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // ribbonTabItem1
+            // 
+            this.ribbonTabItem1.Name = "ribbonTabItem1";
+            this.ribbonTabItem1.Panel = this.ribbonPanel1;
+            resources.ApplyResources(this.ribbonTabItem1, "ribbonTabItem1");
+            // 
+            // styleManager1
+            // 
+            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Light;
+            this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254))))), System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(143))))));
             // 
             // _ExchangeMonitor
             // 

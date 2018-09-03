@@ -42,6 +42,9 @@
             this.dockSite1 = new DevComponents.DotNetBar.DockSite();
             this.bar1 = new DevComponents.DotNetBar.Bar();
             this.panelDockContainer1 = new DevComponents.DotNetBar.PanelDockContainer();
+            this.listViewEx1 = new DevComponents.DotNetBar.Controls.ListViewEx();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.dockContainerItem1 = new DevComponents.DotNetBar.DockContainerItem();
             this.dockSite2 = new DevComponents.DotNetBar.DockSite();
             this.dockSite8 = new DevComponents.DotNetBar.DockSite();
@@ -49,9 +52,7 @@
             this.dockSite6 = new DevComponents.DotNetBar.DockSite();
             this.dockSite7 = new DevComponents.DotNetBar.DockSite();
             this.dockSite3 = new DevComponents.DotNetBar.DockSite();
-            this.listViewEx1 = new DevComponents.DotNetBar.Controls.ListViewEx();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.label1 = new System.Windows.Forms.Label();
             this.ribbonControl1.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -242,6 +243,35 @@
             this.panelDockContainer1.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText;
             this.panelDockContainer1.Style.GradientAngle = 90;
             // 
+            // listViewEx1
+            // 
+            this.listViewEx1.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.listViewEx1.Border.Class = "ListViewBorder";
+            this.listViewEx1.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.listViewEx1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2});
+            this.listViewEx1.DisabledBackColor = System.Drawing.Color.Empty;
+            resources.ApplyResources(this.listViewEx1, "listViewEx1");
+            this.listViewEx1.ForeColor = System.Drawing.Color.Black;
+            this.listViewEx1.FullRowSelect = true;
+            this.listViewEx1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            ((System.Windows.Forms.ListViewItem)(resources.GetObject("listViewEx1.Items")))});
+            this.listViewEx1.Name = "listViewEx1";
+            this.listViewEx1.UseCompatibleStateImageBehavior = false;
+            this.listViewEx1.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader1
+            // 
+            resources.ApplyResources(this.columnHeader1, "columnHeader1");
+            // 
+            // columnHeader2
+            // 
+            resources.ApplyResources(this.columnHeader2, "columnHeader2");
+            // 
             // dockContainerItem1
             // 
             this.dockContainerItem1.Control = this.panelDockContainer1;
@@ -293,39 +323,16 @@
             this.dockSite3.Name = "dockSite3";
             this.dockSite3.TabStop = false;
             // 
-            // listViewEx1
+            // label1
             // 
-            this.listViewEx1.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.listViewEx1.Border.Class = "ListViewBorder";
-            this.listViewEx1.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.listViewEx1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2});
-            this.listViewEx1.DisabledBackColor = System.Drawing.Color.Empty;
-            resources.ApplyResources(this.listViewEx1, "listViewEx1");
-            this.listViewEx1.ForeColor = System.Drawing.Color.Black;
-            this.listViewEx1.FullRowSelect = true;
-            this.listViewEx1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            ((System.Windows.Forms.ListViewItem)(resources.GetObject("listViewEx1.Items")))});
-            this.listViewEx1.Name = "listViewEx1";
-            this.listViewEx1.UseCompatibleStateImageBehavior = false;
-            this.listViewEx1.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader1
-            // 
-            resources.ApplyResources(this.columnHeader1, "columnHeader1");
-            // 
-            // columnHeader2
-            // 
-            resources.ApplyResources(this.columnHeader2, "columnHeader2");
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
             // 
             // _AddressBook
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.dockSite2);
             this.Controls.Add(this.dockSite1);
             this.Controls.Add(this.statusStrip1);
@@ -376,5 +383,6 @@
         private DevComponents.DotNetBar.Controls.ListViewEx listViewEx1;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.Label label1;
     }
 }

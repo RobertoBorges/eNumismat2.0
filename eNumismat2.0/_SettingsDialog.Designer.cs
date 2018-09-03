@@ -33,6 +33,17 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panelEx1 = new DevComponents.DotNetBar.PanelEx();
             this.tabControl1 = new DevComponents.DotNetBar.TabControl();
+            this.tabControlPanel1 = new DevComponents.DotNetBar.TabControlPanel();
+            this.btn_SelectDbBackupPath = new DevComponents.DotNetBar.ButtonX();
+            this.labelX4 = new DevComponents.DotNetBar.LabelX();
+            this.cb_DbBackupPath = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.btn_DbCompressBeforeBackup = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.labelX2 = new DevComponents.DotNetBar.LabelX();
+            this.btn_DbBackupOnAppClose = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.labelX1 = new DevComponents.DotNetBar.LabelX();
+            this.tabItem1 = new DevComponents.DotNetBar.TabItem(this.components);
+            this.tabControlPanel3 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabItem3 = new DevComponents.DotNetBar.TabItem(this.components);
             this.tabControlPanel2 = new DevComponents.DotNetBar.TabControlPanel();
             this.tokenEditor1 = new DevComponents.DotNetBar.Controls.TokenEditor();
             this.ListBox_TagCollection = new DevComponents.DotNetBar.ListBoxAdv();
@@ -55,17 +66,6 @@
             this.tabItem4 = new DevComponents.DotNetBar.TabItem(this.components);
             this.tabControlPanel5 = new DevComponents.DotNetBar.TabControlPanel();
             this.tabItem5 = new DevComponents.DotNetBar.TabItem(this.components);
-            this.tabControlPanel3 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabItem3 = new DevComponents.DotNetBar.TabItem(this.components);
-            this.tabControlPanel1 = new DevComponents.DotNetBar.TabControlPanel();
-            this.btn_SelectDbBackupPath = new DevComponents.DotNetBar.ButtonX();
-            this.labelX4 = new DevComponents.DotNetBar.LabelX();
-            this.cb_DbBackupPath = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.btn_DbCompressBeforeBackup = new DevComponents.DotNetBar.Controls.SwitchButton();
-            this.labelX2 = new DevComponents.DotNetBar.LabelX();
-            this.btn_DbBackupOnAppClose = new DevComponents.DotNetBar.Controls.SwitchButton();
-            this.labelX1 = new DevComponents.DotNetBar.LabelX();
-            this.tabItem1 = new DevComponents.DotNetBar.TabItem(this.components);
             this.panelEx2 = new DevComponents.DotNetBar.PanelEx();
             this.btn_Cancel = new DevComponents.DotNetBar.ButtonX();
             this.btn_Save = new DevComponents.DotNetBar.ButtonX();
@@ -102,9 +102,9 @@
             this.panelEx1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl1)).BeginInit();
             this.tabControl1.SuspendLayout();
+            this.tabControlPanel1.SuspendLayout();
             this.tabControlPanel2.SuspendLayout();
             this.tabControlPanel4.SuspendLayout();
-            this.tabControlPanel1.SuspendLayout();
             this.panelEx2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -136,10 +136,10 @@
             this.tabControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
             this.tabControl1.CanReorderTabs = true;
             this.tabControl1.CloseButtonOnTabsAlwaysDisplayed = false;
-            this.tabControl1.Controls.Add(this.tabControlPanel1);
-            this.tabControl1.Controls.Add(this.tabControlPanel3);
             this.tabControl1.Controls.Add(this.tabControlPanel2);
+            this.tabControl1.Controls.Add(this.tabControlPanel1);
             this.tabControl1.Controls.Add(this.tabControlPanel4);
+            this.tabControl1.Controls.Add(this.tabControlPanel3);
             this.tabControl1.Controls.Add(this.tabControlPanel5);
             resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.ForeColor = System.Drawing.Color.Black;
@@ -154,6 +154,120 @@
             this.tabControl1.Tabs.Add(this.tabItem3);
             this.tabControl1.Tabs.Add(this.tabItem5);
             this.tabControl1.ThemeAware = true;
+            // 
+            // tabControlPanel1
+            // 
+            this.tabControlPanel1.Controls.Add(this.btn_SelectDbBackupPath);
+            this.tabControlPanel1.Controls.Add(this.labelX4);
+            this.tabControlPanel1.Controls.Add(this.cb_DbBackupPath);
+            this.tabControlPanel1.Controls.Add(this.btn_DbCompressBeforeBackup);
+            this.tabControlPanel1.Controls.Add(this.labelX2);
+            this.tabControlPanel1.Controls.Add(this.btn_DbBackupOnAppClose);
+            this.tabControlPanel1.Controls.Add(this.labelX1);
+            this.tabControlPanel1.DisabledBackColor = System.Drawing.Color.Empty;
+            resources.ApplyResources(this.tabControlPanel1, "tabControlPanel1");
+            this.tabControlPanel1.Name = "tabControlPanel1";
+            this.tabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.tabControlPanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel1.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.tabControlPanel1.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel1.Style.GradientAngle = 90;
+            this.tabControlPanel1.TabItem = this.tabItem1;
+            // 
+            // btn_SelectDbBackupPath
+            // 
+            this.btn_SelectDbBackupPath.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btn_SelectDbBackupPath.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            resources.ApplyResources(this.btn_SelectDbBackupPath, "btn_SelectDbBackupPath");
+            this.btn_SelectDbBackupPath.Name = "btn_SelectDbBackupPath";
+            this.btn_SelectDbBackupPath.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btn_SelectDbBackupPath.Click += new System.EventHandler(this.Btn_SelectDbBackupPath_Click);
+            // 
+            // labelX4
+            // 
+            this.labelX4.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.labelX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            resources.ApplyResources(this.labelX4, "labelX4");
+            this.labelX4.Name = "labelX4";
+            // 
+            // cb_DbBackupPath
+            // 
+            this.cb_DbBackupPath.DisplayMember = "Text";
+            this.cb_DbBackupPath.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cb_DbBackupPath.ForeColor = System.Drawing.Color.Black;
+            this.cb_DbBackupPath.FormattingEnabled = true;
+            resources.ApplyResources(this.cb_DbBackupPath, "cb_DbBackupPath");
+            this.cb_DbBackupPath.Name = "cb_DbBackupPath";
+            this.cb_DbBackupPath.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            // 
+            // btn_DbCompressBeforeBackup
+            // 
+            // 
+            // 
+            // 
+            this.btn_DbCompressBeforeBackup.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            resources.ApplyResources(this.btn_DbCompressBeforeBackup, "btn_DbCompressBeforeBackup");
+            this.btn_DbCompressBeforeBackup.Name = "btn_DbCompressBeforeBackup";
+            this.btn_DbCompressBeforeBackup.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            // 
+            // labelX2
+            // 
+            this.labelX2.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            resources.ApplyResources(this.labelX2, "labelX2");
+            this.labelX2.Name = "labelX2";
+            // 
+            // btn_DbBackupOnAppClose
+            // 
+            // 
+            // 
+            // 
+            this.btn_DbBackupOnAppClose.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            resources.ApplyResources(this.btn_DbBackupOnAppClose, "btn_DbBackupOnAppClose");
+            this.btn_DbBackupOnAppClose.Name = "btn_DbBackupOnAppClose";
+            this.btn_DbBackupOnAppClose.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            // 
+            // labelX1
+            // 
+            this.labelX1.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            resources.ApplyResources(this.labelX1, "labelX1");
+            this.labelX1.Name = "labelX1";
+            // 
+            // tabItem1
+            // 
+            this.tabItem1.AttachedControl = this.tabControlPanel1;
+            this.tabItem1.Name = "tabItem1";
+            resources.ApplyResources(this.tabItem1, "tabItem1");
+            // 
+            // tabControlPanel3
+            // 
+            this.tabControlPanel3.DisabledBackColor = System.Drawing.Color.Empty;
+            resources.ApplyResources(this.tabControlPanel3, "tabControlPanel3");
+            this.tabControlPanel3.Name = "tabControlPanel3";
+            this.tabControlPanel3.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.tabControlPanel3.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel3.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
+            this.tabControlPanel3.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel3.Style.GradientAngle = 90;
+            this.tabControlPanel3.TabItem = this.tabItem3;
+            // 
+            // tabItem3
+            // 
+            this.tabItem3.AttachedControl = this.tabControlPanel3;
+            this.tabItem3.Name = "tabItem3";
+            resources.ApplyResources(this.tabItem3, "tabItem3");
             // 
             // tabControlPanel2
             // 
@@ -203,6 +317,7 @@
             this.ListBox_TagCollection.BackgroundStyle.Class = "ListBoxAdv";
             this.ListBox_TagCollection.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.ListBox_TagCollection.CheckBoxesVisible = true;
+            this.ListBox_TagCollection.CheckStateMember = null;
             this.ListBox_TagCollection.ContainerControlProcessDialogKey = true;
             this.ListBox_TagCollection.DragDropSupport = true;
             this.ListBox_TagCollection.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
@@ -218,7 +333,6 @@
             this.listBoxAdv1.BackgroundStyle.Class = "ListBoxAdv";
             this.listBoxAdv1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.listBoxAdv1.CheckBoxesVisible = true;
-            this.listBoxAdv1.CheckStateMember = null;
             this.listBoxAdv1.ContainerControlProcessDialogKey = true;
             this.listBoxAdv1.Cursor = System.Windows.Forms.Cursors.Default;
             this.listBoxAdv1.DragDropSupport = true;
@@ -395,120 +509,6 @@
             this.tabItem5.Name = "tabItem5";
             resources.ApplyResources(this.tabItem5, "tabItem5");
             // 
-            // tabControlPanel3
-            // 
-            this.tabControlPanel3.DisabledBackColor = System.Drawing.Color.Empty;
-            resources.ApplyResources(this.tabControlPanel3, "tabControlPanel3");
-            this.tabControlPanel3.Name = "tabControlPanel3";
-            this.tabControlPanel3.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
-            this.tabControlPanel3.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel3.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
-            this.tabControlPanel3.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel3.Style.GradientAngle = 90;
-            this.tabControlPanel3.TabItem = this.tabItem3;
-            // 
-            // tabItem3
-            // 
-            this.tabItem3.AttachedControl = this.tabControlPanel3;
-            this.tabItem3.Name = "tabItem3";
-            resources.ApplyResources(this.tabItem3, "tabItem3");
-            // 
-            // tabControlPanel1
-            // 
-            this.tabControlPanel1.Controls.Add(this.btn_SelectDbBackupPath);
-            this.tabControlPanel1.Controls.Add(this.labelX4);
-            this.tabControlPanel1.Controls.Add(this.cb_DbBackupPath);
-            this.tabControlPanel1.Controls.Add(this.btn_DbCompressBeforeBackup);
-            this.tabControlPanel1.Controls.Add(this.labelX2);
-            this.tabControlPanel1.Controls.Add(this.btn_DbBackupOnAppClose);
-            this.tabControlPanel1.Controls.Add(this.labelX1);
-            this.tabControlPanel1.DisabledBackColor = System.Drawing.Color.Empty;
-            resources.ApplyResources(this.tabControlPanel1, "tabControlPanel1");
-            this.tabControlPanel1.Name = "tabControlPanel1";
-            this.tabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
-            this.tabControlPanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel1.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
-            this.tabControlPanel1.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel1.Style.GradientAngle = 90;
-            this.tabControlPanel1.TabItem = this.tabItem1;
-            // 
-            // btn_SelectDbBackupPath
-            // 
-            this.btn_SelectDbBackupPath.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btn_SelectDbBackupPath.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            resources.ApplyResources(this.btn_SelectDbBackupPath, "btn_SelectDbBackupPath");
-            this.btn_SelectDbBackupPath.Name = "btn_SelectDbBackupPath";
-            this.btn_SelectDbBackupPath.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btn_SelectDbBackupPath.Click += new System.EventHandler(this.Btn_SelectDbBackupPath_Click);
-            // 
-            // labelX4
-            // 
-            this.labelX4.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.labelX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            resources.ApplyResources(this.labelX4, "labelX4");
-            this.labelX4.Name = "labelX4";
-            // 
-            // cb_DbBackupPath
-            // 
-            this.cb_DbBackupPath.DisplayMember = "Text";
-            this.cb_DbBackupPath.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cb_DbBackupPath.ForeColor = System.Drawing.Color.Black;
-            this.cb_DbBackupPath.FormattingEnabled = true;
-            resources.ApplyResources(this.cb_DbBackupPath, "cb_DbBackupPath");
-            this.cb_DbBackupPath.Name = "cb_DbBackupPath";
-            this.cb_DbBackupPath.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            // 
-            // btn_DbCompressBeforeBackup
-            // 
-            // 
-            // 
-            // 
-            this.btn_DbCompressBeforeBackup.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            resources.ApplyResources(this.btn_DbCompressBeforeBackup, "btn_DbCompressBeforeBackup");
-            this.btn_DbCompressBeforeBackup.Name = "btn_DbCompressBeforeBackup";
-            this.btn_DbCompressBeforeBackup.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            // 
-            // labelX2
-            // 
-            this.labelX2.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            resources.ApplyResources(this.labelX2, "labelX2");
-            this.labelX2.Name = "labelX2";
-            // 
-            // btn_DbBackupOnAppClose
-            // 
-            // 
-            // 
-            // 
-            this.btn_DbBackupOnAppClose.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            resources.ApplyResources(this.btn_DbBackupOnAppClose, "btn_DbBackupOnAppClose");
-            this.btn_DbBackupOnAppClose.Name = "btn_DbBackupOnAppClose";
-            this.btn_DbBackupOnAppClose.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            // 
-            // labelX1
-            // 
-            this.labelX1.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            resources.ApplyResources(this.labelX1, "labelX1");
-            this.labelX1.Name = "labelX1";
-            // 
-            // tabItem1
-            // 
-            this.tabItem1.AttachedControl = this.tabControlPanel1;
-            this.tabItem1.Name = "tabItem1";
-            resources.ApplyResources(this.tabItem1, "tabItem1");
-            // 
             // panelEx2
             // 
             this.panelEx2.CanvasColor = System.Drawing.SystemColors.Control;
@@ -680,9 +680,9 @@
             this.panelEx1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tabControl1)).EndInit();
             this.tabControl1.ResumeLayout(false);
+            this.tabControlPanel1.ResumeLayout(false);
             this.tabControlPanel2.ResumeLayout(false);
             this.tabControlPanel4.ResumeLayout(false);
-            this.tabControlPanel1.ResumeLayout(false);
             this.panelEx2.ResumeLayout(false);
             this.ResumeLayout(false);
 

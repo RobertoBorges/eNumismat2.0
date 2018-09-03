@@ -250,7 +250,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ribbonControl1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>149, 17</value>
@@ -283,7 +283,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <metadata name="dotNetBarManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>265, 17</value>
@@ -310,13 +310,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dockSite4.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="bar1.AccessibleDescription" xml:space="preserve">
-    <value>DotNetBar Bar (bar1)</value>
+    <value>Contacts (bar1)</value>
   </data>
   <data name="bar1.AccessibleName" xml:space="preserve">
-    <value>DotNetBar Bar</value>
+    <value>Contacts</value>
   </data>
   <data name="columnHeader1.Text" xml:space="preserve">
     <value>Name</value>
@@ -445,7 +445,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dockSite1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -458,6 +458,36 @@
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1070, 700</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>533, 392</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>English Test label - this should be translated, if I swith the language :)</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="dockSite2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
@@ -481,7 +511,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dockSite2.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="dockSite3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -505,7 +535,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dockSite3.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="dockSite5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
@@ -529,7 +559,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dockSite5.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="dockSite6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
@@ -553,7 +583,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dockSite6.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="dockSite7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -577,7 +607,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dockSite7.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="dockSite8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Bottom</value>
@@ -601,7 +631,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dockSite8.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>_AddressBook</value>
@@ -630,12 +660,6 @@
   <data name="&gt;&gt;dotNetBarManager1.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.DotNetBarManager, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;dockContainerItem1.Name" xml:space="preserve">
-    <value>dockContainerItem1</value>
-  </data>
-  <data name="&gt;&gt;dockContainerItem1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.DockContainerItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
   <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
     <value>columnHeader1</value>
   </data>
@@ -647,6 +671,12 @@
   </data>
   <data name="&gt;&gt;columnHeader2.Type" xml:space="preserve">
     <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dockContainerItem1.Name" xml:space="preserve">
+    <value>dockContainerItem1</value>
+  </data>
+  <data name="&gt;&gt;dockContainerItem1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.DockContainerItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>_AddressBook</value>
