@@ -40,27 +40,39 @@ namespace eNumismat2._0
                     }
                 }
             }
-
-            CheckIfDbFileExists();
-
-            if (Properties.Settings.Default.MainWindowState == FormWindowState.Maximized)
-            {
-                WindowState = FormWindowState.Maximized;
-            }
-            else if(Properties.Settings.Default.MainWindowState == FormWindowState.Normal)
-            {
-                Size = new Size(Properties.Settings.Default.MainWindowWidth, Properties.Settings.Default.MainWindowHeight);
-            }
-            else if (Properties.Settings.Default.MainWindowState == FormWindowState.Minimized)
-            {
-                WindowState = FormWindowState.Maximized;
-            }
         }
 
         //=====================================================================================================================================================================
         private void Form1_Load(object sender, EventArgs e)
         {
-            DisplayLanguage();
+            _eNumismatMain_PasswordCheck PwCheck = new _eNumismatMain_PasswordCheck();
+
+            if (Properties.Settings.Default.UsePasswordProtection == true)
+            {
+                if (PwCheck.ShowDialog() != DialogResult.OK)
+                {
+                    Close();
+                }
+            }
+            else
+            {
+                CheckIfDbFileExists();
+
+                if (Properties.Settings.Default.MainWindowState == FormWindowState.Maximized)
+                {
+                    WindowState = FormWindowState.Maximized;
+                }
+                else if (Properties.Settings.Default.MainWindowState == FormWindowState.Normal)
+                {
+                    Size = new Size(Properties.Settings.Default.MainWindowWidth, Properties.Settings.Default.MainWindowHeight);
+                }
+                else if (Properties.Settings.Default.MainWindowState == FormWindowState.Minimized)
+                {
+                    WindowState = FormWindowState.Maximized;
+                }
+
+                DisplayLanguage();
+            }
         }
 
         //=====================================================================================================================================================================

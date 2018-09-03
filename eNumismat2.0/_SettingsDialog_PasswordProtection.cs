@@ -43,17 +43,12 @@ namespace eNumismat2._0
             {
                 if (!string.IsNullOrEmpty(tb_CurrentPassword.Text))
                 {
-                    
                     if (EncryptPW.Calculate(tb_CurrentPassword.Text) == Properties.Settings.Default.CurrentUserPassword)
                     {
-                        MessageBox.Show("Current PW is correct");
-
                         if (tb_NewPassword.Text.CompareTo(tb_PasswordConfirmation.Text) == 0)
                         {
                             Properties.Settings.Default.CurrentUserPassword = EncryptPW.Calculate(tb_NewPassword.Text);
                             Properties.Settings.Default.Save();
-
-                            Hide();
                         }
                     }
                     else
@@ -63,7 +58,6 @@ namespace eNumismat2._0
                         tb_CurrentPassword.Text = "";
                         tb_CurrentPassword.Focus();
                     }
-
                 }
                 else
                 {
@@ -85,12 +79,5 @@ namespace eNumismat2._0
         {
             
         }
-
-        //private string EncryptPWString(string input)
-        //{
-        //    byte[] CurrentPassword = Encoding.Unicode.GetBytes(input);
-        //    byte[] encryptedText = ProtectedData.Protect(CurrentPassword, DataProtectionScope.CurrentUser);
-        //    return Convert.ToBase64String(encryptedText);
-        //}
     }
 }

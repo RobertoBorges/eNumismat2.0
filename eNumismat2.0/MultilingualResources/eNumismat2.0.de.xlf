@@ -3324,4 +3324,93 @@
       </group>
     </body>
   </file>
+  <file datatype="xml" source-language="en" target-language="de" original="ENUMISMAT2.0/_ENUMISMATMAIN_PASSWORDCHECK.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6900.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="ENUMISMAT2.0/_ENUMISMATMAIN_PASSWORDCHECK.RESX" datatype="resx">
+        <trans-unit id="labelX1.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+          <source>8, 9</source>
+          <target state="needs-review-translation">8, 9</target>
+        </trans-unit>
+        <trans-unit id="labelX1.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+          <source>108, 23</source>
+          <target state="needs-review-translation">108, 23</target>
+        </trans-unit>
+        <trans-unit id="labelX1.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+          <source>9</source>
+          <target state="needs-review-translation">9</target>
+        </trans-unit>
+        <trans-unit id="labelX1.Text" translate="yes" xml:space="preserve">
+          <source>Current Password</source>
+          <target state="new">Current Password</target>
+        </trans-unit>
+        <trans-unit id="btn_Save.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+          <source>203, 38</source>
+          <target state="needs-review-translation">203, 38</target>
+        </trans-unit>
+        <trans-unit id="btn_Save.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+          <source>75, 23</source>
+          <target state="needs-review-translation">75, 23</target>
+        </trans-unit>
+        <trans-unit id="btn_Save.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+          <source>8</source>
+          <target state="needs-review-translation">8</target>
+        </trans-unit>
+        <trans-unit id="btn_Save.Text" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="new">Save</target>
+        </trans-unit>
+        <trans-unit id="btn_Cancel.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+          <source>122, 38</source>
+          <target state="needs-review-translation">122, 38</target>
+        </trans-unit>
+        <trans-unit id="btn_Cancel.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+          <source>75, 23</source>
+          <target state="needs-review-translation">75, 23</target>
+        </trans-unit>
+        <trans-unit id="btn_Cancel.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+          <source>7</source>
+          <target state="needs-review-translation">7</target>
+        </trans-unit>
+        <trans-unit id="btn_Cancel.Text" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="new">Cancel</target>
+        </trans-unit>
+        <trans-unit id="tb_CurrentPassword.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+          <source>122, 12</source>
+          <target state="needs-review-translation">122, 12</target>
+        </trans-unit>
+        <trans-unit id="tb_CurrentPassword.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+          <source>156, 20</source>
+          <target state="needs-review-translation">156, 20</target>
+        </trans-unit>
+        <trans-unit id="tb_CurrentPassword.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+          <source>6</source>
+          <target state="needs-review-translation">6</target>
+        </trans-unit>
+        <trans-unit id="$this.AutoScaleDimensions" translate="yes" xml:space="preserve" extype="System.Drawing.SizeF, System.Drawing">
+          <source>6, 13</source>
+          <target state="needs-review-translation">6, 13</target>
+        </trans-unit>
+        <trans-unit id="$this.ClientSize" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+          <source>294, 74</source>
+          <target state="needs-review-translation">294, 74</target>
+        </trans-unit>
+        <trans-unit id="$this.StartPosition" translate="yes" xml:space="preserve" extype="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+          <source>CenterScreen</source>
+          <target state="needs-review-translation">CenterScreen</target>
+        </trans-unit>
+        <trans-unit id="$this.Text" translate="yes" xml:space="preserve">
+          <source>_eNumismatMain_PasswordCheck</source>
+          <target state="new">_eNumismatMain_PasswordCheck</target>
+        </trans-unit>
+        <trans-unit id="$this.Localizable" translate="yes" xml:space="preserve" extype="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" extradata="metadata">
+          <source>True</source>
+          <target state="needs-review-translation">True</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
 </xliff>
