@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.IO;
-using System.Windows.Forms;
 using System.Data.SQLite;
 
 namespace eNumismat2._0.Classes
@@ -52,8 +51,6 @@ namespace eNumismat2._0.Classes
         //=====================================================================================================================================================================
         private bool CheckBackupDir()
         {
-            MessageBox.Show(DataBaseFile);
-
             if (Directory.Exists(BackupPath))
             {
                 return true;
@@ -75,14 +72,10 @@ namespace eNumismat2._0.Classes
         //=====================================================================================================================================================================
         public bool ExcecuteBackup()
         {
-            MessageBox.Show(DataBaseFile);
-
             if (CheckBackupDir())
             {
                 string SourceFile = DataBaseFile;
                 string DestFile = Path.Combine(BackupPath, DateTime.Now.ToString("yyyy_MM_dd-HHmmss") + ".encBack");
-
-                MessageBox.Show(SourceFile);
 
                 using (var source = new SQLiteConnection("Data Source=" + SourceFile))
                 {
@@ -178,8 +171,6 @@ namespace eNumismat2._0.Classes
 
         public void DeleteTagFromTagCollection(List<string>Tags)
         {
-            string TagItems = null;
-
             using (SQLiteConnection SQLiteConn = new SQLiteConnection("Datasource=" + DataBaseFile))
             {
                 try
