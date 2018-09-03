@@ -118,17 +118,584 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_SelectDbBackupPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 109</value>
+  </data>
+  <data name="btn_SelectDbBackupPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_SelectDbBackupPath.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btn_SelectDbBackupPath.Text" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="&gt;&gt;btn_SelectDbBackupPath.Name" xml:space="preserve">
+    <value>btn_SelectDbBackupPath</value>
+  </data>
+  <data name="&gt;&gt;btn_SelectDbBackupPath.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btn_SelectDbBackupPath.Parent" xml:space="preserve">
+    <value>tabControlPanel1</value>
+  </data>
+  <data name="&gt;&gt;btn_SelectDbBackupPath.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelX4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 80</value>
+  </data>
+  <data name="labelX4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 23</value>
+  </data>
+  <data name="labelX4.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="labelX4.Text" xml:space="preserve">
+    <value>Select the path where the Backup should be stored</value>
+  </data>
+  <data name="&gt;&gt;labelX4.Name" xml:space="preserve">
+    <value>labelX4</value>
+  </data>
+  <data name="&gt;&gt;labelX4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX4.Parent" xml:space="preserve">
+    <value>tabControlPanel1</value>
+  </data>
+  <data name="&gt;&gt;labelX4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cb_DbBackupPath.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cb_DbBackupPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 109</value>
+  </data>
+  <data name="cb_DbBackupPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 20</value>
+  </data>
+  <data name="cb_DbBackupPath.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;cb_DbBackupPath.Name" xml:space="preserve">
+    <value>cb_DbBackupPath</value>
+  </data>
+  <data name="&gt;&gt;cb_DbBackupPath.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;cb_DbBackupPath.Parent" xml:space="preserve">
+    <value>tabControlPanel1</value>
+  </data>
+  <data name="&gt;&gt;cb_DbBackupPath.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_DbCompressBeforeBackup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 35</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_DbCompressBeforeBackup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btn_DbCompressBeforeBackup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="btn_DbCompressBeforeBackup.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btn_DbCompressBeforeBackup.Name" xml:space="preserve">
+    <value>btn_DbCompressBeforeBackup</value>
+  </data>
+  <data name="&gt;&gt;btn_DbCompressBeforeBackup.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.SwitchButton, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btn_DbCompressBeforeBackup.Parent" xml:space="preserve">
+    <value>tabControlPanel1</value>
+  </data>
+  <data name="&gt;&gt;btn_DbCompressBeforeBackup.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelX2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 34</value>
+  </data>
+  <data name="labelX2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="labelX2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 23</value>
+  </data>
+  <data name="labelX2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="labelX2.Text" xml:space="preserve">
+    <value>Compress Database before Backup</value>
+  </data>
+  <data name="&gt;&gt;labelX2.Name" xml:space="preserve">
+    <value>labelX2</value>
+  </data>
+  <data name="&gt;&gt;labelX2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX2.Parent" xml:space="preserve">
+    <value>tabControlPanel1</value>
+  </data>
+  <data name="&gt;&gt;labelX2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btn_DbBackupOnAppClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 11</value>
+  </data>
+  <data name="btn_DbBackupOnAppClose.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btn_DbBackupOnAppClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="btn_DbBackupOnAppClose.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btn_DbBackupOnAppClose.Name" xml:space="preserve">
+    <value>btn_DbBackupOnAppClose</value>
+  </data>
+  <data name="&gt;&gt;btn_DbBackupOnAppClose.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.SwitchButton, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btn_DbBackupOnAppClose.Parent" xml:space="preserve">
+    <value>tabControlPanel1</value>
+  </data>
+  <data name="&gt;&gt;btn_DbBackupOnAppClose.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelX1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 11</value>
+  </data>
+  <data name="labelX1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="labelX1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 23</value>
+  </data>
+  <data name="labelX1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="labelX1.Text" xml:space="preserve">
+    <value>Run Backup on Application Close</value>
+  </data>
+  <data name="&gt;&gt;labelX1.Name" xml:space="preserve">
+    <value>labelX1</value>
+  </data>
+  <data name="&gt;&gt;labelX1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX1.Parent" xml:space="preserve">
+    <value>tabControlPanel1</value>
+  </data>
+  <data name="&gt;&gt;labelX1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tabControlPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControlPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="tabControlPanel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="tabControlPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>556, 456</value>
+  </data>
+  <data name="tabControlPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabItem1.Text" xml:space="preserve">
+    <value>Database Settings</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel1.Name" xml:space="preserve">
+    <value>tabControlPanel1</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.TabControlPanel, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel1.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabControlPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControlPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="tabControlPanel3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="tabControlPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>556, 456</value>
+  </data>
+  <data name="tabControlPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tabItem3.Text" xml:space="preserve">
+    <value>Exchange Monitor</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel3.Name" xml:space="preserve">
+    <value>tabControlPanel3</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.TabControlPanel, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel3.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tokenEditor1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 239</value>
+  </data>
+  <data name="tokenEditor1.Separators" xml:space="preserve">
+    <value>;</value>
+  </data>
+  <data name="tokenEditor1.Separators1" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="tokenEditor1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 95</value>
+  </data>
+  <data name="tokenEditor1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tokenEditor1.Name" xml:space="preserve">
+    <value>tokenEditor1</value>
+  </data>
+  <data name="&gt;&gt;tokenEditor1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TokenEditor, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;tokenEditor1.Parent" xml:space="preserve">
+    <value>tabControlPanel2</value>
+  </data>
+  <data name="&gt;&gt;tokenEditor1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListBox_TagCollection.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ListBox_TagCollection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 239</value>
+  </data>
+  <data name="ListBox_TagCollection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>333, 95</value>
+  </data>
+  <data name="ListBox_TagCollection.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="ListBox_TagCollection.Text" xml:space="preserve">
+    <value>listBoxAdv2</value>
+  </data>
+  <data name="&gt;&gt;ListBox_TagCollection.Name" xml:space="preserve">
+    <value>ListBox_TagCollection</value>
+  </data>
+  <data name="&gt;&gt;ListBox_TagCollection.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ListBoxAdv, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;ListBox_TagCollection.Parent" xml:space="preserve">
+    <value>tabControlPanel2</value>
+  </data>
+  <data name="&gt;&gt;ListBox_TagCollection.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="listBoxAdv1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="listBoxAdv1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 91</value>
+  </data>
+  <data name="listBoxAdv1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>333, 95</value>
+  </data>
+  <data name="listBoxAdv1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="listBoxAdv1.Text" xml:space="preserve">
+    <value>listBoxAdv1</value>
+  </data>
+  <data name="&gt;&gt;listBoxAdv1.Name" xml:space="preserve">
+    <value>listBoxAdv1</value>
+  </data>
+  <data name="&gt;&gt;listBoxAdv1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ListBoxAdv, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;listBoxAdv1.Parent" xml:space="preserve">
+    <value>tabControlPanel2</value>
+  </data>
+  <data name="&gt;&gt;listBoxAdv1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelX8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 340</value>
+  </data>
+  <data name="labelX8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 30</value>
+  </data>
+  <data name="labelX8.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="labelX8.Text" xml:space="preserve">
+    <value>Add or Delete Tags</value>
+  </data>
+  <data name="&gt;&gt;labelX8.Name" xml:space="preserve">
+    <value>labelX8</value>
+  </data>
+  <data name="&gt;&gt;labelX8.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX8.Parent" xml:space="preserve">
+    <value>tabControlPanel2</value>
+  </data>
+  <data name="&gt;&gt;labelX8.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonX3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 340</value>
+  </data>
+  <data name="buttonX3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="buttonX3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;buttonX3.Name" xml:space="preserve">
+    <value>buttonX3</value>
+  </data>
+  <data name="&gt;&gt;buttonX3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;buttonX3.Parent" xml:space="preserve">
+    <value>tabControlPanel2</value>
+  </data>
+  <data name="&gt;&gt;buttonX3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonX4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 340</value>
+  </data>
+  <data name="buttonX4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="buttonX4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;buttonX4.Name" xml:space="preserve">
+    <value>buttonX4</value>
+  </data>
+  <data name="&gt;&gt;buttonX4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;buttonX4.Parent" xml:space="preserve">
+    <value>tabControlPanel2</value>
+  </data>
+  <data name="&gt;&gt;buttonX4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelX7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 192</value>
+  </data>
+  <data name="labelX7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 30</value>
+  </data>
+  <data name="labelX7.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelX7.Text" xml:space="preserve">
+    <value>Add or Delete Labels</value>
+  </data>
+  <data name="&gt;&gt;labelX7.Name" xml:space="preserve">
+    <value>labelX7</value>
+  </data>
+  <data name="&gt;&gt;labelX7.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX7.Parent" xml:space="preserve">
+    <value>tabControlPanel2</value>
+  </data>
+  <data name="&gt;&gt;labelX7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="buttonX2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 192</value>
+  </data>
+  <data name="buttonX2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="buttonX2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;buttonX2.Name" xml:space="preserve">
+    <value>buttonX2</value>
+  </data>
+  <data name="&gt;&gt;buttonX2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;buttonX2.Parent" xml:space="preserve">
+    <value>tabControlPanel2</value>
+  </data>
+  <data name="&gt;&gt;buttonX2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="buttonX1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 192</value>
+  </data>
+  <data name="buttonX1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="buttonX1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;buttonX1.Name" xml:space="preserve">
+    <value>buttonX1</value>
+  </data>
+  <data name="&gt;&gt;buttonX1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;buttonX1.Parent" xml:space="preserve">
+    <value>tabControlPanel2</value>
+  </data>
+  <data name="&gt;&gt;buttonX1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelX6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 39</value>
+  </data>
+  <data name="labelX6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 23</value>
+  </data>
+  <data name="labelX6.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelX6.Text" xml:space="preserve">
+    <value>AutoFill for Address-Data</value>
+  </data>
+  <data name="&gt;&gt;labelX6.Name" xml:space="preserve">
+    <value>labelX6</value>
+  </data>
+  <data name="&gt;&gt;labelX6.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX6.Parent" xml:space="preserve">
+    <value>tabControlPanel2</value>
+  </data>
+  <data name="&gt;&gt;labelX6.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="switchButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 39</value>
+  </data>
+  <data name="switchButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 22</value>
+  </data>
+  <data name="switchButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;switchButton1.Name" xml:space="preserve">
+    <value>switchButton1</value>
+  </data>
+  <data name="&gt;&gt;switchButton1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.SwitchButton, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;switchButton1.Parent" xml:space="preserve">
+    <value>tabControlPanel2</value>
+  </data>
+  <data name="&gt;&gt;switchButton1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="labelX3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 10</value>
+  </data>
+  <data name="labelX3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 23</value>
+  </data>
+  <data name="labelX3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelX3.Text" xml:space="preserve">
+    <value>Use Validation for Contacts</value>
+  </data>
+  <data name="&gt;&gt;labelX3.Name" xml:space="preserve">
+    <value>labelX3</value>
+  </data>
+  <data name="&gt;&gt;labelX3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX3.Parent" xml:space="preserve">
+    <value>tabControlPanel2</value>
+  </data>
+  <data name="&gt;&gt;labelX3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btn_UseValidation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 11</value>
+  </data>
+  <data name="btn_UseValidation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 22</value>
+  </data>
+  <data name="btn_UseValidation.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_UseValidation.Name" xml:space="preserve">
+    <value>btn_UseValidation</value>
+  </data>
+  <data name="&gt;&gt;btn_UseValidation.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.SwitchButton, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btn_UseValidation.Parent" xml:space="preserve">
+    <value>tabControlPanel2</value>
+  </data>
+  <data name="&gt;&gt;btn_UseValidation.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="tabControlPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControlPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="tabControlPanel2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="tabControlPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>556, 456</value>
+  </data>
+  <data name="tabControlPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tabItem2.Text" xml:space="preserve">
+    <value>Addressbook</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel2.Name" xml:space="preserve">
+    <value>tabControlPanel2</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.TabControlPanel, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel2.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="labelX5.Location" type="System.Drawing.Point, System.Drawing">
     <value>81, 11</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="labelX5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="labelX5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 23</value>
+    <value>301, 23</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="labelX5.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
@@ -199,340 +766,7 @@
     <value>tabControl1</value>
   </data>
   <data name="&gt;&gt;tabControlPanel4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tokenEditor1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 239</value>
-  </data>
-  <data name="tokenEditor1.Separators" xml:space="preserve">
-    <value>;</value>
-  </data>
-  <data name="tokenEditor1.Separators1" xml:space="preserve">
-    <value>,</value>
-  </data>
-  <data name="tokenEditor1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 95</value>
-  </data>
-  <data name="tokenEditor1.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;tokenEditor1.Name" xml:space="preserve">
-    <value>tokenEditor1</value>
-  </data>
-  <data name="&gt;&gt;tokenEditor1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.Controls.TokenEditor, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;tokenEditor1.Parent" xml:space="preserve">
-    <value>tabControlPanel2</value>
-  </data>
-  <data name="&gt;&gt;tokenEditor1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ListBox_TagCollection.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="ListBox_TagCollection.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 239</value>
-  </data>
-  <data name="ListBox_TagCollection.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 95</value>
-  </data>
-  <data name="ListBox_TagCollection.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="ListBox_TagCollection.Text" xml:space="preserve">
-    <value>listBoxAdv2</value>
-  </data>
-  <data name="&gt;&gt;ListBox_TagCollection.Name" xml:space="preserve">
-    <value>ListBox_TagCollection</value>
-  </data>
-  <data name="&gt;&gt;ListBox_TagCollection.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ListBoxAdv, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;ListBox_TagCollection.Parent" xml:space="preserve">
-    <value>tabControlPanel2</value>
-  </data>
-  <data name="&gt;&gt;ListBox_TagCollection.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="listBoxAdv1.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="listBoxAdv1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 91</value>
-  </data>
-  <data name="listBoxAdv1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 95</value>
-  </data>
-  <data name="listBoxAdv1.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="listBoxAdv1.Text" xml:space="preserve">
-    <value>listBoxAdv1</value>
-  </data>
-  <data name="&gt;&gt;listBoxAdv1.Name" xml:space="preserve">
-    <value>listBoxAdv1</value>
-  </data>
-  <data name="&gt;&gt;listBoxAdv1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ListBoxAdv, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;listBoxAdv1.Parent" xml:space="preserve">
-    <value>tabControlPanel2</value>
-  </data>
-  <data name="&gt;&gt;listBoxAdv1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="labelX8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 340</value>
-  </data>
-  <data name="labelX8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 30</value>
-  </data>
-  <data name="labelX8.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="labelX8.Text" xml:space="preserve">
-    <value>Add or Delete Tags</value>
-  </data>
-  <data name="&gt;&gt;labelX8.Name" xml:space="preserve">
-    <value>labelX8</value>
-  </data>
-  <data name="&gt;&gt;labelX8.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;labelX8.Parent" xml:space="preserve">
-    <value>tabControlPanel2</value>
-  </data>
-  <data name="&gt;&gt;labelX8.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="buttonX3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>145, 340</value>
-  </data>
-  <data name="buttonX3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 30</value>
-  </data>
-  <data name="buttonX3.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;buttonX3.Name" xml:space="preserve">
-    <value>buttonX3</value>
-  </data>
-  <data name="&gt;&gt;buttonX3.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;buttonX3.Parent" xml:space="preserve">
-    <value>tabControlPanel2</value>
-  </data>
-  <data name="&gt;&gt;buttonX3.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="buttonX4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>181, 340</value>
-  </data>
-  <data name="buttonX4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 30</value>
-  </data>
-  <data name="buttonX4.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;buttonX4.Name" xml:space="preserve">
-    <value>buttonX4</value>
-  </data>
-  <data name="&gt;&gt;buttonX4.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;buttonX4.Parent" xml:space="preserve">
-    <value>tabControlPanel2</value>
-  </data>
-  <data name="&gt;&gt;buttonX4.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="labelX7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 192</value>
-  </data>
-  <data name="labelX7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 30</value>
-  </data>
-  <data name="labelX7.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="labelX7.Text" xml:space="preserve">
-    <value>Add or Delete Labels</value>
-  </data>
-  <data name="&gt;&gt;labelX7.Name" xml:space="preserve">
-    <value>labelX7</value>
-  </data>
-  <data name="&gt;&gt;labelX7.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;labelX7.Parent" xml:space="preserve">
-    <value>tabControlPanel2</value>
-  </data>
-  <data name="&gt;&gt;labelX7.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="buttonX2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>142, 192</value>
-  </data>
-  <data name="buttonX2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 30</value>
-  </data>
-  <data name="buttonX2.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;buttonX2.Name" xml:space="preserve">
-    <value>buttonX2</value>
-  </data>
-  <data name="&gt;&gt;buttonX2.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;buttonX2.Parent" xml:space="preserve">
-    <value>tabControlPanel2</value>
-  </data>
-  <data name="&gt;&gt;buttonX2.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="buttonX1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>178, 192</value>
-  </data>
-  <data name="buttonX1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 30</value>
-  </data>
-  <data name="buttonX1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;buttonX1.Name" xml:space="preserve">
-    <value>buttonX1</value>
-  </data>
-  <data name="&gt;&gt;buttonX1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;buttonX1.Parent" xml:space="preserve">
-    <value>tabControlPanel2</value>
-  </data>
-  <data name="&gt;&gt;buttonX1.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="labelX6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>81, 39</value>
-  </data>
-  <data name="labelX6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 23</value>
-  </data>
-  <data name="labelX6.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="labelX6.Text" xml:space="preserve">
-    <value>AutoFill for Address-Data</value>
-  </data>
-  <data name="&gt;&gt;labelX6.Name" xml:space="preserve">
-    <value>labelX6</value>
-  </data>
-  <data name="&gt;&gt;labelX6.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;labelX6.Parent" xml:space="preserve">
-    <value>tabControlPanel2</value>
-  </data>
-  <data name="&gt;&gt;labelX6.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="switchButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 39</value>
-  </data>
-  <data name="switchButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 22</value>
-  </data>
-  <data name="switchButton1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;switchButton1.Name" xml:space="preserve">
-    <value>switchButton1</value>
-  </data>
-  <data name="&gt;&gt;switchButton1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.Controls.SwitchButton, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;switchButton1.Parent" xml:space="preserve">
-    <value>tabControlPanel2</value>
-  </data>
-  <data name="&gt;&gt;switchButton1.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="labelX3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>81, 10</value>
-  </data>
-  <data name="labelX3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 23</value>
-  </data>
-  <data name="labelX3.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="labelX3.Text" xml:space="preserve">
-    <value>Use Validation for Contacts</value>
-  </data>
-  <data name="&gt;&gt;labelX3.Name" xml:space="preserve">
-    <value>labelX3</value>
-  </data>
-  <data name="&gt;&gt;labelX3.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;labelX3.Parent" xml:space="preserve">
-    <value>tabControlPanel2</value>
-  </data>
-  <data name="&gt;&gt;labelX3.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="btn_UseValidation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 11</value>
-  </data>
-  <data name="btn_UseValidation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 22</value>
-  </data>
-  <data name="btn_UseValidation.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btn_UseValidation.Name" xml:space="preserve">
-    <value>btn_UseValidation</value>
-  </data>
-  <data name="&gt;&gt;btn_UseValidation.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.Controls.SwitchButton, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;btn_UseValidation.Parent" xml:space="preserve">
-    <value>tabControlPanel2</value>
-  </data>
-  <data name="&gt;&gt;btn_UseValidation.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="tabControlPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tabControlPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 27</value>
-  </data>
-  <data name="tabControlPanel2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>1, 1, 1, 1</value>
-  </data>
-  <data name="tabControlPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>556, 456</value>
-  </data>
-  <data name="tabControlPanel2.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="tabItem2.Text" xml:space="preserve">
-    <value>Addressbook</value>
-  </data>
-  <data name="&gt;&gt;tabControlPanel2.Name" xml:space="preserve">
-    <value>tabControlPanel2</value>
-  </data>
-  <data name="&gt;&gt;tabControlPanel2.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.TabControlPanel, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;tabControlPanel2.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabControlPanel2.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="tabControlPanel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -562,241 +796,7 @@
     <value>tabControl1</value>
   </data>
   <data name="&gt;&gt;tabControlPanel5.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="tabControlPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tabControlPanel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 27</value>
-  </data>
-  <data name="tabControlPanel3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>1, 1, 1, 1</value>
-  </data>
-  <data name="tabControlPanel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>556, 456</value>
-  </data>
-  <data name="tabControlPanel3.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="tabItem3.Text" xml:space="preserve">
-    <value>Exchange Monitor</value>
-  </data>
-  <data name="&gt;&gt;tabControlPanel3.Name" xml:space="preserve">
-    <value>tabControlPanel3</value>
-  </data>
-  <data name="&gt;&gt;tabControlPanel3.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.TabControlPanel, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;tabControlPanel3.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabControlPanel3.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="btn_SelectDbBackupPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 109</value>
-  </data>
-  <data name="btn_SelectDbBackupPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 20</value>
-  </data>
-  <data name="btn_SelectDbBackupPath.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="btn_SelectDbBackupPath.Text" xml:space="preserve">
-    <value>Select</value>
-  </data>
-  <data name="&gt;&gt;btn_SelectDbBackupPath.Name" xml:space="preserve">
-    <value>btn_SelectDbBackupPath</value>
-  </data>
-  <data name="&gt;&gt;btn_SelectDbBackupPath.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;btn_SelectDbBackupPath.Parent" xml:space="preserve">
-    <value>tabControlPanel1</value>
-  </data>
-  <data name="&gt;&gt;btn_SelectDbBackupPath.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="labelX4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 80</value>
-  </data>
-  <data name="labelX4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 23</value>
-  </data>
-  <data name="labelX4.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="labelX4.Text" xml:space="preserve">
-    <value>Select the path where the Backup should be stored</value>
-  </data>
-  <data name="&gt;&gt;labelX4.Name" xml:space="preserve">
-    <value>labelX4</value>
-  </data>
-  <data name="&gt;&gt;labelX4.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;labelX4.Parent" xml:space="preserve">
-    <value>tabControlPanel1</value>
-  </data>
-  <data name="&gt;&gt;labelX4.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="cb_DbBackupPath.ItemHeight" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="cb_DbBackupPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 109</value>
-  </data>
-  <data name="cb_DbBackupPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 20</value>
-  </data>
-  <data name="cb_DbBackupPath.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;cb_DbBackupPath.Name" xml:space="preserve">
-    <value>cb_DbBackupPath</value>
-  </data>
-  <data name="&gt;&gt;cb_DbBackupPath.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;cb_DbBackupPath.Parent" xml:space="preserve">
-    <value>tabControlPanel1</value>
-  </data>
-  <data name="&gt;&gt;cb_DbBackupPath.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btn_DbCompressBeforeBackup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 35</value>
-  </data>
-  <data name="btn_DbCompressBeforeBackup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="btn_DbCompressBeforeBackup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 22</value>
-  </data>
-  <data name="btn_DbCompressBeforeBackup.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;btn_DbCompressBeforeBackup.Name" xml:space="preserve">
-    <value>btn_DbCompressBeforeBackup</value>
-  </data>
-  <data name="&gt;&gt;btn_DbCompressBeforeBackup.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.Controls.SwitchButton, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;btn_DbCompressBeforeBackup.Parent" xml:space="preserve">
-    <value>tabControlPanel1</value>
-  </data>
-  <data name="&gt;&gt;btn_DbCompressBeforeBackup.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="labelX2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>85, 34</value>
-  </data>
-  <data name="labelX2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="labelX2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 23</value>
-  </data>
-  <data name="labelX2.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="labelX2.Text" xml:space="preserve">
-    <value>Compress Database before Backup</value>
-  </data>
-  <data name="&gt;&gt;labelX2.Name" xml:space="preserve">
-    <value>labelX2</value>
-  </data>
-  <data name="&gt;&gt;labelX2.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;labelX2.Parent" xml:space="preserve">
-    <value>tabControlPanel1</value>
-  </data>
-  <data name="&gt;&gt;labelX2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btn_DbBackupOnAppClose.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 11</value>
-  </data>
-  <data name="btn_DbBackupOnAppClose.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="btn_DbBackupOnAppClose.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 22</value>
-  </data>
-  <data name="btn_DbBackupOnAppClose.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;btn_DbBackupOnAppClose.Name" xml:space="preserve">
-    <value>btn_DbBackupOnAppClose</value>
-  </data>
-  <data name="&gt;&gt;btn_DbBackupOnAppClose.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.Controls.SwitchButton, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;btn_DbBackupOnAppClose.Parent" xml:space="preserve">
-    <value>tabControlPanel1</value>
-  </data>
-  <data name="&gt;&gt;btn_DbBackupOnAppClose.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="labelX1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>85, 11</value>
-  </data>
-  <data name="labelX1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="labelX1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 23</value>
-  </data>
-  <data name="labelX1.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
-  </data>
-  <data name="labelX1.Text" xml:space="preserve">
-    <value>Run Backup on Application Close</value>
-  </data>
-  <data name="&gt;&gt;labelX1.Name" xml:space="preserve">
-    <value>labelX1</value>
-  </data>
-  <data name="&gt;&gt;labelX1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;labelX1.Parent" xml:space="preserve">
-    <value>tabControlPanel1</value>
-  </data>
-  <data name="&gt;&gt;labelX1.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="tabControlPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tabControlPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 27</value>
-  </data>
-  <data name="tabControlPanel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>1, 1, 1, 1</value>
-  </data>
-  <data name="tabControlPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>556, 456</value>
-  </data>
-  <data name="tabControlPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tabItem1.Text" xml:space="preserve">
-    <value>Database Settings</value>
-  </data>
-  <data name="&gt;&gt;tabControlPanel1.Name" xml:space="preserve">
-    <value>tabControlPanel1</value>
-  </data>
-  <data name="&gt;&gt;tabControlPanel1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.TabControlPanel, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;tabControlPanel1.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabControlPanel1.ZOrder" xml:space="preserve">
-    <value>16</value>
   </data>
   <data name="tabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -849,18 +849,6 @@
   <data name="&gt;&gt;panelEx1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>375, 3</value>
-  </data>
-  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 35</value>
-  </data>
-  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="btn_Cancel.Text" xml:space="preserve">
-    <value>Cancel</value>
-  </data>
   <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
     <value>btn_Cancel</value>
   </data>
@@ -872,18 +860,6 @@
   </data>
   <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="btn_Save.Location" type="System.Drawing.Point, System.Drawing">
-    <value>467, 3</value>
-  </data>
-  <data name="btn_Save.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 35</value>
-  </data>
-  <data name="btn_Save.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="btn_Save.Text" xml:space="preserve">
-    <value>Save</value>
   </data>
   <data name="&gt;&gt;btn_Save.Name" xml:space="preserve">
     <value>btn_Save</value>
@@ -944,6 +920,54 @@
   </data>
   <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 3</value>
+  </data>
+  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 35</value>
+  </data>
+  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
+    <value>btn_Cancel</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
+    <value>panelEx2</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_Save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 3</value>
+  </data>
+  <data name="btn_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 35</value>
+  </data>
+  <data name="btn_Save.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btn_Save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Name" xml:space="preserve">
+    <value>btn_Save</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Parent" xml:space="preserve">
+    <value>panelEx2</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <metadata name="styleManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

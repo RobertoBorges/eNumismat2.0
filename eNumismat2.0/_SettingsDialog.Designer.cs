@@ -136,11 +136,11 @@
             this.tabControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
             this.tabControl1.CanReorderTabs = true;
             this.tabControl1.CloseButtonOnTabsAlwaysDisplayed = false;
-            this.tabControl1.Controls.Add(this.tabControlPanel4);
-            this.tabControl1.Controls.Add(this.tabControlPanel2);
-            this.tabControl1.Controls.Add(this.tabControlPanel5);
-            this.tabControl1.Controls.Add(this.tabControlPanel3);
             this.tabControl1.Controls.Add(this.tabControlPanel1);
+            this.tabControl1.Controls.Add(this.tabControlPanel3);
+            this.tabControl1.Controls.Add(this.tabControlPanel2);
+            this.tabControl1.Controls.Add(this.tabControlPanel4);
+            this.tabControl1.Controls.Add(this.tabControlPanel5);
             resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.ForeColor = System.Drawing.Color.Black;
             this.tabControl1.Name = "tabControl1";
