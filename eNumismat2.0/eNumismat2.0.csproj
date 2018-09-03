@@ -111,6 +111,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_ExchangeMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_ExchangeMonitor.Designer.cs">
+      <DependentUpon>_ExchangeMonitor.cs</DependentUpon>
+    </Compile>
     <Compile Include="_SettingsDialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -194,6 +200,9 @@
     </Compile>
     <EmbeddedResource Include="_eNumismatMain.ru.resx">
       <DependentUpon>_eNumismatMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExchangeMonitor.resx">
+      <DependentUpon>_ExchangeMonitor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_SettingsDialog.de.resx">
       <DependentUpon>_SettingsDialog.cs</DependentUpon>

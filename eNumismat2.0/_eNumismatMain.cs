@@ -171,8 +171,8 @@ namespace eNumismat2._0
         {
             if (OpenForm("_ExchangeMonitor") == false)
             {
-                //_ExchangeMonitor ExchangeMon = new _ExchangeMonitor();
-                //ExchangeMon.Show();
+                _ExchangeMonitor ExchangeMon = new _ExchangeMonitor();
+                ExchangeMon.Show();
             }
         }
 

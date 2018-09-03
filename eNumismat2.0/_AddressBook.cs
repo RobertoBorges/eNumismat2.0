@@ -20,6 +20,11 @@ namespace eNumismat2._0
         public _AddressBook()
         {
             InitializeComponent();
+
+            if (Properties.Settings.Default.MainWindowState == FormWindowState.Normal)
+            {
+                Size = new Size(Properties.Settings.Default.AddressBookWindowWidth, Properties.Settings.Default.AddressBookWindowHight);
+            }
         }
 
         //=====================================================================================================================================================================
@@ -53,6 +58,21 @@ namespace eNumismat2._0
                 toolStripStatusLabel1.Text = ContactCounter.ToString() + " " + GlobalStrings._contactAvailable;
 
             }
+        }
+
+        private void _AddressBook_SizeChanged(object sender, EventArgs e)
+        {
+            SaveWindowSizeSettings();
+        }
+
+        //=====================================================================================================================================================================
+        private void SaveWindowSizeSettings()
+        {
+            Properties.Settings.Default.AddressBookWindowHight = Size.Height;
+            Properties.Settings.Default.AddressBookWindowWidth = Size.Width;
+            Properties.Settings.Default.AddressBookWindowState = WindowState;
+
+            Properties.Settings.Default.Save();
         }
     }
 }
