@@ -162,9 +162,6 @@
   <data name="ribbonPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="ribbonPanel1.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="&gt;&gt;ribbonPanel1.Name" xml:space="preserve">
     <value>ribbonPanel1</value>
   </data>
@@ -175,7 +172,7 @@
     <value>ribbonControl1</value>
   </data>
   <data name="&gt;&gt;ribbonPanel1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="ribbonControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>

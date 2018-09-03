@@ -121,6 +121,7 @@
             // 
             // ribbonTabItem1
             // 
+            this.ribbonTabItem1.Checked = true;
             this.ribbonTabItem1.Name = "ribbonTabItem1";
             this.ribbonTabItem1.Panel = this.ribbonPanel1;
             resources.ApplyResources(this.ribbonTabItem1, "ribbonTabItem1");

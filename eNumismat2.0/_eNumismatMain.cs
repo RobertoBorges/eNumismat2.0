@@ -166,18 +166,21 @@ namespace eNumismat2._0
             {
                 if (!File.Exists(Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile)))
                 {
+                    toolStripStatusLabel2.Image = Properties.Resources.disconnect;
                     toolStripStatusLabel2.Text = GlobalStrings._dbConnectionNoDbFile;
                     RefreshDbFileSettings();
                     return false;
                 }
                 else
                 {
+                    toolStripStatusLabel2.Image = Properties.Resources.connect;
                     toolStripStatusLabel2.Text = GlobalStrings._dbConnectionDbFile + " " + Properties.Settings.Default.DBFile;
                     return true;
                 }
             }
             else
             {
+                toolStripStatusLabel2.Image = Properties.Resources.disconnect;
                 toolStripStatusLabel2.Text = GlobalStrings._dbConnectionNoDbFile;
                 RefreshDbFileSettings();
                 return false;
