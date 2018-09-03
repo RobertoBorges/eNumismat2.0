@@ -181,7 +181,9 @@
             this.dotNetBarManager1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.dotNetBarManager1.ParentForm = this;
             this.dotNetBarManager1.RightDockSite = this.dockSite2;
+            this.dotNetBarManager1.ShowResetButton = true;
             this.dotNetBarManager1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.dotNetBarManager1.ThemeAware = true;
             this.dotNetBarManager1.ToolbarBottomDockSite = this.dockSite8;
             this.dotNetBarManager1.ToolbarLeftDockSite = this.dockSite5;
             this.dotNetBarManager1.ToolbarRightDockSite = this.dockSite6;
@@ -211,6 +213,10 @@
             resources.ApplyResources(this.bar1, "bar1");
             this.bar1.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
             this.bar1.AutoSyncBarCaption = true;
+            this.bar1.CanCustomize = false;
+            this.bar1.CanDockBottom = false;
+            this.bar1.CanDockTab = false;
+            this.bar1.CanDockTop = false;
             this.bar1.CloseSingleTab = true;
             this.bar1.Controls.Add(this.panelDockContainer1);
             this.bar1.GrabHandleStyle = DevComponents.DotNetBar.eGrabHandleStyle.Caption;
@@ -222,6 +228,7 @@
             this.bar1.Stretch = true;
             this.bar1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.bar1.TabStop = false;
+            this.bar1.ThemeAware = true;
             // 
             // panelDockContainer1
             // 
@@ -240,6 +247,7 @@
             this.dockContainerItem1.Control = this.panelDockContainer1;
             this.dockContainerItem1.Name = "dockContainerItem1";
             resources.ApplyResources(this.dockContainerItem1, "dockContainerItem1");
+            this.dockContainerItem1.ThemeAware = true;
             // 
             // dockSite2
             // 
