@@ -162,7 +162,7 @@
             this.applicationButton1.Image = ((System.Drawing.Image)(resources.GetObject("applicationButton1.Image")));
             this.applicationButton1.ImageFixedSize = new System.Drawing.Size(16, 16);
             this.applicationButton1.ImagePaddingHorizontal = 0;
-            this.applicationButton1.ImagePaddingVertical = 0;
+            this.applicationButton1.ImagePaddingVertical = 1;
             this.applicationButton1.Name = "applicationButton1";
             this.applicationButton1.ShowSubItems = false;
             this.applicationButton1.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
@@ -304,8 +304,9 @@
             this.OpenExchangeMonitorFrm.Image = global::eNumismat2._0.Properties.Resources.page_refresh;
             this.OpenExchangeMonitorFrm.ItemAlignment = DevComponents.DotNetBar.eItemAlignment.Far;
             this.OpenExchangeMonitorFrm.Name = "OpenExchangeMonitorFrm";
-            this.OpenExchangeMonitorFrm.ShowSubItems = false;
             resources.ApplyResources(this.OpenExchangeMonitorFrm, "OpenExchangeMonitorFrm");
+            this.OpenExchangeMonitorFrm.ShowSubItems = false;
+            this.OpenExchangeMonitorFrm.ThemeAware = true;
             this.OpenExchangeMonitorFrm.Click += new System.EventHandler(this.OpenExchangeMonitorFrm_Click);
             // 
             // OpenAddrBookFrm
@@ -314,6 +315,7 @@
             this.OpenAddrBookFrm.Image = global::eNumismat2._0.Properties.Resources.book_addresses;
             this.OpenAddrBookFrm.Name = "OpenAddrBookFrm";
             resources.ApplyResources(this.OpenAddrBookFrm, "OpenAddrBookFrm");
+            this.OpenAddrBookFrm.ThemeAware = true;
             this.OpenAddrBookFrm.Click += new System.EventHandler(this.OpenAddrBookFrm_Click);
             // 
             // btnHelp
@@ -343,7 +345,7 @@
             // 
             // styleManager1
             // 
-            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2010Silver;
+            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Light;
             this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254))))), System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(143))))));
             // 
             // statusStrip1

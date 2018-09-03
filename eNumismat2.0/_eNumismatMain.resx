@@ -126,7 +126,7 @@
     <value>3, 0</value>
   </data>
   <data name="ribbonBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 111</value>
+    <value>100, 114</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="ribbonBar1.TabIndex" type="System.Int32, mscorlib">
@@ -151,13 +151,13 @@
     <value>Fill</value>
   </data>
   <data name="ribbonPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 54</value>
+    <value>0, 55</value>
   </data>
   <data name="ribbonPanel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 3</value>
+    <value>3, 0, 3, 2</value>
   </data>
   <data name="ribbonPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1035, 114</value>
+    <value>1035, 116</value>
   </data>
   <data name="ribbonPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -201,74 +201,26 @@
         rkJggg==
 </value>
   </data>
-  <data name="btn_NewDB.Text" xml:space="preserve">
-    <value>New Database</value>
-  </data>
-  <data name="btn_OpenDB.Text" xml:space="preserve">
-    <value>Open Database</value>
-  </data>
-  <data name="btn_BackupDB.Text" xml:space="preserve">
-    <value>Backup Database</value>
-  </data>
-  <data name="btn_CompressDB.Text" xml:space="preserve">
-    <value>Compress Database</value>
-  </data>
-  <data name="LangEN_GB.Text" xml:space="preserve">
-    <value>English (GB)</value>
-  </data>
-  <data name="LangEN_US.Text" xml:space="preserve">
-    <value>English (US)</value>
-  </data>
-  <data name="LangDE.Text" xml:space="preserve">
-    <value>German</value>
-  </data>
-  <data name="LangFR.Text" xml:space="preserve">
-    <value>French</value>
-  </data>
-  <data name="LangES.Text" xml:space="preserve">
-    <value>Spanish</value>
-  </data>
-  <data name="LangPT.Text" xml:space="preserve">
-    <value>Portuguese</value>
-  </data>
-  <data name="LangRU.Text" xml:space="preserve">
-    <value>Russian</value>
-  </data>
-  <data name="buttonItem10.Text" xml:space="preserve">
-    <value>Language Settings</value>
-  </data>
-  <data name="btn_SettingsDialog.Text" xml:space="preserve">
-    <value>Application Settings</value>
-  </data>
-  <data name="buttonItem9.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="btn_Close.Text" xml:space="preserve">
-    <value>Close</value>
-  </data>
   <data name="applicationButton1.Text" xml:space="preserve">
     <value>&amp;File</value>
   </data>
   <data name="ribbonTabItem1.Text" xml:space="preserve">
     <value>ribbonTabItem1</value>
   </data>
+  <data name="OpenExchangeMonitorFrm.RibbonWordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="OpenExchangeMonitorFrm.Text" xml:space="preserve">
     <value>Exchange Monitor</value>
+  </data>
+  <data name="OpenAddrBookFrm.RibbonWordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="OpenAddrBookFrm.Text" xml:space="preserve">
     <value>Address Book</value>
   </data>
   <data name="ribbonControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 1</value>
-  </data>
-  <data name="ribbonControl1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 3</value>
-  </data>
-  <data name="btnAbout.Text" xml:space="preserve">
-    <value>About eNumismat</value>
-  </data>
-  <data name="btnHelp2.Text" xml:space="preserve">
-    <value>Help</value>
   </data>
   <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1035, 171</value>
@@ -333,18 +285,63 @@
   <data name="&gt;&gt;ribbonControl1.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="btn_NewDB.Text" xml:space="preserve">
+    <value>New Database</value>
+  </data>
+  <data name="btn_OpenDB.Text" xml:space="preserve">
+    <value>Open Database</value>
+  </data>
+  <data name="btn_BackupDB.Text" xml:space="preserve">
+    <value>Backup Database</value>
+  </data>
+  <data name="btn_CompressDB.Text" xml:space="preserve">
+    <value>Compress Database</value>
+  </data>
+  <data name="buttonItem9.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="buttonItem10.Text" xml:space="preserve">
+    <value>Language Settings</value>
+  </data>
+  <data name="LangEN_GB.Text" xml:space="preserve">
+    <value>English (GB)</value>
+  </data>
+  <data name="LangEN_US.Text" xml:space="preserve">
+    <value>English (US)</value>
+  </data>
+  <data name="LangDE.Text" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="LangFR.Text" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="LangES.Text" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="LangPT.Text" xml:space="preserve">
+    <value>Portuguese</value>
+  </data>
+  <data name="LangRU.Text" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="btn_SettingsDialog.Text" xml:space="preserve">
+    <value>Application Settings</value>
+  </data>
+  <data name="btn_Close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnAbout.Text" xml:space="preserve">
+    <value>About eNumismat</value>
+  </data>
+  <data name="btnHelp2.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
   <metadata name="styleManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>166, 17</value>
   </metadata>
   <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>298, 17</value>
   </metadata>
-  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 17</value>
-  </data>
-  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
-    <value>toolStripStatusLabel1</value>
-  </data>
   <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 688</value>
   </data>
@@ -368,6 +365,12 @@
   </data>
   <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 17</value>
+  </data>
+  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
+    <value>toolStripStatusLabel1</value>
   </data>
   <data name="labelX1.Location" type="System.Drawing.Point, System.Drawing">
     <value>485, 297</value>

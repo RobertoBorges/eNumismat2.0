@@ -150,6 +150,11 @@ namespace eNumismat2._0
             }
 
             toolStripStatusLabel1.Text = CultureManager.ApplicationUICulture.Name;
+
+            // Refresh the Ribbon Control to prevent Design issues when the Language will be changed.
+            ribbonControl1.Refresh();
+
+
         }
 
         //=====================================================================================================================================================================
