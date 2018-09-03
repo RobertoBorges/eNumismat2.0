@@ -68,6 +68,7 @@
     <Reference Include="System.Data.SQLite.Linq, Version=1.0.109.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Data.SQLite.Linq.1.0.109.0\lib\net451\System.Data.SQLite.Linq.dll</HintPath>
     </Reference>
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -86,10 +87,35 @@
     <Compile Include="Classes\DataBaseWork.cs" />
     <Compile Include="Classes\DataImportExport.cs" />
     <Compile Include="Classes\LogWrite.cs" />
+    <Compile Include="GlobalStrings.de.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GlobalStrings.de.resx</DependentUpon>
+    </Compile>
     <Compile Include="GlobalStrings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>GlobalStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalStrings.es.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GlobalStrings.es.resx</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalStrings.fr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GlobalStrings.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalStrings.pt.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GlobalStrings.pt.resx</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalStrings.ru.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GlobalStrings.ru.resx</DependentUpon>
     </Compile>
     <Compile Include="_AboutBox.cs">
       <SubType>Form</SubType>
@@ -123,15 +149,36 @@
     <Compile Include="_SettingsDialog.Designer.cs">
       <DependentUpon>_SettingsDialog.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="GlobalStrings.de.resx" />
-    <EmbeddedResource Include="GlobalStrings.es.resx" />
-    <EmbeddedResource Include="GlobalStrings.fr.resx" />
-    <EmbeddedResource Include="GlobalStrings.pt.resx" />
+    <Compile Include="_SettingsDialog_PasswordProtection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_SettingsDialog_PasswordProtection.Designer.cs">
+      <DependentUpon>_SettingsDialog_PasswordProtection.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GlobalStrings.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>GlobalStrings.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalStrings.es.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>GlobalStrings.es.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalStrings.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>GlobalStrings.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalStrings.pt.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>GlobalStrings.pt.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="GlobalStrings.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>GlobalStrings.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="GlobalStrings.ru.resx" />
+    <EmbeddedResource Include="GlobalStrings.ru.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>GlobalStrings.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.de.resx" />
     <EmbeddedResource Include="Properties\Resources.es.resx" />
     <EmbeddedResource Include="Properties\Resources.fr.resx" />
@@ -221,6 +268,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="_SettingsDialog.ru.resx">
       <DependentUpon>_SettingsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_SettingsDialog_PasswordProtection.resx">
+      <DependentUpon>_SettingsDialog_PasswordProtection.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

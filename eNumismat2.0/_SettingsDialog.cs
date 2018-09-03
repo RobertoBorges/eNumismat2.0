@@ -135,5 +135,11 @@ namespace eNumismat2._0
         {
             DeleteSelectedTags();
         }
+
+        private void switchButton2_ValueChanged(object sender, EventArgs e)
+        {
+            _SettingsDialog_PasswordProtection PWProtect = new _SettingsDialog_PasswordProtection();
+            PWProtect.ShowDialog();
+        }
     }
 }

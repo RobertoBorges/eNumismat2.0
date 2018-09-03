@@ -201,6 +201,51 @@
         rkJggg==
 </value>
   </data>
+  <data name="btn_NewDB.Text" xml:space="preserve">
+    <value>New Database</value>
+  </data>
+  <data name="btn_OpenDB.Text" xml:space="preserve">
+    <value>Open Database</value>
+  </data>
+  <data name="btn_BackupDB.Text" xml:space="preserve">
+    <value>Backup Database</value>
+  </data>
+  <data name="btn_CompressDB.Text" xml:space="preserve">
+    <value>Compress Database</value>
+  </data>
+  <data name="LangEN_GB.Text" xml:space="preserve">
+    <value>English (GB)</value>
+  </data>
+  <data name="LangEN_US.Text" xml:space="preserve">
+    <value>English (US)</value>
+  </data>
+  <data name="LangDE.Text" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="LangFR.Text" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="LangES.Text" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="LangPT.Text" xml:space="preserve">
+    <value>Portuguese</value>
+  </data>
+  <data name="LangRU.Text" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="buttonItem10.Text" xml:space="preserve">
+    <value>Language Settings</value>
+  </data>
+  <data name="btn_SettingsDialog.Text" xml:space="preserve">
+    <value>Application Settings</value>
+  </data>
+  <data name="buttonItem9.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="btn_Close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
   <data name="applicationButton1.Text" xml:space="preserve">
     <value>&amp;File</value>
   </data>
@@ -221,6 +266,12 @@
   </data>
   <data name="ribbonControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 1</value>
+  </data>
+  <data name="btnAbout.Text" xml:space="preserve">
+    <value>About eNumismat</value>
+  </data>
+  <data name="btnHelp2.Text" xml:space="preserve">
+    <value>Help</value>
   </data>
   <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1035, 171</value>
@@ -284,57 +335,6 @@
   </data>
   <data name="&gt;&gt;ribbonControl1.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="btn_NewDB.Text" xml:space="preserve">
-    <value>New Database</value>
-  </data>
-  <data name="btn_OpenDB.Text" xml:space="preserve">
-    <value>Open Database</value>
-  </data>
-  <data name="btn_BackupDB.Text" xml:space="preserve">
-    <value>Backup Database</value>
-  </data>
-  <data name="btn_CompressDB.Text" xml:space="preserve">
-    <value>Compress Database</value>
-  </data>
-  <data name="buttonItem9.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="buttonItem10.Text" xml:space="preserve">
-    <value>Language Settings</value>
-  </data>
-  <data name="LangEN_GB.Text" xml:space="preserve">
-    <value>English (GB)</value>
-  </data>
-  <data name="LangEN_US.Text" xml:space="preserve">
-    <value>English (US)</value>
-  </data>
-  <data name="LangDE.Text" xml:space="preserve">
-    <value>German</value>
-  </data>
-  <data name="LangFR.Text" xml:space="preserve">
-    <value>French</value>
-  </data>
-  <data name="LangES.Text" xml:space="preserve">
-    <value>Spanish</value>
-  </data>
-  <data name="LangPT.Text" xml:space="preserve">
-    <value>Portuguese</value>
-  </data>
-  <data name="LangRU.Text" xml:space="preserve">
-    <value>Russian</value>
-  </data>
-  <data name="btn_SettingsDialog.Text" xml:space="preserve">
-    <value>Application Settings</value>
-  </data>
-  <data name="btn_Close.Text" xml:space="preserve">
-    <value>Close</value>
-  </data>
-  <data name="btnAbout.Text" xml:space="preserve">
-    <value>About eNumismat</value>
-  </data>
-  <data name="btnHelp2.Text" xml:space="preserve">
-    <value>Help</value>
   </data>
   <metadata name="styleManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>166, 17</value>
