@@ -38,6 +38,7 @@
             this.btn_OpenDB = new DevComponents.DotNetBar.ButtonItem();
             this.btn_BackupDB = new DevComponents.DotNetBar.ButtonItem();
             this.btn_CompressDB = new DevComponents.DotNetBar.ButtonItem();
+            this.btn_AppLock = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem9 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem10 = new DevComponents.DotNetBar.ButtonItem();
             this.LangEN_GB = new DevComponents.DotNetBar.ButtonItem();
@@ -169,6 +170,7 @@
             this.btn_OpenDB,
             this.btn_BackupDB,
             this.btn_CompressDB,
+            this.btn_AppLock,
             this.buttonItem9,
             this.btn_Close});
             resources.ApplyResources(this.applicationButton1, "applicationButton1");
@@ -201,6 +203,13 @@
             this.btn_CompressDB.Name = "btn_CompressDB";
             resources.ApplyResources(this.btn_CompressDB, "btn_CompressDB");
             this.btn_CompressDB.Click += new System.EventHandler(this.Btn_CompressDB_Click);
+            // 
+            // btn_AppLock
+            // 
+            this.btn_AppLock.BeginGroup = true;
+            this.btn_AppLock.Name = "btn_AppLock";
+            resources.ApplyResources(this.btn_AppLock, "btn_AppLock");
+            this.btn_AppLock.Click += new System.EventHandler(this.btn_AppLock_Click);
             // 
             // buttonItem9
             // 
@@ -358,9 +367,9 @@
             // 
             // toolStripStatusLabel2
             // 
-            resources.ApplyResources(this.toolStripStatusLabel2, "toolStripStatusLabel2");
             this.toolStripStatusLabel2.BackColor = System.Drawing.Color.Transparent;
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            resources.ApplyResources(this.toolStripStatusLabel2, "toolStripStatusLabel2");
             // 
             // labelX1
             // 
@@ -444,6 +453,7 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private DevComponents.DotNetBar.RibbonBar ribbonBar1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
+        private DevComponents.DotNetBar.ButtonItem btn_AppLock;
     }
 }
 

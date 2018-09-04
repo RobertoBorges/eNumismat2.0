@@ -113,16 +113,6 @@ namespace eNumismat2._0.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bullet_wrench {
-            get {
-                object obj = ResourceManager.GetObject("bullet_wrench", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap compress {
             get {
                 object obj = ResourceManager.GetObject("compress", resourceCulture);
@@ -378,7 +368,13 @@ namespace eNumismat2._0.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to INSERT INTO [tags] (
+        ///  [tag])
+        ///VALUES
+        ///(&apos;Test&apos;),
+        ///(&apos;Noch ein Test Tag&apos;),
+        ///(&apos;und noch einer&apos;),
+        ///(&apos;Nur mal so&apos;);.
         /// </summary>
         internal static string Insert {
             get {

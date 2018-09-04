@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_eNumismatMain_PasswordCheck));
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.btn_Save = new DevComponents.DotNetBar.ButtonX();
             this.btn_Cancel = new DevComponents.DotNetBar.ButtonX();
             this.tb_CurrentPassword = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.SuspendLayout();
             // 
             // labelX1
@@ -52,6 +54,7 @@
             resources.ApplyResources(this.btn_Save, "btn_Save");
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btn_Save.ThemeAware = true;
             this.btn_Save.Click += new System.EventHandler(this.btn_Save_Click);
             // 
             // btn_Cancel
@@ -63,6 +66,8 @@
             resources.ApplyResources(this.btn_Cancel, "btn_Cancel");
             this.btn_Cancel.Name = "btn_Cancel";
             this.btn_Cancel.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btn_Cancel.ThemeAware = true;
+            this.btn_Cancel.Click += new System.EventHandler(this.btn_Cancel_Click);
             // 
             // tb_CurrentPassword
             // 
@@ -78,6 +83,11 @@
             this.tb_CurrentPassword.Name = "tb_CurrentPassword";
             this.tb_CurrentPassword.PreventEnterBeep = true;
             this.tb_CurrentPassword.UseSystemPasswordChar = true;
+            // 
+            // styleManager1
+            // 
+            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Light;
+            this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254))))), System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(143))))));
             // 
             // _eNumismatMain_PasswordCheck
             // 
@@ -104,5 +114,6 @@
         private DevComponents.DotNetBar.ButtonX btn_Save;
         private DevComponents.DotNetBar.ButtonX btn_Cancel;
         private DevComponents.DotNetBar.Controls.TextBoxX tb_CurrentPassword;
+        private DevComponents.DotNetBar.StyleManager styleManager1;
     }
 }

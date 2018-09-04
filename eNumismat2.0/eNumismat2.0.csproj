@@ -83,6 +83,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\ApplicationLock.cs" />
     <Compile Include="Classes\ConfigReadWrite.cs" />
     <Compile Include="Classes\DataBaseWork.cs" />
     <Compile Include="Classes\DataImportExport.cs" />
@@ -417,6 +418,7 @@
     <None Include="Resources\vcard_edit.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Key.png" />
     <None Include="Resources\action_remove.png" />
     <None Include="Resources\action_add.png" />
     <Content Include="Resources\CountryFlags\de.png" />

@@ -18,7 +18,10 @@ namespace eNumismat2._0
     //=====================================================================================================================================================================
     public partial class _eNumismatMain : RibbonForm
     {
-        
+        _ExchangeMonitor ExchangeMon = new _ExchangeMonitor();
+        _AddressBook AddrBook = new _AddressBook();
+        _SettingsDialog Settings = new _SettingsDialog();
+        _AboutBox AboutBox = new _AboutBox();
 
         Classes.DataBaseWork DBWorker;
 
@@ -240,7 +243,7 @@ namespace eNumismat2._0
         {
             if (OpenForm("_ExchangeMonitor") == false)
             {
-                _ExchangeMonitor ExchangeMon = new _ExchangeMonitor();
+                
                 ExchangeMon.Show();
             }
         }
@@ -251,7 +254,7 @@ namespace eNumismat2._0
         {
             if (OpenForm("_AddressBook") == false)
             {
-                _AddressBook AddrBook = new _AddressBook();
+                
                 AddrBook.Show();
             }
         }
@@ -261,7 +264,7 @@ namespace eNumismat2._0
         {
             if (OpenForm("_SettingsDialog") == false)
             {
-                _SettingsDialog Settings = new _SettingsDialog();
+                
                 Settings.ShowDialog();
             }
         }
@@ -272,7 +275,7 @@ namespace eNumismat2._0
         {
             if (OpenForm("_AboutBox") == false)
             {
-                _AboutBox AboutBox = new _AboutBox();
+                
                 AboutBox.Show();
             }
         }
@@ -580,28 +583,21 @@ namespace eNumismat2._0
             }
         }
 
+        //=====================================================================================================================================================================
         private void _eNumismatMain_KeyDown(object sender, KeyEventArgs e)
         {
-            if (Properties.Settings.Default.UsePasswordProtection == true)
+            if (e.Control && e.Shift && e.KeyCode == Keys.L)
             {
-                if (e.Control && e.Shift && e.KeyCode == Keys.L)
-                {
-                    WindowState = FormWindowState.Minimized;
-
-                    if (OpenForm("_eNumismatMain_PasswordCheck") == false)
-                    {
-                        _eNumismatMain_PasswordCheck PwCheck = new _eNumismatMain_PasswordCheck();
-                        using (PwCheck)
-                        {
-                            if (PwCheck.ShowDialog(this) == DialogResult.OK)
-                            {
-                                Show();
-                                WindowState = FormWindowState.Normal;
-                            }
-                        }
-                    }
-                }
+                Classes.ApplicationLock AppLock = new Classes.ApplicationLock();
+                AppLock.Lock();
             }
+        }
+
+        //=====================================================================================================================================================================
+        private void btn_AppLock_Click(object sender, EventArgs e)
+        {
+            Classes.ApplicationLock AppLock = new Classes.ApplicationLock();
+            AppLock.Lock();
         }
     }
 }

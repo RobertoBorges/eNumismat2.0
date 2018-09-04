@@ -213,6 +213,9 @@
   <data name="btn_CompressDB.Text" xml:space="preserve">
     <value>Compress Database</value>
   </data>
+  <data name="btn_AppLock.Text" xml:space="preserve">
+    <value>Lock Application</value>
+  </data>
   <data name="LangEN_GB.Text" xml:space="preserve">
     <value>English (GB)</value>
   </data>
@@ -345,17 +348,14 @@
   <data name="toolStripStatusLabel1.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 17</value>
-  </data>
-  <data name="toolStripStatusLabel1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="toolStripStatusLabel1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="toolStripStatusLabel2.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 17</value>
   </data>
   <data name="toolStripStatusLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 17</value>
+    <value>0, 17</value>
   </data>
   <data name="toolStripStatusLabel2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -451,6 +451,12 @@
     <value>btn_CompressDB</value>
   </data>
   <data name="&gt;&gt;btn_CompressDB.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;btn_AppLock.Name" xml:space="preserve">
+    <value>btn_AppLock</value>
+  </data>
+  <data name="&gt;&gt;btn_AppLock.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
   <data name="&gt;&gt;buttonItem9.Name" xml:space="preserve">
