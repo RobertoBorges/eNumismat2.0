@@ -228,8 +228,7 @@
         </trans-unit>
         <trans-unit id="labelX6.Text" translate="yes" xml:space="preserve">
           <source>Use AutoFill for Address-Data</source>
-          <target state="needs-review-translation">Nutze die Autovervollständigung für Adressdaten</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Nutze die Autovervollständigung für Adressdaten</target>
         </trans-unit>
         <trans-unit id="switchButton1.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
           <source>9, 39</source>
@@ -621,7 +620,7 @@
         </trans-unit>
         <trans-unit id="labelX9.Text" translate="yes" xml:space="preserve">
           <source>Use Password protection</source>
-          <target state="new">Use Password protection</target>
+          <target state="final">Nutze Passwortschutz</target>
         </trans-unit>
         <trans-unit id="btn_UsePassword.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
           <source>9, 11</source>
@@ -653,7 +652,7 @@
         </trans-unit>
         <trans-unit id="btn_changePW.Text" translate="yes" xml:space="preserve">
           <source>Change current Password</source>
-          <target state="new">Change current Password</target>
+          <target state="translated">Ändere derzeitiges Passwort</target>
         </trans-unit>
         <trans-unit id="btn_changePW.Enabled" translate="yes" xml:space="preserve" extype="System.Boolean, mscorlib">
           <source>False</source>
@@ -754,7 +753,7 @@
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.MinimizeRibbonText" translate="yes" xml:space="preserve">
           <source>Mi&amp;nimize the Ribbon</source>
-          <target state="new">Mi&amp;nimize the Ribbon</target>
+          <target state="translated">Mi&amp;nimiere das Ribbon</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatAddItemText" translate="yes" xml:space="preserve">
           <source>&amp;Add to Quick Access Toolbar</source>
@@ -762,7 +761,7 @@
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatCustomizeMenuLabel" translate="yes" xml:space="preserve">
           <source><bpt id="1">&lt;b&gt;</bpt>Customize Quick Access Toolbar<ept id="1">&lt;/b&gt;</ept></source>
-          <target state="new"><bpt id="1">&lt;b&gt;</bpt>Customize Quick Access Toolbar<ept id="1">&lt;/b&gt;</ept></target>
+          <target state="final"><bpt id="1">&lt;b&gt;</bpt>Schnellstartmenü Personalisieren<ept id="1">&lt;/b&gt;</ept></target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatCustomizeText" translate="yes" xml:space="preserve">
           <source>&amp;Customize Quick Access Toolbar...</source>
@@ -774,7 +773,7 @@
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogCancelButton" translate="yes" xml:space="preserve">
           <source>Cancel</source>
-          <target state="new">Cancel</target>
+          <target state="final">Abbrechen</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogCaption" translate="yes" xml:space="preserve">
           <source>Customize Quick Access Toolbar</source>
@@ -786,7 +785,7 @@
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogOkButton" translate="yes" xml:space="preserve">
           <source>OK</source>
-          <target state="new">OK</target>
+          <target state="final">OK</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogPlacementCheckbox" translate="yes" xml:space="preserve">
           <source>&amp;Place Quick Access Toolbar below the Ribbon</source>
@@ -858,11 +857,11 @@
         </trans-unit>
         <trans-unit id="bar1.AccessibleDescription" translate="yes" xml:space="preserve">
           <source>Contacts (bar1)</source>
-          <target state="new">Contacts (bar1)</target>
+          <target state="final">Kontakte (bar1)</target>
         </trans-unit>
         <trans-unit id="bar1.AccessibleName" translate="yes" xml:space="preserve">
           <source>Contacts</source>
-          <target state="new">Contacts</target>
+          <target state="final">Kontakte</target>
         </trans-unit>
         <trans-unit id="columnHeader1.Text" translate="yes" xml:space="preserve">
           <source>Name</source>
@@ -874,7 +873,7 @@
         </trans-unit>
         <trans-unit id="columnHeader2.Text" translate="yes" xml:space="preserve">
           <source>Country</source>
-          <target state="new">Country</target>
+          <target state="final">Land</target>
         </trans-unit>
         <trans-unit id="columnHeader2.Width" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
           <source>100</source>
@@ -948,7 +947,7 @@
         </trans-unit>
         <trans-unit id="dockContainerItem1.Text" translate="yes" xml:space="preserve">
           <source>Contacts</source>
-          <target state="new">Contacts</target>
+          <target state="final">Kontakte</target>
         </trans-unit>
         <trans-unit id="bar1.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
           <source>0, 0</source>
@@ -964,7 +963,8 @@
         </trans-unit>
         <trans-unit id="bar1.Text" translate="yes" xml:space="preserve">
           <source>Contacts</source>
-          <target state="new">Contacts</target>
+          <target state="final">Kontakte
+</target>
         </trans-unit>
         <trans-unit id="dockSite1.Dock" translate="yes" xml:space="preserve" extype="System.Windows.Forms.DockStyle, System.Windows.Forms">
           <source>Left</source>
@@ -1012,7 +1012,7 @@
         </trans-unit>
         <trans-unit id="label1.Text" translate="yes" xml:space="preserve">
           <source>English Test label - this should be translated, if I swith the language :)</source>
-          <target state="new">English Test label - this should be translated, if I swith the language :)</target>
+          <target state="translated">Deutsches Test-Label. Es sollte beim Sprachwechsel übersetzt werden.</target>
         </trans-unit>
         <trans-unit id="dockSite2.Dock" translate="yes" xml:space="preserve" extype="System.Windows.Forms.DockStyle, System.Windows.Forms">
           <source>Right</source>
@@ -1161,11 +1161,11 @@
         </trans-unit>
         <trans-unit id="_dbConnectionDbFile" translate="yes" xml:space="preserve">
           <source>Connected to:</source>
-          <target state="new">Connected to:</target>
+          <target state="final">Verbunden mit:</target>
         </trans-unit>
         <trans-unit id="_dbConnectionNoDbFile" translate="yes" xml:space="preserve">
           <source>Not Connected to a Database file</source>
-          <target state="new">Not Connected to a Database file</target>
+          <target state="final">Nicht mit einer Datenbankdatei verbunden</target>
         </trans-unit>
       </group>
     </body>
@@ -3263,7 +3263,7 @@
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.MinimizeRibbonText" translate="yes" xml:space="preserve">
           <source>Mi&amp;nimize the Ribbon</source>
-          <target state="new">Mi&amp;nimize the Ribbon</target>
+          <target state="translated">Mi&amp;nimiere das Ribbon</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatAddItemText" translate="yes" xml:space="preserve">
           <source>&amp;Add to Quick Access Toolbar</source>
@@ -3271,7 +3271,7 @@
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatCustomizeMenuLabel" translate="yes" xml:space="preserve">
           <source><bpt id="1">&lt;b&gt;</bpt>Customize Quick Access Toolbar<ept id="1">&lt;/b&gt;</ept></source>
-          <target state="new"><bpt id="1">&lt;b&gt;</bpt>Customize Quick Access Toolbar<ept id="1">&lt;/b&gt;</ept></target>
+          <target state="final"><bpt id="1">&lt;b&gt;</bpt>Schnellstartmenü Personalisieren<ept id="1">&lt;/b&gt;</ept></target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatCustomizeText" translate="yes" xml:space="preserve">
           <source>&amp;Customize Quick Access Toolbar...</source>
@@ -3283,7 +3283,7 @@
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogCancelButton" translate="yes" xml:space="preserve">
           <source>Cancel</source>
-          <target state="new">Cancel</target>
+          <target state="final">Abbrechen</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogCaption" translate="yes" xml:space="preserve">
           <source>Customize Quick Access Toolbar</source>
@@ -3295,7 +3295,7 @@
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogOkButton" translate="yes" xml:space="preserve">
           <source>OK</source>
-          <target state="new">OK</target>
+          <target state="final">OK</target>
         </trans-unit>
         <trans-unit id="ribbonControl1.SystemText.QatDialogPlacementCheckbox" translate="yes" xml:space="preserve">
           <source>&amp;Place Quick Access Toolbar below the Ribbon</source>
@@ -3368,7 +3368,7 @@
         </trans-unit>
         <trans-unit id="labelX1.Text" translate="yes" xml:space="preserve">
           <source>Current Password</source>
-          <target state="new">Current Password</target>
+          <target state="final">Derzeitiges Passwort</target>
         </trans-unit>
         <trans-unit id="btn_Save.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
           <source>203, 38</source>
@@ -3384,7 +3384,7 @@
         </trans-unit>
         <trans-unit id="btn_Save.Text" translate="yes" xml:space="preserve">
           <source>Save</source>
-          <target state="new">Save</target>
+          <target state="translated">Speichern</target>
         </trans-unit>
         <trans-unit id="btn_Cancel.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
           <source>122, 38</source>
@@ -3400,7 +3400,7 @@
         </trans-unit>
         <trans-unit id="btn_Cancel.Text" translate="yes" xml:space="preserve">
           <source>Cancel</source>
-          <target state="new">Cancel</target>
+          <target state="final">Abbrechen</target>
         </trans-unit>
         <trans-unit id="tb_CurrentPassword.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
           <source>122, 12</source>
