@@ -18,6 +18,8 @@ namespace eNumismat2._0
     //=====================================================================================================================================================================
     public partial class _eNumismatMain : RibbonForm
     {
+        
+
         Classes.DataBaseWork DBWorker;
 
         public string[] args = Environment.GetCommandLineArgs();
@@ -47,13 +49,18 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void Form1_Load(object sender, EventArgs e)
         {
-            _eNumismatMain_PasswordCheck PwCheck = new _eNumismatMain_PasswordCheck();
-
             if (Properties.Settings.Default.UsePasswordProtection == true)
             {
-                if (PwCheck.ShowDialog() != DialogResult.OK)
+                if (OpenForm("_eNumismatMain_PasswordCheck") == false)
                 {
-                    Close();
+                    _eNumismatMain_PasswordCheck PwCheck = new _eNumismatMain_PasswordCheck();
+                    using (PwCheck)
+                    {
+                        if (PwCheck.ShowDialog() != DialogResult.OK)
+                        {
+                            Close();
+                        }
+                    }
                 }
             }
             else
@@ -216,7 +223,6 @@ namespace eNumismat2._0
                 RefreshDbFileSettings();
                 return false;
             }
-            
         }
 
         private void RefreshDbFileSettings()
@@ -379,12 +385,17 @@ namespace eNumismat2._0
         {
             if (WindowState == FormWindowState.Minimized)
             {
-                _eNumismatMain_PasswordCheck PwCheck = new _eNumismatMain_PasswordCheck();
-
-                if (PwCheck.ShowDialog() == DialogResult.OK)
+                if (OpenForm("_eNumismatMain_PasswordCheck") == false)
                 {
-                    Show();
-                    WindowState = FormWindowState.Normal;
+                    _eNumismatMain_PasswordCheck PwCheck = new _eNumismatMain_PasswordCheck();
+                    using (PwCheck)
+                    {
+                        if (PwCheck.ShowDialog() == DialogResult.OK)
+                        {
+                            Show();
+                            WindowState = FormWindowState.Normal;
+                        }
+                    }
                 }
             }
             else if (WindowState == FormWindowState.Normal)
@@ -577,12 +588,16 @@ namespace eNumismat2._0
                 {
                     WindowState = FormWindowState.Minimized;
 
-                    using (_eNumismatMain_PasswordCheck PwCheck = new _eNumismatMain_PasswordCheck())
+                    if (OpenForm("_eNumismatMain_PasswordCheck") == false)
                     {
-                        if (PwCheck.ShowDialog(this) == DialogResult.OK)
+                        _eNumismatMain_PasswordCheck PwCheck = new _eNumismatMain_PasswordCheck();
+                        using (PwCheck)
                         {
-                            Show();
-                            WindowState = FormWindowState.Normal;
+                            if (PwCheck.ShowDialog(this) == DialogResult.OK)
+                            {
+                                Show();
+                                WindowState = FormWindowState.Normal;
+                            }
                         }
                     }
                 }
