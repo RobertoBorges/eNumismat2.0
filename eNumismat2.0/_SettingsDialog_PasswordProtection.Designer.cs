@@ -55,11 +55,9 @@
             this.tb_CurrentPassword.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.tb_CurrentPassword.DisabledBackColor = System.Drawing.Color.LightGray;
             this.tb_CurrentPassword.ForeColor = System.Drawing.Color.Black;
-            this.tb_CurrentPassword.Location = new System.Drawing.Point(135, 12);
+            resources.ApplyResources(this.tb_CurrentPassword, "tb_CurrentPassword");
             this.tb_CurrentPassword.Name = "tb_CurrentPassword";
             this.tb_CurrentPassword.PreventEnterBeep = true;
-            this.tb_CurrentPassword.Size = new System.Drawing.Size(156, 20);
-            this.tb_CurrentPassword.TabIndex = 0;
             this.tb_CurrentPassword.UseSystemPasswordChar = true;
             // 
             // tb_NewPassword
@@ -72,11 +70,9 @@
             this.tb_NewPassword.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.tb_NewPassword.DisabledBackColor = System.Drawing.Color.White;
             this.tb_NewPassword.ForeColor = System.Drawing.Color.Black;
-            this.tb_NewPassword.Location = new System.Drawing.Point(135, 38);
+            resources.ApplyResources(this.tb_NewPassword, "tb_NewPassword");
             this.tb_NewPassword.Name = "tb_NewPassword";
             this.tb_NewPassword.PreventEnterBeep = true;
-            this.tb_NewPassword.Size = new System.Drawing.Size(156, 20);
-            this.tb_NewPassword.TabIndex = 1;
             this.tb_NewPassword.UseSystemPasswordChar = true;
             // 
             // tb_PasswordConfirmation
@@ -89,11 +85,9 @@
             this.tb_PasswordConfirmation.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.tb_PasswordConfirmation.DisabledBackColor = System.Drawing.Color.White;
             this.tb_PasswordConfirmation.ForeColor = System.Drawing.Color.Black;
-            this.tb_PasswordConfirmation.Location = new System.Drawing.Point(135, 64);
+            resources.ApplyResources(this.tb_PasswordConfirmation, "tb_PasswordConfirmation");
             this.tb_PasswordConfirmation.Name = "tb_PasswordConfirmation";
             this.tb_PasswordConfirmation.PreventEnterBeep = true;
-            this.tb_PasswordConfirmation.Size = new System.Drawing.Size(156, 20);
-            this.tb_PasswordConfirmation.TabIndex = 2;
             this.tb_PasswordConfirmation.UseSystemPasswordChar = true;
             this.superValidator1.SetValidator1(this.tb_PasswordConfirmation, this.compareValidator1);
             // 
@@ -103,12 +97,9 @@
             this.btn_Cancel.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btn_Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btn_Cancel.Image = global::eNumismat2._0.Properties.Resources.action_delete;
-            this.btn_Cancel.Location = new System.Drawing.Point(135, 90);
+            resources.ApplyResources(this.btn_Cancel, "btn_Cancel");
             this.btn_Cancel.Name = "btn_Cancel";
-            this.btn_Cancel.Size = new System.Drawing.Size(75, 23);
             this.btn_Cancel.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btn_Cancel.TabIndex = 3;
-            this.btn_Cancel.Text = "Cancel";
             this.btn_Cancel.Click += new System.EventHandler(this.BtnCancel_Click);
             // 
             // btn_Save
@@ -116,12 +107,9 @@
             this.btn_Save.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btn_Save.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btn_Save.Image = global::eNumismat2._0.Properties.Resources.action_check;
-            this.btn_Save.Location = new System.Drawing.Point(216, 90);
+            resources.ApplyResources(this.btn_Save, "btn_Save");
             this.btn_Save.Name = "btn_Save";
-            this.btn_Save.Size = new System.Drawing.Size(75, 23);
             this.btn_Save.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btn_Save.TabIndex = 4;
-            this.btn_Save.Text = "Save";
             this.btn_Save.Click += new System.EventHandler(this.BtnSave_Click);
             // 
             // labelX1
@@ -130,11 +118,8 @@
             // 
             // 
             this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX1.Location = new System.Drawing.Point(11, 9);
+            resources.ApplyResources(this.labelX1, "labelX1");
             this.labelX1.Name = "labelX1";
-            this.labelX1.Size = new System.Drawing.Size(108, 23);
-            this.labelX1.TabIndex = 5;
-            this.labelX1.Text = "Current Password";
             // 
             // labelX2
             // 
@@ -142,11 +127,8 @@
             // 
             // 
             this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX2.Location = new System.Drawing.Point(11, 35);
+            resources.ApplyResources(this.labelX2, "labelX2");
             this.labelX2.Name = "labelX2";
-            this.labelX2.Size = new System.Drawing.Size(108, 23);
-            this.labelX2.TabIndex = 6;
-            this.labelX2.Text = "New Password";
             // 
             // labelX3
             // 
@@ -154,11 +136,8 @@
             // 
             // 
             this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX3.Location = new System.Drawing.Point(11, 61);
+            resources.ApplyResources(this.labelX3, "labelX3");
             this.labelX3.Name = "labelX3";
-            this.labelX3.Size = new System.Drawing.Size(108, 23);
-            this.labelX3.TabIndex = 7;
-            this.labelX3.Text = "Confirm Password";
             // 
             // superValidator1
             // 
@@ -171,14 +150,14 @@
             // compareValidator1
             // 
             this.compareValidator1.ControlToCompare = this.tb_NewPassword;
-            this.compareValidator1.ErrorMessage = "Your error message here.";
+            resources.ApplyResources(this.compareValidator1, "compareValidator1");
             this.compareValidator1.HighlightColor = DevComponents.DotNetBar.Validator.eHighlightColor.Red;
             // 
             // errorProvider1
             // 
             this.errorProvider1.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
             this.errorProvider1.ContainerControl = this;
-            this.errorProvider1.Icon = ((System.Drawing.Icon)(resources.GetObject("errorProvider1.Icon")));
+            resources.ApplyResources(this.errorProvider1, "errorProvider1");
             // 
             // highlighter1
             // 
@@ -188,11 +167,10 @@
             // _SettingsDialog_PasswordProtection
             // 
             this.AcceptButton = this.btn_Save;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.CancelButton = this.btn_Cancel;
-            this.ClientSize = new System.Drawing.Size(320, 136);
             this.Controls.Add(this.labelX3);
             this.Controls.Add(this.labelX2);
             this.Controls.Add(this.labelX1);
@@ -202,7 +180,6 @@
             this.Controls.Add(this.tb_NewPassword);
             this.Controls.Add(this.tb_CurrentPassword);
             this.Name = "_SettingsDialog_PasswordProtection";
-            this.Text = "_SettingsDialog_PasswordProtection";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this._SettingsDialog_PasswordProtection_FormClosing);
             this.Load += new System.EventHandler(this._SettingsDialog_PasswordProtection_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
