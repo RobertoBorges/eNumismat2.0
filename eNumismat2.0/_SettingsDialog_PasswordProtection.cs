@@ -20,10 +20,6 @@ namespace eNumismat2._0
 
             btn_Cancel.DialogResult = DialogResult.Cancel;
             btn_Save.DialogResult = DialogResult.OK;
-
-            //tb_NewPassword.Text = null;
-            //tb_CurrentPassword.Text = null;
-            //tb_PasswordConfirmation = null;
         }
 
         //=====================================================================================================================================================================
@@ -48,33 +44,64 @@ namespace eNumismat2._0
             {
                 if (!string.IsNullOrEmpty(tb_CurrentPassword.Text))
                 {
-                    if (EncryptPW.Calculate(tb_CurrentPassword.Text) == Properties.Settings.Default.CurrentUserPassword)
+                    if (string.Equals(EncryptPW.Calculate(tb_CurrentPassword.Text), Properties.Settings.Default.CurrentUserPassword))
                     {
-                        if (tb_NewPassword.Text.CompareTo(tb_PasswordConfirmation.Text) == 0)
+                        if (!string.IsNullOrEmpty(tb_NewPassword.Text))
                         {
-                            Properties.Settings.Default.CurrentUserPassword = EncryptPW.Calculate(tb_NewPassword.Text);
-                            Properties.Settings.Default.Save();
+                            if (string.Equals(tb_NewPassword.Text, tb_PasswordConfirmation.Text))
+                            {
+                                Properties.Settings.Default.CurrentUserPassword = EncryptPW.Calculate(tb_NewPassword.Text);
+                                Properties.Settings.Default.Save();
+                            }
+                        }
+                        else
+                        {
+                            if (MessageBox.Show("Password can't be empty!", "Error", MessageBoxButtons.OK) == DialogResult.OK)
+                            {
+                                DialogResult = DialogResult.None;
+                                tb_NewPassword.Text = null;
+                                tb_PasswordConfirmation = null;
+                                tb_NewPassword.Focus();
+                            }
                         }
                     }
                     else
                     {
                         MessageBox.Show("Current Password isn't correct." + Environment.NewLine + "Please try again!", "Error");
 
-                        tb_CurrentPassword.Text = "";
+                        tb_CurrentPassword.Text = null;
                         tb_CurrentPassword.Focus();
+                        DialogResult = DialogResult.None;
                     }
                 }
                 else
                 {
-                    MessageBox.Show("You need to enter the current Password, before you can change it!", "Error");
+                    if (MessageBox.Show("You need to enter the current Password, before you can change it!", "Error", MessageBoxButtons.OK) == DialogResult.OK)
+                    {
+                        DialogResult = DialogResult.None;
+                        tb_CurrentPassword.Focus();
+                    }
                 }
             }
             else
             {
-                if (tb_NewPassword.Text.CompareTo(tb_PasswordConfirmation.Text) == 0)
+                if (!string.IsNullOrEmpty(tb_NewPassword.Text))
                 {
-                    Properties.Settings.Default.CurrentUserPassword = EncryptPW.Calculate(tb_NewPassword.Text);
-                    Properties.Settings.Default.Save();
+                    if (string.Equals(tb_NewPassword.Text, tb_PasswordConfirmation.Text))
+                    {
+                        Properties.Settings.Default.CurrentUserPassword = EncryptPW.Calculate(tb_NewPassword.Text);
+                        Properties.Settings.Default.Save();
+                    }
+                }
+                else
+                {
+                    if (MessageBox.Show("Password can't be empty!", "Error", MessageBoxButtons.OK) == DialogResult.OK)
+                    {
+                        DialogResult = DialogResult.None;
+                        tb_NewPassword.Text = null;
+                        tb_PasswordConfirmation = null;
+                        tb_NewPassword.Focus();
+                    }
                 }
             }
 

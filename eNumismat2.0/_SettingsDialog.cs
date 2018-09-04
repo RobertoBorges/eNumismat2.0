@@ -142,60 +142,73 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void BtnUsePassword_ValueChanged(object sender, EventArgs e)
         {
-            //PWProtectionLogic();
-
-            Properties.Settings.Default.UsePasswordProtection = btn_UsePassword.Value;
-            Properties.Settings.Default.Save();
+            PWProtectionLogic();
         }
 
         //=====================================================================================================================================================================
         private void PWProtectionLogic()
         {
-            /*if (btn_UsePassword.Value == true)
+            if (btn_UsePassword.Value == true)
             {
                 if (Properties.Settings.Default.UsePasswordProtection == false)
                 {
                     if (string.IsNullOrEmpty(Properties.Settings.Default.CurrentUserPassword))
                     {
+                        btn_changePW.Visible = false;
+                        btn_changePW.Enabled = false;
+
                         SetPasswordProtection();
                     }
-                    else
+                    Properties.Settings.Default.UsePasswordProtection = btn_UsePassword.Value;
+                    Properties.Settings.Default.Save();
+                }
+                btn_changePW.Visible = true;
+                btn_changePW.Enabled = true;
+            }
+            else if (btn_UsePassword.Value == false)
+            {
+                if (Properties.Settings.Default.UsePasswordProtection == true)
+                {
+                    if (!string.IsNullOrEmpty(Properties.Settings.Default.CurrentUserPassword))
                     {
                         btn_changePW.Visible = true;
                         btn_changePW.Enabled = true;
                     }
                 }
-                else
-                {
-                    btn_changePW.Visible = true;
-                    btn_changePW.Enabled = true;
-                }
+
+                btn_changePW.Visible = false;
+                btn_changePW.Enabled = false;
+
+                Properties.Settings.Default.UsePasswordProtection = btn_UsePassword.Value;
+                Properties.Settings.Default.Save();
             }
-            else
+        }
+
+        
+        //=====================================================================================================================================================================
+        private bool SetPasswordProtection()
+        {
+            _SettingsDialog_PasswordProtection PWProtect = new _SettingsDialog_PasswordProtection();
+            if (PWProtect.ShowDialog() == DialogResult.OK)
             {
                 btn_changePW.Visible = true;
                 btn_changePW.Enabled = true;
-            }*/
-        }
 
-        _SettingsDialog_PasswordProtection PWProtect = new _SettingsDialog_PasswordProtection();
-        //=====================================================================================================================================================================
-        /*private bool SetPasswordProtection()
-        {
-            if (PWProtect.ShowDialog() == DialogResult.OK)
-            {
                 return true;
             }
             else
             {
+                btn_changePW.Visible = false;
+                btn_changePW.Enabled = false;
                 return false;
             }
-        }*/
+        }
 
         //=====================================================================================================================================================================
         private void btn_changePW_Click(object sender, EventArgs e)
         {
-            //PWProtect.ShowDialog();
+            _SettingsDialog_PasswordProtection PWProtect = new _SettingsDialog_PasswordProtection();
+            PWProtect.ShowDialog();
         }
     }
 }

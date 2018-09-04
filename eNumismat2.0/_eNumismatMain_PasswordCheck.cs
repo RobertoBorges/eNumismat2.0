@@ -32,7 +32,7 @@ namespace eNumismat2._0
         {
             Classes.GetHash EncryptPW = new Classes.GetHash();
 
-            if (EncryptPW.Calculate(tb_CurrentPassword.Text) == Properties.Settings.Default.CurrentUserPassword)
+            if (string.Equals(EncryptPW.Calculate(tb_CurrentPassword.Text), Properties.Settings.Default.CurrentUserPassword))
             {
                 DialogResult = DialogResult.OK;
             }
