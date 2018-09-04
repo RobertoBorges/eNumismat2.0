@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Collections.Specialized;
-using DevComponents.DotNetBar;
 using DevComponents.DotNetBar.Controls;
+using System.ComponentModel;
+using System.Drawing;
+using System.Text;
+using System.Threading.Tasks;
+using DevComponents.DotNetBar;
 
 namespace eNumismat2._0
 {
@@ -193,7 +193,6 @@ namespace eNumismat2._0
             {
                 btn_changePW.Visible = true;
                 btn_changePW.Enabled = true;
-
                 return true;
             }
             else

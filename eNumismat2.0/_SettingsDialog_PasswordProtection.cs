@@ -56,7 +56,10 @@ namespace eNumismat2._0
                         }
                         else
                         {
-                            if (MessageBox.Show(GlobalStrings._PWChangeDialog_PasswordEmpty_Text, GlobalStrings._PWChangeDialog_Title, MessageBoxButtons.OK, MessageBoxIcon.Error) == DialogResult.OK)
+                            if (MessageBox.Show(GlobalStrings._PWChangeDialog_PasswordEmpty_Text,
+                                GlobalStrings._PWChangeDialog_Title,
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Error) == DialogResult.OK)
                             {
                                 DialogResult = DialogResult.None;
                                 tb_NewPassword.Text = null;
@@ -67,7 +70,10 @@ namespace eNumismat2._0
                     }
                     else
                     {
-                        if (MessageBox.Show(GlobalStrings._PWChangeDialog_CurrentPWnotCorrect_Text, GlobalStrings._PWChangeDialog_Title, MessageBoxButtons.OK, MessageBoxIcon.Error) == DialogResult.OK)
+                        if (MessageBox.Show(GlobalStrings._PWChangeDialog_CurrentPWnotCorrect_Text,
+                            GlobalStrings._PWChangeDialog_Title,
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Error) == DialogResult.OK)
                         {
                             tb_CurrentPassword.Text = null;
                             tb_CurrentPassword.Focus();
@@ -77,7 +83,10 @@ namespace eNumismat2._0
                 }
                 else
                 {
-                    if (MessageBox.Show(GlobalStrings._PWChangeDialog_CurrentPWEmpty_Text, GlobalStrings._PWChangeDialog_Title, MessageBoxButtons.OK, MessageBoxIcon.Error) == DialogResult.OK)
+                    if (MessageBox.Show(GlobalStrings._PWChangeDialog_CurrentPWEmpty_Text,
+                        GlobalStrings._PWChangeDialog_Title,
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error) == DialogResult.OK)
                     {
                         DialogResult = DialogResult.None;
                         tb_CurrentPassword.Focus();
@@ -96,7 +105,10 @@ namespace eNumismat2._0
                 }
                 else
                 {
-                    if (MessageBox.Show(GlobalStrings._PWChangeDialog_PasswordEmpty_Text, GlobalStrings._PWChangeDialog_Title, MessageBoxButtons.OK, MessageBoxIcon.Error) == DialogResult.OK)
+                    if (MessageBox.Show(GlobalStrings._PWChangeDialog_PasswordEmpty_Text,
+                        GlobalStrings._PWChangeDialog_Title,
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error) == DialogResult.OK)
                     {
                         DialogResult = DialogResult.None;
                         tb_NewPassword.Text = null;
