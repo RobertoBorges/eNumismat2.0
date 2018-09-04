@@ -58,11 +58,11 @@
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.culture = new Infralution.Localization.CultureManager(this.components);
             this.TrayIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.ribbonControl1.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -305,7 +305,6 @@
             this.OpenExchangeMonitorFrm.Name = "OpenExchangeMonitorFrm";
             resources.ApplyResources(this.OpenExchangeMonitorFrm, "OpenExchangeMonitorFrm");
             this.OpenExchangeMonitorFrm.ShowSubItems = false;
-            this.OpenExchangeMonitorFrm.ThemeAware = true;
             this.OpenExchangeMonitorFrm.Click += new System.EventHandler(this.OpenExchangeMonitorFrm_Click);
             // 
             // OpenAddrBookFrm
@@ -314,7 +313,6 @@
             this.OpenAddrBookFrm.Image = global::eNumismat2._0.Properties.Resources.book_addresses;
             this.OpenAddrBookFrm.Name = "OpenAddrBookFrm";
             resources.ApplyResources(this.OpenAddrBookFrm, "OpenAddrBookFrm");
-            this.OpenAddrBookFrm.ThemeAware = true;
             this.OpenAddrBookFrm.Click += new System.EventHandler(this.OpenAddrBookFrm_Click);
             // 
             // btnHelp
@@ -358,6 +356,12 @@
             this.toolStripStatusLabel1.BackColor = System.Drawing.Color.Transparent;
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             // 
+            // toolStripStatusLabel2
+            // 
+            resources.ApplyResources(this.toolStripStatusLabel2, "toolStripStatusLabel2");
+            this.toolStripStatusLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            // 
             // labelX1
             // 
             // 
@@ -382,12 +386,6 @@
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
-            // 
-            // toolStripStatusLabel2
-            // 
-            resources.ApplyResources(this.toolStripStatusLabel2, "toolStripStatusLabel2");
-            this.toolStripStatusLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
             // 
             // _eNumismatMain
             // 

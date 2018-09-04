@@ -149,5 +149,42 @@ namespace eNumismat2._0 {
                 return ResourceManager.GetString("_dbConnectionNoDbFile", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You need to enter the current Password, before you can change it!.
+        /// </summary>
+        internal static string _PWChangeDialog_CurrentPWEmpty_Text {
+            get {
+                return ResourceManager.GetString("_PWChangeDialog_CurrentPWEmpty_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Current Password isn&apos;t correct.
+        ///Please try it again!.
+        /// </summary>
+        internal static string _PWChangeDialog_CurrentPWnotCorrect_Text {
+            get {
+                return ResourceManager.GetString("_PWChangeDialog_CurrentPWnotCorrect_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Password can&apos;t be empty!.
+        /// </summary>
+        internal static string _PWChangeDialog_PasswordEmpty_Text {
+            get {
+                return ResourceManager.GetString("_PWChangeDialog_PasswordEmpty_Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error!.
+        /// </summary>
+        internal static string _PWChangeDialog_Title {
+            get {
+                return ResourceManager.GetString("_PWChangeDialog_Title", resourceCulture);
+            }
+        }
     }
 }

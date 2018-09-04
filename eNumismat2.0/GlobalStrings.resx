@@ -147,4 +147,17 @@
   <data name="_dbConnectionNoDbFile" xml:space="preserve">
     <value>Not Connected to a Database file</value>
   </data>
+  <data name="_PWChangeDialog_CurrentPWEmpty_Text" xml:space="preserve">
+    <value>You need to enter the current Password, before you can change it!</value>
+  </data>
+  <data name="_PWChangeDialog_CurrentPWnotCorrect_Text" xml:space="preserve">
+    <value>Current Password isn't correct.
+Please try it again!</value>
+  </data>
+  <data name="_PWChangeDialog_PasswordEmpty_Text" xml:space="preserve">
+    <value>Password can't be empty!</value>
+  </data>
+  <data name="_PWChangeDialog_Title" xml:space="preserve">
+    <value>Error!</value>
+  </data>
 </root>

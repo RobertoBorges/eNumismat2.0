@@ -56,7 +56,7 @@ namespace eNumismat2._0
                         }
                         else
                         {
-                            if (MessageBox.Show("Password can't be empty!", "Error", MessageBoxButtons.OK) == DialogResult.OK)
+                            if (MessageBox.Show(GlobalStrings._PWChangeDialog_PasswordEmpty_Text, GlobalStrings._PWChangeDialog_Title, MessageBoxButtons.OK, MessageBoxIcon.Error) == DialogResult.OK)
                             {
                                 DialogResult = DialogResult.None;
                                 tb_NewPassword.Text = null;
@@ -67,16 +67,17 @@ namespace eNumismat2._0
                     }
                     else
                     {
-                        MessageBox.Show("Current Password isn't correct." + Environment.NewLine + "Please try again!", "Error");
-
-                        tb_CurrentPassword.Text = null;
-                        tb_CurrentPassword.Focus();
-                        DialogResult = DialogResult.None;
+                        if (MessageBox.Show(GlobalStrings._PWChangeDialog_CurrentPWnotCorrect_Text, GlobalStrings._PWChangeDialog_Title, MessageBoxButtons.OK, MessageBoxIcon.Error) == DialogResult.OK)
+                        {
+                            tb_CurrentPassword.Text = null;
+                            tb_CurrentPassword.Focus();
+                            DialogResult = DialogResult.None;
+                        }
                     }
                 }
                 else
                 {
-                    if (MessageBox.Show("You need to enter the current Password, before you can change it!", "Error", MessageBoxButtons.OK) == DialogResult.OK)
+                    if (MessageBox.Show(GlobalStrings._PWChangeDialog_CurrentPWEmpty_Text, GlobalStrings._PWChangeDialog_Title, MessageBoxButtons.OK, MessageBoxIcon.Error) == DialogResult.OK)
                     {
                         DialogResult = DialogResult.None;
                         tb_CurrentPassword.Focus();
@@ -95,7 +96,7 @@ namespace eNumismat2._0
                 }
                 else
                 {
-                    if (MessageBox.Show("Password can't be empty!", "Error", MessageBoxButtons.OK) == DialogResult.OK)
+                    if (MessageBox.Show(GlobalStrings._PWChangeDialog_PasswordEmpty_Text, GlobalStrings._PWChangeDialog_Title, MessageBoxButtons.OK, MessageBoxIcon.Error) == DialogResult.OK)
                     {
                         DialogResult = DialogResult.None;
                         tb_NewPassword.Text = null;

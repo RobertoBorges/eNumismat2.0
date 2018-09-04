@@ -38,7 +38,7 @@ namespace eNumismat2._0
             }
             else
             {
-                MessageBox.Show("Password is not correct!");
+                MessageBox.Show(GlobalStrings._PWChangeDialog_CurrentPWnotCorrect_Text, GlobalStrings._PWChangeDialog_Title, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
