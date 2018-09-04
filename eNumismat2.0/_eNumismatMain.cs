@@ -1,16 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Globalization;
-using System.Threading;
 using System.Windows.Forms;
 using DevComponents.DotNetBar;
 using Infralution.Localization;
 using System.IO;
+using System.Drawing;
+using System.Linq;
+using System.Globalization;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Text;
+using System.Threading;
+
 
 namespace eNumismat2._0
 {
@@ -30,6 +31,7 @@ namespace eNumismat2._0
             {
                 foreach (string arg in args)
                 {
+                    // Hidden: Should be removed 
                     if (arg.ToUpper() == "RESETPW")
                     {
                         Properties.Settings.Default.UsePasswordProtection = false;
@@ -377,8 +379,13 @@ namespace eNumismat2._0
         {
             if (WindowState == FormWindowState.Minimized)
             {
-                Show();
-                WindowState = FormWindowState.Normal;
+                _eNumismatMain_PasswordCheck PwCheck = new _eNumismatMain_PasswordCheck();
+
+                if (PwCheck.ShowDialog() == DialogResult.OK)
+                {
+                    Show();
+                    WindowState = FormWindowState.Normal;
+                }
             }
             else if (WindowState == FormWindowState.Normal)
             {
@@ -559,6 +566,26 @@ namespace eNumismat2._0
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void _eNumismatMain_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (Properties.Settings.Default.UsePasswordProtection == true)
+            {
+                if (e.Control && e.Shift && e.KeyCode == Keys.L)
+                {
+                    WindowState = FormWindowState.Minimized;
+
+                    using (_eNumismatMain_PasswordCheck PwCheck = new _eNumismatMain_PasswordCheck())
+                    {
+                        if (PwCheck.ShowDialog(this) == DialogResult.OK)
+                        {
+                            Show();
+                            WindowState = FormWindowState.Normal;
+                        }
+                    }
+                }
             }
         }
     }

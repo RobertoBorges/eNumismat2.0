@@ -92,6 +92,7 @@
             this.Controls.Add(this.tb_CurrentPassword);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "_eNumismatMain_PasswordCheck";
+            this.TopMost = true;
             this.Load += new System.EventHandler(this._eNumismatMain_PasswordCheck_Load);
             this.ResumeLayout(false);
 
