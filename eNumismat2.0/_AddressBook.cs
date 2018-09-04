@@ -2,6 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 using DevComponents.DotNetBar;
+using Infralution.Localization;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

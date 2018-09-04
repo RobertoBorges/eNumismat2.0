@@ -47,10 +47,12 @@ namespace eNumismat2._0
                     }
                 }
             }
+
+            
         }
 
         //=====================================================================================================================================================================
-        private void Form1_Load(object sender, EventArgs e)
+        private void UseLogin()
         {
             if (Properties.Settings.Default.UsePasswordProtection == true)
             {
@@ -61,6 +63,7 @@ namespace eNumismat2._0
                     {
                         if (PwCheck.ShowDialog() != DialogResult.OK)
                         {
+                            
                             Close();
                         }
                     }
@@ -68,8 +71,6 @@ namespace eNumismat2._0
             }
             else
             {
-                CheckIfDbFileExists();
-
                 if (Properties.Settings.Default.MainWindowState == FormWindowState.Maximized)
                 {
                     WindowState = FormWindowState.Maximized;
@@ -82,9 +83,16 @@ namespace eNumismat2._0
                 {
                     WindowState = FormWindowState.Maximized;
                 }
-
-                DisplayLanguage();
             }
+        }
+
+        //=====================================================================================================================================================================
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            UseLogin();
+
+            CheckIfDbFileExists();
+            DisplayLanguage();
         }
 
         //=====================================================================================================================================================================
@@ -397,6 +405,10 @@ namespace eNumismat2._0
                         {
                             Show();
                             WindowState = FormWindowState.Normal;
+                        }
+                        else if(PwCheck.ShowDialog() == DialogResult.Cancel)
+                        {
+                            Close();
                         }
                     }
                 }

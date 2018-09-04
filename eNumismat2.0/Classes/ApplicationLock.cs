@@ -30,6 +30,13 @@ namespace eNumismat2._0.Classes
                                 frm.Show();
                             }
                         }
+                        else if (PwCheck.ShowDialog() == DialogResult.Cancel)
+                        {
+                            foreach (Form frm in Application.OpenForms)
+                            {
+                                frm.Close();
+                            }
+                        }
                     }
                 }
             }
