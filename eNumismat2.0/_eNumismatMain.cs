@@ -606,7 +606,7 @@ namespace eNumismat2._0
         }
 
         //=====================================================================================================================================================================
-        private void btn_AppLock_Click(object sender, EventArgs e)
+        private void Btn_AppLock_Click(object sender, EventArgs e)
         {
             Classes.ApplicationLock AppLock = new Classes.ApplicationLock();
             AppLock.Lock();

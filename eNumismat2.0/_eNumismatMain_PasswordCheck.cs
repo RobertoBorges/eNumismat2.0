@@ -23,13 +23,13 @@ namespace eNumismat2._0
         }
 
         //=====================================================================================================================================================================
-        private void btn_Save_Click(object sender, EventArgs e)
+        private void Btn_Save_Click(object sender, EventArgs e)
         {
             CheckIfPwIsCorrect();
         }
 
         //=====================================================================================================================================================================
-        private void btn_Cancel_Click(object sender, EventArgs e)
+        private void Btn_Cancel_Click(object sender, EventArgs e)
         {
             Close();
             //Application.Exit();

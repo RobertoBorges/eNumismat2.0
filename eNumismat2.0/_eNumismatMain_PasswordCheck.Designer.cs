@@ -55,7 +55,7 @@
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btn_Save.ThemeAware = true;
-            this.btn_Save.Click += new System.EventHandler(this.btn_Save_Click);
+            this.btn_Save.Click += new System.EventHandler(this.Btn_Save_Click);
             // 
             // btn_Cancel
             // 
@@ -67,7 +67,7 @@
             this.btn_Cancel.Name = "btn_Cancel";
             this.btn_Cancel.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btn_Cancel.ThemeAware = true;
-            this.btn_Cancel.Click += new System.EventHandler(this.btn_Cancel_Click);
+            this.btn_Cancel.Click += new System.EventHandler(this.Btn_Cancel_Click);
             // 
             // tb_CurrentPassword
             // 

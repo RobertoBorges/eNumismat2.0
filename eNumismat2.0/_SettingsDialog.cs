@@ -134,7 +134,7 @@ namespace eNumismat2._0
         }
 
         //=====================================================================================================================================================================
-        private void buttonX3_Click(object sender, EventArgs e)
+        private void ButtonX3_Click(object sender, EventArgs e)
         {
             DeleteSelectedTags();
         }
@@ -204,7 +204,7 @@ namespace eNumismat2._0
         }
 
         //=====================================================================================================================================================================
-        private void btn_changePW_Click(object sender, EventArgs e)
+        private void Btn_changePW_Click(object sender, EventArgs e)
         {
             _SettingsDialog_PasswordProtection PWProtect = new _SettingsDialog_PasswordProtection();
             PWProtect.ShowDialog();

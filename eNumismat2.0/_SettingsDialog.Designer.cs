@@ -413,7 +413,7 @@
             resources.ApplyResources(this.buttonX3, "buttonX3");
             this.buttonX3.Name = "buttonX3";
             this.buttonX3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX3.Click += new System.EventHandler(this.buttonX3_Click);
+            this.buttonX3.Click += new System.EventHandler(this.ButtonX3_Click);
             // 
             // buttonX4
             // 
@@ -698,7 +698,7 @@
             resources.ApplyResources(this.btn_changePW, "btn_changePW");
             this.btn_changePW.Name = "btn_changePW";
             this.btn_changePW.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btn_changePW.Click += new System.EventHandler(this.btn_changePW_Click);
+            this.btn_changePW.Click += new System.EventHandler(this.Btn_changePW_Click);
             // 
             // _SettingsDialog
             // 

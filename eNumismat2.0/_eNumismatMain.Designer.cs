@@ -209,7 +209,7 @@
             this.btn_AppLock.BeginGroup = true;
             this.btn_AppLock.Name = "btn_AppLock";
             resources.ApplyResources(this.btn_AppLock, "btn_AppLock");
-            this.btn_AppLock.Click += new System.EventHandler(this.btn_AppLock_Click);
+            this.btn_AppLock.Click += new System.EventHandler(this.Btn_AppLock_Click);
             // 
             // buttonItem9
             // 
