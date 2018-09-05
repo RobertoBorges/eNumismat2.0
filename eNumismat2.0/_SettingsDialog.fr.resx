@@ -96,6 +96,9 @@
   <data name="labelX8.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
+  <data name="labelX8.Text" xml:space="preserve">
+    <value>Ajouter ou supprimer des balises</value>
+  </data>
   <data name="buttonX3.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
     <value>145, 340</value>
   </data>
@@ -122,6 +125,9 @@
   </data>
   <data name="labelX7.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>8</value>
+  </data>
+  <data name="labelX7.Text" xml:space="preserve">
+    <value>Ajouter ou supprimer des étiquettes</value>
   </data>
   <data name="buttonX2.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
     <value>142, 192</value>
@@ -192,6 +198,9 @@
   <data name="tabControlPanel2.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
+  <data name="tabItem2.Text" xml:space="preserve">
+    <value>Carnet d'adresses</value>
+  </data>
   <data name="tabControlPanel5.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -206,6 +215,9 @@
   </data>
   <data name="tabControlPanel5.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>26</value>
+  </data>
+  <data name="tabItem5.Text" xml:space="preserve">
+    <value>Gestion de collection</value>
   </data>
   <data name="tabControlPanel3.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -276,6 +288,9 @@
   <data name="labelX2.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
+  <data name="labelX2.Text" xml:space="preserve">
+    <value>Compresser la base de données avant la sauvegarde</value>
+  </data>
   <data name="btn_DbBackupOnAppClose.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
     <value>9, 11</value>
   </data>
@@ -345,6 +360,9 @@
   <data name="btn_Cancel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
   <data name="btn_Save.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
     <value>467, 3</value>
   </data>
@@ -353,9 +371,6 @@
   </data>
   <data name="btn_Save.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>0</value>
-  </data>
-  <data name="panelEx2.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
   </data>
   <data name="panelEx2.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
     <value>3, 492</value>
@@ -420,10 +435,34 @@
   <data name="btn_changePW.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
+  <data name="btn_changePW.Text" xml:space="preserve">
+    <value>Changer le mot de passe actuel</value>
+  </data>
   <data name="btn_changePW.Enabled" xml:space="preserve" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="btn_changePW.Visible" xml:space="preserve" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="labelX10.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>9, 89</value>
+  </data>
+  <data name="labelX10.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="labelX10.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="cb_StyleSelector.ItemHeight" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cb_StyleSelector.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>9, 118</value>
+  </data>
+  <data name="cb_StyleSelector.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="cb_StyleSelector.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>15</value>
   </data>
 </root>

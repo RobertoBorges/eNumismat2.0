@@ -675,6 +675,150 @@
           <source>False</source>
           <target state="needs-review-translation">False</target>
         </trans-unit>
+        <trans-unit id="labelX10.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+          <source>9, 89</source>
+          <target state="needs-review-translation">9, 89</target>
+        </trans-unit>
+        <trans-unit id="labelX10.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+          <source>150, 23</source>
+          <target state="needs-review-translation">150, 23</target>
+        </trans-unit>
+        <trans-unit id="labelX10.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+          <source>16</source>
+          <target state="needs-review-translation">16</target>
+        </trans-unit>
+        <trans-unit id="labelX10.Text" translate="yes" xml:space="preserve">
+          <source>Colorscheme:</source>
+          <target state="new">Colorscheme:</target>
+        </trans-unit>
+        <trans-unit id="cb_StyleSelector.ItemHeight" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+          <source>14</source>
+          <target state="needs-review-translation">14</target>
+        </trans-unit>
+        <trans-unit id="cb_StyleSelector.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+          <source>9, 118</source>
+          <target state="needs-review-translation">9, 118</target>
+        </trans-unit>
+        <trans-unit id="cb_StyleSelector.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+          <source>169, 20</source>
+          <target state="needs-review-translation">169, 20</target>
+        </trans-unit>
+        <trans-unit id="cb_StyleSelector.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+          <source>15</source>
+          <target state="needs-review-translation">15</target>
+        </trans-unit>
+        <trans-unit id="StylePurple.Text" translate="yes" xml:space="preserve">
+          <source>Purple</source>
+          <target state="new">Purple</target>
+        </trans-unit>
+        <trans-unit id="StyleMagenta.Text" translate="yes" xml:space="preserve">
+          <source>Magenta</source>
+          <target state="new">Magenta</target>
+        </trans-unit>
+        <trans-unit id="StyleRed.Text" translate="yes" xml:space="preserve">
+          <source>Red</source>
+          <target state="new">Red</target>
+        </trans-unit>
+        <trans-unit id="StyleBlue.Text" translate="yes" xml:space="preserve">
+          <source>Blue</source>
+          <target state="new">Blue</target>
+        </trans-unit>
+        <trans-unit id="StyleGreen.Text" translate="yes" xml:space="preserve">
+          <source>Green</source>
+          <target state="new">Green</target>
+        </trans-unit>
+        <trans-unit id="StyleBrown.Text" translate="yes" xml:space="preserve">
+          <source>Brown</source>
+          <target state="new">Brown</target>
+        </trans-unit>
+        <trans-unit id="StyleOrange.Text" translate="yes" xml:space="preserve">
+          <source>Orange</source>
+          <target state="new">Orange</target>
+        </trans-unit>
+        <trans-unit id="StyleForestGreen.Text" translate="yes" xml:space="preserve">
+          <source>Forest Green</source>
+          <target state="new">Forest Green</target>
+        </trans-unit>
+        <trans-unit id="StyleDarkRed.Text" translate="yes" xml:space="preserve">
+          <source>Dark Red</source>
+          <target state="new">Dark Red</target>
+        </trans-unit>
+        <trans-unit id="StyleDarkBlue.Text" translate="yes" xml:space="preserve">
+          <source>Dark Blue</source>
+          <target state="new">Dark Blue</target>
+        </trans-unit>
+        <trans-unit id="StyleDarkPurple.Text" translate="yes" xml:space="preserve">
+          <source>Dark Purple</source>
+          <target state="new">Dark Purple</target>
+        </trans-unit>
+        <trans-unit id="StyleRedAmplified.Text" translate="yes" xml:space="preserve">
+          <source>Red Amplified</source>
+          <target state="new">Red Amplified</target>
+        </trans-unit>
+        <trans-unit id="StyleNappaRed.Text" translate="yes" xml:space="preserve">
+          <source>Nappa Red</source>
+          <target state="new">Nappa Red</target>
+        </trans-unit>
+        <trans-unit id="StyleGreyOrange.Text" translate="yes" xml:space="preserve">
+          <source>Grey Orange</source>
+          <target state="new">Grey Orange</target>
+        </trans-unit>
+        <trans-unit id="StyleEarlyMaroon.Text" translate="yes" xml:space="preserve">
+          <source>Early Maroon</source>
+          <target state="new">Early Maroon</target>
+        </trans-unit>
+        <trans-unit id="StyleEarlyOrange.Text" translate="yes" xml:space="preserve">
+          <source>Early Orange</source>
+          <target state="new">Early Orange</target>
+        </trans-unit>
+        <trans-unit id="StyleEarlyRed.Text" translate="yes" xml:space="preserve">
+          <source>Early Red</source>
+          <target state="new">Early Red</target>
+        </trans-unit>
+        <trans-unit id="StyleSilverBlue.Text" translate="yes" xml:space="preserve">
+          <source>Silver Blue</source>
+          <target state="new">Silver Blue</target>
+        </trans-unit>
+        <trans-unit id="StyleSilverGreen.Text" translate="yes" xml:space="preserve">
+          <source>Silver Green</source>
+          <target state="new">Silver Green</target>
+        </trans-unit>
+        <trans-unit id="StyleRetroBlue.Text" translate="yes" xml:space="preserve">
+          <source>Retro Blue</source>
+          <target state="new">Retro Blue</target>
+        </trans-unit>
+        <trans-unit id="StyleWashedWhite.Text" translate="yes" xml:space="preserve">
+          <source>Washed White</source>
+          <target state="new">Washed White</target>
+        </trans-unit>
+        <trans-unit id="StyleVisualStudioLight.Text" translate="yes" xml:space="preserve">
+          <source>Visual Studio 2012 Light</source>
+          <target state="new">Visual Studio 2012 Light</target>
+        </trans-unit>
+        <trans-unit id="StyleOffice2016Blue.Text" translate="yes" xml:space="preserve">
+          <source>Office 2016 Blue</source>
+          <target state="new">Office 2016 Blue</target>
+        </trans-unit>
+        <trans-unit id="StyleOffice2016DarkBlue.Text" translate="yes" xml:space="preserve">
+          <source>Office 2016 Dark Blue</source>
+          <target state="new">Office 2016 Dark Blue</target>
+        </trans-unit>
+        <trans-unit id="StyleOffice2016Green.Text" translate="yes" xml:space="preserve">
+          <source>Office 2016 Green</source>
+          <target state="new">Office 2016 Green</target>
+        </trans-unit>
+        <trans-unit id="StyleOffice2016Orange.Text" translate="yes" xml:space="preserve">
+          <source>Office 2016 Orange</source>
+          <target state="new">Office 2016 Orange</target>
+        </trans-unit>
+        <trans-unit id="StyleOffice2016Red.Text" translate="yes" xml:space="preserve">
+          <source>Office 2016 Red</source>
+          <target state="new">Office 2016 Red</target>
+        </trans-unit>
+        <trans-unit id="StyleOffice2016Purple.Text" translate="yes" xml:space="preserve">
+          <source>Office 2016 Purple</source>
+          <target state="new">Office 2016 Purple</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -700,7 +844,7 @@
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="$this.TrayHeight" translate="yes" extype="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" extradata="metadata" xml:space="preserve">
-          <source>34</source>
+          <source>43</source>
           <target state="needs-review-translation">25</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>

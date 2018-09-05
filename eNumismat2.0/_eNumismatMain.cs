@@ -439,26 +439,35 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void CreateNewDbFile()
         {
-            GetDBConnected("create");
+            if (GetDBConnected("create"))
+            {
+                DBWorker = new Classes.DataBaseWork();
+                try
+                {
+                    MessageBox.Show(Properties.Settings.Default.DBFile);
 
-            DBWorker = new Classes.DataBaseWork();
-            try
-            {
-                DBWorker.CreateNewDataBase();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
+                    DBWorker.CreateNewDataBase();
+
+                    CheckIfDbFileExists();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
             }
         }
 
         //=====================================================================================================================================================================
         private void OpenDbFile()
         {
-            GetDBConnected("open");
+            if (GetDBConnected("open"))
+            {
+                CheckIfDbFileExists();
+            }
         }
 
-        private void GetDBConnected(string method)
+        //=====================================================================================================================================================================
+        private bool GetDBConnected(string method)
         {
             string InitialDir = null;
             string FileName = null;
@@ -512,9 +521,15 @@ namespace eNumismat2._0
                 MessageBox.Show(FilePath);
 
                 Properties.Settings.Default.Save();
+
+                return true;
+            }
+            else
+            {
+                return false;
             }
 
-            CheckIfDbFileExists();
+            
         }
 
         //=====================================================================================================================================================================
