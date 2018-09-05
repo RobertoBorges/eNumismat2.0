@@ -34,6 +34,37 @@
             this.panelEx1 = new DevComponents.DotNetBar.PanelEx();
             this.tabControl1 = new DevComponents.DotNetBar.TabControl();
             this.tabControlPanel4 = new DevComponents.DotNetBar.TabControlPanel();
+            this.labelX10 = new DevComponents.DotNetBar.LabelX();
+            this.cb_StyleSelector = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.StylePurple = new DevComponents.Editors.ComboItem();
+            this.StyleMagenta = new DevComponents.Editors.ComboItem();
+            this.StyleRed = new DevComponents.Editors.ComboItem();
+            this.StyleBlue = new DevComponents.Editors.ComboItem();
+            this.StyleGreen = new DevComponents.Editors.ComboItem();
+            this.StyleBrown = new DevComponents.Editors.ComboItem();
+            this.StyleOrange = new DevComponents.Editors.ComboItem();
+            this.StyleForestGreen = new DevComponents.Editors.ComboItem();
+            this.StyleDarkRed = new DevComponents.Editors.ComboItem();
+            this.StyleDarkBlue = new DevComponents.Editors.ComboItem();
+            this.StyleDarkPurple = new DevComponents.Editors.ComboItem();
+            this.StyleRedAmplified = new DevComponents.Editors.ComboItem();
+            this.StyleNappaRed = new DevComponents.Editors.ComboItem();
+            this.StyleGreyOrange = new DevComponents.Editors.ComboItem();
+            this.StyleEarlyMaroon = new DevComponents.Editors.ComboItem();
+            this.StyleEarlyOrange = new DevComponents.Editors.ComboItem();
+            this.StyleEarlyRed = new DevComponents.Editors.ComboItem();
+            this.StyleSilverBlue = new DevComponents.Editors.ComboItem();
+            this.StyleSilverGreen = new DevComponents.Editors.ComboItem();
+            this.StyleRetroBlue = new DevComponents.Editors.ComboItem();
+            this.StyleWashedWhite = new DevComponents.Editors.ComboItem();
+            this.StyleVisualStudioLight = new DevComponents.Editors.ComboItem();
+            this.StyleOffice2016Blue = new DevComponents.Editors.ComboItem();
+            this.StyleOffice2016DarkBlue = new DevComponents.Editors.ComboItem();
+            this.StyleOffice2016Green = new DevComponents.Editors.ComboItem();
+            this.StyleOffice2016Orange = new DevComponents.Editors.ComboItem();
+            this.StyleOffice2016Red = new DevComponents.Editors.ComboItem();
+            this.StyleOffice2016Purple = new DevComponents.Editors.ComboItem();
+            this.btn_changePW = new DevComponents.DotNetBar.ButtonX();
             this.labelX9 = new DevComponents.DotNetBar.LabelX();
             this.btn_UsePassword = new DevComponents.DotNetBar.Controls.SwitchButton();
             this.labelX5 = new DevComponents.DotNetBar.LabelX();
@@ -100,7 +131,6 @@
             this.buttonItem13 = new DevComponents.DotNetBar.ButtonItem();
             this.colorPickerDropDown1 = new DevComponents.DotNetBar.ColorPickerDropDown();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
-            this.btn_changePW = new DevComponents.DotNetBar.ButtonX();
             this.flowLayoutPanel1.SuspendLayout();
             this.panelEx1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl1)).BeginInit();
@@ -160,6 +190,8 @@
             // 
             // tabControlPanel4
             // 
+            this.tabControlPanel4.Controls.Add(this.labelX10);
+            this.tabControlPanel4.Controls.Add(this.cb_StyleSelector);
             this.tabControlPanel4.Controls.Add(this.btn_changePW);
             this.tabControlPanel4.Controls.Add(this.labelX9);
             this.tabControlPanel4.Controls.Add(this.btn_UsePassword);
@@ -175,6 +207,178 @@
             | DevComponents.DotNetBar.eBorderSide.Bottom)));
             this.tabControlPanel4.Style.GradientAngle = 90;
             this.tabControlPanel4.TabItem = this.tabItem4;
+            // 
+            // labelX10
+            // 
+            this.labelX10.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.labelX10.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            resources.ApplyResources(this.labelX10, "labelX10");
+            this.labelX10.Name = "labelX10";
+            this.labelX10.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            // 
+            // cb_StyleSelector
+            // 
+            this.cb_StyleSelector.DisplayMember = "Text";
+            this.cb_StyleSelector.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cb_StyleSelector.ForeColor = System.Drawing.Color.Black;
+            this.cb_StyleSelector.FormattingEnabled = true;
+            resources.ApplyResources(this.cb_StyleSelector, "cb_StyleSelector");
+            this.cb_StyleSelector.Items.AddRange(new object[] {
+            this.StylePurple,
+            this.StyleMagenta,
+            this.StyleRed,
+            this.StyleBlue,
+            this.StyleGreen,
+            this.StyleBrown,
+            this.StyleOrange,
+            this.StyleForestGreen,
+            this.StyleDarkRed,
+            this.StyleDarkBlue,
+            this.StyleDarkPurple,
+            this.StyleRedAmplified,
+            this.StyleNappaRed,
+            this.StyleGreyOrange,
+            this.StyleEarlyMaroon,
+            this.StyleEarlyOrange,
+            this.StyleEarlyRed,
+            this.StyleSilverBlue,
+            this.StyleSilverGreen,
+            this.StyleRetroBlue,
+            this.StyleWashedWhite,
+            this.StyleVisualStudioLight,
+            this.StyleOffice2016Blue,
+            this.StyleOffice2016DarkBlue,
+            this.StyleOffice2016Green,
+            this.StyleOffice2016Orange,
+            this.StyleOffice2016Red,
+            this.StyleOffice2016Purple});
+            this.cb_StyleSelector.Name = "cb_StyleSelector";
+            this.cb_StyleSelector.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.cb_StyleSelector.SelectedIndexChanged += new System.EventHandler(this.cb_StyleSelector_SelectedIndexChanged);
+            // 
+            // StylePurple
+            // 
+            resources.ApplyResources(this.StylePurple, "StylePurple");
+            // 
+            // StyleMagenta
+            // 
+            resources.ApplyResources(this.StyleMagenta, "StyleMagenta");
+            // 
+            // StyleRed
+            // 
+            resources.ApplyResources(this.StyleRed, "StyleRed");
+            // 
+            // StyleBlue
+            // 
+            resources.ApplyResources(this.StyleBlue, "StyleBlue");
+            // 
+            // StyleGreen
+            // 
+            resources.ApplyResources(this.StyleGreen, "StyleGreen");
+            // 
+            // StyleBrown
+            // 
+            resources.ApplyResources(this.StyleBrown, "StyleBrown");
+            // 
+            // StyleOrange
+            // 
+            resources.ApplyResources(this.StyleOrange, "StyleOrange");
+            // 
+            // StyleForestGreen
+            // 
+            resources.ApplyResources(this.StyleForestGreen, "StyleForestGreen");
+            // 
+            // StyleDarkRed
+            // 
+            resources.ApplyResources(this.StyleDarkRed, "StyleDarkRed");
+            // 
+            // StyleDarkBlue
+            // 
+            resources.ApplyResources(this.StyleDarkBlue, "StyleDarkBlue");
+            // 
+            // StyleDarkPurple
+            // 
+            resources.ApplyResources(this.StyleDarkPurple, "StyleDarkPurple");
+            // 
+            // StyleRedAmplified
+            // 
+            resources.ApplyResources(this.StyleRedAmplified, "StyleRedAmplified");
+            // 
+            // StyleNappaRed
+            // 
+            resources.ApplyResources(this.StyleNappaRed, "StyleNappaRed");
+            // 
+            // StyleGreyOrange
+            // 
+            resources.ApplyResources(this.StyleGreyOrange, "StyleGreyOrange");
+            // 
+            // StyleEarlyMaroon
+            // 
+            resources.ApplyResources(this.StyleEarlyMaroon, "StyleEarlyMaroon");
+            // 
+            // StyleEarlyOrange
+            // 
+            resources.ApplyResources(this.StyleEarlyOrange, "StyleEarlyOrange");
+            // 
+            // StyleEarlyRed
+            // 
+            resources.ApplyResources(this.StyleEarlyRed, "StyleEarlyRed");
+            // 
+            // StyleSilverBlue
+            // 
+            resources.ApplyResources(this.StyleSilverBlue, "StyleSilverBlue");
+            // 
+            // StyleSilverGreen
+            // 
+            resources.ApplyResources(this.StyleSilverGreen, "StyleSilverGreen");
+            // 
+            // StyleRetroBlue
+            // 
+            resources.ApplyResources(this.StyleRetroBlue, "StyleRetroBlue");
+            // 
+            // StyleWashedWhite
+            // 
+            resources.ApplyResources(this.StyleWashedWhite, "StyleWashedWhite");
+            // 
+            // StyleVisualStudioLight
+            // 
+            resources.ApplyResources(this.StyleVisualStudioLight, "StyleVisualStudioLight");
+            // 
+            // StyleOffice2016Blue
+            // 
+            resources.ApplyResources(this.StyleOffice2016Blue, "StyleOffice2016Blue");
+            // 
+            // StyleOffice2016DarkBlue
+            // 
+            resources.ApplyResources(this.StyleOffice2016DarkBlue, "StyleOffice2016DarkBlue");
+            // 
+            // StyleOffice2016Green
+            // 
+            resources.ApplyResources(this.StyleOffice2016Green, "StyleOffice2016Green");
+            // 
+            // StyleOffice2016Orange
+            // 
+            resources.ApplyResources(this.StyleOffice2016Orange, "StyleOffice2016Orange");
+            // 
+            // StyleOffice2016Red
+            // 
+            resources.ApplyResources(this.StyleOffice2016Red, "StyleOffice2016Red");
+            // 
+            // StyleOffice2016Purple
+            // 
+            resources.ApplyResources(this.StyleOffice2016Purple, "StyleOffice2016Purple");
+            // 
+            // btn_changePW
+            // 
+            this.btn_changePW.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btn_changePW.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            resources.ApplyResources(this.btn_changePW, "btn_changePW");
+            this.btn_changePW.Name = "btn_changePW";
+            this.btn_changePW.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btn_changePW.Click += new System.EventHandler(this.Btn_changePW_Click);
             // 
             // labelX9
             // 
@@ -691,15 +895,6 @@
             this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.VisualStudio2012Light;
             this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(254)))), ((int)(((byte)(254))))), System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(143))))));
             // 
-            // btn_changePW
-            // 
-            this.btn_changePW.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btn_changePW.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            resources.ApplyResources(this.btn_changePW, "btn_changePW");
-            this.btn_changePW.Name = "btn_changePW";
-            this.btn_changePW.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btn_changePW.Click += new System.EventHandler(this.Btn_changePW_Click);
-            // 
             // _SettingsDialog
             // 
             this.AcceptButton = this.btn_Save;
@@ -797,5 +992,35 @@
         private DevComponents.DotNetBar.LabelX labelX9;
         private DevComponents.DotNetBar.Controls.SwitchButton btn_UsePassword;
         private DevComponents.DotNetBar.ButtonX btn_changePW;
+        private DevComponents.DotNetBar.LabelX labelX10;
+        private DevComponents.DotNetBar.Controls.ComboBoxEx cb_StyleSelector;
+        private DevComponents.Editors.ComboItem StylePurple;
+        private DevComponents.Editors.ComboItem StyleMagenta;
+        private DevComponents.Editors.ComboItem StyleRed;
+        private DevComponents.Editors.ComboItem StyleBlue;
+        private DevComponents.Editors.ComboItem StyleGreen;
+        private DevComponents.Editors.ComboItem StyleBrown;
+        private DevComponents.Editors.ComboItem StyleOrange;
+        private DevComponents.Editors.ComboItem StyleForestGreen;
+        private DevComponents.Editors.ComboItem StyleDarkRed;
+        private DevComponents.Editors.ComboItem StyleDarkBlue;
+        private DevComponents.Editors.ComboItem StyleDarkPurple;
+        private DevComponents.Editors.ComboItem StyleRedAmplified;
+        private DevComponents.Editors.ComboItem StyleNappaRed;
+        private DevComponents.Editors.ComboItem StyleGreyOrange;
+        private DevComponents.Editors.ComboItem StyleEarlyMaroon;
+        private DevComponents.Editors.ComboItem StyleEarlyOrange;
+        private DevComponents.Editors.ComboItem StyleEarlyRed;
+        private DevComponents.Editors.ComboItem StyleSilverBlue;
+        private DevComponents.Editors.ComboItem StyleSilverGreen;
+        private DevComponents.Editors.ComboItem StyleRetroBlue;
+        private DevComponents.Editors.ComboItem StyleWashedWhite;
+        private DevComponents.Editors.ComboItem StyleVisualStudioLight;
+        private DevComponents.Editors.ComboItem StyleOffice2016Blue;
+        private DevComponents.Editors.ComboItem StyleOffice2016DarkBlue;
+        private DevComponents.Editors.ComboItem StyleOffice2016Green;
+        private DevComponents.Editors.ComboItem StyleOffice2016Orange;
+        private DevComponents.Editors.ComboItem StyleOffice2016Red;
+        private DevComponents.Editors.ComboItem StyleOffice2016Purple;
     }
 }

@@ -54,6 +54,16 @@ namespace eNumismat2._0
             cb_DbBackupPath.SelectedItem = Properties.Settings.Default.DBBackupPath;
 
             FillListBoxTagCollection();
+
+            if (cb_StyleSelector.Items.Contains(Properties.Settings.Default.CurrentColorTheme))
+            {
+                cb_StyleSelector.SelectedItem = Properties.Settings.Default.CurrentColorTheme;
+            }
+            else
+            {
+                cb_StyleSelector.SelectedItem = StyleRetroBlue;
+            }
+            //cb_StyleSelector.DataSource = styleManager1.MetroColorParameters.ThemeName;
         }
 
         //=====================================================================================================================================================================
@@ -61,13 +71,16 @@ namespace eNumismat2._0
         {
             List<string> TagItems = new List<string>();
             
-            foreach (var Tag in ListBox_TagCollection.CheckedItems)
+            foreach (var Token in ListBox_TagCollection.CheckedItems)
             {
-                TagItems.Add(Tag.ToString());
+                tokenEditor1.Tokens.Remove(new EditToken(Token.ToString()));
 
+                TagItems.Add(Token.ToString());
                 DBWorker.DeleteTagFromTagCollection(TagItems);
             }
             ListBox_TagCollection.Items.Clear();
+            tokenEditor1.Tokens.Clear();
+            
 
             FillListBoxTagCollection();
         }
@@ -93,14 +106,9 @@ namespace eNumismat2._0
                     tokenEditor1.SelectedTokens.Add(tokenEditor1.Tokens[i]);
                 }
             }
-            //catch (NullReferenceException ex)
-            //{
-                //MessageBox.Show(ex.Message);
-            //}
+
             catch (Exception ex)
-            {
-                //MessageBox.Show("Test - " + ex.Message);
-            }
+            { }
         }
 
         //=====================================================================================================================================================================
@@ -212,6 +220,15 @@ namespace eNumismat2._0
         {
             _SettingsDialog_PasswordProtection PWProtect = new _SettingsDialog_PasswordProtection();
             PWProtect.ShowDialog();
+        }
+
+
+        private void cb_StyleSelector_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //StyleManager.ChangeStyle(eStyle.VisualStudio2012Light, );
+            //styleManager1.MetroColorParameters.ThemeName 
+
+            //Properties.Settings.Default.CurrentColorTheme = cb_StyleSelector.SelectedItem.ToString();           
         }
     }
 }

@@ -117,11 +117,231 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;panelEx1.Name" xml:space="preserve">
+    <value>panelEx1</value>
+  </data>
+  <data name="&gt;&gt;panelEx1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.PanelEx, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;panelEx1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panelEx1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelEx2.Name" xml:space="preserve">
+    <value>panelEx2</value>
+  </data>
+  <data name="&gt;&gt;panelEx2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.PanelEx, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;panelEx2.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panelEx2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="flowLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>562, 536</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.TabControl, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>panelEx1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelEx1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panelEx1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>556, 483</value>
+  </data>
+  <data name="panelEx1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="panelEx1.Text" xml:space="preserve">
+    <value>panelEx1</value>
+  </data>
+  <data name="&gt;&gt;panelEx1.Name" xml:space="preserve">
+    <value>panelEx1</value>
+  </data>
+  <data name="&gt;&gt;panelEx1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.PanelEx, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;panelEx1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panelEx1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel4.Name" xml:space="preserve">
+    <value>tabControlPanel4</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.TabControlPanel, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel4.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel1.Name" xml:space="preserve">
+    <value>tabControlPanel1</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.TabControlPanel, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel1.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel2.Name" xml:space="preserve">
+    <value>tabControlPanel2</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.TabControlPanel, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel2.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel3.Name" xml:space="preserve">
+    <value>tabControlPanel3</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.TabControlPanel, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel3.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel5.Name" xml:space="preserve">
+    <value>tabControlPanel5</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel5.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.TabControlPanel, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel5.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControlPanel5.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="tabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>556, 483</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tabControl1.Text" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.TabControl, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>panelEx1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelX10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 89</value>
+  </data>
+  <data name="labelX10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="labelX10.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="labelX10.Text" xml:space="preserve">
+    <value>Colorscheme:</value>
+  </data>
+  <data name="&gt;&gt;labelX10.Name" xml:space="preserve">
+    <value>labelX10</value>
+  </data>
+  <data name="&gt;&gt;labelX10.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelX10.Parent" xml:space="preserve">
+    <value>tabControlPanel4</value>
+  </data>
+  <data name="&gt;&gt;labelX10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cb_StyleSelector.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cb_StyleSelector.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 118</value>
+  </data>
+  <data name="cb_StyleSelector.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="cb_StyleSelector.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;cb_StyleSelector.Name" xml:space="preserve">
+    <value>cb_StyleSelector</value>
+  </data>
+  <data name="&gt;&gt;cb_StyleSelector.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;cb_StyleSelector.Parent" xml:space="preserve">
+    <value>tabControlPanel4</value>
+  </data>
+  <data name="&gt;&gt;cb_StyleSelector.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="btn_changePW.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btn_changePW.Location" type="System.Drawing.Point, System.Drawing">
     <value>234, 11</value>
   </data>
@@ -147,12 +367,11 @@
     <value>tabControlPanel4</value>
   </data>
   <data name="&gt;&gt;btn_changePW.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="labelX9.Location" type="System.Drawing.Point, System.Drawing">
     <value>81, 10</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="labelX9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
@@ -175,7 +394,7 @@
     <value>tabControlPanel4</value>
   </data>
   <data name="&gt;&gt;labelX9.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="btn_UsePassword.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 11</value>
@@ -199,7 +418,7 @@
     <value>tabControlPanel4</value>
   </data>
   <data name="&gt;&gt;btn_UsePassword.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="labelX5.Location" type="System.Drawing.Point, System.Drawing">
     <value>81, 40</value>
@@ -226,7 +445,7 @@
     <value>tabControlPanel4</value>
   </data>
   <data name="&gt;&gt;labelX5.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="btn_MinimizeToTray.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 40</value>
@@ -250,7 +469,7 @@
     <value>tabControlPanel4</value>
   </data>
   <data name="&gt;&gt;btn_MinimizeToTray.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="tabControlPanel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -281,6 +500,90 @@
   </data>
   <data name="&gt;&gt;tabControlPanel4.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="StylePurple.Text" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="StyleMagenta.Text" xml:space="preserve">
+    <value>Magenta</value>
+  </data>
+  <data name="StyleRed.Text" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="StyleBlue.Text" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="StyleGreen.Text" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="StyleBrown.Text" xml:space="preserve">
+    <value>Brown</value>
+  </data>
+  <data name="StyleOrange.Text" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="StyleForestGreen.Text" xml:space="preserve">
+    <value>Forest Green</value>
+  </data>
+  <data name="StyleDarkRed.Text" xml:space="preserve">
+    <value>Dark Red</value>
+  </data>
+  <data name="StyleDarkBlue.Text" xml:space="preserve">
+    <value>Dark Blue</value>
+  </data>
+  <data name="StyleDarkPurple.Text" xml:space="preserve">
+    <value>Dark Purple</value>
+  </data>
+  <data name="StyleRedAmplified.Text" xml:space="preserve">
+    <value>Red Amplified</value>
+  </data>
+  <data name="StyleNappaRed.Text" xml:space="preserve">
+    <value>Nappa Red</value>
+  </data>
+  <data name="StyleGreyOrange.Text" xml:space="preserve">
+    <value>Grey Orange</value>
+  </data>
+  <data name="StyleEarlyMaroon.Text" xml:space="preserve">
+    <value>Early Maroon</value>
+  </data>
+  <data name="StyleEarlyOrange.Text" xml:space="preserve">
+    <value>Early Orange</value>
+  </data>
+  <data name="StyleEarlyRed.Text" xml:space="preserve">
+    <value>Early Red</value>
+  </data>
+  <data name="StyleSilverBlue.Text" xml:space="preserve">
+    <value>Silver Blue</value>
+  </data>
+  <data name="StyleSilverGreen.Text" xml:space="preserve">
+    <value>Silver Green</value>
+  </data>
+  <data name="StyleRetroBlue.Text" xml:space="preserve">
+    <value>Retro Blue</value>
+  </data>
+  <data name="StyleWashedWhite.Text" xml:space="preserve">
+    <value>Washed White</value>
+  </data>
+  <data name="StyleVisualStudioLight.Text" xml:space="preserve">
+    <value>Visual Studio 2012 Light</value>
+  </data>
+  <data name="StyleOffice2016Blue.Text" xml:space="preserve">
+    <value>Office 2016 Blue</value>
+  </data>
+  <data name="StyleOffice2016DarkBlue.Text" xml:space="preserve">
+    <value>Office 2016 Dark Blue</value>
+  </data>
+  <data name="StyleOffice2016Green.Text" xml:space="preserve">
+    <value>Office 2016 Green</value>
+  </data>
+  <data name="StyleOffice2016Orange.Text" xml:space="preserve">
+    <value>Office 2016 Orange</value>
+  </data>
+  <data name="StyleOffice2016Red.Text" xml:space="preserve">
+    <value>Office 2016 Red</value>
+  </data>
+  <data name="StyleOffice2016Purple.Text" xml:space="preserve">
+    <value>Office 2016 Purple</value>
   </data>
   <data name="btn_SelectDbBackupPath.Location" type="System.Drawing.Point, System.Drawing">
     <value>248, 109</value>
@@ -879,56 +1182,53 @@
   <data name="&gt;&gt;tabControlPanel5.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="tabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
+    <value>btn_Cancel</value>
   </data>
-  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>556, 483</value>
+  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
+    <value>panelEx2</value>
   </data>
-  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="tabControl1.Text" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.TabControl, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
-    <value>panelEx1</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="panelEx1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+  <data name="&gt;&gt;btn_Save.Name" xml:space="preserve">
+    <value>btn_Save</value>
   </data>
-  <data name="panelEx1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>556, 483</value>
+  <data name="&gt;&gt;btn_Save.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="panelEx1.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="&gt;&gt;btn_Save.Parent" xml:space="preserve">
+    <value>panelEx2</value>
   </data>
-  <data name="panelEx1.Text" xml:space="preserve">
-    <value>panelEx1</value>
+  <data name="&gt;&gt;btn_Save.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;panelEx1.Name" xml:space="preserve">
-    <value>panelEx1</value>
+  <data name="panelEx2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
   </data>
-  <data name="&gt;&gt;panelEx1.Type" xml:space="preserve">
+  <data name="panelEx2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 492</value>
+  </data>
+  <data name="panelEx2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>556, 41</value>
+  </data>
+  <data name="panelEx2.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;panelEx2.Name" xml:space="preserve">
+    <value>panelEx2</value>
+  </data>
+  <data name="&gt;&gt;panelEx2.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.PanelEx, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;panelEx1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panelEx2.Parent" xml:space="preserve">
     <value>flowLayoutPanel1</value>
   </data>
-  <data name="&gt;&gt;panelEx1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;panelEx2.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
     <value>375, 3</value>
@@ -978,54 +1278,6 @@
   <data name="&gt;&gt;btn_Save.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="panelEx2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="panelEx2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 492</value>
-  </data>
-  <data name="panelEx2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>556, 41</value>
-  </data>
-  <data name="panelEx2.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;panelEx2.Name" xml:space="preserve">
-    <value>panelEx2</value>
-  </data>
-  <data name="&gt;&gt;panelEx2.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.PanelEx, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;panelEx2.Parent" xml:space="preserve">
-    <value>flowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;panelEx2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="flowLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>562, 536</value>
-  </data>
-  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
-    <value>flowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <metadata name="styleManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
@@ -1040,6 +1292,174 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>_SettingsDialog</value>
+  </data>
+  <data name="&gt;&gt;StylePurple.Name" xml:space="preserve">
+    <value>StylePurple</value>
+  </data>
+  <data name="&gt;&gt;StylePurple.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleMagenta.Name" xml:space="preserve">
+    <value>StyleMagenta</value>
+  </data>
+  <data name="&gt;&gt;StyleMagenta.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleRed.Name" xml:space="preserve">
+    <value>StyleRed</value>
+  </data>
+  <data name="&gt;&gt;StyleRed.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleBlue.Name" xml:space="preserve">
+    <value>StyleBlue</value>
+  </data>
+  <data name="&gt;&gt;StyleBlue.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleGreen.Name" xml:space="preserve">
+    <value>StyleGreen</value>
+  </data>
+  <data name="&gt;&gt;StyleGreen.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleBrown.Name" xml:space="preserve">
+    <value>StyleBrown</value>
+  </data>
+  <data name="&gt;&gt;StyleBrown.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleOrange.Name" xml:space="preserve">
+    <value>StyleOrange</value>
+  </data>
+  <data name="&gt;&gt;StyleOrange.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleForestGreen.Name" xml:space="preserve">
+    <value>StyleForestGreen</value>
+  </data>
+  <data name="&gt;&gt;StyleForestGreen.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleDarkRed.Name" xml:space="preserve">
+    <value>StyleDarkRed</value>
+  </data>
+  <data name="&gt;&gt;StyleDarkRed.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleDarkBlue.Name" xml:space="preserve">
+    <value>StyleDarkBlue</value>
+  </data>
+  <data name="&gt;&gt;StyleDarkBlue.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleDarkPurple.Name" xml:space="preserve">
+    <value>StyleDarkPurple</value>
+  </data>
+  <data name="&gt;&gt;StyleDarkPurple.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleRedAmplified.Name" xml:space="preserve">
+    <value>StyleRedAmplified</value>
+  </data>
+  <data name="&gt;&gt;StyleRedAmplified.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleNappaRed.Name" xml:space="preserve">
+    <value>StyleNappaRed</value>
+  </data>
+  <data name="&gt;&gt;StyleNappaRed.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleGreyOrange.Name" xml:space="preserve">
+    <value>StyleGreyOrange</value>
+  </data>
+  <data name="&gt;&gt;StyleGreyOrange.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleEarlyMaroon.Name" xml:space="preserve">
+    <value>StyleEarlyMaroon</value>
+  </data>
+  <data name="&gt;&gt;StyleEarlyMaroon.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleEarlyOrange.Name" xml:space="preserve">
+    <value>StyleEarlyOrange</value>
+  </data>
+  <data name="&gt;&gt;StyleEarlyOrange.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleEarlyRed.Name" xml:space="preserve">
+    <value>StyleEarlyRed</value>
+  </data>
+  <data name="&gt;&gt;StyleEarlyRed.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleSilverBlue.Name" xml:space="preserve">
+    <value>StyleSilverBlue</value>
+  </data>
+  <data name="&gt;&gt;StyleSilverBlue.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleSilverGreen.Name" xml:space="preserve">
+    <value>StyleSilverGreen</value>
+  </data>
+  <data name="&gt;&gt;StyleSilverGreen.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleRetroBlue.Name" xml:space="preserve">
+    <value>StyleRetroBlue</value>
+  </data>
+  <data name="&gt;&gt;StyleRetroBlue.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleWashedWhite.Name" xml:space="preserve">
+    <value>StyleWashedWhite</value>
+  </data>
+  <data name="&gt;&gt;StyleWashedWhite.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleVisualStudioLight.Name" xml:space="preserve">
+    <value>StyleVisualStudioLight</value>
+  </data>
+  <data name="&gt;&gt;StyleVisualStudioLight.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleOffice2016Blue.Name" xml:space="preserve">
+    <value>StyleOffice2016Blue</value>
+  </data>
+  <data name="&gt;&gt;StyleOffice2016Blue.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleOffice2016DarkBlue.Name" xml:space="preserve">
+    <value>StyleOffice2016DarkBlue</value>
+  </data>
+  <data name="&gt;&gt;StyleOffice2016DarkBlue.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleOffice2016Green.Name" xml:space="preserve">
+    <value>StyleOffice2016Green</value>
+  </data>
+  <data name="&gt;&gt;StyleOffice2016Green.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleOffice2016Orange.Name" xml:space="preserve">
+    <value>StyleOffice2016Orange</value>
+  </data>
+  <data name="&gt;&gt;StyleOffice2016Orange.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleOffice2016Red.Name" xml:space="preserve">
+    <value>StyleOffice2016Red</value>
+  </data>
+  <data name="&gt;&gt;StyleOffice2016Red.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;StyleOffice2016Purple.Name" xml:space="preserve">
+    <value>StyleOffice2016Purple</value>
+  </data>
+  <data name="&gt;&gt;StyleOffice2016Purple.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=14.1.0.32, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
   <data name="&gt;&gt;tabItem4.Name" xml:space="preserve">
     <value>tabItem4</value>

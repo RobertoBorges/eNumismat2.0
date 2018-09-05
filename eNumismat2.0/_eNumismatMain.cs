@@ -55,20 +55,18 @@ namespace eNumismat2._0
                 Classes.ApplicationLock AppLock = new Classes.ApplicationLock();
                 AppLock.UnLock();
             }
-            else
+
+            if (Properties.Settings.Default.MainWindowState == FormWindowState.Maximized)
             {
-                if (Properties.Settings.Default.MainWindowState == FormWindowState.Maximized)
-                {
-                    WindowState = FormWindowState.Maximized;
-                }
-                else if (Properties.Settings.Default.MainWindowState == FormWindowState.Normal)
-                {
-                    Size = new Size(Properties.Settings.Default.MainWindowWidth, Properties.Settings.Default.MainWindowHeight);
-                }
-                else if (Properties.Settings.Default.MainWindowState == FormWindowState.Minimized)
-                {
-                    WindowState = FormWindowState.Maximized;
-                }
+                WindowState = FormWindowState.Maximized;
+            }
+            else if (Properties.Settings.Default.MainWindowState == FormWindowState.Normal)
+            {
+                Size = new Size(Properties.Settings.Default.MainWindowWidth, Properties.Settings.Default.MainWindowHeight);
+            }
+            else if (Properties.Settings.Default.MainWindowState == FormWindowState.Minimized)
+            {
+                WindowState = FormWindowState.Maximized;
             }
         }
 

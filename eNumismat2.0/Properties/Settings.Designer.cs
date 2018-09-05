@@ -263,5 +263,17 @@ namespace eNumismat2._0.Properties {
                 this["CurrentUserPassword"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("StyleRetroBlue")]
+        public string CurrentColorTheme {
+            get {
+                return ((string)(this["CurrentColorTheme"]));
+            }
+            set {
+                this["CurrentColorTheme"] = value;
+            }
+        }
     }
 }

@@ -63,5 +63,8 @@
     <Setting Name="CurrentUserPassword" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
+    <Setting Name="CurrentColorTheme" Type="System.String" Scope="User">
+      <Value Profile="(Default)">StyleRetroBlue</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
