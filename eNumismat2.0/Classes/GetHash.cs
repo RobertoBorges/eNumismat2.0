@@ -16,7 +16,7 @@ namespace eNumismat2._0.Classes
             SHA256Managed sha = new SHA256Managed();
             byte[] hash = sha.ComputeHash(value);
 
-            var HashResult = new System.Text.StringBuilder();
+            var HashResult = new StringBuilder();
 
             foreach (byte theByte in hash)
             {

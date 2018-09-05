@@ -12,13 +12,16 @@ namespace eNumismat2._0.Classes
     //=====================================================================================================================================================================
     class DataBaseWork
     {
-        private readonly string BackupPath = Properties.Settings.Default.DBBackupPath;
-        private readonly string DataBaseFile = Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile);
+        private static readonly string BackupPath = Properties.Settings.Default.DBBackupPath;
+        private static readonly string DataBaseFile = Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile);
+
+        SQLiteConnection SQLiteConn = new SQLiteConnection("Datasource=" + DataBaseFile + ";Version=3;FailIfMissing=True;");
 
         //=====================================================================================================================================================================
         public bool CreateNewDataBase()
         {
-            using (SQLiteConnection SQLiteConn = new SQLiteConnection("Datasource=" + DataBaseFile))
+            // do not use the default Connection string, because with CreateNewDataBase, we want that the DB file will be created.
+            using (SQLiteConnection SQLiteConn = new SQLiteConnection("Datasource=" + DataBaseFile + ";Version=3;"))
             {
                 try
                 {
@@ -77,7 +80,7 @@ namespace eNumismat2._0.Classes
                 string SourceFile = DataBaseFile;
                 string DestFile = Path.Combine(BackupPath, DateTime.Now.ToString("yyyy_MM_dd-HHmmss") + ".encBack");
 
-                using (var source = new SQLiteConnection("Data Source=" + SourceFile))
+                using (var source = SQLiteConn)
                 {
                     using (var destination = new SQLiteConnection("Data Source=" + DestFile))
                     {
@@ -112,7 +115,7 @@ namespace eNumismat2._0.Classes
         {
             if (Database == null)
             {
-                Database = new SQLiteConnection("DataSource=" + DataBaseFile);
+                Database = SQLiteConn;
             }
 
             using (SQLiteCommand cmd = Database.CreateCommand())
@@ -135,7 +138,7 @@ namespace eNumismat2._0.Classes
         //=====================================================================================================================================================================
         public DataTable GetTagCollection()
         {
-            using (SQLiteConnection SQLiteConn = new SQLiteConnection("Datasource=" + DataBaseFile))
+            using (SQLiteConn)
             {
                 try
                 {
@@ -171,7 +174,7 @@ namespace eNumismat2._0.Classes
 
         public void DeleteTagFromTagCollection(List<string>Tags)
         {
-            using (SQLiteConnection SQLiteConn = new SQLiteConnection("Datasource=" + DataBaseFile))
+            using (SQLiteConn)
             {
                 try
                 {
@@ -208,7 +211,7 @@ namespace eNumismat2._0.Classes
         {
             int _rowCounter = 0;
 
-            using (SQLiteConnection SQLiteConn = new SQLiteConnection("Datasource=" + DataBaseFile))
+            using (SQLiteConn)
             {
                 try
                 {
