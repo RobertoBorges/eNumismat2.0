@@ -48,18 +48,6 @@
   <data name="ribbonControl1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
     <value>968, 154</value>
   </data>
-  <data name="ribbonControl1.SystemText.MinimizeRibbonText" xml:space="preserve">
-    <value>Mi&amp;nimiere das Ribbon</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatCustomizeMenuLabel" xml:space="preserve">
-    <value>&lt;b&gt;Schnellstartmenü Personalisieren&lt;/b&gt;</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogCancelButton" xml:space="preserve">
-    <value>Abbrechen</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogOkButton" xml:space="preserve">
-    <value>OK</value>
-  </data>
   <data name="ribbonControl1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>0</value>
   </data>

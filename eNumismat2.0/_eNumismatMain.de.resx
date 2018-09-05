@@ -12,6 +12,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ribbonBar1.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="ribbonBar1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="ribbonBar1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>100, 114</value>
+  </data>
+  <data name="ribbonBar1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="ribbonPanel1.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -54,119 +66,35 @@
         rkJggg==
 </value>
   </data>
-  <data name="btn_NewDB.Text" xml:space="preserve">
-    <value>Neue Datenbank</value>
+  <data name="OpenExchangeMonitorFrm.RibbonWordWrap" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="btn_OpenDB.Text" xml:space="preserve">
-    <value>Datenbank öffnen</value>
-  </data>
-  <data name="btn_BackupDB.Text" xml:space="preserve">
-    <value>Datenbank Sichern</value>
-  </data>
-  <data name="btn_CompressDB.Text" xml:space="preserve">
-    <value>Datenbank Komprimieren</value>
-  </data>
-  <data name="LangEN_GB.Text" xml:space="preserve">
-    <value>Englisch (GB)</value>
-  </data>
-  <data name="LangEN_US.Text" xml:space="preserve">
-    <value>Englisch (US)</value>
-  </data>
-  <data name="LangDE.Text" xml:space="preserve">
-    <value>Deutsch</value>
-  </data>
-  <data name="LangFR.Text" xml:space="preserve">
-    <value>Französisch</value>
-  </data>
-  <data name="LangES.Text" xml:space="preserve">
-    <value>Spanisch</value>
-  </data>
-  <data name="LangPT.Text" xml:space="preserve">
-    <value>Portugiesisch</value>
-  </data>
-  <data name="LangRU.Text" xml:space="preserve">
-    <value>Russisch</value>
-  </data>
-  <data name="buttonItem10.Text" xml:space="preserve">
-    <value>Sprach-Einstellungen</value>
-  </data>
-  <data name="btn_SettingsDialog.Text" xml:space="preserve">
-    <value>Anwendungs-Einstellungen</value>
-  </data>
-  <data name="buttonItem9.Text" xml:space="preserve">
-    <value>Einstellungen</value>
-  </data>
-  <data name="btn_Close.Text" xml:space="preserve">
-    <value>Schließen</value>
-  </data>
-  <data name="applicationButton1.Text" xml:space="preserve">
-    <value>&amp;Datei</value>
-  </data>
-  <data name="OpenExchangeMonitorFrm.Text" xml:space="preserve">
-    <value>Tauschmonitor</value>
-  </data>
-  <data name="OpenAddrBookFrm.Text" xml:space="preserve">
-    <value>Adressbuch</value>
+  <data name="OpenAddrBookFrm.RibbonWordWrap" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="ribbonControl1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
     <value>5, 1</value>
   </data>
-  <data name="btnAbout.Text" xml:space="preserve">
-    <value>Über eNumismat</value>
-  </data>
-  <data name="btnHelp2.Text" xml:space="preserve">
-    <value>Hilfe</value>
-  </data>
   <data name="ribbonControl1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
     <value>1035, 171</value>
-  </data>
-  <data name="ribbonControl1.SystemText.MaximizeRibbonText" xml:space="preserve">
-    <value>&amp;Maximiere das Ribbon</value>
-  </data>
-  <data name="ribbonControl1.SystemText.MinimizeRibbonText" xml:space="preserve">
-    <value>Mi&amp;nimiere das Ribbon</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatAddItemText" xml:space="preserve">
-    <value>Zum Schnellstart &amp;Menü hinzufügen</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatCustomizeMenuLabel" xml:space="preserve">
-    <value>&lt;b&gt;Schnellstartmenü Personalisieren&lt;/b&gt;</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatCustomizeText" xml:space="preserve">
-    <value>Schnellstartmenü &amp;Personalisieren...</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogAddButton" xml:space="preserve">
-    <value>&amp;Hinzufügen &gt;&gt;</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogCancelButton" xml:space="preserve">
-    <value>Abbrechen</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogCaption" xml:space="preserve">
-    <value>Schnellstartmenü Personalisieren</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogOkButton" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogPlacementCheckbox" xml:space="preserve">
-    <value>&amp;Platziere das Schnellstartmenü unter den Ribbons</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogRemoveButton" xml:space="preserve">
-    <value>&amp;Entfernen</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatPlaceAboveRibbonText" xml:space="preserve">
-    <value>&amp;Platziere das Schnellstartmenü über den Ribbons</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatPlaceBelowRibbonText" xml:space="preserve">
-    <value>&amp;Platziere das Schnellstartmenü unter den Ribbons</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatRemoveItemText" xml:space="preserve">
-    <value>Vom Schnellstartmenü &amp;Entfernen</value>
   </data>
   <data name="ribbonControl1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="toolStripStatusLabel1.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripStatusLabel1.ImageAlign" xml:space="preserve" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
   <data name="toolStripStatusLabel1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>118, 17</value>
+    <value>100, 17</value>
+  </data>
+  <data name="toolStripStatusLabel2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="toolStripStatusLabel2.TextAlign" xml:space="preserve" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="statusStrip1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
     <value>5, 688</value>
@@ -186,17 +114,11 @@
   <data name="labelX1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="labelX1.Text" xml:space="preserve">
-    <value>standard Test Label</value>
-  </data>
   <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
     <value>96, 96</value>
   </data>
   <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
     <value>1045, 712</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>eNumismat</value>
   </data>
   <data name="contextMenuStrip1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
     <value>61, 4</value>
@@ -297,34 +219,4 @@
   <metadata name="contextMenuStrip1.TrayLocation" xml:space="preserve" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>601, 17</value>
   </metadata>
-  <data name="ribbonBar1.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="ribbonBar1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
-  </data>
-  <data name="ribbonBar1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 114</value>
-  </data>
-  <data name="ribbonBar1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="OpenExchangeMonitorFrm.RibbonWordWrap" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="OpenAddrBookFrm.RibbonWordWrap" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="toolStripStatusLabel1.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="toolStripStatusLabel2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>200, 17</value>
-  </data>
-  <data name="toolStripStatusLabel2.TextAlign" xml:space="preserve" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="toolStripStatusLabel1.ImageAlign" xml:space="preserve" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
 </root>

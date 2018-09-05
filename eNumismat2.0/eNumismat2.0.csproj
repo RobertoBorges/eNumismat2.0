@@ -89,11 +89,6 @@
     <Compile Include="Classes\DataImportExport.cs" />
     <Compile Include="Classes\GetHash.cs" />
     <Compile Include="Classes\LogWrite.cs" />
-    <Compile Include="GlobalStrings.de.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>GlobalStrings.de.resx</DependentUpon>
-    </Compile>
     <Compile Include="GlobalStrings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -157,10 +152,7 @@
     <Compile Include="_SettingsDialog_PasswordProtection.Designer.cs">
       <DependentUpon>_SettingsDialog_PasswordProtection.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="GlobalStrings.de.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>GlobalStrings.de.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalStrings.de.resx" />
     <EmbeddedResource Include="GlobalStrings.es.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>GlobalStrings.es.Designer.cs</LastGenOutput>
@@ -268,7 +260,22 @@
     <EmbeddedResource Include="_ExchangeMonitor.ru.resx">
       <DependentUpon>_ExchangeMonitor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="_SettingsDialog.de.resx">
+      <DependentUpon>_SettingsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_SettingsDialog.es.resx">
+      <DependentUpon>_SettingsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_SettingsDialog.fr.resx">
+      <DependentUpon>_SettingsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_SettingsDialog.pt.resx">
+      <DependentUpon>_SettingsDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="_SettingsDialog.resx">
+      <DependentUpon>_SettingsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_SettingsDialog.ru.resx">
       <DependentUpon>_SettingsDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_SettingsDialog_PasswordProtection.de.resx">
