@@ -17,6 +17,7 @@ namespace eNumismat2._0
     public partial class _SettingsDialog : Form
     {
         StringCollection DbBackupPathCollection;
+
         Classes.DataBaseWork DBWorker = new Classes.DataBaseWork();
 
         //=====================================================================================================================================================================
@@ -92,9 +93,13 @@ namespace eNumismat2._0
                     tokenEditor1.SelectedTokens.Add(tokenEditor1.Tokens[i]);
                 }
             }
+            //catch (NullReferenceException ex)
+            //{
+                //MessageBox.Show(ex.Message);
+            //}
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                //MessageBox.Show("Test - " + ex.Message);
             }
         }
 
@@ -105,10 +110,12 @@ namespace eNumismat2._0
 
             if (BackupFolder.ShowDialog() == DialogResult.OK)
             {
-                cb_DbBackupPath.Items.Add(BackupFolder.SelectedPath);
+                if (!DbBackupPathCollection.Contains(BackupFolder.SelectedPath))
+                {
+                    DbBackupPathCollection.Add(BackupFolder.SelectedPath);
+                    cb_DbBackupPath.Items.Add(BackupFolder.SelectedPath);
+                }
                 cb_DbBackupPath.SelectedItem = BackupFolder.SelectedPath;
-
-                DbBackupPathCollection.Add(BackupFolder.SelectedPath);
             }
         }
 
@@ -186,8 +193,6 @@ namespace eNumismat2._0
             {
                 btn_changePW.Visible = true;
                 btn_changePW.Enabled = true;
-
-                //btn_
 
                 return true;
             }
