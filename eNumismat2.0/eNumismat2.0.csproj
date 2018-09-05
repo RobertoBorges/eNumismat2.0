@@ -232,31 +232,61 @@
     <EmbeddedResource Include="_eNumismatMain.ru.resx">
       <DependentUpon>_eNumismatMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="_eNumismatMain_PasswordCheck.de.resx">
+      <DependentUpon>_eNumismatMain_PasswordCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_eNumismatMain_PasswordCheck.es.resx">
+      <DependentUpon>_eNumismatMain_PasswordCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_eNumismatMain_PasswordCheck.fr.resx">
+      <DependentUpon>_eNumismatMain_PasswordCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_eNumismatMain_PasswordCheck.pt.resx">
+      <DependentUpon>_eNumismatMain_PasswordCheck.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="_eNumismatMain_PasswordCheck.resx">
       <DependentUpon>_eNumismatMain_PasswordCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_eNumismatMain_PasswordCheck.ru.resx">
+      <DependentUpon>_eNumismatMain_PasswordCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExchangeMonitor.de.resx">
+      <DependentUpon>_ExchangeMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExchangeMonitor.es.resx">
+      <DependentUpon>_ExchangeMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExchangeMonitor.fr.resx">
+      <DependentUpon>_ExchangeMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_ExchangeMonitor.pt.resx">
+      <DependentUpon>_ExchangeMonitor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_ExchangeMonitor.resx">
       <DependentUpon>_ExchangeMonitor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="_SettingsDialog.de.resx">
-      <DependentUpon>_SettingsDialog.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="_SettingsDialog.es.resx">
-      <DependentUpon>_SettingsDialog.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="_SettingsDialog.fr.resx">
-      <DependentUpon>_SettingsDialog.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="_SettingsDialog.pt.resx">
-      <DependentUpon>_SettingsDialog.cs</DependentUpon>
+    <EmbeddedResource Include="_ExchangeMonitor.ru.resx">
+      <DependentUpon>_ExchangeMonitor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_SettingsDialog.resx">
       <DependentUpon>_SettingsDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="_SettingsDialog.ru.resx">
-      <DependentUpon>_SettingsDialog.cs</DependentUpon>
+    <EmbeddedResource Include="_SettingsDialog_PasswordProtection.de.resx">
+      <DependentUpon>_SettingsDialog_PasswordProtection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_SettingsDialog_PasswordProtection.es.resx">
+      <DependentUpon>_SettingsDialog_PasswordProtection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_SettingsDialog_PasswordProtection.fr.resx">
+      <DependentUpon>_SettingsDialog_PasswordProtection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_SettingsDialog_PasswordProtection.pt.resx">
+      <DependentUpon>_SettingsDialog_PasswordProtection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_SettingsDialog_PasswordProtection.resx">
+      <DependentUpon>_SettingsDialog_PasswordProtection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_SettingsDialog_PasswordProtection.ru.resx">
       <DependentUpon>_SettingsDialog_PasswordProtection.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
