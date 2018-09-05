@@ -37,7 +37,6 @@ namespace eNumismat2._0.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Maximized")]
         public global::System.Windows.Forms.FormWindowState MainWindowState {
             get {
                 return ((global::System.Windows.Forms.FormWindowState)(this["MainWindowState"]));
@@ -49,7 +48,6 @@ namespace eNumismat2._0.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("800")]
         public int MainWindowWidth {
             get {
                 return ((int)(this["MainWindowWidth"]));
@@ -61,7 +59,6 @@ namespace eNumismat2._0.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("600")]
         public int MainWindowHeight {
             get {
                 return ((int)(this["MainWindowHeight"]));
@@ -73,7 +70,6 @@ namespace eNumismat2._0.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Normal")]
         public global::System.Windows.Forms.FormWindowState AddressBookWindowState {
             get {
                 return ((global::System.Windows.Forms.FormWindowState)(this["AddressBookWindowState"]));
@@ -85,7 +81,6 @@ namespace eNumismat2._0.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("800")]
         public int AddressBookWindowWidth {
             get {
                 return ((int)(this["AddressBookWindowWidth"]));
@@ -97,7 +92,6 @@ namespace eNumismat2._0.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("600")]
         public int AddressBookWindowHight {
             get {
                 return ((int)(this["AddressBookWindowHight"]));
@@ -109,7 +103,6 @@ namespace eNumismat2._0.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Normal")]
         public global::System.Windows.Forms.FormWindowState ExchangeMonitorWindowState {
             get {
                 return ((global::System.Windows.Forms.FormWindowState)(this["ExchangeMonitorWindowState"]));
@@ -121,7 +114,6 @@ namespace eNumismat2._0.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("800")]
         public int ExchangeMonitorWindowWidth {
             get {
                 return ((int)(this["ExchangeMonitorWindowWidth"]));
@@ -133,7 +125,6 @@ namespace eNumismat2._0.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("600")]
         public int ExchangeMonitorWindowHight {
             get {
                 return ((int)(this["ExchangeMonitorWindowHight"]));

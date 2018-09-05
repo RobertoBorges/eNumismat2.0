@@ -11,15 +11,12 @@ namespace eNumismat2._0.Classes
     {
         public void Lock()
         {
-            if (Properties.Settings.Default.UsePasswordProtection == true)
+            foreach (Form frm in Application.OpenForms)
             {
-                foreach (Form frm in Application.OpenForms)
-                {
-                    frm.Hide();
-                }
-
-                UnLock();
+                frm.Hide();
             }
+
+            UnLock();
         }
 
         //=====================================================================================================================================================================
@@ -44,11 +41,6 @@ namespace eNumismat2._0.Classes
                     else if (d_result == DialogResult.Cancel)
                     {
                         return false;
-                        //foreach (Form frm in Application.OpenForms)
-                        //{
-                           
-                            //frm.Close();
-                        //}
                     }
                 }
             }
