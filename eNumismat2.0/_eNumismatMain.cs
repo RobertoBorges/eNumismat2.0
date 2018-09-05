@@ -222,7 +222,7 @@ namespace eNumismat2._0
                 {
                     toolStripStatusLabel2.Image = Properties.Resources.disconnect;
                     toolStripStatusLabel2.Text = GlobalStrings._dbConnectionNoDbFile;
-                    RefreshDbFileSettings();
+                    //RefreshDbFileSettings();
                     return false;
                 }
                 else
@@ -236,11 +236,12 @@ namespace eNumismat2._0
             {
                 toolStripStatusLabel2.Image = Properties.Resources.disconnect;
                 toolStripStatusLabel2.Text = GlobalStrings._dbConnectionNoDbFile;
-                RefreshDbFileSettings();
+                //RefreshDbFileSettings();
                 return false;
             }
         }
 
+        //=====================================================================================================================================================================
         private void RefreshDbFileSettings()
         {
             Properties.Settings.Default.DBFilePath = "";
