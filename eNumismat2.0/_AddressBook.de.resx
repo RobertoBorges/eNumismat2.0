@@ -60,6 +60,18 @@
   <data name="ribbonControl1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
     <value>1060, 154</value>
   </data>
+  <data name="ribbonControl1.SystemText.MinimizeRibbonText" xml:space="preserve">
+    <value>Mi&amp;nimiere das Ribbon</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatCustomizeMenuLabel" xml:space="preserve">
+    <value>&lt;b&gt;Schnellstartmenü Personalisieren&lt;/b&gt;</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogCancelButton" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogOkButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
   <data name="ribbonControl1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -87,8 +99,17 @@
   <data name="dockSite4.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
+  <data name="bar1.AccessibleDescription" xml:space="preserve">
+    <value>Kontakte (bar1)</value>
+  </data>
+  <data name="bar1.AccessibleName" xml:space="preserve">
+    <value>Kontakte</value>
+  </data>
   <data name="columnHeader1.Width" xml:space="preserve" type="System.Int32, mscorlib">
     <value>100</value>
+  </data>
+  <data name="columnHeader2.Text" xml:space="preserve">
+    <value>Land</value>
   </data>
   <data name="columnHeader2.Width" xml:space="preserve" type="System.Int32, mscorlib">
     <value>100</value>
@@ -135,6 +156,9 @@
   <data name="bar1.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="dockContainerItem1.Text" xml:space="preserve">
+    <value>Kontakte</value>
+  </data>
   <data name="bar1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -143,6 +167,10 @@
   </data>
   <data name="bar1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="bar1.Text" xml:space="preserve">
+    <value>Kontakte
+</value>
   </data>
   <data name="dockSite1.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
@@ -176,6 +204,9 @@
   </data>
   <data name="label1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>18</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Deutsches Test-Label. Es sollte beim Sprachwechsel übersetzt werden.</value>
   </data>
   <data name="dockSite2.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>

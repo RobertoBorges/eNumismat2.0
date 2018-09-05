@@ -119,12 +119,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>GlobalStrings.ru.resx</DependentUpon>
     </Compile>
-    <Compile Include="_AboutBox.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="_AboutBox.Designer.cs">
-      <DependentUpon>_AboutBox.cs</DependentUpon>
-    </Compile>
     <Compile Include="_AddressBook.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -192,24 +186,6 @@
     <EmbeddedResource Include="Properties\Resources.fr.resx" />
     <EmbeddedResource Include="Properties\Resources.pt.resx" />
     <EmbeddedResource Include="Properties\Resources.ru.resx" />
-    <EmbeddedResource Include="_AboutBox.de.resx">
-      <DependentUpon>_AboutBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="_AboutBox.es.resx">
-      <DependentUpon>_AboutBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="_AboutBox.fr.resx">
-      <DependentUpon>_AboutBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="_AboutBox.pt.resx">
-      <DependentUpon>_AboutBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="_AboutBox.resx">
-      <DependentUpon>_AboutBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="_AboutBox.ru.resx">
-      <DependentUpon>_AboutBox.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="_AddressBook.de.resx">
       <DependentUpon>_AddressBook.cs</DependentUpon>
     </EmbeddedResource>

@@ -449,6 +449,9 @@
   <data name="labelX9.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
+  <data name="labelX9.Text" xml:space="preserve">
+    <value>Nutze Passwortschutz</value>
+  </data>
   <data name="btn_UsePassword.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
     <value>9, 11</value>
   </data>
@@ -469,6 +472,9 @@
   </data>
   <data name="btn_changePW.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>14</value>
+  </data>
+  <data name="btn_changePW.Text" xml:space="preserve">
+    <value>Ändere derzeitiges Passwort</value>
   </data>
   <data name="btn_changePW.Enabled" xml:space="preserve" type="System.Boolean, mscorlib">
     <value>False</value>

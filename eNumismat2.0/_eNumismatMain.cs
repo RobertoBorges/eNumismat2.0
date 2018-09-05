@@ -21,7 +21,7 @@ namespace eNumismat2._0
         _ExchangeMonitor ExchangeMon = new _ExchangeMonitor();
         _AddressBook AddrBook = new _AddressBook();
         _SettingsDialog Settings = new _SettingsDialog();
-        _AboutBox AboutBox = new _AboutBox();
+        //_AboutBox AboutBox = new _AboutBox();
 
         Classes.DataBaseWork DBWorker;
 
@@ -281,11 +281,11 @@ namespace eNumismat2._0
         // About Form
         private void BtnAbout_Click(object sender, EventArgs e)
         {
-            if (OpenForm("_AboutBox") == false)
-            {
+            //if (OpenForm("_AboutBox") == false)
+            //{
                 
-                AboutBox.Show();
-            }
+            //    AboutBox.Show();
+            //}
         }
         //=====================================================================================================================================================================
         // Check, if form is already open
