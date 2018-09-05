@@ -438,50 +438,30 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void CreateNewDbFile()
         {
-            string InitialDir = null;
+            GetDBConnected("create");
 
-            if (string.IsNullOrEmpty(Properties.Settings.Default.DBFilePath))
+            DBWorker = new Classes.DataBaseWork();
+            try
             {
-                InitialDir = Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments);
+                DBWorker.CreateNewDataBase();
             }
-            else
+            catch (Exception ex)
             {
-                InitialDir = Properties.Settings.Default.DBFilePath;
-            }
-
-            SaveFileDialog SaveFile = new SaveFileDialog()
-            {
-                DefaultExt = "*.enc",
-                Filter = "eNumismat Collection (*.enc) | *.enc",
-                AddExtension = true,
-                InitialDirectory = InitialDir
-            };
-
-            if (SaveFile.ShowDialog() == DialogResult.OK)
-            {
-                Properties.Settings.Default.DBFile = Path.GetFileName(SaveFile.FileName);
-                Properties.Settings.Default.DBFilePath = Path.GetDirectoryName(SaveFile.FileName);
-
-                Properties.Settings.Default.Save();
-
-                try
-                {
-                    DBWorker = new Classes.DataBaseWork();
-                    DBWorker.CreateNewDataBase();
-
-                    CheckIfDbFileExists();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
+                MessageBox.Show(ex.Message);
             }
         }
 
         //=====================================================================================================================================================================
         private void OpenDbFile()
         {
+            GetDBConnected("open");
+        }
+
+        private void GetDBConnected(string method)
+        {
             string InitialDir = null;
+            string FileName = null;
+            string FilePath = null;
 
             if (string.IsNullOrEmpty(Properties.Settings.Default.DBFilePath))
             {
@@ -492,23 +472,48 @@ namespace eNumismat2._0
                 InitialDir = Properties.Settings.Default.DBFilePath;
             }
 
-            OpenFileDialog OpenFile = new OpenFileDialog()
+            if (method == "open")
             {
-                DefaultExt = "*.enc",
-                Filter = "eNumismat Collection (*.enc) | *.enc",
-                AddExtension = true,
-                InitialDirectory = InitialDir
-            };
+                OpenFileDialog FD = new OpenFileDialog()
+                { 
+                    DefaultExt = "*.enc",
+                    Filter = "eNumismat Collection (*.enc) | *.enc",
+                    AddExtension = true,
+                    InitialDirectory = InitialDir,
+                };
 
-            if (OpenFile.ShowDialog() == DialogResult.OK)
+                DialogResult = FD.ShowDialog();
+                FileName = Path.GetFileName(FD.FileName);
+                FilePath = Path.GetDirectoryName(FD.FileName);
+            }
+            else if (method == "create")
             {
-                Properties.Settings.Default.DBFile = Path.GetFileName(OpenFile.FileName);
-                Properties.Settings.Default.DBFilePath = Path.GetDirectoryName(OpenFile.FileName);
+                SaveFileDialog FD = new SaveFileDialog()
+                {
+                    DefaultExt = "*.enc",
+                    Filter = "eNumismat Collection (*.enc) | *.enc",
+                    AddExtension = true,
+                    InitialDirectory = InitialDir,
+                };
+
+                DialogResult = FD.ShowDialog();
+                FileName = Path.GetFileName(FD.FileName);
+                FilePath = Path.GetDirectoryName(FD.FileName);
+
+                MessageBox.Show(Path.Combine(FilePath, FileName));
+            }
+
+            if (DialogResult == DialogResult.OK)
+            {
+                Properties.Settings.Default.DBFile = FileName;
+                MessageBox.Show(FileName);
+                Properties.Settings.Default.DBFilePath = FilePath;
+                MessageBox.Show(FilePath);
 
                 Properties.Settings.Default.Save();
-
-                CheckIfDbFileExists();
             }
+
+            CheckIfDbFileExists();
         }
 
         //=====================================================================================================================================================================

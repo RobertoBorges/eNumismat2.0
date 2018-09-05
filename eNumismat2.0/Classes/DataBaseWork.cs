@@ -13,9 +13,8 @@ namespace eNumismat2._0.Classes
     class DataBaseWork
     {
         private static readonly string BackupPath = Properties.Settings.Default.DBBackupPath;
-        private static readonly string DataBaseFile = Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile);
 
-        
+        private static readonly string DataBaseFile = Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile);
 
         //=====================================================================================================================================================================
         public bool CreateNewDataBase()
