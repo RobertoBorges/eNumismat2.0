@@ -142,45 +142,38 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void BtnUsePassword_ValueChanged(object sender, EventArgs e)
         {
-            PWProtectionLogic();
+            if (btn_UsePassword.Value == true)
+            {
+                PWProtectionLogic();
+            }
+
+            Properties.Settings.Default.UsePasswordProtection = btn_UsePassword.Value;
+            Properties.Settings.Default.Save();
         }
 
         //=====================================================================================================================================================================
         private void PWProtectionLogic()
         {
-            if (btn_UsePassword.Value == true)
+            if (Properties.Settings.Default.UsePasswordProtection == true && !string.IsNullOrEmpty(Properties.Settings.Default.CurrentUserPassword))
             {
-                if (Properties.Settings.Default.UsePasswordProtection == false)
-                {
-                    if (string.IsNullOrEmpty(Properties.Settings.Default.CurrentUserPassword))
-                    {
-                        btn_changePW.Visible = false;
-                        btn_changePW.Enabled = false;
-
-                        SetPasswordProtection();
-                    }
-                    Properties.Settings.Default.UsePasswordProtection = btn_UsePassword.Value;
-                    Properties.Settings.Default.Save();
-                }
                 btn_changePW.Visible = true;
                 btn_changePW.Enabled = true;
             }
-            else if (btn_UsePassword.Value == false)
+            else if (Properties.Settings.Default.UsePasswordProtection == true && string.IsNullOrEmpty(Properties.Settings.Default.CurrentUserPassword))
             {
-                if (Properties.Settings.Default.UsePasswordProtection == true)
-                {
-                    if (!string.IsNullOrEmpty(Properties.Settings.Default.CurrentUserPassword))
-                    {
-                        btn_changePW.Visible = true;
-                        btn_changePW.Enabled = true;
-                    }
-                }
+                btn_UsePassword.Value = false;
 
                 btn_changePW.Visible = false;
                 btn_changePW.Enabled = false;
-
-                Properties.Settings.Default.UsePasswordProtection = btn_UsePassword.Value;
-                Properties.Settings.Default.Save();
+            }
+            else if (Properties.Settings.Default.UsePasswordProtection == false && !string.IsNullOrEmpty(Properties.Settings.Default.CurrentUserPassword))
+            {
+                btn_changePW.Visible = true;
+                btn_changePW.Enabled = true;
+            }
+            else
+            {
+                SetPasswordProtection();
             }
         }
 
@@ -193,12 +186,18 @@ namespace eNumismat2._0
             {
                 btn_changePW.Visible = true;
                 btn_changePW.Enabled = true;
+
+                //btn_
+
                 return true;
             }
             else
             {
                 btn_changePW.Visible = false;
                 btn_changePW.Enabled = false;
+
+                btn_UsePassword.Value = false;
+
                 return false;
             }
         }

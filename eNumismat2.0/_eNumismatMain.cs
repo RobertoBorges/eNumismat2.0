@@ -18,9 +18,6 @@ namespace eNumismat2._0
     //=====================================================================================================================================================================
     public partial class _eNumismatMain : RibbonForm
     {
-        _ExchangeMonitor ExchangeMon = new _ExchangeMonitor();
-        _AddressBook AddrBook = new _AddressBook();
-        _SettingsDialog Settings = new _SettingsDialog();
         //_AboutBox AboutBox = new _AboutBox();
 
         Classes.DataBaseWork DBWorker;
@@ -47,27 +44,16 @@ namespace eNumismat2._0
                     }
                 }
             }
-
-            
         }
+
 
         //=====================================================================================================================================================================
         private void UseLogin()
         {
             if (Properties.Settings.Default.UsePasswordProtection == true)
             {
-                if (OpenForm("_eNumismatMain_PasswordCheck") == false)
-                {
-                    _eNumismatMain_PasswordCheck PwCheck = new _eNumismatMain_PasswordCheck();
-                    using (PwCheck)
-                    {
-                        if (PwCheck.ShowDialog() != DialogResult.OK)
-                        {
-                            
-                            Close();
-                        }
-                    }
-                }
+                Classes.ApplicationLock AppLock = new Classes.ApplicationLock();
+                AppLock.UnLock();
             }
             else
             {
@@ -90,6 +76,15 @@ namespace eNumismat2._0
         private void Form1_Load(object sender, EventArgs e)
         {
             UseLogin();
+
+            if (Properties.Settings.Default.UsePasswordProtection == true)
+            {
+                btn_AppLock.Visible = true;
+            }
+            else
+            {
+                btn_AppLock.Visible = false;
+            }
 
             CheckIfDbFileExists();
             DisplayLanguage();
@@ -251,7 +246,7 @@ namespace eNumismat2._0
         {
             if (OpenForm("_ExchangeMonitor") == false)
             {
-                
+                _ExchangeMonitor ExchangeMon = new _ExchangeMonitor();
                 ExchangeMon.Show();
             }
         }
@@ -262,7 +257,7 @@ namespace eNumismat2._0
         {
             if (OpenForm("_AddressBook") == false)
             {
-                
+                _AddressBook AddrBook = new _AddressBook();
                 AddrBook.Show();
             }
         }
@@ -272,7 +267,7 @@ namespace eNumismat2._0
         {
             if (OpenForm("_SettingsDialog") == false)
             {
-                
+                _SettingsDialog Settings = new _SettingsDialog();
                 Settings.ShowDialog();
             }
         }
@@ -396,22 +391,8 @@ namespace eNumismat2._0
         {
             if (WindowState == FormWindowState.Minimized)
             {
-                if (OpenForm("_eNumismatMain_PasswordCheck") == false)
-                {
-                    _eNumismatMain_PasswordCheck PwCheck = new _eNumismatMain_PasswordCheck();
-                    using (PwCheck)
-                    {
-                        if (PwCheck.ShowDialog() == DialogResult.OK)
-                        {
-                            Show();
-                            WindowState = FormWindowState.Normal;
-                        }
-                        else if(PwCheck.ShowDialog() == DialogResult.Cancel)
-                        {
-                            Close();
-                        }
-                    }
-                }
+                Classes.ApplicationLock AppLock = new Classes.ApplicationLock();
+                AppLock.UnLock();
             }
             else if (WindowState == FormWindowState.Normal)
             {
@@ -598,10 +579,13 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void _eNumismatMain_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.Control && e.Shift && e.KeyCode == Keys.L)
+            if (Properties.Settings.Default.UsePasswordProtection == true)
             {
-                Classes.ApplicationLock AppLock = new Classes.ApplicationLock();
-                AppLock.Lock();
+                if (e.Control && e.Shift && e.KeyCode == Keys.L)
+                {
+                    Classes.ApplicationLock AppLock = new Classes.ApplicationLock();
+                    AppLock.Lock();
+                }
             }
         }
 

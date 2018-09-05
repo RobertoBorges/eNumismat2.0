@@ -18,25 +18,35 @@ namespace eNumismat2._0.Classes
                     frm.Hide();
                 }
 
-                if (OpenForm("_eNumismatMain_PasswordCheck") == false)
+                UnLock();
+            }
+        }
+
+        //=====================================================================================================================================================================
+        public void UnLock()
+        { 
+            if (OpenForm("_eNumismatMain_PasswordCheck") == false)
+            {
+                _eNumismatMain_PasswordCheck PwCheck = new _eNumismatMain_PasswordCheck();
+                using (PwCheck)
                 {
-                    _eNumismatMain_PasswordCheck PwCheck = new _eNumismatMain_PasswordCheck();
-                    using (PwCheck)
+
+                    DialogResult d_result = PwCheck.ShowDialog();
+
+                    if (d_result == DialogResult.OK)
                     {
-                        if (PwCheck.ShowDialog() == DialogResult.OK)
+                        foreach (Form frm in Application.OpenForms)
                         {
-                            foreach (Form frm in Application.OpenForms)
-                            {
-                                frm.Show();
-                            }
+                            frm.Show();
                         }
-                        else if (PwCheck.ShowDialog() == DialogResult.Cancel)
-                        {
-                            foreach (Form frm in Application.OpenForms)
-                            {
-                                frm.Close();
-                            }
-                        }
+                    }
+                    else if (d_result == DialogResult.Cancel)
+                    {
+                        //foreach (Form frm in Application.OpenForms)
+                        //{
+                            Application.Exit();
+                            //frm.Close();
+                        //}
                     }
                 }
             }
@@ -53,13 +63,6 @@ namespace eNumismat2._0.Classes
                 if (fx.Name == FrmName)
                 {
                     IsOpen = true;
-
-                    // Check, if Form is Minimized
-                    if (fx.WindowState == FormWindowState.Minimized)
-                    {
-                        // Yes, then resize
-                        fx.WindowState = FormWindowState.Normal;
-                    }
 
                     // and bring to Front
                     fx.BringToFront();
