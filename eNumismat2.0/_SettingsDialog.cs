@@ -139,7 +139,11 @@ namespace eNumismat2._0
             Properties.Settings.Default.AddressBook_UseValidation = btn_UseValidation.Value;
 
             Properties.Settings.Default.DBBackupPathCollection = DbBackupPathCollection;
-            Properties.Settings.Default.DBBackupPath = cb_DbBackupPath.SelectedItem.ToString();
+
+            if (cb_DbBackupPath.SelectedItem != null)
+            {
+                Properties.Settings.Default.DBBackupPath = cb_DbBackupPath.SelectedItem.ToString();
+            }
 
             // Save all Settings
             Properties.Settings.Default.Save();

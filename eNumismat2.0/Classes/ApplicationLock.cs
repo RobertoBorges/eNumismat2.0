@@ -23,7 +23,7 @@ namespace eNumismat2._0.Classes
         }
 
         //=====================================================================================================================================================================
-        public void UnLock()
+        public bool UnLock()
         { 
             if (OpenForm("_eNumismatMain_PasswordCheck") == false)
             {
@@ -39,17 +39,20 @@ namespace eNumismat2._0.Classes
                         {
                             frm.Show();
                         }
+                        return true;
                     }
                     else if (d_result == DialogResult.Cancel)
                     {
+                        return false;
                         //foreach (Form frm in Application.OpenForms)
                         //{
-                            Application.Exit();
+                           
                             //frm.Close();
                         //}
                     }
                 }
             }
+            return true;
         }
 
         //=====================================================================================================================================================================

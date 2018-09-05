@@ -29,6 +29,8 @@ namespace eNumismat2._0
         {
             InitializeComponent();
 
+            this.Visible = false;
+
             if (args.Count() > 1)
             {
                 foreach (string arg in args)
@@ -48,13 +50,32 @@ namespace eNumismat2._0
 
 
         //=====================================================================================================================================================================
-        private void UseLogin()
+        private bool UseLogin()
         {
             if (Properties.Settings.Default.UsePasswordProtection == true)
             {
                 Classes.ApplicationLock AppLock = new Classes.ApplicationLock();
-                AppLock.UnLock();
+                if(AppLock.UnLock())
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
+            return true;
+        }
+
+        //=====================================================================================================================================================================
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+            if(!UseLogin())
+            {
+                Close();
+            }
+
 
             if (Properties.Settings.Default.MainWindowState == FormWindowState.Maximized)
             {
@@ -68,12 +89,6 @@ namespace eNumismat2._0
             {
                 WindowState = FormWindowState.Maximized;
             }
-        }
-
-        //=====================================================================================================================================================================
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            UseLogin();
 
             if (Properties.Settings.Default.UsePasswordProtection == true)
             {
