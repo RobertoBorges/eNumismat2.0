@@ -66,6 +66,15 @@
         rkJggg==
 </value>
   </data>
+  <data name="buttonItem10.Text" xml:space="preserve">
+    <value>Spracheinstellungen</value>
+  </data>
+  <data name="btn_SettingsDialog.Text" xml:space="preserve">
+    <value>Anwendungseinstellungen</value>
+  </data>
+  <data name="btn_Close.Text" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
   <data name="OpenExchangeMonitorFrm.RibbonWordWrap" xml:space="preserve" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>

@@ -6,7 +6,7 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="MainWindowState" Type="System.Windows.Forms.FormWindowState" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Normal</Value>
     </Setting>
     <Setting Name="MainWindowWidth" Type="System.Int32" Scope="User">
       <Value Profile="(Default)" />
@@ -15,7 +15,7 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="AddressBookWindowState" Type="System.Windows.Forms.FormWindowState" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Normal</Value>
     </Setting>
     <Setting Name="AddressBookWindowWidth" Type="System.Int32" Scope="User">
       <Value Profile="(Default)" />
@@ -24,7 +24,7 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="ExchangeMonitorWindowState" Type="System.Windows.Forms.FormWindowState" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Normal</Value>
     </Setting>
     <Setting Name="ExchangeMonitorWindowWidth" Type="System.Int32" Scope="User">
       <Value Profile="(Default)" />
@@ -33,13 +33,13 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="MinimizeToTray" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">True</Value>
+      <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="BackupDBOnAppClose" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">True</Value>
+      <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="CompressDBBeforeBackup" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">True</Value>
+      <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="DBBackupPath" Type="System.String" Scope="User">
       <Value Profile="(Default)" />

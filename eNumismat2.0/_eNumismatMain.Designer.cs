@@ -337,7 +337,6 @@
             this.btnAbout.Image = global::eNumismat2.Properties.Resources.information;
             this.btnAbout.Name = "btnAbout";
             resources.ApplyResources(this.btnAbout, "btnAbout");
-            this.btnAbout.Click += new System.EventHandler(this.BtnAbout_Click);
             // 
             // btnHelp2
             // 

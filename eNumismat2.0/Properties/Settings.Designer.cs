@@ -37,6 +37,7 @@ namespace eNumismat2.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Normal")]
         public global::System.Windows.Forms.FormWindowState MainWindowState {
             get {
                 return ((global::System.Windows.Forms.FormWindowState)(this["MainWindowState"]));
@@ -70,6 +71,7 @@ namespace eNumismat2.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Normal")]
         public global::System.Windows.Forms.FormWindowState AddressBookWindowState {
             get {
                 return ((global::System.Windows.Forms.FormWindowState)(this["AddressBookWindowState"]));
@@ -103,6 +105,7 @@ namespace eNumismat2.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Normal")]
         public global::System.Windows.Forms.FormWindowState ExchangeMonitorWindowState {
             get {
                 return ((global::System.Windows.Forms.FormWindowState)(this["ExchangeMonitorWindowState"]));
@@ -136,7 +139,7 @@ namespace eNumismat2.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
         public bool MinimizeToTray {
             get {
                 return ((bool)(this["MinimizeToTray"]));
@@ -148,7 +151,7 @@ namespace eNumismat2.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
         public bool BackupDBOnAppClose {
             get {
                 return ((bool)(this["BackupDBOnAppClose"]));
@@ -160,7 +163,7 @@ namespace eNumismat2.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
         public bool CompressDBBeforeBackup {
             get {
                 return ((bool)(this["CompressDBBeforeBackup"]));

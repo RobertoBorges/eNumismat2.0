@@ -14,12 +14,28 @@ namespace eNumismat2.Classes
     //=====================================================================================================================================================================
     class DataBaseWork
     {
-        private static readonly string BackupPath = Settings.Default["DBBackupPath"].ToString();
-        private static readonly string DataBaseFile = Path.Combine(Settings.Default["DBFilePath"].ToString(), Settings.Default["DBFile"].ToString());
+        string BackupPath = null;
+        string DataBaseFile = null;
 
+        //=====================================================================================================================================================================
+        private void ReadSettingsParam()
+        {
+            if (!string.IsNullOrEmpty(Settings.Default["DBBackupPath"].ToString()))
+            {
+                BackupPath = Settings.Default["DBBackupPath"].ToString();
+            }
+
+            if (!string.IsNullOrEmpty(Settings.Default["DBFile"].ToString()) && !string.IsNullOrEmpty(Settings.Default["DBFilePath"].ToString()))
+            {
+                DataBaseFile = Path.Combine(Settings.Default["DBFilePath"].ToString(), Settings.Default["DBFile"].ToString());
+            }
+        }
+        
         //=====================================================================================================================================================================
         public bool CreateNewDataBase()
         {
+            ReadSettingsParam();
+
             // do not use the default Connection string, because with CreateNewDataBase, we want that the DB file will be created.
             using (SQLiteConnection SQLiteConn = new SQLiteConnection("Datasource=" + DataBaseFile + ";Version=3;"))
             {
@@ -55,6 +71,8 @@ namespace eNumismat2.Classes
         //=====================================================================================================================================================================
         private bool CheckBackupDir()
         {
+            ReadSettingsParam();
+
             if (Directory.Exists(BackupPath))
             {
                 return true;
@@ -76,6 +94,8 @@ namespace eNumismat2.Classes
         //=====================================================================================================================================================================
         public bool ExcecuteBackup()
         {
+            ReadSettingsParam();
+
             if (CheckBackupDir())
             {
                 string SourceFile = DataBaseFile;
@@ -114,6 +134,8 @@ namespace eNumismat2.Classes
         //=====================================================================================================================================================================
         public bool CompactDatabase(SQLiteConnection Database = null)
         {
+            ReadSettingsParam();
+
             if (Database == null)
             {
                 Database = new SQLiteConnection("Datasource=" + DataBaseFile + ";Version=3;FailIfMissing=True;");
@@ -139,6 +161,8 @@ namespace eNumismat2.Classes
         //=====================================================================================================================================================================
         public DataTable GetTagCollection()
         {
+            ReadSettingsParam();
+
             using (SQLiteConnection SQLiteConn = new SQLiteConnection("Datasource=" + DataBaseFile + ";Version=3;FailIfMissing=True;"))
             {
                 try
@@ -173,8 +197,11 @@ namespace eNumismat2.Classes
             }
         }
 
+        //=====================================================================================================================================================================
         public void DeleteTagFromTagCollection(List<string>Tags)
         {
+            ReadSettingsParam();
+
             using (SQLiteConnection SQLiteConn = new SQLiteConnection("Datasource=" + DataBaseFile + ";Version=3;FailIfMissing=True;"))
             {
                 try
@@ -210,6 +237,8 @@ namespace eNumismat2.Classes
         //=====================================================================================================================================================================
         public int ContactCounter()
         {
+            ReadSettingsParam();
+
             int _rowCounter = 0;
 
             using (SQLiteConnection SQLiteConn = new SQLiteConnection("Datasource=" + DataBaseFile + ";Version=3;FailIfMissing=True;"))

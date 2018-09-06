@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Drawing;
 using DevComponents.DotNetBar;
 using Infralution.Localization;
 using System.IO;
-using System.Drawing;
 using System.Linq;
 using System.Globalization;
 using eNumismat2.Properties;
@@ -20,65 +20,58 @@ namespace eNumismat2
     //=====================================================================================================================================================================
     public partial class _eNumismatMain : RibbonForm
     {
-        //_AboutBox AboutBox = new _AboutBox();
-
-        DataBaseWork DBWorker;
-        ConfigReadWrite CFGWriter = new ConfigReadWrite();
-
-        public string[] args = Environment.GetCommandLineArgs();
+        public string[] Args { get; set; } = Environment.GetCommandLineArgs();
 
         //=====================================================================================================================================================================
         public _eNumismatMain()
         {
             InitializeComponent();
 
-            this.Visible = false;
-
-            if (args.Count() > 1)
+            if (Args.Count() > 1)
             {
-                foreach (string arg in args)
-                {
-                    // Hidden: Should be removed 
-                    if (arg.ToUpper() == "RESETPW")
-                    {
-                        Settings.Default["UsePasswordProtection"] = false;
-                        Settings.Default["CurrentUserPassword"] = string.Empty;
-
-                        Settings.Default.Save();
-
-                        MessageBox.Show("Passwort zurückgesetzt!");
-                    }
-                }
+                CmdLineArgWorker.CommandWorker(Args);
             }
-        }
-
-        //=====================================================================================================================================================================
-        private bool UseLogin()
-        {
-            if (Settings.Default.UsePasswordProtection == true)
-            {
-                ApplicationLock AppLock = new ApplicationLock();
-                if (AppLock.UnLock())
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
-            }
-            return true;
         }
 
         //=====================================================================================================================================================================
         private void Form1_Load(object sender, EventArgs e)
         {
-            if (!UseLogin())
+            if (Settings.Default.UsePasswordProtection == true)
             {
-                Close();
+                if (!UseLogin())
+                {
+                    Close();
+                }
+                btn_AppLock.Visible = true;
             }
+            else
+            {
+                btn_AppLock.Visible = false;
+            }
+            GetLastWindowSize();
+            DisplayLanguage();
 
+            CheckIfDbFileExists();
+        }
 
+        //=====================================================================================================================================================================
+        private bool UseLogin()
+        {
+            ApplicationLock AppLock = new ApplicationLock();
+
+            if (AppLock.UnLock())
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        //=====================================================================================================================================================================
+        private void GetLastWindowSize()
+        {
             if (!string.IsNullOrEmpty(Settings.Default["MainWindowState"].ToString()))
             {
                 if (Settings.Default.MainWindowState == FormWindowState.Maximized)
@@ -98,18 +91,6 @@ namespace eNumismat2
             {
                 WindowState = FormWindowState.Maximized;
             }
-
-            if (Settings.Default.UsePasswordProtection == true)
-            {
-                btn_AppLock.Visible = true;
-            }
-            else
-            {
-                btn_AppLock.Visible = false;
-            }
-
-            CheckIfDbFileExists();
-            DisplayLanguage();
         }
 
         //=====================================================================================================================================================================
@@ -126,6 +107,8 @@ namespace eNumismat2
                 CultureManager.ApplicationUICulture = new CultureInfo(Settings.Default.UICulture);
                 DisplayCulture = CultureManager.ApplicationUICulture;
             }
+
+            #region Checking the DisplayLanguage in the Selector
 
             if (DisplayCulture.Name == "en-US")
             {
@@ -215,6 +198,7 @@ namespace eNumismat2
             {
                 toolStripStatusLabel1.Image = null;
             }
+            #endregion
 
             toolStripStatusLabel1.Text = CultureManager.ApplicationUICulture.Name;
 
@@ -222,42 +206,8 @@ namespace eNumismat2
             ribbonControl1.Refresh();
         }
 
+        #region Open ChildForms
         //=====================================================================================================================================================================
-        private bool CheckIfDbFileExists()
-        {
-            // Check if DB File exists
-            if (!string.IsNullOrEmpty(Settings.Default.DBFile) && !string.IsNullOrEmpty(Settings.Default.DBFilePath))
-            {
-                if (File.Exists(Path.Combine(Settings.Default.DBFilePath, Settings.Default.DBFile)))
-                {
-                    toolStripStatusLabel2.Image = Resources.connect;
-                    toolStripStatusLabel2.Text = GlobalStrings._dbConnectionDbFile + Settings.Default.DBFile;
-
-                    return true;
-                }
-                else
-                {
-                    toolStripStatusLabel2.Image = Resources.disconnect;
-                    toolStripStatusLabel2.Text = GlobalStrings._dbConnectionNoDbFile;
-
-                    MessageBox.Show("selected DB file does not exist!");
-                    RefreshDbFileSettings();
-
-                    return false;
-                }
-            }
-            else
-            {
-                toolStripStatusLabel2.Image = Resources.disconnect;
-                toolStripStatusLabel2.Text = GlobalStrings._dbConnectionNoDbFile;
-
-                return false;
-            }
-        }
-
-        // Open "child" Forms
-        //=====================================================================================================================================================================
-        // Exchange Monitor
         private void OpenExchangeMonitorFrm_Click(object sender, EventArgs e)
         {
             if (OpenForm("_ExchangeMonitor") == false)
@@ -268,7 +218,6 @@ namespace eNumismat2
         }
 
         //=====================================================================================================================================================================
-        // Addressbook
         private void OpenAddrBookFrm_Click(object sender, EventArgs e)
         {
             if (OpenForm("_AddressBook") == false)
@@ -288,16 +237,7 @@ namespace eNumismat2
             }
         }
 
-        //=====================================================================================================================================================================
-        // About Form
-        private void BtnAbout_Click(object sender, EventArgs e)
-        {
-            //if (OpenForm("_AboutBox") == false)
-            //{
 
-            //    AboutBox.Show();
-            //}
-        }
         //=====================================================================================================================================================================
         // Check, if form is already open
         private bool OpenForm(string FrmName)
@@ -309,14 +249,12 @@ namespace eNumismat2
                 if (fx.Name == FrmName)
                 {
                     IsOpen = true;
-
                     // Check, if Form is Minimized
                     if (fx.WindowState == FormWindowState.Minimized)
                     {
                         // Yes, then resize
                         fx.WindowState = FormWindowState.Normal;
                     }
-
                     // and bring to Front
                     fx.BringToFront();
 
@@ -325,7 +263,9 @@ namespace eNumismat2
             }
             return IsOpen;
         }
+        #endregion
 
+        #region LanguageSelector "Click"
         //=====================================================================================================================================================================
         private void LangEN_GB_Click(object sender, EventArgs e)
         {
@@ -367,13 +307,35 @@ namespace eNumismat2
         {
             CultureManager.ApplicationUICulture = new CultureInfo("ru-RU");
         }
+        # endregion
 
         //=====================================================================================================================================================================
-        private void BtnClose_Click(object sender, EventArgs e)
+        private void Btn_AppLock_Click(object sender, EventArgs e)
         {
-            Close();
+            ApplicationLock AppLock = new ApplicationLock();
+            AppLock.Lock();
         }
 
+        //=====================================================================================================================================================================
+        private void _eNumismatMain_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (Settings.Default.UsePasswordProtection == true)
+            {
+                if (e.Control && e.Shift && e.KeyCode == Keys.L)
+                {
+                    ApplicationLock AppLock = new ApplicationLock();
+                    AppLock.Lock();
+                }
+            }
+        }
+
+        //=====================================================================================================================================================================
+        private void CultureManager_UICultureChanged(CultureInfo newCulture)
+        {
+            Settings.Default["UICulture"] = newCulture.Name;
+            Settings.Default.Save();
+            DisplayLanguage();
+        }
         //=====================================================================================================================================================================
         private void _eNumismatMain_SizeChanged(object sender, EventArgs e)
         {
@@ -385,7 +347,12 @@ namespace eNumismat2
                     WindowState = FormWindowState.Minimized;
                 }
             }
-            SaveWindowSizeSettings();
+
+            Settings.Default["MainWindowHeight"] = Size.Height;
+            Settings.Default["MainWindowWidth"] = Size.Width;
+            Settings.Default["MainWindowState"] = WindowState;
+
+            Settings.Default.Save();
         }
 
         //=====================================================================================================================================================================
@@ -407,111 +374,6 @@ namespace eNumismat2
                 Hide();
                 WindowState = FormWindowState.Minimized;
             }
-
-            SaveWindowSizeSettings();
-        }
-
-        //=====================================================================================================================================================================
-        private void Btn_NewDB_Click(object sender, EventArgs e)
-        {
-            CreateNewDbFile();
-        }
-
-        //=====================================================================================================================================================================
-        private void Btn_OpenDB_Click(object sender, EventArgs e)
-        {
-            OpenDbFile();
-        }
-
-        //=====================================================================================================================================================================
-        private void CreateNewDbFile()
-        {
-            if (GetDBConnected("create"))
-            {
-                DBWorker = new DataBaseWork();
-                try
-                {
-                    DBWorker.CreateNewDataBase();
-                    if (CheckIfDbFileExists())
-                    { }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
-            }
-        }
-
-        //=====================================================================================================================================================================
-        private void OpenDbFile()
-        {
-            if (GetDBConnected("open"))
-            {
-                if (CheckIfDbFileExists())
-                { }
-            }
-        }
-
-        //=====================================================================================================================================================================
-        private bool GetDBConnected(string method)
-        {
-            string InitialDir = null;
-            string FileName = null;
-            string FilePath = null;
-
-            if (string.IsNullOrEmpty(Settings.Default.DBFilePath))
-            {
-                InitialDir = Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments);
-            }
-            else
-            {
-                InitialDir = Settings.Default.DBFilePath;
-            }
-
-            if (method == "open")
-            {
-                OpenFileDialog FD = new OpenFileDialog()
-                {
-                    DefaultExt = "*.enc",
-                    Filter = "eNumismat Collection (*.enc) | *.enc",
-                    AddExtension = true,
-                    InitialDirectory = InitialDir,
-                };
-
-                DialogResult = FD.ShowDialog();
-                FileName = Path.GetFileName(FD.FileName);
-                FilePath = Path.GetDirectoryName(FD.FileName);
-            }
-            else if (method == "create")
-            {
-                SaveFileDialog FD = new SaveFileDialog()
-                {
-                    DefaultExt = "*.enc",
-                    Filter = "eNumismat Collection (*.enc) | *.enc",
-                    AddExtension = true,
-                    InitialDirectory = InitialDir,
-                };
-
-                DialogResult = FD.ShowDialog();
-                FileName = Path.GetFileName(FD.FileName);
-                FilePath = Path.GetDirectoryName(FD.FileName);
-            }
-
-            if (DialogResult == DialogResult.OK)
-            {
-                //Settings.Default.DBFile = FileName;
-                CFGWriter.WriteConfig(Settings.Default.DBFile, FileName);
-                //Settings.Default.DBFilePath = FilePath;
-                CFGWriter.WriteConfig(Settings.Default.DBFilePath, FilePath);
-
-                //Settings.Default.Save();
-
-                return true;
-            }
-            else
-            {
-                return false;
-            }
         }
 
         //=====================================================================================================================================================================
@@ -527,21 +389,11 @@ namespace eNumismat2
         }
 
         //=====================================================================================================================================================================
-        private void _eNumismatMain_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            if (Settings.Default.BackupDBOnAppClose == true)
-            {
-                RunDBBackup();
-            }
-            SaveWindowSizeSettings();
-        }
-
-        //=====================================================================================================================================================================
         private void RunDBCompression()
         {
             try
             {
-                DBWorker = new DataBaseWork();
+                DataBaseWork DBWorker = new DataBaseWork();
                 if (DBWorker.CompactDatabase())
                 {
                     TrayIcon.BalloonTipTitle = GlobalStrings._dbCompress_BalloonTitle;
@@ -565,7 +417,7 @@ namespace eNumismat2
         {
             try
             {
-                DBWorker = new DataBaseWork();
+                DataBaseWork DBWorker = new DataBaseWork();
                 if (DBWorker.ExcecuteBackup())
                 {
                     TrayIcon.BalloonTipTitle = GlobalStrings._dbBackup_BalloonTitle;
@@ -581,7 +433,7 @@ namespace eNumismat2
                     + Environment.NewLine
                     + ex.Message
                     + Environment.NewLine
-                    + Path.Combine(Settings.Default.DBFilePath, Settings.Default.DBFile),
+                    + Path.Combine(Settings.Default["DBFilePath"].ToString(), Settings.Default["DBFile"].ToString()),
                     GlobalStrings._dbBackupNullReferenceExceptionTitle);
             }
             catch (Exception ex)
@@ -591,62 +443,134 @@ namespace eNumismat2
         }
 
         //=====================================================================================================================================================================
-        private void _eNumismatMain_KeyDown(object sender, KeyEventArgs e)
+        private void BtnClose_Click(object sender, EventArgs e)
         {
-            if (Settings.Default.UsePasswordProtection == true)
+            Close();
+        }
+
+        //=====================================================================================================================================================================
+        private void _eNumismatMain_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (Settings.Default.BackupDBOnAppClose == true)
             {
-                if (e.Control && e.Shift && e.KeyCode == Keys.L)
+                RunDBBackup();
+            }
+            Settings.Default.Save();
+        }
+
+        //=====================================================================================================================================================================
+        private void Btn_NewDB_Click(object sender, EventArgs e)
+        {
+            FileDialogInit("create");
+        }
+
+        //=====================================================================================================================================================================
+        private void Btn_OpenDB_Click(object sender, EventArgs e)
+        {
+            FileDialogInit("open");
+        }
+
+        //=====================================================================================================================================================================
+        private void FileDialogInit(string method)
+        {
+            string InitialDir = null;
+            
+            if (string.IsNullOrEmpty(Settings.Default["DBFilePath"].ToString()))
+            {
+                InitialDir = Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments);
+            }
+            else
+            {
+                InitialDir = Settings.Default["DBFilePath"].ToString();
+            }
+
+            if (method == "open")
+            {
+                OpenFileDialog OpenFile = new OpenFileDialog()
                 {
-                    ApplicationLock AppLock = new ApplicationLock();
-                    AppLock.Lock();
+                    AddExtension = true,
+                    Filter = "eNumismat Collection (*.enc) | *.enc",
+                    InitialDirectory = InitialDir,
+                };
+
+                if (OpenFile.ShowDialog() == DialogResult.OK)
+                {
+                    Settings.Default["DBFile"] = Path.GetFileName(OpenFile.FileName);
+                    Settings.Default["DBFilePath"] = Path.GetDirectoryName(OpenFile.FileName);
+                }
+                else
+                {
+                    Settings.Default["DBFile"] = string.Empty;
+                    Settings.Default["DBFilePath"] = string.Empty;
+                }
+                Settings.Default.Save();
+            }
+            else if (method == "create")
+            {
+                SaveFileDialog SaveFile = new SaveFileDialog()
+                {
+                    DefaultExt = "*.enc",
+                    Filter = "eNumismat Collection (*.enc) | *.enc",
+                    AddExtension = true,
+                    InitialDirectory = InitialDir,
+                };
+
+                if (SaveFile.ShowDialog() == DialogResult.OK)
+                {
+                    Settings.Default["DBFile"] = Path.GetFileName(SaveFile.FileName);
+                    Settings.Default["DBFilePath"] = Path.GetDirectoryName(SaveFile.FileName);
+                }
+                else
+                {
+                    Settings.Default["DBFile"] = string.Empty;
+                    Settings.Default["DBFilePath"] = string.Empty;
+                }
+                Settings.Default.Save();
+
+                MessageBox.Show(Settings.Default["DBFile"].ToString());
+
+                DataBaseWork DBWorker = new DataBaseWork();
+                DBWorker.CreateNewDataBase();
+            }
+            CheckIfDbFileExists();
+        }
+
+        //=====================================================================================================================================================================
+        private void CheckIfDbFileExists()
+        {
+            if (string.IsNullOrEmpty(Settings.Default["DBFile"].ToString()) && string.IsNullOrEmpty(Settings.Default["DBFilePath"].ToString()))
+            {
+                toolStripStatusLabel2.Image = Resources.disconnect;
+                toolStripStatusLabel2.Text = GlobalStrings._dbConnectionNoDbFile;
+
+                btn_BackupDB.Enabled = false;
+                btn_CompressDB.Enabled = false;
+                OpenExchangeMonitorFrm.Enabled = false;
+                OpenAddrBookFrm.Enabled = false;
+            }
+            else
+            {
+                if (File.Exists(Path.Combine(Settings.Default["DBFilePath"].ToString(), Settings.Default["DBFile"].ToString())))
+                {
+                    toolStripStatusLabel2.Image = Resources.connect;
+                    toolStripStatusLabel2.Text = GlobalStrings._dbConnectionDbFile + Settings.Default.DBFile;
+
+                    btn_BackupDB.Enabled = true;
+                    btn_CompressDB.Enabled = true;
+                    OpenExchangeMonitorFrm.Enabled = true;
+                    OpenAddrBookFrm.Enabled = true;
+                }
+                else
+                {
+                    toolStripStatusLabel2.Image = Resources.disconnect;
+                    toolStripStatusLabel2.Text = GlobalStrings._dbConnectionNoDbFile;
+
+                    btn_BackupDB.Enabled = false;
+                    btn_CompressDB.Enabled = false;
+                    OpenExchangeMonitorFrm.Enabled = false;
+                    OpenAddrBookFrm.Enabled = false;
                 }
             }
         }
-
-        //=====================================================================================================================================================================
-        private void Btn_AppLock_Click(object sender, EventArgs e)
-        {
-            ApplicationLock AppLock = new ApplicationLock();
-            AppLock.Lock();
-        }
-
-        //=====================================================================================================================================================================
-        private void CultureManager_UICultureChanged(CultureInfo newCulture)
-        {
-
-            //CFGWriter.WriteConfig(newCulture.Name, Settings.Default.UICulture);
-            Settings.Default.UICulture = newCulture.Name;
-            Settings.Default.Save();
-            DisplayLanguage();
-        }
-
-        //=====================================================================================================================================================================
-        private void SaveWindowSizeSettings()
-        {
-            Settings.Default.MainWindowHeight = Size.Height;
-            //CFGWriter.WriteConfig(Size.Height, Settings.Default.MainWindowHeight);
-            Settings.Default.MainWindowWidth = Size.Width;
-            //CFGWriter.WriteConfig(Size.Width, Settings.Default.MainWindowWidth);
-            Settings.Default.MainWindowState = WindowState;
-            //CFGWriter.WriteConfig(WindowState, Settings.Default.MainWindowState);
-
-            Settings.Default.Save();
-        }
-
-        //=====================================================================================================================================================================
-        private void RefreshDbFileSettings()
-        {
-            Settings.Default.DBFilePath = "";
-            //CFGWriter.WriteConfig(Settings.Default.DBFilePath, string.Empty);
-            Settings.Default.DBFile = "";
-            //CFGWriter.WriteConfig(Settings.Default.DBFile, string.Empty);
-
-            Settings.Default.Save();
-        }
     }
 }
-
-
-
-
-

@@ -34,7 +34,6 @@ namespace eNumismat2
         private void Btn_Cancel_Click(object sender, EventArgs e)
         {
             Close();
-            //Application.Exit();
         }
 
         //=====================================================================================================================================================================
@@ -52,11 +51,6 @@ namespace eNumismat2
             if (string.Equals(EncryptPW.Calculate(tb_CurrentPassword.Text), Settings.Default.CurrentUserPassword))
             {
                 DialogResult = DialogResult.OK;
-
-                //Application.Run(new _eNumismatMain());
-                //_eNumismatMain MainFrm = new _eNumismatMain();
-                //MainFrm.Show();
-                //Hide();
             }
             else
             {

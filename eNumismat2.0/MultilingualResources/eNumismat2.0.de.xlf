@@ -28,7 +28,7 @@
         </trans-unit>
         <trans-unit id="_dbBackup_BalloonTitle" translate="yes" xml:space="preserve">
           <source>Database Backup</source>
-          <target state="new">Database Backup</target>
+          <target state="translated">Datenbanksicherung</target>
         </trans-unit>
         <trans-unit id="_dbCompress_BallonText" translate="yes" xml:space="preserve">
           <source>Compression of the Database was successful</source>
@@ -36,11 +36,11 @@
         </trans-unit>
         <trans-unit id="_dbCompress_BalloonTitle" translate="yes" xml:space="preserve">
           <source>Database Compression</source>
-          <target state="new">Database Compression</target>
+          <target state="translated">Datenbankkomprimierung</target>
         </trans-unit>
         <trans-unit id="_dbConnectionDbFile" translate="yes" xml:space="preserve">
           <source>Connected to:</source>
-          <target state="new">Connected to:</target>
+          <target state="translated">Verbunden mit:</target>
         </trans-unit>
         <trans-unit id="_dbConnectionNoDbFile" translate="yes" xml:space="preserve">
           <source>Not Connected to a Database file</source>
@@ -1123,11 +1123,11 @@ Please try it again!</target>
         </trans-unit>
         <trans-unit id="buttonItem10.Text" translate="yes" xml:space="preserve">
           <source>Language Settings</source>
-          <target state="new">Language Settings</target>
+          <target state="translated">Spracheinstellungen</target>
         </trans-unit>
         <trans-unit id="btn_SettingsDialog.Text" translate="yes" xml:space="preserve">
           <source>Application Settings</source>
-          <target state="new">Application Settings</target>
+          <target state="translated">Anwendungseinstellungen</target>
         </trans-unit>
         <trans-unit id="buttonItem9.Text" translate="yes" xml:space="preserve">
           <source>Settings</source>
@@ -1135,7 +1135,7 @@ Please try it again!</target>
         </trans-unit>
         <trans-unit id="btn_Close.Text" translate="yes" xml:space="preserve">
           <source>Close</source>
-          <target state="new">Close</target>
+          <target state="translated">Schließen</target>
         </trans-unit>
         <trans-unit id="applicationButton1.Text" translate="yes" xml:space="preserve">
           <source>&amp;File</source>
