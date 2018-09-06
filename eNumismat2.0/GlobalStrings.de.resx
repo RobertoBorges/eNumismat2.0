@@ -12,47 +12,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="_contactAvailable" xml:space="preserve">
-    <value>Kontakt vorhanden</value>
-  </data>
-  <data name="_contactsAvailable" xml:space="preserve">
-    <value>Kontakte vorhanden</value>
-  </data>
-  <data name="_dbBackupNullReferenceExceptionText" xml:space="preserve">
-    <value>Es konnte keine Sicherung erstellt werden, da keine Datenbankdatei ausgewählt war.</value>
-  </data>
-  <data name="_dbBackupNullReferenceExceptionTitle" xml:space="preserve">
-    <value>Fehler</value>
-  </data>
-  <data name="_dbBackup_BallonText" xml:space="preserve">
-    <value>Die Sicherung war erfolgreich</value>
-  </data>
-  <data name="_dbBackup_BalloonTitle" xml:space="preserve">
-    <value>Datenbank sichern</value>
-  </data>
-  <data name="_dbCompress_BallonText" xml:space="preserve">
-    <value>Die Komprimierung der Datenbank war erfolgreich</value>
-  </data>
-  <data name="_dbCompress_BalloonTitle" xml:space="preserve">
-    <value>Datenbank komprimieren</value>
-  </data>
-  <data name="_dbConnectionDbFile" xml:space="preserve">
-    <value>Verbunden mit:</value>
-  </data>
-  <data name="_dbConnectionNoDbFile" xml:space="preserve">
-    <value>mit keiner Datenbankdatei verbunden</value>
-  </data>
-  <data name="_PWChangeDialog_CurrentPWEmpty_Text" xml:space="preserve">
-    <value>Du musst das aktuelle Passwort eingeben, bevor du es ändern kannst!</value>
-  </data>
-  <data name="_PWChangeDialog_CurrentPWnotCorrect_Text" xml:space="preserve">
-    <value>Das aktuelle Passwort stimmt nicht.
-Bitte versuche es erneut</value>
-  </data>
-  <data name="_PWChangeDialog_PasswordEmpty_Text" xml:space="preserve">
-    <value>Das Passwort kann nicht leer sein!</value>
-  </data>
-  <data name="_PWChangeDialog_Title" xml:space="preserve">
-    <value>Fehler!</value>
-  </data>
 </root>

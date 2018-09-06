@@ -5,20 +5,22 @@ using System.Linq;
 using System.Windows.Forms;
 using System.Collections.Specialized;
 using DevComponents.DotNetBar.Controls;
+using eNumismat2.Properties;
+using eNumismat2.Classes;
 using System.ComponentModel;
 using System.Drawing;
 using System.Text;
 using System.Threading.Tasks;
 using DevComponents.DotNetBar;
 
-namespace eNumismat2._0
+namespace eNumismat2
 {
     //=====================================================================================================================================================================
     public partial class _SettingsDialog : Form
     {
         StringCollection DbBackupPathCollection;
 
-        Classes.DataBaseWork DBWorker = new Classes.DataBaseWork();
+        DataBaseWork DBWorker = new DataBaseWork();
 
         //=====================================================================================================================================================================
         public _SettingsDialog()
@@ -30,34 +32,35 @@ namespace eNumismat2._0
         private void _SettingsDialog_Load(object sender, EventArgs e)
         {
             // Set Button state corresponding to the saved settings
-            btn_DbBackupOnAppClose.Value = Properties.Settings.Default.BackupDBOnAppClose;
-            btn_DbCompressBeforeBackup.Value = Properties.Settings.Default.CompressDBBeforeBackup;
-            btn_UseValidation.Value = Properties.Settings.Default.AddressBook_UseValidation;
-            btn_MinimizeToTray.Value = Properties.Settings.Default.MinimizeToTray;
+            btn_DbBackupOnAppClose.Value = Settings.Default.BackupDBOnAppClose;
+            btn_DbCompressBeforeBackup.Value = Settings.Default.CompressDBBeforeBackup;
+            btn_UseValidation.Value = Settings.Default.AddressBook_UseValidation;
+            btn_MinimizeToTray.Value = Settings.Default.MinimizeToTray;
 
             // why is this button always set to false?
-            btn_UsePassword.Value = Properties.Settings.Default.UsePasswordProtection;
+            btn_UsePassword.Value = Settings.Default.UsePasswordProtection;
 
             // Get Properties for generating the ComboBox (DB Backup Path)
-            if (Properties.Settings.Default.DBBackupPath == null)
+            if (string.IsNullOrEmpty(Settings.Default["DBBackupPath"].ToString()))
             {
                 DbBackupPathCollection = new StringCollection();
             }
             else
             {
-                DbBackupPathCollection = Properties.Settings.Default.DBBackupPathCollection;
+                DbBackupPathCollection = Settings.Default.DBBackupPathCollection;
+
                 foreach (string Item in DbBackupPathCollection)
                 {
                     cb_DbBackupPath.Items.Add(Item);
                 }
             }
-            cb_DbBackupPath.SelectedItem = Properties.Settings.Default.DBBackupPath;
+            cb_DbBackupPath.SelectedItem = Settings.Default["DBBackupPath"].ToString();
 
             FillListBoxTagCollection();
 
-            if (cb_StyleSelector.Items.Contains(Properties.Settings.Default.CurrentColorTheme))
+            if (cb_StyleSelector.Items.Contains(Settings.Default["CurrentColorTheme"].ToString()))
             {
-                cb_StyleSelector.SelectedItem = Properties.Settings.Default.CurrentColorTheme;
+                cb_StyleSelector.SelectedItem = Settings.Default["CurrentColorTheme"].ToString();
             }
             else
             {
@@ -131,22 +134,22 @@ namespace eNumismat2._0
         private void Btn_Save_Click(object sender, EventArgs e)
         {
             // General Application Settings
-            Properties.Settings.Default.MinimizeToTray = btn_MinimizeToTray.Value;
+            Settings.Default["MinimizeToTray"] = btn_MinimizeToTray.Value;
 
             // Database Settings
-            Properties.Settings.Default.BackupDBOnAppClose = btn_DbBackupOnAppClose.Value;
-            Properties.Settings.Default.CompressDBBeforeBackup = btn_DbCompressBeforeBackup.Value;
-            Properties.Settings.Default.AddressBook_UseValidation = btn_UseValidation.Value;
+            Settings.Default["BackupDBOnAppClose"] = btn_DbBackupOnAppClose.Value;
+            Settings.Default["CompressDBBeforeBackup"] = btn_DbCompressBeforeBackup.Value;
+            Settings.Default["AddressBook_UseValidation"] = btn_UseValidation.Value;
 
-            Properties.Settings.Default.DBBackupPathCollection = DbBackupPathCollection;
+            Settings.Default["DBBackupPathCollection"] = DbBackupPathCollection;
 
             if (cb_DbBackupPath.SelectedItem != null)
             {
-                Properties.Settings.Default.DBBackupPath = cb_DbBackupPath.SelectedItem.ToString();
+                Settings.Default["DBBackupPath"] = cb_DbBackupPath.SelectedItem.ToString();
             }
 
             // Save all Settings
-            Properties.Settings.Default.Save();
+            Settings.Default.Save();
 
             // if Settings are saved, Hide the form
             Hide();
@@ -166,26 +169,26 @@ namespace eNumismat2._0
                 PWProtectionLogic();
             }
 
-            Properties.Settings.Default.UsePasswordProtection = btn_UsePassword.Value;
-            Properties.Settings.Default.Save();
+            Settings.Default.UsePasswordProtection = btn_UsePassword.Value;
+            Settings.Default.Save();
         }
 
         //=====================================================================================================================================================================
         private void PWProtectionLogic()
         {
-            if (Properties.Settings.Default.UsePasswordProtection == true && !string.IsNullOrEmpty(Properties.Settings.Default.CurrentUserPassword))
+            if (Settings.Default.UsePasswordProtection == true && !string.IsNullOrEmpty(Settings.Default.CurrentUserPassword))
             {
                 btn_changePW.Visible = true;
                 btn_changePW.Enabled = true;
             }
-            else if (Properties.Settings.Default.UsePasswordProtection == true && string.IsNullOrEmpty(Properties.Settings.Default.CurrentUserPassword))
+            else if (Settings.Default.UsePasswordProtection == true && string.IsNullOrEmpty(Settings.Default.CurrentUserPassword))
             {
                 btn_UsePassword.Value = false;
 
                 btn_changePW.Visible = false;
                 btn_changePW.Enabled = false;
             }
-            else if (Properties.Settings.Default.UsePasswordProtection == false && !string.IsNullOrEmpty(Properties.Settings.Default.CurrentUserPassword))
+            else if (Settings.Default.UsePasswordProtection == false && !string.IsNullOrEmpty(Settings.Default.CurrentUserPassword))
             {
                 btn_changePW.Visible = true;
                 btn_changePW.Enabled = true;
@@ -232,7 +235,7 @@ namespace eNumismat2._0
             //StyleManager.ChangeStyle(eStyle.VisualStudio2012Light, );
             //styleManager1.MetroColorParameters.ThemeName 
 
-            //Properties.Settings.Default.CurrentColorTheme = cb_StyleSelector.SelectedItem.ToString();           
+            //Settings.Default.CurrentColorTheme = cb_StyleSelector.SelectedItem.ToString();           
         }
     }
 }

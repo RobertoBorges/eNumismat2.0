@@ -1,4 +1,4 @@
-﻿namespace eNumismat2._0
+﻿namespace eNumismat2
 {
     partial class _SettingsDialog
     {
@@ -613,7 +613,7 @@
             // 
             this.buttonX3.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.buttonX3.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX3.Image = global::eNumismat2._0.Properties.Resources.action_remove;
+            this.buttonX3.Image = global::eNumismat2.Properties.Resources.action_remove;
             resources.ApplyResources(this.buttonX3, "buttonX3");
             this.buttonX3.Name = "buttonX3";
             this.buttonX3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -623,7 +623,7 @@
             // 
             this.buttonX4.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.buttonX4.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX4.Image = global::eNumismat2._0.Properties.Resources.action_add;
+            this.buttonX4.Image = global::eNumismat2.Properties.Resources.action_add;
             resources.ApplyResources(this.buttonX4, "buttonX4");
             this.buttonX4.Name = "buttonX4";
             this.buttonX4.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -642,7 +642,7 @@
             // 
             this.buttonX2.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.buttonX2.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX2.Image = global::eNumismat2._0.Properties.Resources.action_remove;
+            this.buttonX2.Image = global::eNumismat2.Properties.Resources.action_remove;
             resources.ApplyResources(this.buttonX2, "buttonX2");
             this.buttonX2.Name = "buttonX2";
             this.buttonX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -651,7 +651,7 @@
             // 
             this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX1.Image = global::eNumismat2._0.Properties.Resources.action_add;
+            this.buttonX1.Image = global::eNumismat2.Properties.Resources.action_add;
             resources.ApplyResources(this.buttonX1, "buttonX1");
             this.buttonX1.Name = "buttonX1";
             this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -761,7 +761,7 @@
             this.btn_Cancel.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btn_Cancel.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btn_Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btn_Cancel.Image = global::eNumismat2._0.Properties.Resources.action_delete;
+            this.btn_Cancel.Image = global::eNumismat2.Properties.Resources.action_delete;
             resources.ApplyResources(this.btn_Cancel, "btn_Cancel");
             this.btn_Cancel.Name = "btn_Cancel";
             this.btn_Cancel.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -771,7 +771,7 @@
             // 
             this.btn_Save.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btn_Save.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btn_Save.Image = global::eNumismat2._0.Properties.Resources.action_check;
+            this.btn_Save.Image = global::eNumismat2.Properties.Resources.action_check;
             resources.ApplyResources(this.btn_Save, "btn_Save");
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;

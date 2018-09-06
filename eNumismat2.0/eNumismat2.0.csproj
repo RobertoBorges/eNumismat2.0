@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{DE2ACB6A-0573-45B6-AA36-B41586AB2746}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>eNumismat2._0</RootNamespace>
-    <AssemblyName>eNumismat2.0</AssemblyName>
+    <RootNamespace>eNumismat2</RootNamespace>
+    <AssemblyName>eNumismat2</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>

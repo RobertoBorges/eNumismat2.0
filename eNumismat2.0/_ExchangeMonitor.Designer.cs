@@ -1,4 +1,4 @@
-﻿namespace eNumismat2._0
+﻿namespace eNumismat2
 {
     partial class _ExchangeMonitor
     {

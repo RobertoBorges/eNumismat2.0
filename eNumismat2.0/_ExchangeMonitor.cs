@@ -8,8 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevComponents.DotNetBar;
+using eNumismat2.Properties;
+using eNumismat2.Classes;
 
-namespace eNumismat2._0
+namespace eNumismat2
 {
     //=====================================================================================================================================================================
     public partial class _ExchangeMonitor : RibbonForm
@@ -19,9 +21,9 @@ namespace eNumismat2._0
         {
             InitializeComponent();
 
-            if (Properties.Settings.Default.MainWindowState == FormWindowState.Normal)
+            if (Settings.Default.MainWindowState == FormWindowState.Normal)
             {
-                Size = new Size(Properties.Settings.Default.ExchangeMonitorWindowWidth, Properties.Settings.Default.ExchangeMonitorWindowHight);
+                Size = new Size(Settings.Default.ExchangeMonitorWindowWidth, Settings.Default.ExchangeMonitorWindowHight);
             }
         }
 
@@ -40,11 +42,11 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void SaveWindowSizeSettings()
         {
-            Properties.Settings.Default.ExchangeMonitorWindowHight = Size.Height;
-            Properties.Settings.Default.ExchangeMonitorWindowWidth = Size.Width;
-            Properties.Settings.Default.ExchangeMonitorWindowState = WindowState;
+            Settings.Default.ExchangeMonitorWindowHight = Size.Height;
+            Settings.Default.ExchangeMonitorWindowWidth = Size.Width;
+            Settings.Default.ExchangeMonitorWindowState = WindowState;
 
-            Properties.Settings.Default.Save();
+            Settings.Default.Save();
         }
     }
 }

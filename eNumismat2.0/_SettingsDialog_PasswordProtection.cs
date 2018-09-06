@@ -7,8 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using eNumismat2.Properties;
+using eNumismat2.Classes;
 
-namespace eNumismat2._0
+namespace eNumismat2
 {
     //=====================================================================================================================================================================
     public partial class _SettingsDialog_PasswordProtection : Form
@@ -25,7 +27,7 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void _SettingsDialog_PasswordProtection_Load(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(Properties.Settings.Default.CurrentUserPassword))
+            if (!string.IsNullOrEmpty(Settings.Default.CurrentUserPassword))
             {
                 tb_CurrentPassword.Enabled = true;
             }
@@ -38,20 +40,20 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void BtnSave_Click(object sender, EventArgs e)
         {            
-            Classes.GetHash EncryptPW = new Classes.GetHash();
+            GetHash EncryptPW = new GetHash();
 
             if (tb_CurrentPassword.Enabled == true)
             {
                 if (!string.IsNullOrEmpty(tb_CurrentPassword.Text))
                 {
-                    if (string.Equals(EncryptPW.Calculate(tb_CurrentPassword.Text), Properties.Settings.Default.CurrentUserPassword))
+                    if (string.Equals(EncryptPW.Calculate(tb_CurrentPassword.Text), Settings.Default.CurrentUserPassword))
                     {
                         if (!string.IsNullOrEmpty(tb_NewPassword.Text))
                         {
                             if (string.Equals(tb_NewPassword.Text, tb_PasswordConfirmation.Text))
                             {
-                                Properties.Settings.Default.CurrentUserPassword = EncryptPW.Calculate(tb_NewPassword.Text);
-                                Properties.Settings.Default.Save();
+                                Settings.Default.CurrentUserPassword = EncryptPW.Calculate(tb_NewPassword.Text);
+                                Settings.Default.Save();
                             }
                         }
                         else
@@ -99,8 +101,8 @@ namespace eNumismat2._0
                 {
                     if (string.Equals(tb_NewPassword.Text, tb_PasswordConfirmation.Text))
                     {
-                        Properties.Settings.Default.CurrentUserPassword = EncryptPW.Calculate(tb_NewPassword.Text);
-                        Properties.Settings.Default.Save();
+                        Settings.Default.CurrentUserPassword = EncryptPW.Calculate(tb_NewPassword.Text);
+                        Settings.Default.Save();
                     }
                 }
                 else

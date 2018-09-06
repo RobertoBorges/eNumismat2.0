@@ -12,6 +12,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ribbonBar1.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="ribbonBar1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="ribbonBar1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>100, 114</value>
+  </data>
+  <data name="ribbonBar1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="ribbonPanel1.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -30,44 +42,59 @@
   <data name="ribbonControl1.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="btn_BackupDB.Text" xml:space="preserve">
-    <value>Base de données de sauvegarde</value>
+  <data name="applicationButton1.Image" xml:space="preserve" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAANbY1E9YMgAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAQKSURBVEhLrdZtTBt1HAfwf/bCZWakJhrlhQlvJNGY
+        ra+ciW8gPmT6gjQhMlraFUYotFy741pucH1u6daNQLvJ04BNggx56LbO6ZxjDkQ2suGwZnMqTG2QDRe3
+        WM10mcbk6//otaVeZpjyS74vml6/n/v32v8deZjRas1Knc6ilF6u3ZSVMQpaHg4ZOISr6qDX14UrKmwK
+        6e3/N7RcWVPOxj5z+gC3G+A4zBpqYd5hi1dW7iqQDvtvo9HUeprMAn7r6ARaWgCPB7BagZoa/G6oQXuV
+        FQaDEJYOX/1oNKa88nI+1hY4hvuDEaCnB2htBbxewGZbBlBdjT8tLIY7o2DYPTGTyb26a6NWm1gTE0x0
+        HV5E/wAw0nMXSwffB0KhDGA0IrG7BeOztzH0JdD+yc+o9/eBYfweqUY+arVRQRMNtH6AyBng3eNA/xHg
+        cDfQ2wHMHpgGfPQ61Nfj5slzuLAIfPgtMHyNLnCWIjOAv/8SOD4UY9mgfDVqdd1E5+B1nDiPJBAF3hEB
+        +u2IgJj3Opfww9xNXL0DXLgBnKbACAV6JUCM9/QvsAjdcak2Mxq1H/qyGew9cAORMWBIBAYzQH93AkuX
+        CnBvvgBzP8YxTYGPvgNGReDzZDl/Fig9BjDeIUi1mdGWBaDbNgt18TRqTV/g0MC9JNALjEWjuP+9ArhO
+        gCsEf11WYP7rviTwFbD/IlB5MlkuxuwbkQPbdUHsKLuaRjRvTmHfvmtYmFMBd2jxIo0EYIZmkuDWeRUO
+        TcWhpatNlYux+EflQLm+GQb9fBZiKt2PyU6CP8TyfwLjNBGCyKgnq1zMzqaIHGgoqkTvFlcWwmo7cJQj
+        GLURLHy8ApigGaYZkgNmLSDojsoB39YSLBCCc7kvglFfXkbqK3pwqoEsI0cYgskQLT2VLE4lBejp30R4
+        lv6SHwXsuuNyIPB6KX6igIhceSQHwcIO2Kv6MO4kaeSsPbs8BZgMdJt6IlkuxrE9Kgf2vqHGXVqeQr6h
+        Cb2ajzHfujTyqSe7PDFAYFF50sWpOPUn5IBQUh2/9bgiC7EUPomNrucQdOcsIxebMuXRNgKFhaDwpWzA
+        m3cbTltfTKrNDN0V86x6LnZm05Y0wr3yFIh/E4jzeZQ4czEVXLd81ioXAalNZiXgfnkGTmfXhMt18MH3
+        CqPR7WlVVWAh5zHseo0Cwc1p5GlHPvLsG9LlKcCb+yucVZGEw9HFSjX/PgzjUzZUCbFtxq0gLcoshPAb
+        s4Cicg4O69sxWp4nfXz1w7J7PEV2C9Y3v5BBJGB97QZoeRZ2e8eDt+jVDMc1FzD87vgzgaIkQoH8nZtR
+        19gcp+Vr8wDA8yEFz4fDxS4rihsYCEJ7mJavzU1/5TQ2vqUUhLaHOGtC/gatLmr0BdUBeQAAAABJRU5E
+        rkJggg==
+</value>
   </data>
-  <data name="btn_CompressDB.Text" xml:space="preserve">
-    <value>Compresser la base de données</value>
+  <data name="OpenExchangeMonitorFrm.RibbonWordWrap" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="btn_SettingsDialog.Text" xml:space="preserve">
-    <value>Paramètres de l'application</value>
-  </data>
-  <data name="btn_Close.Text" xml:space="preserve">
-    <value>Fermer</value>
-  </data>
-  <data name="OpenAddrBookFrm.Text" xml:space="preserve">
-    <value>Carnet d'adresses</value>
+  <data name="OpenAddrBookFrm.RibbonWordWrap" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="ribbonControl1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
     <value>5, 1</value>
   </data>
-  <data name="btnAbout.Text" xml:space="preserve">
-    <value>à propos de eNumismat</value>
-  </data>
   <data name="ribbonControl1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
     <value>1035, 171</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatAddItemText" xml:space="preserve">
-    <value>Ajouter à la barre d'outils d'accès rapide</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogAddButton" xml:space="preserve">
-    <value>ajoute &gt;&gt;</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogCancelButton" xml:space="preserve">
-    <value>Annuler</value>
   </data>
   <data name="ribbonControl1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="toolStripStatusLabel1.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripStatusLabel1.ImageAlign" xml:space="preserve" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
   <data name="toolStripStatusLabel1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>118, 17</value>
+    <value>100, 17</value>
+  </data>
+  <data name="toolStripStatusLabel2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="toolStripStatusLabel2.TextAlign" xml:space="preserve" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="statusStrip1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
     <value>5, 688</value>
@@ -96,6 +123,81 @@
   <data name="contextMenuStrip1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
     <value>61, 4</value>
   </data>
+  <data name="TrayIcon.Icon" xml:space="preserve" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAGBgAAAEACADIBgAAJgAAABgYAAABACAAiAkAAO4GAAAoAAAAGAAAADAAAAABAAgAAAAAAKAC
+        AAAAAAAAAAAAAAABAAAAAAAA////AAAAAAC+/v8Axv//AMj//wDK//8Ay///AMz//wDN//8Azv//AFj5
+        /wBa+f8AW/n/AFz5/wBd+f8AXvn/AGP6/wBk+v8AZfr/AHb7/wB5+/8Affv/AIH7/wCV+/8Anf3/AKX9
+        /wCm/f8AqPz/AKz8/wCt/P8As/3/ALn9/wC//v8AwP7/AMT+/wAj8/8AJPL/ACTz/wAl8/8AJfT/ACbz
+        /wAq8/8AK/T/AC/0/wAw9P8AMfX/ADL0/wA29f8AOPX/ADn1/wA79f8APvb/AED2/wBB9v8AQvf/AEP2
+        /wBF9f8ARfb/AEb3/wBH9/8ASPf/AEr3/wBL9/8ATPf/AE73/wBP9/8AT/j/AFD3/wBR+P8AU/j/AFT4
+        /wBV+P8AVvj/AFj4/wBk+P8Advf+AID5/wCU+f8Ao/r/AKL5/gCp+/8Arfv/ACfw/wAv7v8AM/L/ADTt
+        /gA58f4AQu7+AHPz/gB/9P4Af/X+AI70/QCg+f8ALen+AC3q/gAv6P0AMOv+ADDq/QA57P0ASOz9AGHt
+        /gBq7/4AcvD+AHPw/gCC8/4AhPP+ACHf/AAn4f0AJ+D8ACfh/AAp5P0ALOP9ACzk/QAs5f0ALOP8AC3k
+        /QAw5v0AMeb9ADLl/QBI5v4AV+j9AFvr/gBn7f8AaOz+AHTs/ABz6/sADdf8AA3X+wAO1/wADtf7AA7W
+        +gAS2fwAEtn7ABPY/AAT2fwAE9n7ABbY+wAW2fsAF9r8ABfb/AAc3f0AHN38ABzb+wAd3f0AHdz8ACHf
+        /QAh3fsAIt/9ACLf/AAn3vsANuH8ADze+wA/4v0AQOL9AEvk/gBL5P0AUeH6AFTk/ABV5PwAX+f8AALL
+        9wAF1PsABcz3AAbP+QAJ1vwACdX7AAnU+gAJz/gACc73AArT+gALzvgADM/3AA3V+wAN0vkADdD3ABPR
+        +AAX0PgAGtb/ABvX/wAb1PkAH9j+AB/X+gAh2f4AKNr+ACjX/AAr2v0ALNj6ADbY+QA81fUAQdv5AEXe
+        /AADxPMAB8TyAAjI9QAIxfMACMTyAArD8gAMxfMADMTyAAzD8QAOy/YADsTyABDF8wASyPQAE8v4ABTN
+        +QAVzfkAFtD7ABjS/AAZ0/0AGtX+ABrP9wAax/MAHM32AAS57QAFv/AABcDwAAW97wAHvO8AB7nsAAm6
+        7QAKve8ACrrtAAu+7wAMv/EADcDxAA7C8gAQxPQAEMPyABHG9QAVxfIAArDnAAOz6gADr+gAA7HoAAOy
+        6AAEtOoABLLpAASz6QAFtesABbbrAAWz6gAFsukAB7ftAAe16wAHtusACLftAAi57QAIt+wACbruAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQEBAecBAQEB6QEBAQEBAQEBAQEBAQEBAQEBAevqAQHo
+        6gEBAQEBAQEBAQEBAQEB8gEBAb/WAe6g7AEB7e0BAQEBAQEBAQEB8O8BAaKj8Nih2QHw1/EBAQEBAQEB
+        AQEB26bA9ailwqekw9qpwfQBAQEBAQEBAQEBAa6Aqq1+gn+Aq6yBxAHz+PYBAQEB+bze98WDh4aEh4SH
+        g4SF3cbIx9wBAQEBAVsJY6+Li4uLi4uLi4uKiYuI3wEBAQEBAQFPSV2NjY2NjZCNjY+MjI7JAQEBAQEB
+        AeHmVzlhkZNqamqRk5STlLPLyuHgAeLUfVEIEkI6VW5rbG1ra21rbWttbLXkAQHjfB8JFkhAOVZgcXNv
+        b29vcm+V0+MBAQEBAQG9Fw5HPzcyVFNeX3V2dHCw5QEBAQEBAbseIBQNRj42MS4qKCMjIyMjYtUBAQEB
+        nAQJCRoRDEU9NTAtKiYjJSRSS2bMAQHNvp2enyIYEAtEPDQwLCknI5LOAQEBAQEBAQEBXAkJGRMKQzsz
+        LyspOEy6AQEBAQEBAQGXBwNoCAIYFQ87QUqWWCFNzwEBAQEBAQF7abibCQlQCQlnBglkAQGZ0AEBAQEB
+        AdHRAQF4CU6YCQW5ZQdaAQEBAQEBAQEBAQEBAQGaHbcBGxzSAXlZ0gEBAQEBAQEBAQEBAQG2tAEBd3oB
+        AQGxsQEBAQEBAQEBAQEBAQEBAQEBsrIBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf+9
+        /wD/mf8A+5GfAPmBHwD4AB8A/AAjAMAAAwDgAAcA8AAPAOAAAQAAAAEAgAADAPAABwDgAAMAwAABAIAA
+        DwD4AA8A8AAHAPAAZwDmAH8A/iI/AP5nPwD/5/8A////ACgAAAAYAAAAMAAAAAEAIAAAAAAAYAkAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACsOe+AAAAAAAA
+        AAAAAAAAAq/ncwOv6KMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOw6QwDsuj/A7HouwAAAAADsOgMA7Pq+gOx6OMAAAAAAAAAAAAA
+        AAAEsOgXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABLLpIwWy6ckEsukjAAAAAASz
+        6TgDxPP/BLnt/wSy6VIEs+mrAsv3/wS06vsAAAAABbLpBgSy6cQEsunfAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAW26/sFtev9BbTqdwW06j4FzPf/Bs/5/wW26+YFwPD6BdT7/wW9
+        7/8FtOoXBbbr7wW/8P8Fs+rEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAe5
+        7NAJ1Pr/B8Ty/we269YJzvf/CdX7/wjF8/8Jz/j/Cdb8/wjE8v8HvO/2CtP6/wjI9f8HteuAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAACLjsFwe47C4AAAAAAAAAAAi47UgN0Pf/Dtf8/wvO+P8N0vn/Ddf8/w7W
+        +v8N1/v/Dtf8/wzP9/8N1fv/Dtf7/wrD8v4Ht+wSB7ftgAi37McIt+3dB7jsEgAAAAAAAAAACLntIwm6
+        7vs81fX/Crrt+wi57dkMxfP7Etn8/xPZ+/8T2fz/Etn7/xPZ+/8S2fv/E9n7/xLZ/P8S2fv/E9j8/wq9
+        7/sMxPL+Dsv2/wzD8f8Juu2xAAAAAAAAAAAAAAAAAAAAAAq77lyO9P3/zv///0js/f8T0fj/F9v8/xfb
+        /P8X2/z/F9v8/xfb/P8X2/z/F9v8/xfb/P8X2/z/F9r8/xbZ+/8X2/z/Ftj7/wu+7+wAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAATw/Bnovn+/1j4//8t6f7/HN38/xzd/P8c3fz/HN38/xzd/P8d3Pz/HN38/xzd
+        /P8d3f3/HN39/xzd/f8c2/v/DsTy9Au98BcAAAAAAAAAAAAAAAAAAAAAAAAAAA3A8UgNwPGYFcXy6kLu
+        /v9F9v//MOr9/yHf/f8i3/3/Id/8/yHf/P8h3/z/Id/9/yLf/f8i3/z/It/9/yLf/P8b1Pn/Esj0/xDF
+        8/cNwPHlDL/xzw3A8XcOwvKIGsfz/XPr+/+t+///zf///2X6//9P+P//Rvf//zTt/v8p5P3/J+H9/yfg
+        /P8n4fz/J+H9/yfh/f8n4fz/J+H9/yfh/P8n4f3/J+H8/yfg/P8f1/r/EMPy+Q7C81cAAAAAEMT0nHTs
+        /P25/f//zv///4H7//9W+P//Tvf//0X2//858f7/MOv+/yzl/f8t5P3/LOP9/yzj/f8s4/3/LOP9/yzj
+        /P8s4/3/J977/xrP9/wQxPSuD8T0DAAAAAAAAAAAAAAAAAAAAAARx/VNQdv5/JX7//9d+f//Vfj//0z3
+        //9D9v//O/X//zPy//8v7v//Ler+/y/o/f8x5v3/MuX9/zDm/f8s5P3/F9D4/hHG9ZQAAAAAAAAAAAAA
+        AAAAAAAAAAAAABLI91c22Pn7s/3//7/+//95+///XPn//1T4//9L9///Qvf//zn1//8y9P//K/T//ybz
+        //8j8///I/P//yPz//8j8///I/P//zns/f8czfb1Esj2XAAAAAAAAAAAFMv4fFHh+v/I////zv///87/
+        //+m/f//ZPr//1v5//9T+P//Svf//0H2//849f//MfX//yv0//8l8///I/P//yTz//8k8v//J/D//3b3
+        /v9y8P7/E8v4/xPL+GUVzPgXFM35z0Xe/OVU5PzqVeT851/n/PvE/v//nf3//2P6//9a+f//Ufj//0j3
+        //9A9v//OPX//zD0//8q8///JfT//yPz//8h3fv/Fc35mBTN+VwVzPg+AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAFc/6ZaD5///O////zv///6X9//92+///WPn//1D3//9H9///Pvb//zb1//8v9P//KvP//0X1
+        //+A+f//LNj6+hbP+hcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPN77+Mz////G////gvP+/83/
+        //++/v//nf3//337//9e+f//R/f//0/3//9k+P//NuH8/XPz/v7A/v//lPn//xbQ+9QAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAY0vx3aOz+/4Tz/v4o1/y3S+T94c7////O////qfv//87////O////c/D+/sv/
+        ///O////Ye3+/hjS/AYX0vxqQOL97RjS/P4Y0vw+AAAAAAAAAAAAAAAAAAAAAAAAAAAZ0/2UGdP9lBnT
+        /RIAAAAAV+j99s7///+j+v//P+L9487////K////K9r9xGrv/vnM////f/X+/xnT/VIAAAAAAAAAAAAA
+        AAAZ1P0XAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAS+T++K38//8o2v6JGdX+Zaj8
+        //+s/P//GtX+gBrV/h1b6/77f/T+/xrV/ogAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAIdn+9B/Y/rsAAAAAG9b/Bkjm/v1n7f//Gtb+EgAAAAAa1v8dGtb/7BrW
+        /6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG9f/agAA
+        AAAAAAAAAAAAABvX/7Qb1//dAAAAAAAAAAAAAAAAAAAAABvX/zgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABvX/xcb1/9IAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/uf8A/xHfAPEBHwD4AB8A+AAfAJgA
+        AQCAAAMAwAAHAOAABwDAAAAAAAAAAIAAAQDgAAcAwAABAIAAAAAAAAMA8AAHAPAABwDgAAMA4gA7AP4A
+        PwD+Qj8A/ue/AP/n/wA=
+</value>
+  </data>
   <data name="TrayIcon.Visible" xml:space="preserve" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -117,34 +219,4 @@
   <metadata name="contextMenuStrip1.TrayLocation" xml:space="preserve" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>601, 17</value>
   </metadata>
-  <data name="ribbonBar1.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="ribbonBar1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
-  </data>
-  <data name="ribbonBar1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 114</value>
-  </data>
-  <data name="ribbonBar1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="OpenExchangeMonitorFrm.RibbonWordWrap" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="OpenAddrBookFrm.RibbonWordWrap" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="toolStripStatusLabel1.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="toolStripStatusLabel2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>200, 17</value>
-  </data>
-  <data name="toolStripStatusLabel2.TextAlign" xml:space="preserve" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="toolStripStatusLabel1.ImageAlign" xml:space="preserve" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
 </root>

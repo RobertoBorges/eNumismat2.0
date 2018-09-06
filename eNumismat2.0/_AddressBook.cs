@@ -2,6 +2,8 @@
 using System.Drawing;
 using System.Windows.Forms;
 using DevComponents.DotNetBar;
+using eNumismat2.Properties;
+using eNumismat2.Classes;
 using Infralution.Localization;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,28 +13,28 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace eNumismat2._0
+namespace eNumismat2
 {
     //=====================================================================================================================================================================
     public partial class _AddressBook : RibbonForm
     {
-        Classes.DataBaseWork DBWorker;
+        DataBaseWork DBWorker;
 
         //=====================================================================================================================================================================
         public _AddressBook()
         {
             InitializeComponent();
 
-            if (Properties.Settings.Default.MainWindowState == FormWindowState.Normal)
+            if (Settings.Default.MainWindowState == FormWindowState.Normal)
             {
-                Size = new Size(Properties.Settings.Default.AddressBookWindowWidth, Properties.Settings.Default.AddressBookWindowHight);
+                Size = new Size(Settings.Default.AddressBookWindowWidth, Settings.Default.AddressBookWindowHight);
             }
         }
 
         //=====================================================================================================================================================================
         private void _AddressBook_Load(object sender, EventArgs e)
         {
-            DBWorker = new Classes.DataBaseWork();
+            DBWorker = new DataBaseWork();
             GetContactsCount();
         }
 
@@ -69,11 +71,11 @@ namespace eNumismat2._0
         //=====================================================================================================================================================================
         private void SaveWindowSizeSettings()
         {
-            Properties.Settings.Default.AddressBookWindowHight = Size.Height;
-            Properties.Settings.Default.AddressBookWindowWidth = Size.Width;
-            Properties.Settings.Default.AddressBookWindowState = WindowState;
+            Settings.Default.AddressBookWindowHight = Size.Height;
+            Settings.Default.AddressBookWindowWidth = Size.Width;
+            Settings.Default.AddressBookWindowState = WindowState;
 
-            Properties.Settings.Default.Save();
+            Settings.Default.Save();
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace eNumismat2._0
+namespace eNumismat2
 {
     static class Program
     {
@@ -16,14 +16,7 @@ namespace eNumismat2._0
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //try
-            //{
-                Application.Run(new _eNumismatMain());
-            //}
-            //catch(Exception ex)
-            //{
-                // Do nothing... ^^
-            //}
+            Application.Run(new _eNumismatMain());
         }
     }
 }

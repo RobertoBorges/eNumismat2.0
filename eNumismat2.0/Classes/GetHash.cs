@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Security.Cryptography;
 
-namespace eNumismat2._0.Classes
+namespace eNumismat2.Classes
 {
     class GetHash
     {

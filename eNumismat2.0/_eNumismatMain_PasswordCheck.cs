@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
+using eNumismat2.Properties;
+using eNumismat2.Classes;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DevComponents.DotNetBar;
 
-namespace eNumismat2._0
+namespace eNumismat2
 {
     //=====================================================================================================================================================================
     public partial class _eNumismatMain_PasswordCheck : Form
@@ -45,9 +47,9 @@ namespace eNumismat2._0
         private void CheckIfPwIsCorrect()
         {
             
-            Classes.GetHash EncryptPW = new Classes.GetHash();
+            GetHash EncryptPW = new GetHash();
 
-            if (string.Equals(EncryptPW.Calculate(tb_CurrentPassword.Text), Properties.Settings.Default.CurrentUserPassword))
+            if (string.Equals(EncryptPW.Calculate(tb_CurrentPassword.Text), Settings.Default.CurrentUserPassword))
             {
                 DialogResult = DialogResult.OK;
 

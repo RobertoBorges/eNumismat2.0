@@ -12,23 +12,113 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="styleManager1.TrayLocation" xml:space="preserve" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <data name="flowLayoutPanel1.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>562, 536</value>
+  </data>
+  <data name="flowLayoutPanel1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="panelEx1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panelEx1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>556, 483</value>
+  </data>
+  <data name="panelEx1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="tabControl1.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControl1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabControl1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>556, 483</value>
+  </data>
+  <data name="tabControl1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelX10.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>9, 89</value>
+  </data>
+  <data name="labelX10.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="labelX10.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="cb_StyleSelector.ItemHeight" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cb_StyleSelector.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>9, 118</value>
+  </data>
+  <data name="cb_StyleSelector.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="cb_StyleSelector.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btn_changePW.Enabled" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btn_changePW.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>234, 11</value>
+  </data>
+  <data name="btn_changePW.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>162, 23</value>
+  </data>
+  <data name="btn_changePW.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btn_changePW.Visible" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="labelX9.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>81, 10</value>
+  </data>
+  <data name="labelX9.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="labelX9.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>301, 23</value>
+  </data>
+  <data name="labelX9.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btn_UsePassword.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>9, 11</value>
+  </data>
+  <data name="btn_UsePassword.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btn_UsePassword.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="btn_UsePassword.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
   <data name="labelX5.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>81, 11</value>
+    <value>81, 40</value>
   </data>
   <data name="labelX5.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="labelX5.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>217, 23</value>
+    <value>301, 23</value>
   </data>
   <data name="labelX5.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
   <data name="btn_MinimizeToTray.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>9, 11</value>
+    <value>9, 40</value>
   </data>
   <data name="btn_MinimizeToTray.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -54,186 +144,6 @@
   <data name="tabControlPanel4.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  <data name="tokenEditor1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>215, 239</value>
-  </data>
-  <data name="tokenEditor1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>206, 95</value>
-  </data>
-  <data name="tokenEditor1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="ListBox_TagCollection.AutoScroll" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="ListBox_TagCollection.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>12, 239</value>
-  </data>
-  <data name="ListBox_TagCollection.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>197, 95</value>
-  </data>
-  <data name="ListBox_TagCollection.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="listBoxAdv1.AutoScroll" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="listBoxAdv1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>12, 91</value>
-  </data>
-  <data name="listBoxAdv1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>197, 95</value>
-  </data>
-  <data name="listBoxAdv1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="labelX8.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>15, 340</value>
-  </data>
-  <data name="labelX8.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>108, 30</value>
-  </data>
-  <data name="labelX8.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="labelX8.Text" xml:space="preserve">
-    <value>Ajouter ou supprimer des balises</value>
-  </data>
-  <data name="buttonX3.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>145, 340</value>
-  </data>
-  <data name="buttonX3.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>30, 30</value>
-  </data>
-  <data name="buttonX3.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="buttonX4.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>181, 340</value>
-  </data>
-  <data name="buttonX4.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>30, 30</value>
-  </data>
-  <data name="buttonX4.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="labelX7.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>12, 192</value>
-  </data>
-  <data name="labelX7.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>108, 30</value>
-  </data>
-  <data name="labelX7.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="labelX7.Text" xml:space="preserve">
-    <value>Ajouter ou supprimer des étiquettes</value>
-  </data>
-  <data name="buttonX2.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>142, 192</value>
-  </data>
-  <data name="buttonX2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>30, 30</value>
-  </data>
-  <data name="buttonX2.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="buttonX1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>178, 192</value>
-  </data>
-  <data name="buttonX1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>30, 30</value>
-  </data>
-  <data name="buttonX1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="labelX6.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>81, 39</value>
-  </data>
-  <data name="labelX6.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>149, 23</value>
-  </data>
-  <data name="labelX6.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="switchButton1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>9, 39</value>
-  </data>
-  <data name="switchButton1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>66, 22</value>
-  </data>
-  <data name="switchButton1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="labelX3.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>81, 10</value>
-  </data>
-  <data name="labelX3.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>149, 23</value>
-  </data>
-  <data name="labelX3.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="btn_UseValidation.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>9, 11</value>
-  </data>
-  <data name="btn_UseValidation.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>66, 22</value>
-  </data>
-  <data name="btn_UseValidation.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="tabControlPanel2.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tabControlPanel2.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>0, 27</value>
-  </data>
-  <data name="tabControlPanel2.Padding" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>1, 1, 1, 1</value>
-  </data>
-  <data name="tabControlPanel2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>556, 456</value>
-  </data>
-  <data name="tabControlPanel2.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="tabItem2.Text" xml:space="preserve">
-    <value>Carnet d'adresses</value>
-  </data>
-  <data name="tabControlPanel5.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tabControlPanel5.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>0, 27</value>
-  </data>
-  <data name="tabControlPanel5.Padding" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>1, 1, 1, 1</value>
-  </data>
-  <data name="tabControlPanel5.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>556, 456</value>
-  </data>
-  <data name="tabControlPanel5.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="tabItem5.Text" xml:space="preserve">
-    <value>Gestion de collection</value>
-  </data>
-  <data name="tabControlPanel3.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tabControlPanel3.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>0, 27</value>
-  </data>
-  <data name="tabControlPanel3.Padding" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>1, 1, 1, 1</value>
-  </data>
-  <data name="tabControlPanel3.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>556, 456</value>
-  </data>
-  <data name="tabControlPanel3.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
   <data name="btn_SelectDbBackupPath.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
     <value>248, 109</value>
   </data>
@@ -247,7 +157,7 @@
     <value>12, 80</value>
   </data>
   <data name="labelX4.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>293, 23</value>
+    <value>463, 23</value>
   </data>
   <data name="labelX4.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>14</value>
@@ -283,13 +193,10 @@
     <value>0, 0, 0, 0</value>
   </data>
   <data name="labelX2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>195, 23</value>
+    <value>390, 23</value>
   </data>
   <data name="labelX2.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>12</value>
-  </data>
-  <data name="labelX2.Text" xml:space="preserve">
-    <value>Compresser la base de données avant la sauvegarde</value>
   </data>
   <data name="btn_DbBackupOnAppClose.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
     <value>9, 11</value>
@@ -310,7 +217,7 @@
     <value>0, 0, 0, 0</value>
   </data>
   <data name="labelX1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>176, 23</value>
+    <value>376, 23</value>
   </data>
   <data name="labelX1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>10</value>
@@ -330,47 +237,176 @@
   <data name="tabControlPanel1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="tabControl1.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="tokenEditor1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>347, 239</value>
   </data>
-  <data name="tabControl1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="tokenEditor1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>206, 95</value>
   </data>
-  <data name="tabControl1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>556, 483</value>
+  <data name="tokenEditor1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>15</value>
   </data>
-  <data name="tabControl1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="ListBox_TagCollection.AutoScroll" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="panelEx1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+  <data name="ListBox_TagCollection.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>12, 239</value>
   </data>
-  <data name="panelEx1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>556, 483</value>
+  <data name="ListBox_TagCollection.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>333, 95</value>
   </data>
-  <data name="panelEx1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+  <data name="ListBox_TagCollection.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="listBoxAdv1.AutoScroll" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="listBoxAdv1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>12, 91</value>
+  </data>
+  <data name="listBoxAdv1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>333, 95</value>
+  </data>
+  <data name="listBoxAdv1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="labelX8.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>15, 340</value>
+  </data>
+  <data name="labelX8.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>258, 30</value>
+  </data>
+  <data name="labelX8.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
-  <data name="btn_Cancel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>375, 3</value>
+  <data name="buttonX3.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>279, 340</value>
   </data>
-  <data name="btn_Cancel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>86, 35</value>
+  <data name="buttonX3.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
   </data>
-  <data name="btn_Cancel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+  <data name="buttonX3.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="buttonX4.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>315, 340</value>
+  </data>
+  <data name="buttonX4.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="buttonX4.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="labelX7.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>12, 192</value>
+  </data>
+  <data name="labelX7.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>261, 30</value>
+  </data>
+  <data name="labelX7.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="buttonX2.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>279, 192</value>
+  </data>
+  <data name="buttonX2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="buttonX2.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="buttonX1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>315, 192</value>
+  </data>
+  <data name="buttonX1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="buttonX1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelX6.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>81, 39</value>
+  </data>
+  <data name="labelX6.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>264, 23</value>
+  </data>
+  <data name="labelX6.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="switchButton1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>9, 39</value>
+  </data>
+  <data name="switchButton1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>66, 22</value>
+  </data>
+  <data name="switchButton1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelX3.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>81, 10</value>
+  </data>
+  <data name="labelX3.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>264, 23</value>
+  </data>
+  <data name="labelX3.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="btn_Cancel.Text" xml:space="preserve">
-    <value>Annuler</value>
+  <data name="btn_UseValidation.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>9, 11</value>
   </data>
-  <data name="btn_Save.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>467, 3</value>
+  <data name="btn_UseValidation.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>66, 22</value>
   </data>
-  <data name="btn_Save.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>86, 35</value>
-  </data>
-  <data name="btn_Save.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+  <data name="btn_UseValidation.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="tabControlPanel2.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControlPanel2.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="tabControlPanel2.Padding" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="tabControlPanel2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>556, 456</value>
+  </data>
+  <data name="tabControlPanel2.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tabControlPanel3.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControlPanel3.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="tabControlPanel3.Padding" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="tabControlPanel3.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>556, 456</value>
+  </data>
+  <data name="tabControlPanel3.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tabControlPanel5.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControlPanel5.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="tabControlPanel5.Padding" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="tabControlPanel5.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>556, 456</value>
+  </data>
+  <data name="tabControlPanel5.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="panelEx2.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
   </data>
   <data name="panelEx2.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
     <value>3, 492</value>
@@ -381,17 +417,23 @@
   <data name="panelEx2.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
-  <data name="flowLayoutPanel1.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="btn_Cancel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>375, 3</value>
   </data>
-  <data name="flowLayoutPanel1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="btn_Cancel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>86, 35</value>
   </data>
-  <data name="flowLayoutPanel1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>562, 536</value>
+  <data name="btn_Cancel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="flowLayoutPanel1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>15</value>
+  <data name="btn_Save.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>467, 3</value>
+  </data>
+  <data name="btn_Save.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>86, 35</value>
+  </data>
+  <data name="btn_Save.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
@@ -399,70 +441,10 @@
   <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
     <value>562, 536</value>
   </data>
+  <metadata name="styleManager1.TrayLocation" xml:space="preserve" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="labelX9.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>81, 10</value>
-  </data>
-  <data name="labelX9.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="labelX9.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>301, 23</value>
-  </data>
-  <data name="labelX9.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="btn_UsePassword.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>9, 11</value>
-  </data>
-  <data name="btn_UsePassword.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="btn_UsePassword.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>67, 22</value>
-  </data>
-  <data name="btn_UsePassword.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="btn_changePW.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>234, 11</value>
-  </data>
-  <data name="btn_changePW.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>162, 23</value>
-  </data>
-  <data name="btn_changePW.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="btn_changePW.Text" xml:space="preserve">
-    <value>Changer le mot de passe actuel</value>
-  </data>
-  <data name="btn_changePW.Enabled" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="btn_changePW.Visible" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="labelX10.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>9, 89</value>
-  </data>
-  <data name="labelX10.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>150, 23</value>
-  </data>
-  <data name="labelX10.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="cb_StyleSelector.ItemHeight" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="cb_StyleSelector.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>9, 118</value>
-  </data>
-  <data name="cb_StyleSelector.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>169, 20</value>
-  </data>
-  <data name="cb_StyleSelector.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
 </root>

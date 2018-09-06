@@ -12,6 +12,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ribbonBar1.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="ribbonBar1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="ribbonBar1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>100, 114</value>
+  </data>
+  <data name="ribbonBar1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="ribbonPanel1.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -54,6 +66,12 @@
         rkJggg==
 </value>
   </data>
+  <data name="OpenExchangeMonitorFrm.RibbonWordWrap" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OpenAddrBookFrm.RibbonWordWrap" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="ribbonControl1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
     <value>5, 1</value>
   </data>
@@ -63,8 +81,20 @@
   <data name="ribbonControl1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="toolStripStatusLabel1.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripStatusLabel1.ImageAlign" xml:space="preserve" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
   <data name="toolStripStatusLabel1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>118, 17</value>
+    <value>100, 17</value>
+  </data>
+  <data name="toolStripStatusLabel2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="toolStripStatusLabel2.TextAlign" xml:space="preserve" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="statusStrip1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
     <value>5, 688</value>
@@ -189,34 +219,4 @@
   <metadata name="contextMenuStrip1.TrayLocation" xml:space="preserve" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>601, 17</value>
   </metadata>
-  <data name="ribbonBar1.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="ribbonBar1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
-  </data>
-  <data name="ribbonBar1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 114</value>
-  </data>
-  <data name="ribbonBar1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="OpenExchangeMonitorFrm.RibbonWordWrap" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="OpenAddrBookFrm.RibbonWordWrap" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="toolStripStatusLabel1.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="toolStripStatusLabel2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>200, 17</value>
-  </data>
-  <data name="toolStripStatusLabel2.TextAlign" xml:space="preserve" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="toolStripStatusLabel1.ImageAlign" xml:space="preserve" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
 </root>

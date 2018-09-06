@@ -1,20 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
+using eNumismat2.Properties;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.IO;
 using System.Data.SQLite;
+using System.Windows.Forms;
 
-namespace eNumismat2._0.Classes
+namespace eNumismat2.Classes
 {
     //=====================================================================================================================================================================
     class DataBaseWork
     {
-        private static readonly string BackupPath = Properties.Settings.Default.DBBackupPath;
-
-        private static readonly string DataBaseFile = Path.Combine(Properties.Settings.Default.DBFilePath, Properties.Settings.Default.DBFile);
+        private static readonly string BackupPath = Settings.Default["DBBackupPath"].ToString();
+        private static readonly string DataBaseFile = Path.Combine(Settings.Default["DBFilePath"].ToString(), Settings.Default["DBFile"].ToString());
 
         //=====================================================================================================================================================================
         public bool CreateNewDataBase()
@@ -22,11 +23,12 @@ namespace eNumismat2._0.Classes
             // do not use the default Connection string, because with CreateNewDataBase, we want that the DB file will be created.
             using (SQLiteConnection SQLiteConn = new SQLiteConnection("Datasource=" + DataBaseFile + ";Version=3;"))
             {
+                MessageBox.Show("DBWork: " + DataBaseFile);
                 try
                 {
                     SQLiteConn.Open();
 
-                    string SQL = Properties.Resources.Create.ToString();
+                    string SQL = Resources.Create.ToString();
 
                     using (SQLiteCommand SQLcmd = new SQLiteCommand(SQL, SQLiteConn))
                     {
@@ -87,7 +89,7 @@ namespace eNumismat2._0.Classes
                         {
                             source.Open();
 
-                            if (Properties.Settings.Default.CompressDBBeforeBackup == true)
+                            if (Settings.Default.CompressDBBeforeBackup == true)
                             {
                                 CompactDatabase(source);
                             }
