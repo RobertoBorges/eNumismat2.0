@@ -124,6 +124,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>GlobalStrings.ru.resx</DependentUpon>
     </Compile>
+    <Compile Include="Settings.cs" />
     <Compile Include="_AddressBook.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -25,6 +25,8 @@ namespace eNumismat2
         //=====================================================================================================================================================================
         public _eNumismatMain()
         {
+            GetLastWindowSize();
+            
             InitializeComponent();
 
             if (Args.Count() > 1)
@@ -48,7 +50,7 @@ namespace eNumismat2
             {
                 btn_AppLock.Visible = false;
             }
-            GetLastWindowSize();
+
             DisplayLanguage();
 
             CheckIfDbFileExists();
@@ -70,6 +72,10 @@ namespace eNumismat2
         }
 
         //=====================================================================================================================================================================
+
+        // Unknown, why application is always loading the "normal" window state with the same resolution instead of the last saved settings...
+        // Settings are getting saved, and during initialisation, they would be reset to the previous settings...Do we need to read the WindowState before the InitializeComponent?
+
         private void GetLastWindowSize()
         {
             if (!string.IsNullOrEmpty(Settings.Default["MainWindowState"].ToString()))
@@ -332,7 +338,7 @@ namespace eNumismat2
         //=====================================================================================================================================================================
         private void CultureManager_UICultureChanged(CultureInfo newCulture)
         {
-            Settings.Default["UICulture"] = newCulture.Name;
+            Settings.Default.UICulture = newCulture.Name;
             Settings.Default.Save();
             DisplayLanguage();
         }
@@ -348,9 +354,9 @@ namespace eNumismat2
                 }
             }
 
-            Settings.Default["MainWindowHeight"] = Size.Height;
-            Settings.Default["MainWindowWidth"] = Size.Width;
-            Settings.Default["MainWindowState"] = WindowState;
+            Settings.Default.MainWindowHeight = Size.Height;
+            Settings.Default.MainWindowWidth = Size.Width;
+            Settings.Default.MainWindowState = WindowState;
 
             Settings.Default.Save();
         }
@@ -495,13 +501,13 @@ namespace eNumismat2
 
                 if (OpenFile.ShowDialog() == DialogResult.OK)
                 {
-                    Settings.Default["DBFile"] = Path.GetFileName(OpenFile.FileName);
-                    Settings.Default["DBFilePath"] = Path.GetDirectoryName(OpenFile.FileName);
+                    Settings.Default.DBFile = Path.GetFileName(OpenFile.FileName);
+                    Settings.Default.DBFilePath = Path.GetDirectoryName(OpenFile.FileName);
                 }
                 else
                 {
-                    Settings.Default["DBFile"] = string.Empty;
-                    Settings.Default["DBFilePath"] = string.Empty;
+                    Settings.Default.DBFile = string.Empty;
+                    Settings.Default.DBFilePath = string.Empty;
                 }
                 Settings.Default.Save();
             }
@@ -517,13 +523,13 @@ namespace eNumismat2
 
                 if (SaveFile.ShowDialog() == DialogResult.OK)
                 {
-                    Settings.Default["DBFile"] = Path.GetFileName(SaveFile.FileName);
-                    Settings.Default["DBFilePath"] = Path.GetDirectoryName(SaveFile.FileName);
+                    Settings.Default.DBFile = Path.GetFileName(SaveFile.FileName);
+                    Settings.Default.DBFilePath = Path.GetDirectoryName(SaveFile.FileName);
                 }
                 else
                 {
-                    Settings.Default["DBFile"] = string.Empty;
-                    Settings.Default["DBFilePath"] = string.Empty;
+                    Settings.Default.DBFile = string.Empty;
+                    Settings.Default.DBFilePath = string.Empty;
                 }
                 Settings.Default.Save();
 

@@ -59,7 +59,7 @@ namespace eNumismat2.Classes
                 {
                     IsOpen = true;
 
-                    // and bring to Front
+                    // then bring to Front
                     fx.BringToFront();
 
                     return IsOpen;
